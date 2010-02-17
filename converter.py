@@ -10,7 +10,7 @@ import sys
 """
 
 def convert(input_filename, output_filename):
-    """ converter for michael nock's netrunner deck database """
+    """ convert single file """
     f_in = file(input_filename, 'r')
     f_out = file(output_filename,'w')
     prefix = True
@@ -29,6 +29,16 @@ def convert(input_filename, output_filename):
     f_out.flush()
     f_out.close()
 
+def convert_directory(directory):
+    print "dir: ",directory
+    for item in (os.path.join(directory,item) for item in os.listdir(directory)
+            if not item.startswith('.')):
+        if os.path.isdir(item):
+            convert_directory(item)
+        elif os.path.isfile(item):
+            convert(item,item)
+
+
 if __name__ == "__main__":
-    convert(sys.argv[1], sys.argv[2])
+    convert_directory(sys.argv[1])
 
