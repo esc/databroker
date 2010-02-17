@@ -9,34 +9,34 @@ import sys
 
 """
 
-def convert(input_filename, output_filename):
-    """ convert single file """
-    f_in = file(input_filename, 'r')
-    f_out = file(output_filename,'w')
+def convert(filename):
+    """ convert single file by overwrite"""
+    f = file(filename, 'r')
+    lines = f.readlines()
+    f.close()
     prefix = True
-    for line in f_in.readlines():
+    f = file(filename, 'w')
+    for line in lines:
         if line.startswith("Description"):
             prefix = True
-
         if prefix:
-            f_out.write('#')
-        f_out.write(line)
-
+            f.write('#')
+        f.write(line)
         if line.startswith("Deck list:"):
             prefix = False
 
-    f_in.close()
-    f_out.flush()
-    f_out.close()
+    f.flush()
+    f.close()
 
 def convert_directory(directory):
-    print "dir: ",directory
+    """ convert directory recursively """
     for item in (os.path.join(directory,item) for item in os.listdir(directory)
             if not item.startswith('.')):
         if os.path.isdir(item):
             convert_directory(item)
         elif os.path.isfile(item):
-            convert(item,item)
+            print 'convert: ', item
+            convert(item)
 
 
 if __name__ == "__main__":
