@@ -5,7 +5,7 @@ import os
 import sys
 
 """ converter for michael nock's netrunner deck database
-    author: Valentin Haenel
+    author: esc
 
 """
 
