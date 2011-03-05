@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
 <ccg-setinfo name="NetRunner" game="NetRunner" dir="netrunner" abbrev="NR">
   <cards>
