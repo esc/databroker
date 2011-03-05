@@ -1,0 +1,2861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="NetRunner" game="NetRunner" dir="netrunner" abbrev="NR">
+  <cards>
+    <card name="Afreet" graphics="Afreet.jpg" text="Afreet can have up to 3 MU of programs installed in it. All icebreakers installed in Afreet have their strength reduced by 1. If Afreet leaves play, trash all programs installed in it.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Daemon" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="AI Boon" graphics="AIBoon.jpg" text="{1}: Break sentry subroutine. {1}: +1 strength.At the start of each run, roll a die to determine AI Boon's strength * for that run.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="12" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="*" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Random" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Baedeker's Net Map" graphics="BaedekersNetMap.jpg" text="{0}: Base link 1. {1}: +1 linkUse only one base link card for each trace attempt made against you.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Base Link" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Bakdoor {TM}" graphics="Bakdoor.jpg" text="{0}: Base link 3. {2}: +1 linkUse only one base link card for each trace attempt made against you.">
+      <attr value="2 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Base Link" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Bartmoss Memorial Icebreaker" graphics="BartmossMemorialIcebreaker.jpg" text="{1}: Break ice subroutine. {1}: +1 strengthAfter passing each piece of ice, roll a die if you used Bartmoss Memorial Icebreaker to break any subroutines of that ice. On a 1, trash Memorial Icebreaker. {cyan} UK: Trashing in this way cannot be prevented.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="5" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Random" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Black Dahlia" graphics="BlackDahlia.jpg" text="{2}: Break sentry subroutine. {2}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="10" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Killer" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Blink" graphics="Blink.jpg" text="{0}: Roll a die. On a 4, 5, or 6, break ice subroutine; otherwise, suffer that much Net damage. Use this ability only once on each subroutine during each encounter with a piece of ice.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="5" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Random" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Boardwalk" graphics="Boardwalk.jpg" text="Whenever you make a successful run on HQ, give the Corp a Boardwalk counter. At the start of each of your turns, every two Boardwalk counters require the Corp to show you, at random, a card stored in HQ. If the Corp does not have enough cards stored in HQ, the Corp shows you as many cards as it has.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Butcher Boy" graphics="ButcherBoy.jpg" text="Whenever you make a successful run on HQ, give the Corp a Butcher Boy counter. Every two Butcher Boy counters gain you {1} at the start of each of your turns.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Cascade" graphics="Cascade.jpg" text="Whenever you make a successful run on R&amp;D, give the Corp a Cascade counter. Every two Cascade counters require the Corp to trash faceup one card stored in R&amp;D, at the start of each of its turns.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Cloak" graphics="Cloak.jpg" text="Put {3} from the bank on Cloak when it is installed. Use these bits only to pay for using icebreakers during runs, but not for using noisy icebreakers. If you use any of these bits, replace them at the start of your next turn.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="7" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Stealth" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Clown" graphics="Clown.jpg" text="All ice is encountered with its strength reduced by 1.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Cockroach" graphics="Cockroach.jpg" text="Whenever you make a successful run on HQ, give the Corp a Cockroach counter. Two or more Cockroach counters cause all discards from HQ to become random.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Codecracker" graphics="Codecracker.jpg" text="{0}: Break code gate subroutine. {1}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Codeslinger" graphics="Codeslinger.jpg" text="{1}: Break sentry subroutine.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="7" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Killer" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Cyfermaster {TM}" graphics="Cyfermaster.jpg" text="{2}: Break code gate subroutine. {1}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Deep Thought" graphics="DeepThought.jpg" text="Whenever you make a successful run on R&amp;D, give the Corp a Thought counter. Three or more Thought counters allow you to look at the top card of R&amp;D at the start of each of your turns.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Dogcatcher" graphics="Dogcatcher.jpg" text="{1}: Break pit bull, hellhound, bloodhound, or watchdog subroutine. {1}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="3" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Dropp {TM}" graphics="Dropp.jpg" text="{0}: Break ice subroutine. {1}: +1 strengthUsing Dropp {TM} ends your run.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="3" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Dupre'" graphics="Dupre.jpg" text="{1}: Break code gate subroutine. {2}: +1 strength.Put a +1 strength counter on Dupre' after each runduring which it was used to break a subroutine. Allstrength counters on Dupre' are lost if you useDupre' on a fort other than the one you last usedit on.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="1" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Dwarf" graphics="Dwarf.jpg" text="{1}: Break wall subroutine. {1}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="6" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Worm" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Emergency Self-Construct" graphics="EmergencySelfConstruct.jpg" text="{T}: Prevent yourself from being flatlined, though you still lose all cards in your hand. Remove all brain damage. For the remainder of the game, you have only three actions per turn, instead of four; your hand size is reduced by 1; and all meat damage is automatically prevented. {cyan} UK: Instead of reducing you to 3 actions per turn, it reduces your number of base actions by 1 so if used multiple times, you lose more and more actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Evil Twin" graphics="EvilTwin.jpg" text="{3}: Break sentry subroutine. {1}: +1 strength. Prevents up to 2 Net and/or brain damage total each turn.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="6" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Killer" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Expert Schedule Analyzer" graphics="ExpertScheduleAnalyzer.jpg" text="After you access cards from HQ, look at all cards stored in HQ.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Fait Accompli" graphics="FaitAccompli.jpg" text="Whenever you make a successful run on a subsidiary data fort, put a Fait counter in that fort. Every two Fait counters in a fort give +1 difficulty to all agendas installed inside that fort.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="1" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="False Echo" graphics="FalseEcho.jpg" text=" {2}: The Corp must rez as much ice as possible on a fort, beginning with the outermost ice and working in. Use this ability only after a successful run on that fort.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Flak" graphics="Flak.jpg" text="{1}: Break AP subroutine. {1}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Force Shield" graphics="ForceShield.jpg" text="Prevents up to 2 Net and/or brain damage total each turn.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Gremlins" graphics="Gremlins.jpg" text="Whenever you make a successful run on HQ, give the Corp a Gremlin counter. Every two Gremlin counters decrease the Corp's hand size by 1.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Grubb" graphics="Grubb.jpg" text="{1}: Break wall subroutine. {2}: +1 strength for the remainder of this run">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Worm" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Hammer" graphics="Hammer.jpg" text="{1}: Break wall subroutine. {1}: +1 strength. Whenever you break a wall subroutine with Hammer, lose a total of {2} from stealth cards.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Noisy" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="I Spy" graphics="ISpy.jpg" text="{T}: Put a Spy counter in a data fort. A Spy counter exposes all cards installed inside or on a fort containing it. The Corp may remove a Spy counter by taking an action to pay {4}. Use this ability only immediately after a successful run on that fort.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Imp" graphics="Imp.jpg" text="Imp can have up to 2 MU of programs installed in it. All icebreakers installed in this way have their strength reduced by 1. If Imp leaves play, trash all programs installed in it.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Daemon" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Incubator" graphics="Incubator.jpg" text="Whenever you make a successful run, give the Corp an Incubate counter. Each Incubate counter necessitates a die roll at the start of each of your turns; on each 6, choose a Virus counter and exchange that counter for two counters of the same type.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus-Random" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Invisibility" graphics="Invisibility.jpg" text="Put {1} from the bank on Invisibility when it is installed. Use this bit only to pay for using icebreakers during runs, but not for using noisy icebreakers. If you use the bit, replace it at the start of your next turn.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Stealth" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Jackhammer" graphics="Jackhammer.jpg" text="{0}: Break wall subroutine. {1}: +1 strengthWhenever you break a wall subroutine withJackhammer, lose {1}, if you can, from a stealth card.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="1" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Noisy" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Japanese Water Torture" graphics="JapaneseWaterTorture.jpg" text="{0}: Break wall subroutine.[X]: +X strength, and forgo your next X actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="7" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Joan of Arc" graphics="JoanofArc.jpg" text="{T}: Prevent one or more of your other installed programs from being trashed. {1}: Prevent one or more of your other installed programs from being trashed, and bring Joan of Arcinto your hand.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Krash" graphics="Krash.jpg" text="{2}: Break ice subroutine. {2}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Loony Goon" graphics="LoonyGoon.jpg" text="{1}: Break sentry subroutine. {1}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Killer" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Microtech AI Interface" graphics="MicrotechAIInterface.jpg" text="Whenever you are about to access cards from R&amp;D, you may first choose to cut any number of cards from the top of R&amp;D to the bottom of R&amp;D.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Mouse" graphics="Mouse.jpg" text="A: Expose a card installed inside a data fort.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Detection" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Mystery Box" graphics="MysteryBox.jpg" text="{0}: Show the top five cards of your stack to the Corp. If any of those cards are programs, trash Mystery Box and then install one of those programs, at no cost. Shuffle your stack afterwards. Use this ability only during a run and only once each run.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Netspace Inverter" graphics="NetspaceInverter.jpg" text="Reverse a fort's ice cards so that the outermost piece of ice becomes the innermost piece of ice, and so forth. Use this ability only immediately after a successful run on that data fort.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Newsgroup Filter" graphics="NewsgroupFilter.jpg" text="A: Gain {2}.">
+      <attr value="2 MU" key="memory_use"/>
+      <attr value="5" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Pattel's Virus" graphics="PattelsVirus.jpg" text="Whenever you make a successful run, put a Pattel counter on a piece of ice that had all its subroutines broken during that run. Each Pattel counter on a piece of ice reduces its strength by 1.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="1" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Pile Driver" graphics="PileDriver.jpg" text="{3}: Break up to four wall subroutines on a single piece of ice. {1}: +1 strength.Whenever you use Pile Driver's break-walls subroutine, lose a total of {3} from stealth cards.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="1" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="7" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Noisy" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Poltergeist" graphics="Poltergeist.jpg" text="Put {2} on Poltergeist when it is installed. Use these bits only to pay for trashing nodes. If you use any of these bits, replace them at the start of your next turn.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Pox" graphics="Pox.jpg" text="Whenever you make a successful run, put a Pox counter in the fort that was run. Every two Pox counters in a fort require the Corp to pay {1}, in addition to any other costs, to install a card inside oron that fort.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Rabbit" graphics="Rabbit.jpg" text="Ice that attempts to trace you has its trace limit reduced by 1.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="R&amp;D-Protocol Files" graphics="RDProtocolFiles.jpg" text="A: Make a run on R&amp;D, but instead of accessing cards, look at the top five cards of R&amp;D.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Raffles" graphics="Raffles.jpg" text="{1}: Break code gate subroutine. {2}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="7" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Ramming Piston" graphics="RammingPiston.jpg" text="{2}: Break wall subroutine. {1}: +1 strengthWhenever you break a wall subroutine withRamming Piston, lose a total of {2} from stealth cards.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Noisy" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Raptor" graphics="Raptor.jpg" text="{2}: Break sentry subroutine. {1}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="1" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="1" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Killer" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Reflector" graphics="Reflector.jpg" text="{0}: Break stun, hellbolt, or knockout subroutine.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Replicator" graphics="Replicator.jpg" text="{0}: Break ice subroutine that traces. {1}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="5" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Scatter Shot" graphics="ScatterShot.jpg" text="Put {2} from the bank on Scatter Shot when it is installed. Use these bits only to pay for trashing upgrades. If you use any of these bits, replace them at the start of your next turn.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="SeeYa" graphics="SeeYa.jpg" text="A, {1}: Expose an installed card.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="3" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Detection" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Self-Modifying Code" graphics="SelfModifyingCode.jpg" text="{T}: Search your stack for a program and install that program, if you can. Shuffle your stack afterwards. Use this ability only during a run.">
+      <attr value="2 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Shaka" graphics="Shaka.jpg" text="{1}: Break sentry subroutine. {2}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Killer" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Shield" graphics="Shield.jpg" text="Prevents up to 2 Net damage each turn.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Shredder Uplink Protocol" graphics="ShredderUplinkProtocol.jpg" text="A: Make a run on the Archives. If run is successful, do not access cards from the Archives; instead, treat run as a successful run on HQ.">
+      <attr value="2 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Signpost" graphics="Signpost.jpg" text="{1}: +2 link. Use this ability only once during each trace attempt, and only after you and the Corp have revealed how much each of you spent.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Skivviss" graphics="Skivviss.jpg" text="Whenever you make a successful run on R&amp;D, give the Corp a Skivviss counter. Each Skivviss counter requires the Corp to draw one extra card at the start of each of its turns.The Corp may remove all Virus counters by forgoing its next three actions.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="3" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Smarteye" graphics="Smarteye.jpg" text="Once during each run, you may expose a piece of unrezzed ice as you approach it. You may then jack out before the Corp decides whether to rez the ice.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Detection" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Snowball" graphics="Snowball.jpg" text="Snowball has +1 strength for each subroutine it has broken during a run, until the end of that run. {1}: Break sentry subroutine. {1}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="10" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Killer" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Speed Trap" graphics="SpeedTrap.jpg" text="{0}: Jack out before an upgrade or node takes effect. Use this ability only immediately after the Corp has rezzed that upgrade or node.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Detection" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Startup Immolator" graphics="StartupImmolator.jpg" text=" {T}: Pay the rez cost of a piece of ice to trash that piece of ice. Use this ability only if you have just broken all the subroutines of that piece of ice.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Succubus" graphics="Succubus.jpg" text="Succubus can have up to 3 MU of programs installed in it. If Succubus leaves play, trash all programs installed in it.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Daemon" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Tinweasel" graphics="Tinweasel.jpg" text="{0}: Break code gate subroutine.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="5" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Vewy Vewy Quiet" graphics="VewyVewyQuiet.jpg" text="Put {2} from the bank on Vewy Vewy Quiet when it is installed. Use these bits only to pay for using icebreakers during runs, but not for using noisy icebreakers. If you use any of these bits, replace them at the start of your next turn.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Stealth" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Wild Card" graphics="WildCard.jpg" text="{0}: Break sentry subroutine. {3}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Killer" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Wizard's Book" graphics="WizardsBook.jpg" text="{0}: Break code gate subroutine. {2}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="5" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Worm" graphics="Worm.jpg" text="{0}: Break wall subroutine. {3}: +1 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker-Worm" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Zetatech Software Installer" graphics="ZetatechSoftwareInstaller.jpg" text="Put {2} on Software Installer when it is installed. Use these bits only to pay for installing programs. You may use these bits to install a program overwriting Software Installer itself. If you use any of these bits,replace them at the start of your next turn.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="All-Nighter" graphics="AllNighter.jpg" text="Make a run; whether or not that run is successful, you may then make another run.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Anonymous Tip" graphics="AnonymousTip.jpg" text="Derez a piece of black ice of your choice.">
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Arasaka Owns You" graphics="ArasakaOwnsYou.jpg" text="Do not play Arasaka Owns You as a normal action; instead, play it when you would suffer enough damage to flatline you. Prevent all of that damage, trash Arasaka Owns You, remove any brain damage you have suffered, and then refresh your hand to its maximum size. Gain {10} and remove all tags, at no cost. You forgo your next four actions, and you forfeit the next 3 agenda points you score.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Bodyweight {TM} Synthetic Blood" graphics="BodyweightSyntheticBlood.jpg" text="Draw five cards.">
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+	  <attr value="5" key="play_effect_draw"/>
+    </card>
+    <card name="Core Command: Jettison Ice" graphics="CoreCommandJettison Ice.jpg" text="Play only if you made a successful run on HQ thisturn. Pay the rez cost of a piece of rezzed ice to trash it.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Custodial Position" graphics="CustodialPosition.jpg" text="Make a run on R&amp;D. If run is successful, access two additional cards from R&amp;D.">
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Deal with Militech" graphics="DealwithMilitech.jpg" text="Play only if you liberated any Research agendas this turn. Put a Militech counter on each of your icebreakers. A Militech counter gives the icebreaker it is on +1 strength.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Desperate Competitor" graphics="DesperateCompetitor.jpg" text="Play only if you liberated any Gray Ops agendas this turn. Score 1 agenda point.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Edited Shipping Manifests" graphics="EditedShippingManifests.jpg" text="Make a run on HQ. If run is successful, and the Corp has any bits when you would access HQ, do not access cards from HQ; instead, the Corp loses {1} and gives you a tag, and you gain {10}.">
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Executive Wiretaps" graphics="ExecutiveWiretaps.jpg" text="Make a run on HQ. If run is successful, access two additional cards from HQ.">
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Forged Activation Orders" graphics="ForgedActivationOrders.jpg" text="Choose a piece of ice. The Corp either rezzes that piece of ice or trashes it.">
+      <attr value="1" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Forgotten Backup Chip" graphics="ForgottenBackupChip.jpg" text="Search your trash for a program and bring it into your hand.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Fortress Respecification" graphics="FortressRespecification.jpg" text="Play only if you made a successful run this turn. Rearrange the ice installed on the last fort on which you made a successful run. This does not expose any concealed ice.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Gideon's Pawnshop" graphics="GideonsPawnshop.jpg" text="Search your trash for a card and bring it into your hand.">
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Hot Tip for WNS" graphics="HotTipforWNS.jpg" text="Score 1 agenda point if you liberated any Black Ops agendas this turn.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Hunt Club BBS" graphics="HuntClubBBS.jpg" text="Expose up to three installed cards.">
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Ice and Data's Guide to the Net" graphics="IceandDatasGuidetotheNet.jpg" text="Expose the outermost ice of each data fort.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="If You Want It Done Right . . ." graphics="IfYouWantItDoneRight.jpg" text="Look through the top five cards of your stack. Bring one of those cards into your hand, and arrange the rest in any order you choose.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Inside Job" graphics="InsideJob.jpg" text="Make a run. You automatically pass the first piece of ice you encounter during that run.">
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Jack 'n' Joe" graphics="JacknJoe.jpg" text="Draw three cards.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+      <attr value="3" key="play_effect_draw"/>
+    </card>
+    <card name="Kilroy Was Here" graphics="KilroyWasHere.jpg" text="Make a run on R&amp;D; you may trash, at no cost, any cards you access that were stored in R&amp;D, even if the cards cannot normally be trashed.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Livewire's Contacts" graphics="LivewiresContacts.jpg" text="Gain {3}.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+      <attr value="3" key="play_effect_gain"/>
+    </card>
+    <card name="Lucidrine {TM} Booster Drug" graphics="LucidrineBoosterDrug.jpg" text="Make a run, and gain {9}, which you may use only during that run. After that run is completed, suffer 1 brain damage; this damage cannot be prevented. Then, return to the bank any of the {9} not spent.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Mantis, Fixer-at-Large" graphics="MantisFixeratLarge.jpg" text="Search your stack for a card, and bring it into your hand. Reshuffle your stack afterwards.">
+      <attr value="3" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="misc.for-sale" graphics="miscforsale.jpg" text="Trash any number of your installed cards. Gain {3} for each card trashed in this way.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="MIT West Tier" graphics="MITWestTier.jpg" text="Shuffle your hand, trash, and stack together, and then draw five cards. When you play MIT West Tier, remove it from the game instead of trashing it.">
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Open-Ended{R} Mileage Program" graphics="OpenEndedMileageProgram.jpg" text="Remove a tag, at no cost. You may pay {1} when you play Open-Ended{R} Mileage Program to take it back into your hand instead of trashing it.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Organ Donor" graphics="OrganDonor.jpg" text="Trash up to five cards from your hand. Gain {2} for each card trashed in this way.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Playful AI" graphics="PlayfulAI.jpg" text="Roll a die. On a 1, 2, or 3, gain that many bits, set aside that many dice to roll again, or choose some combination thereof. Repeat until you have rolled all the dice you set aside.">
+      <attr value="1" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="AI-Random" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Priority Wreck" graphics="PriorityWreck.jpg" text="Make a run on HQ. If run is successful, do not access cards from HQ; instead, pay any number of bits to force the Corp to lose that many bits.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Private LDL Access" graphics="PrivateLDLAccess.jpg" text="Make a run on HQ. If run is successful, do not access cards from HQ; instead, treat run as a successful run on R&amp;D.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Romp through HQ" graphics="RompthroughHQ.jpg" text="Make a run on HQ; you may trash, at no cost, any cards you access that were stored in HQ, even if the cards cannot normally be trashed.">
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Score!" graphics="Score.jpg" text="Gain {9}">
+      <attr value="5" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+      <attr value="9" key="play_effect_gain"/>
+    </card>
+    <card name="Security Code WORM Chip" graphics="SecurityCodeWORMChip.jpg" text="Play only if you made a successful run on HQ this turn. Trash a piece of unrezzed ice.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Sneak Preview" graphics="SneakPreview.jpg" text="Choose a program from your trash or search your stack for a program. Install that program, at no cost. Shuffle your stack afterwards. At the end of the turn, take the program into your hand.">
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Social Engineering" graphics="SocialEngineering.jpg" text="Hide at least 2 from your pool in your hand; the Corp then guesses how many bits you hid. If the Corp guesses correctly, lose that many bits. Otherwise, choose a data fort and a piece of ice on that fort. Then make a run on that fort, during which you automatically pass that piece of ice.">
+      <attr value="1" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Stumble through Wilderspace" graphics="StumblethroughWilderspace.jpg" text="Make a run. You have +9 link for every trace attempt made during that run.">
+      <attr value="2" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Synchronized Attack on HQ" graphics="SynchronizedAttackonHQ.jpg" text="Play only if you made a successful run on HQ this turn. The Corp discards all cards. The Corp can retain cards by paying {2} for each card not discarded.">
+      <attr value="4" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Temple Microcode Outlet" graphics="TempleMicrocodeOutlet.jpg" text="Search your stack for a program. Show that program to the Corp, and then bring it into your hand. Reshuffle your stack afterwards.">
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Terrorist Reprisal" graphics="TerroristReprisal.jpg" text="Play only if the Corp scored any Black Ops agendas during its last turn. The Corp discards five cards at random.">
+      <attr value="2" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Total Genetic Retrofit" graphics="TotalGeneticRetrofit.jpg" text="Remove all tags, at no cost, and automatically avoid receiving your next tag.">
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Valu-Pak Software Bundle" graphics="ValuPakSoftwareBundle.jpg" text="Gain up to five consecutive actions, which you may use only to install programs, and gain {1}. If you do not spend the bit during these actions, return it to the bank afterwards.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Weather-to-Finance Pipe" graphics="WeathertoFinancePipe.jpg" text="Make a run on HQ. If run is successful, do not access cards from HQ; instead, the Corp loses {4}.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Sabotage" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Access through Alpha" graphics="AccessthroughAlpha.jpg" text="{1}: Base link 9Use only one base link card for each trace attempt made against you.">
+      <attr value="9" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Base Link" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Access to Arasaka" graphics="AccesstoArasaka.jpg" text="{2}: Base link 4. {2}: +1 linkUse only one base link card for each trace attempt made against you.">
+      <attr value="2" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Base Link" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Access to Kiribati" graphics="AccesstoKiribati.jpg" text="{1}: Base link 1. {1}: +1 linkUse only one base link card for each trace attempt made against you.">
+      <attr value="1" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Base Link" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Arasaka Portable Prototype" graphics="ArasakaPortablePrototype.jpg" text="Provides +3 MU. Installing Arasaka Portable Prototype costs 1 agenda point, in addition to the normal cost. Put {3} from the bank on ArasakaPortable Prototype when it is installed. Use these bits only to pay for using icebreakers during runs. If you use any of these bits, replace them at the start of your next turn.Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="11" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="&quot;Armadillo&quot; Armored Road Home" graphics="ArmadilloArmoredRoadHome.jpg" text="Put {2} from the bank on Armored Road Home when it is installed. Use these bits only to pay for removing tags. If you use any of these bits, replace them at the start of your next turn. {T}: Prevent up to 3 meat damage.">
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Vehicle" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Armored Fridge" graphics="ArmoredFridge.jpg" text="Put seven Ablative counters on Armored Fridge when it is installed. When the last Ablative counter has been removed, trash Armored Fridge.Ablative counter: Prevent 1 meat damage.">
+      <attr value="3" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Artemis 2020" graphics="Artemis2020.jpg" text="Provides +2 MU. Put {2} from the bank on Artemis 2020 when it is installed. Use these bits only to pay for using icebreakers during runs. If you use any of these bits, replace them at the start of your next turn.Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="10" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Aujourd'Oui" graphics="AujourdOui.jpg" text="A: Look at the top five cards of your stack. You may bring any program cards among them into your hand. Pay {1} for each card taken in this way, and show those cards to the Corp. Shuffle your stack.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Back Door to Hilliard" graphics="BackDoortoHilliard.jpg" text="{0}: Base link 2. {3}: +1 link. Use only one base link card for each trace attempt made against you.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Base Link" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Back Door to Orbital Air" graphics="BackDoortoOrbitalAir.jpg" text="{1}: Base link 2. {2}: +1 link. Use only one base link card for each trace attempt made against you.">
+      <attr value="0" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Base Link" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Bodyweight {TM} Data Creche" graphics="BodyweightDataCreche.jpg" text="Provides +1 MU. Once per turn, right after making a successful run, you can choose to make another run without taking an action to do so.Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Broker" graphics="Broker.jpg" text="Each of your turns, you may take only one action to use Broker.A: Put {3} from the bank on Broker.A: Take all the bits from Broker.">
+      <attr value="3" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Code Viral Cache" graphics="CodeViralCache.jpg" text="Play only if you made a successful run on HQ this turn. If the Corp forgoes actions to lose Virus counters, two counters of your choice are not removed. The Corp may trash Viral Cache by taking an action to pay {5}. {cyan} Revised: Trashing in this way cannot be prevented. {cyan} UK: Trashing in this way cannot be prevented.">
+      <attr value="1" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Corolla Speed Chip" graphics="CorollaSpeedChip.jpg" text="Put {1} from the bank on Corolla Speed Chip when it is installed. Use this bit only to pay for using killers during runs. If you use the bit, replace it at the start of your next turn.">
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Chip" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Corporate Ally" graphics="CorporateAlly.jpg" text="Installing Corporate Ally costs 1 agenda point, in addition to the normal cost. The difficulty of all agendas is +1.Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.">
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection-Unique" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Crash Everett, Inventive Fixer" graphics="CrashEverettInventiveFixer.jpg" text="Whenever you draw one or more cards from your stack, draw an extra card; then choose one of the cards drawn and either trash it or return it to the top of your stack.Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.">
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection-Unique" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Danshi's Second ID" graphics="DanshisSecondID.jpg" text="A, {T}: Remove up to three tags, at no cost.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Databroker" graphics="Databroker.jpg" text="A, {T}, 1 agenda point: Gain {10}.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Dermatech Bodyplating" graphics="DermatechBodyplating.jpg" text="Prevents 1 meat damage each turn.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Cybernetics" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Diplomatic Immunity" graphics="DiplomaticImmunity.jpg" text="Prevents all meat damage. The Corp may pay 1 agenda point to cancel this effect until end of turn.Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.">
+      <attr value="1" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Unique" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="&quot;Drifter&quot; Mobile Environment" graphics="DrifterMobileEnvironment.jpg" text="Put {2} from the bank on Mobile Environment when it is installed. Use these bits only to pay for removing tags. If you use any of these bits, replace them at the start of your next turn.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Vehicle" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Fall Guy" graphics="FallGuy.jpg" text="{T}: Avoid receiving a tag.">
+      <attr value="0" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Field Reporter for Ice and Data" graphics="FieldReporterforIceandData.jpg" text="At the end of each of your turns, gain {1} for each piece of ice the Corp rezzed during that turn.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Position" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Floating Runner BBS" graphics="FloatingRunnerBBS.jpg" text="Gain {1} at the start of each of your turns.">
+      <attr value="6" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS-Position" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Full Body Conversion" graphics="FullBodyConversion.jpg" text="Prevents all meat damage. For each {1} the Corp pays when meat damage is done, 1 point of meat damage is not prevented by this card.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Cybernetics" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="&quot;Green Knight&quot; Surge Buffers" graphics="GreenKnightSurgeBuffers.jpg" text="Prevents 1 Net damage each turn.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Hell's Run" graphics="HellsRun.jpg" text="Put {1} from the bank on Hell's Run when it is installed. Use this bit only to pay for increasing your link. If you use the bit, replace it at the start of your next turn.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="HQ Interface" graphics="HQInterface.jpg" text="Whenever you access cards from HQ, access an additional card from HQ.">
+      <attr value="4" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Junkyard BBS" graphics="JunkyardBBS.jpg" text="A, {1}: Bring the top card from your trash into your hand.">
+      <attr value="1" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Karl de Veres, Corporate Stooge" graphics="KarldeVeresCorporateStooge.jpg" text="Gain {1} each time you make a successful run.Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.">
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection-Unique" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Leland, Corporate Bodyguard" graphics="LelandCorporateBodyguard.jpg" text=" {T}: Avoid receiving a tag.">
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Lifesaver {TM} Nanosurgeons" graphics="LifesaverNanosurgeons.jpg" text="A: Draw two cards. Use this ability only if you were damaged during any of your last three actions. {T}: Prevent 1 brain damage.">
+      <attr value="1" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Cybernetics" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Loan from Chiba" graphics="LoanfromChiba.jpg" text="Gain {12} when Loan from Chiba is installed. At the start of each of your turns, lose {1}. If Loan from Chiba leaves play, pay {10} or lose the game. You may trash Loan from Chiba at the end of any of your turns. {cyan} UK: If you cannot pay the bit back at the start of your turn, you lose the game.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+      <attr value="12" key="play_effect_gain"/>
+    </card>
+    <card name="Microtech Backup Drive" graphics="MicrotechBackupDrive.jpg" text="Whenever one or more installed programs are being sent to the trash at the same time, you may instead choose to put any or all of the programs on top of Microtech Backup Drive in any order you choose. If Backup Drive is removed from play, trash any cards on it.A: Bring the top card on Backup Drive into yourhand.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Microtech 'Trode Set" graphics="MicrotechTrodeSet.jpg" text="Pay {1}, in addition to the normal cost, to break each ice subroutine. Ignore all AP subroutines except those that trace, or that do Net damage. Prevents all but 1 Net damage from each AP subroutine you do not break.">
+      <attr value="1" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Militech MRAM Chip" graphics="MilitechMRAMChip.jpg" text="Hand size +3">
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Chip-Cybernetics" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="MRAM Chip" graphics="MRAMChip.jpg" text="Hand size +2">
+      <attr value="1" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Chip-Cybernetics" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Nasuko Cycle" graphics="NasukoCycle.jpg" text="{3}: Avoid receiving a tag.">
+      <attr value="1" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Vehicle" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="N.E.T.O." graphics="NETO.jpg" text="A: Look at the top four cards of your stack. You may bring any prep or resource cards among theminto your hand. Pay {1} for each card taken in this way, and show those cards to the Corp. Shuffle therest back into your stack.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Nomad Allies" graphics="NomadAllies.jpg" text="A, {1}: Remove a tag, at no cost. {T}: Avoid receiving a tag.">
+      <attr value="2" key="cost"/>
+      <attr value="RV" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Pandora's Deck" graphics="PandorasDeck.jpg" text="Provides +2 MU. Put {3} from the bank on Pandora's Deck when it is installed. Use these bits only to pay for increasing your link. If you use any of these bits, replace them at the start of your next turn.Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="6" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Parraline 5750" graphics="Parraline5750.jpg" text="Provides +1 MU. Put {1} from the bank on Parraline 5750 when it is installed. Use this bit only to pay for using icebreakers during runs. If you use the bit, replace it at the start of your next turn.Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="5" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="PK-6089a" graphics="PK6089a.jpg" text="Provides +1 MU. Put {3} from the bank on PK-6089a when it is installed. Use these bits only to pay for increasing your link. If you use any of these bits, replace them at the start of your next turn.Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="4" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Preying Mantis" graphics="PreyingMantis.jpg" text="Each of your turns, you may choose to gain an action.If you do, suffer 1 brain damage at the end of the turn. This damage cannot be prevented.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Quest for Cattekin" graphics="QuestforCattekin.jpg" text="At the start of each of your turns, roll a die. On a 6, trash Quest for Cattekin, and you gain an action on each of your turns for the remainder of the game. On a 1, suffer 1 brain damage. On a 2, suffer 1 Net damage. Damage from Quest for Cattekin cannot be prevented.">
+      <attr value="4" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Random" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="R&amp;D Interface" graphics="RDInterface.jpg" text="Whenever you access cards from R&amp;D, access an additional card from R&amp;D.">
+      <attr value="4" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Raven Microcyb Eagle" graphics="RavenMicrocybEagle.jpg" text="Provides +1 MU. Prevents 1 Net damage each turn. Put {1} from the bank on Microcyb Eagle when it is installed. Use this bit only to pay for using icebreakers during runs. If you use the bit, replace it at the start of your next turn. Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="6" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Raven Microcyb Owl" graphics="RavenMicrocybOwl.jpg" text="Provides +1 MU. Put {3} from the bank on Microcyb Owl when it is installed. Use these bits only to pay for using icebreakers during runs, but not for using noisy icebreakers. If you use any of these bits, replace them at the start of your next turn.Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="11" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck-Stealth" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Record Reconstructor" graphics="RecordReconstructor.jpg" text="A: Make a run on the Archives. If run is successful, do not access cards from the Archives; instead, shuffle the face-up pile of the Archives and then put the top two cards from that pile on R&amp;D.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Restrictive Net Zoning" graphics="RestrictiveNetZoning.jpg" text="Choose a data fort when Restrictive Net Zoning is installed. The Corp must pay {2}, in addition to the normal cost, to install ice on that fort.">
+      <attr value="1" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Rigged Investments" graphics="RiggedInvestments.jpg" text="Put {12} from the bank on Rigged Investments whenit is installed. At the start of each of your turns, take {1} from Investments. When all the bits have been removed, trash Rigged Investments.">
+      <attr value="4" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Ronin Around" graphics="RoninAround.jpg" text="A: Look at the top five cards of your stack. You may bring any hardware cards among them into your hand. Pay {1} for each card taken in this way, and show those cards to the Corp. Shuffle the rest back into your stack.A, {2}: Expose any card.">
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="The Shell Traders" graphics="TheShellTraders.jpg" text="A: Choose a program or hardware card from your hand. Set that card aside, and put a number of Shell counters on it equal to its installation cost. When the last Shell counter on that card has been removed, install that card, at no cost. Remove one Shell counter from one card at the start of each of your turns. {1}: Remove one Shell counter from a card.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="The Short Circuit" graphics="TheShortCircuit.jpg" text="A, {1}: Search your stack for a program. Show that program to the Corp, and then bring it into your hand. Reshuffle your stack afterwards.">
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Short-Term Contract" graphics="ShortTermContract.jpg" text="Put {12} from the bank on Short-Term Contract when it is installed. When all the bits have been removed, trash Short-Term Contract.A: Take {2} from Short-Term Contract. ">
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Position" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Silicon Saloon Franchise" graphics="SiliconSaloonFranchise.jpg" text="A: Gain {1} and draw one card.">
+      <attr value="8" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Position" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Smith's Pawnshop" graphics="SmithsPawnshop.jpg" text="At the start of each of your turns, you may trash one of your other installed cards to gain {2}.Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection-Unique" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="The Springboard" graphics="TheSpringboard.jpg" text="{1}: +1 link. Use this ability only once during each trace attempt, and only after you and the Corp have revealed how much each of you spent.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="BBS" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Submarine Uplink" graphics="SubmarineUplink.jpg" text="{0}: Base link 4. {1}: +1 link. You may use Submarine Uplink only during a run. Using Submarine Uplink forces you to jack out after the current encounter ends.Use only one base link card for each trace attempt made against you.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Base Link" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Technician Lover" graphics="TechnicianLover.jpg" text="A: Look at the top card of R&amp;D.">
+      <attr value="2" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Techtronica {TM} Utility Suit" graphics="TechtronicaUtilitySuit.jpg" text="Provides +1 MU. Prevents 1 meat damage each turn. Put {5} on Techtronica {TM} Utility Suit when it is installed. Use these bits only to pay for increasing your link. If you use any of these bits, replace them at the start of your next turn. Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="6" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Top Runners' Conference" graphics="TopRunnersConference.jpg" text="Gain {2} at the start of each of your turns. Trash Top Runners' Conference when you make a run.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Trauma Team {TM}" graphics="TraumaTeam.jpg" text="Put two Trauma counters on Trauma Team {TM} when it is installed.Trauma counter: Prevent 1 meat damage.A: Put one Trauma counter on Trauma Team {TM}.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Tycho Mem Chip" graphics="TychoMemChip.jpg" text="Provides +3 MU.">
+      <attr value="5" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Chip" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Umbrella Policy" graphics="UmbrellaPolicy.jpg" text="{T}: Prevent an installed program or hardware card from being trashed.">
+      <attr value="0" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Wilson, Weeflerunner Apprentice" graphics="WilsonWeeflerunnerApprentice.jpg" text="Each of your turns, you may choose to gain an action, which you may use only to make a run. You cannot spend more than {3} during that run to pay for using icebreakers or increasing your link. Use this ability only once per turn and only during your turn. {T}: Avoid receiving a tag. {T}: Prevent any amount of meat damage.">
+      <attr value="4" key="cost"/>
+      <attr value="RU" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="WuTech Mem Chip" graphics="WuTechMemChip.jpg" text="Provides +1 MU.">
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Chip" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Zetatech Mem Chip" graphics="ZetatechMemChip.jpg" text="Provides +2 MU.">
+      <attr value="3" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Chip" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="ZZ22 Speed Chip" graphics="ZZ22SpeedChip.jpg" text="Put {2} from the bank on ZZ22 Speed Chip when it is installed. Use these bits only to pay for using killers during runs. If you use any of these bits, replace them at the start of your next turn.">
+      <attr value="5" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Chip" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="AI Chief Financial Officer" graphics="AIChiefFinancialOfficer.jpg" back="1" text="{A}: Shuffle cards stored in HQ and the Archives into R&amp;D; then draw five cards.">
+      <attr value="CR" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="5" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Artificial Security Directors" graphics="ArtificialSecurityDirectors.jpg" back="1" text="Difficulty of Black Ops agendas is reduced by 1.">
+      <attr value="CR" key="rarity"/>
+      <attr value="1" key="agenda"/>
+      <attr value="3" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Research" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Bioweapons Engineering" graphics="BioweaponsEngineering.jpg" back="1" text="Each source of meat damage inflicts +1 meat damage.">
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="4" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Research" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Black Ice Quality Assurance" graphics="BlackIceQualityAssurance.jpg" back="1" text="All black ice has +2 strength.">
+      <attr value="CR" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="5" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Research-Black Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Corporate Boon" graphics="CorporateBoon.jpg" back="1" text="Put four Boon counters on Corporate Boon when you score it. Boon Counter: Gain an action. Use this ability only once per turn and only during your turn.">
+      <attr value="CV" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="6" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Corporate Coup" graphics="CorporateCoup.jpg" back="1" text="Put {15} from the bank on Corporate Coup when you score it. {A}: Take {3} from Corporate Coup, if it has any bits.">
+      <attr value="CV" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="5" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Corporate Downsizing" graphics="CorporateDownsizing.jpg" back="1" text="When you score Corporate Downsizing, show to Runner any number of agenda cards stored in HQ. Gain bits equal to twice the combined agenda points of these cards; then shuffle them into R&amp;D.">
+      <attr value="CV" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="3" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Corporate Retreat" graphics="CorporateRetreat.jpg" back="1" text="You lose the following ability as soon as you rez or install any card. {A}: Gain {2}.">
+      <attr value="CV" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="4" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Corporate War" graphics="CorporateWar.jpg" back="1" text="If you have {12} or more bits in your pool when you score Corporate War, gain {12}; otherwise, lose all bits.">
+      <attr value="CV" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="3" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Data Fort Reclamation" graphics="DataFortReclamation.jpg" back="1" text="Gain {10} and choose up to four cards stored in HQ when you score Data Fort Reclamation. Create a new data fort using the cards chosen.  Install the cards one at a time; you may rez them when you install them. Then, return to the bank any of the {10} not spent.">
+      <attr value="CV" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="4" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Detroit Police Contract" graphics="DetroitPoliceContract.jpg" back="1" text="Put {12} from the bank on Detroit Police Contract when you score it.  Take {2} from Detroit Police Contract, if it has any bits, at the start of each of your turns.">
+      <attr value="CV" key="rarity"/>
+      <attr value="1" key="agenda"/>
+      <attr value="4" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Employee Empowerment" graphics="EmployeeEmpowerment.jpg" back="1" text="You may choose to draw an additional card at the start of each of your turns. {A}: Draw two cards.">
+      <attr value="CV" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="4" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Encryption Breakthrough" graphics="EncryptionBreakthrough.jpg" back="1" text="All code gates have +1 strength. When you score Encryption Breakthrough, reveal as many code gates as you wish. Then, gain {1} for each revealed or rezzed code gate.">
+      <attr value="CR" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="5" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Research" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Executive Extraction" graphics="ExecutiveExtraction.jpg" back="1" text="Difficulty of Gray Ops agendas is reduced by 1.">
+      <attr value="CR" key="rarity"/>
+      <attr value="1" key="agenda"/>
+      <attr value="3" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Genetics-Visionary Acquisition" graphics="GeneticsVisionaryAcquisition.jpg" back="1" text="Difficulty of Research agendas is reduced by 1.">
+      <attr value="CR" key="rarity"/>
+      <attr value="1" key="agenda"/>
+      <attr value="3" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Hostile Takeover" graphics="HostileTakeover.jpg" back="1" text="Gain {5} when you score Hostile Takeover.">
+      <attr value="CV" key="rarity"/>
+      <attr value="1" key="agenda"/>
+      <attr value="3" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Ice Transmutation" graphics="IceTransmutation.jpg" back="1" text="Choose a piece of rezzed ice when you score Ice Transmutation. That ice now has +1 strength, and each subroutine on it is repeated once. Treat this as if each repeated subroutine appeared immediately after the original subroutine.">
+      <attr value="CV" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="5" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Research" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Main-Office Relocation" graphics="MainOfficeRelocation.jpg" back="1" text="Hand size +2">
+      <attr value="CV" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="4" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Marine Arcology" graphics="MarineArcology.jpg" back="1" text="{A}, {A}: Gain {3}.">
+      <attr value="CV" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="3" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Netwatch Operations Office" graphics="NetwatchOperationsOffice.jpg" back="1" text="{A}:  Trace 2 -If trace is successful, give Runner a tag.">
+      <attr value="CV" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="5" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="On-Call Solo Team" graphics="OnCallSoloTeam.jpg" back="1" text="{A}: Do 1 meat damage. Use this ability only if Runner is tagged.">
+      <attr value="CV" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="4" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Political Coup" graphics="PoliticalCoup.jpg" back="1" text="Put {12} from the bank on Political Coup when you score it. {A}: Take {3} from Political Coup, if it has any bits.">
+      <attr value="CV" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="4" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+	  <attr value="12" key="rez_counters"/>	  
+    </card>
+    <card name="Political Overthrow" graphics="PoliticalOverthrow.jpg" back="1" text="{A}: Gain {3}.">
+      <attr value="CR" key="rarity"/>
+      <attr value="6" key="agenda"/>
+      <attr value="9" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Polymer Breakthrough" graphics="PolymerBreakthrough.jpg" back="1" text="Gain {1} at the start of each of your turns.">
+      <attr value="CV" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="6" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Research" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Priority Requisition" graphics="PriorityRequisition.jpg" back="1" text="You may rez a piece of ice, at no cost, when you score Priority Requisition.">
+      <attr value="CV" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="5" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Private Cybernet Police" graphics="PrivateCybernetPolice.jpg" back="1" text="{A}:  Trace 5 -If trace is successful, give Runner a tag.">
+      <attr value="CV" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="7" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Project Babylon" graphics="ProjectBabylon.jpg" back="1" text="Score 1 additional agenda point for every two advancement counters over Project Babylon's difficulty that are on Project Babylon when you score it.">
+      <attr value="CV" key="rarity"/>
+      <attr value="1" key="agenda"/>
+      <attr value="3" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Security Net Optimization" graphics="SecurityNetOptimization.jpg" back="1" text="Choose a fort when you score Security Net Optimization. That fort gives all ice installed on it +1 strength.">
+      <attr value="CV" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="5" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Security Purge" graphics="SecurityPurge.jpg" back="1" text="Show the top three cards of R&amp;D to Runner when you score Security Purge. If any of those cards are ice, install and rez them, at no cost. Trash the rest of those cards.">
+      <attr value="CR" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="3" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Strike Force Kali" graphics="StrikeForce Kali.jpg" back="1" text="{A}: Do 2 meat damage. Use this ability only if Runner is tagged.">
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="6" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Subsidiary Branch" graphics="SubsidiaryBranch.jpg" back="1" text="Gain an action during each of your turns.">
+      <attr value="CV" key="rarity"/>
+      <attr value="1" key="agenda"/>
+      <attr value="6" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Superior Net Barriers" graphics="SuperiorNetBarriers.jpg" back="1" text="All walls have +1 strength. When you score Superior Net Barriers, reveal as many walls as you wish. Then, gain {1} for each revealed or rezzed wall.">
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="6" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Research" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Tycho Extension" graphics="TychoExtension.jpg" back="1" text="n/a">
+      <attr value="CV" key="rarity"/>
+      <attr value="4" key="agenda"/>
+      <attr value="4" key="difficulty"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Asp" graphics="Asp.jpg" back="1" text="{S}: Trace 5-If trace is successful, end the run, and Runner cannot run again until Runner takes an action to pay {1}.">
+      <attr value="4" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Flatline" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Ball and Chain" graphics="BallandChain.jpg" back="1" text="{S}: For the remainder of the run, Runner must pay {2} when encountering a piece of ice, in addition to any other costs, or end the run.">
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Banpei" graphics="Banpei.jpg" back="1" text="{S}: Trash a program. {S}: End the run.">
+      <attr value="4" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Killer" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Bolter Cluster" graphics="BolterCluster.jpg" back="1" text="{S}: Do 4 Net damage. {S}: Runner cannot break any subroutines of the next piece of ice encountered during the run.">
+      <attr value="7" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-AP-Hellbolt" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Canis Major" graphics="CanisMajor.jpg" back="1" text="{S}: For the remainder of the run, all further ice is encountered at +2 strength.">
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Watchdog" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Canis Minor" graphics="CanisMinor.jpg" back="1" text="{S}: For the remainder of the run, all further ice is encountered at +1 strength.">
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Watchdog" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Cerberus" graphics="Cerberus.jpg" back="1" text="{S}: Do 3 Net damage. {S}: Trace 5-If trace is successful, give Runner a Cerberuscounter. Each Cerberus counter does 2 Net damage at thestart of each run. Runner may remove a Cerberus counterby taking an action to spend {4}. {S}: End the run.">
+      <attr value="11" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Black Ice-AP-Hellhound" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Cinderella" graphics="Cinderella.jpg" back="1" text="{S}: Trace 6-If trace is successful, end the run, trash a piece of hardware, and do 2 meat damage. This damage cannot be prevented.">
+      <attr value="8" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="6" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Black Ice-AP-Firestarter" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Code Corpse" graphics="CodeCorpse.jpg" back="1" text="{S}: Do 1 brain damage. {S}: Do 1 brain damage. {S}: End the run.">
+      <attr value="10" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Ice-AP-Zombie" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Cortical Scanner" graphics="CorticalScanner.jpg" back="1" text="{S}: End the run. {S}: End the run. {S}: End the run.">
+      <attr value="7" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Cortical Scrub" graphics="CorticalScrub.jpg" back="1" text="{S}: Do 1 brain damage. {S}: End the run.">
+      <attr value="7" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Black Ice-AP-Brainwipe" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Crystal Wall" graphics="CrystalWall.jpg" back="1" text="{S}: End the run.">
+      <attr value="4" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="D' Arc Knight" graphics="DArcKnight.jpg" back="1" text="{S}: Trash a program. {S}: End the run.">
+      <attr value="6" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Killer" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Data Darts" graphics="DataDarts.jpg" back="1" text="{S}: Do 3 Net damage. {S}: Runner cannot break any subroutines of the next piece of ice encountered during the run.">
+      <attr value="5" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-AP-Hellbolt" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Data Naga" graphics="DataNaga.jpg" back="1" text="{S}: Trash a program. {S}: End the run.">
+      <attr value="9" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Killer" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Data Raven" graphics="DataRaven.jpg" back="1" text="{S}: Trace 5 -If trace is successful, give Runner a tag and a Data Raven counter. Each Data Raven counter gives Runner a tag at the start of each of his or her turns. Runner may remove a Data Raven counter by taking an action to pay {1}.">
+      <attr value="5" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Data Wall" graphics="DataWall.jpg" back="1" text="{S}: End the run.">
+      <attr value="1" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Data Wall 2.0" graphics="DataWall20.jpg" back="1" text="{S}: End the run.">
+      <attr value="2" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="1" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Endless Corridor" graphics="EndlessCorridor.jpg" back="1" text="{S}: End the run. {S}: End the run.">
+      <attr value="4" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Fang" graphics="Fang.jpg" back="1" text="{S}: Trace 4-If trace is successful, end the run, andRunner cannot run again until Runner takes an action to pay {2}.">
+      <attr value="5" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Pit Bull" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Fang 2.0" graphics="Fang20.jpg" back="1" text="{S}: Trace 5-If trace is successful, end the run, and Runner cannot run again until Runner takes an action to pay {2}.">
+      <attr value="6" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Pit Bull" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Fatal Attractor" graphics="FatalAttractor.jpg" back="1" text="{S}: The next time Runner encounters a piece of ice during the run, do 3 Net damage unless Runner breaks all subroutines of that piece of ice.">
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Black Ice-AP" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Fetch 4.0.1" graphics="Fetch401.jpg" back="1" text="{S}: Trace 3-If trace is successful, give Runner a tag.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Bloodhound" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Filter" graphics="Filter.jpg" back="1" text="{S}: End the run.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Fire Wall" graphics="FireWall.jpg" back="1" text="{S}: End the run.">
+      <attr value="5" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Fragmentation Storm" graphics="FragmentationStorm.jpg" back="1" text="{S}: Trace 4-If trace is successful, end the run and trash a program, and Runner cannot run again until Runner takes an action to pay {1}.">
+      <attr value="6" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Flatline" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Haunting Inquisition" graphics="HauntingInquisition.jpg" back="1" text="{S}: Runner cannot make another run during his or her next six actions. {S}: End the run.">
+      <attr value="8" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="6" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Homewrecker{TM}" graphics="Homewrecker.jpg" back="1" text="{S}: Trace 5-If trace is successful, end the run, trash a piece of hardware, and do 2 meat damage. This damage cannot be prevented.">
+      <attr value="7" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Black Ice-AP-Firestarter" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Hunter" graphics="Hunter.jpg" back="1" text="{S}: Trace 5-If trace is succesful, give Runner a tag.">
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Bloodhound" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Ice Pick Willie" graphics="IcePickWillie.jpg" back="1" text="{S}: Trash a program. {S}: End the run.">
+      <attr value="5" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="1" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Killer" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Jack Attack" graphics="JackAttack.jpg" back="1" text="{S}: For the remainder of the run, Runner cannot jack out. {S}: Trace 5-If trace is successful, give Runner a tag.">
+      <attr value="3" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-AP" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Keeper" graphics="Keeper.jpg" back="1" text="{S}: End the run.">
+      <attr value="4" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Laser Wire" graphics="LaserWire.jpg" back="1" text="{S}: Do 1 Net damage. {S}: End the run.">
+      <attr value="4" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Liche" graphics="Liche.jpg" back="1" text="{S}: Do 1 brain damage. {S}: Do 1 brain damage. {S}: Do 1 brain damage. {S}: End the run.">
+      <attr value="14" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="6" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Black Ice-AP" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Mastiff" graphics="Mastiff.jpg" back="1" text="{S}: Do 1 brain damage. {S}: Do 1 Net damage. {S}: For the remainder of the run, all ice is encountered at +1 strength. {S}: -If trace is successful, give Runner a Mastiff counter. Each Mastiff counter does 1 brain damage at the start of each run. Runner may remove a Mastiff counter by taking an action to spend {4}. {S}: End the run.">
+      <attr value="12" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Black Ice-AP-Hellhound-Watchdog" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Mazer" graphics="Mazer.jpg" back="1" text="{S}: End the run.">
+      <attr value="5" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Nerve Labyrinth" graphics="NerveLabyrinth.jpg" back="1" text="{S}: Do 2 Net damage. {S}: End the run.">
+      <attr value="6" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Neural Blade" graphics="NeuralBlade.jpg" back="1" text="{S}: Do 1 Net damage. {S}: Runner cannot break any subroutines of the nextpiece of ice encountered during the run.">
+      <attr value="4" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-AP-Sword" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Pi in the 'Face" graphics="PiintheFace.jpg" back="1" text="{S}: End the run.">
+      <attr value="5" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-DecKrash" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Pocket Virtual Reality" graphics="PocketVirtualReality.jpg" back="1" text="{S}: Trace 6-If trace is successful, give Runner a tag. {S}: Trace 6-If trace is successful, give Runner a tag. Whenever Pocket Virtual Reality is encountered, gain {4}. Use these bits only to pay for the above traces. When the encounter ends, return to the bank any of the {4} you did not spend.">
+      <attr value="7" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Quandary" graphics="Quandary.jpg" back="1" text="{S}: End the run.">
+      <attr value="2" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Razor Wire" graphics="RazorWire.jpg" back="1" text="{S}: Do 2 Net damage. {S}: End the run.">
+      <attr value="6" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Reinforced Wall" graphics="ReinforcedWall.jpg" back="1" text="{S}: End the run. {S}: End the run.">
+      <attr value="8" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Rex" graphics="Rex.jpg" back="1" text="{S}: Trace 3-If trace is successful, end the run, and Runner cannot run again until Runner takes an action to pay {2}.">
+      <attr value="4" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Pit Bull" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Rock Is Strong" graphics="RockIsStrong.jpg" back="1" text="{S}: End the run.">
+      <attr value="6" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Scramble" graphics="Scramble.jpg" back="1" text="{S}: End the run.">
+      <attr value="3" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Sentinels Prime" graphics="SentinelsPrime.jpg" back="1" text="{S}: Trash a program. {S}: End the run.">
+      <attr value="8" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Killer" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Shock.r" graphics="Shockr.jpg" back="1" text="{S}: Runner cannot break any subroutines of the next piece of ice encountered during the run, and cannot jack out until after that encounter.">
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-AP-Stun" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Shotgun Wire" graphics="ShotgunWire.jpg" back="1" text="{S}: Do 2 Net damage. {S}: End the run.">
+      <attr value="8" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Sleeper" graphics="Sleeper.jpg" back="1" text="{S}: End the run.">
+      <attr value="1" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="1" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="TKO 2.0" graphics="TKO20.jpg" back="1" text="End the run, and Runner forgoes his or her next action.">
+      <attr value="7" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-AP-Knockout" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Too Many Doors" graphics="TooManyDoors.jpg" back="1" text="{S}: Secretly spend {0}, {1}, or {2}; Runner does the same. Then you and Runner reveal how much each of you spent. End the run unless you spent as many bits as Runner spent.">
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Triggerman" graphics="Triggerman.jpg" back="1" text="{S}: Trash a program. {S}: End the run.">
+      <attr value="7" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Killer" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Tutor" graphics="Tutor.jpg" back="1" text="{S}: For the remainder of the run, all ice encountered hasan additional subroutine, &quot;{S}: End the run,&quot; after all other subroutines.">
+      <attr value="4" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Vacuum Link" graphics="VacuumLink.jpg" back="1" text="{S}: Roll a die. If you roll a 1, 2, or 3, Runner resumes the run from that many pieces of rezzed ice back, or jacks out. If there are not that many pieces of ice, Runner returns to the first piece of ice.">
+      <attr value="3" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Random" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Viral 15" graphics="Viral15.jpg" back="1" text="{S}: For the remainder of the run, Runner must pay {1} to jack out, in addition to any other costs. {S}: For the remainder of the run, Runner trashes an installed program after passing each piece of rezzed ice, including Viral 15, unless Runner jacks out.">
+      <attr value="5" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Virizz" graphics="Virizz.jpg" back="1" text="{S}: For the remainder of the run, Runner must pay anadditional {1} to break each ice subroutine.">
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Wall of Ice" graphics="WallofIce.jpg" back="1" text="{S}: Do 2 Net damage. {S}: Do 2 Net damage. {S}: End the run. {S}: End the run.">
+      <attr value="13" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="6" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Wall of Static" graphics="WallofStatic.jpg" back="1" text="{S}: End the run.">
+      <attr value="3" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Zombie" graphics="Zombie.jpg" back="1" text="{S}: Do 1 brain damage. {S}: Do 1 brain damage. {S}: End the run.">
+      <attr value="9" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry-Black" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Accounts Receivable" graphics="AccountsReceivable.jpg" back="1" text="Gain {9}.">
+      <attr value="5" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Transactions" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+	  <attr value="9" key="play_effect_gain"/>
+	 </card>
+    <card name="Annual Reviews" graphics="AnnualReviews.jpg" back="1" text="Draw three cards.">
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+	  <attr value="3" key="play_effect_draw"/>
+    </card>
+    <card name="Audit of Call Records" graphics="AuditofCallRecords.jpg" back="1" text="Play only if Runner attempted two or more runs during his or her last turn.  Trace 5-If trace is successful, give Runner a tag.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Chance Observation" graphics="ChanceObservation.jpg" back="1" text="Play only if Runner attempted a run during his or her last turn. Trace 5-If trace is successful, give Runner a tag.">
+      <attr value="2" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Closed Accounts" graphics="ClosedAccounts.jpg" back="1" text="Play only if Runner is tagged. Runner loses all bits.">
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Corporate Detective Agency" graphics="CorporateDetectiveAgency.jpg" back="1" text="Play only if Runner is tagged. Trash up to two resources, at no cost.">
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Datapool{R} by Zetatech" graphics="DatapoolbyZetatech.jpg" back="1" text="Play only if Runner is tagged. Give Runner two tags.">
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Day Shift" graphics="DayShift.jpg" back="1" text="Draw two cards and gain {1}.">
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+	  <attr value="1" key="play_effect_gain"/>
+	  <attr value="2" key="play_effect_draw"/>
+    </card>
+    <card name="Edgerunner, Inc., Temps" graphics="EdgerunnerIncTemps.jpg" back="1" text="Gain three consecutive actions, which you may useonly to install cards. You are not required to take all three of these actions.">
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Efficiency Experts" graphics="EfficiencyExperts.jpg" back="1" text="Gain {3}.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Transactions" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+   	  <attr value="3" key="play_effect_gain"/>
+ </card>
+    <card name="Falsified-Transactions Expert" graphics="FalsifiedTransactionsExpert.jpg" back="1" text="Move up to three advancement counters from one card to another installed card that can be advanced.">
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Management Shake-Up" graphics="ManagementShakeUp.jpg" back="1" text="Add three advancement counters to any combination of installed cards that can be advanced.">
+      <attr value="10" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Netwatch Credit Voucher" graphics="NetwatchCreditVoucher.jpg" back="1" text="Play only if Runner is tagged. Give Runner a tag, and gain {1}.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="New Blood" graphics="NewBlood.jpg" back="1" text="Conceal all revealed but unrezzed ice; then rearrange your installed ice by swapping pairs of ice while Runner looks away.">
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Night Shift" graphics="NightShift.jpg" back="1" text="Gain {2} and draw one card.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+	  <attr value="2" key="play_effect_gain"/>
+	  <attr value="1" key="play_effect_draw"/>
+    </card>
+    <card name="Off-Site Backups" graphics="OffSiteBackups.jpg" back="1" text="Bring any card from the Archives into HQ.">
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Overtime Incentives" graphics="OvertimeIncentives.jpg" back="1" text="Gain two actions.">
+      <attr value="4" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Planning Consultants" graphics="PlanningConsultants.jpg" back="1" text="Look at the top five cards of R&amp;D and arrange them in any order you choose.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Power Grid Overload" graphics="PowerGridOverload.jpg" back="1" text="Play only if Runner is tagged. Trash X pieces of hardware, other than cybernetics.">
+      <attr value="X" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Project Consultants" graphics="ProjectConsultants.jpg" back="1" text="Add four advancement counters to any combination of installed cards that can be advanced.">
+      <attr value="12" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Punitive Counterstrike" graphics="PunitiveCounterstrike.jpg" back="1" text="Play only if Runner is tagged. Do 2 meat damage.">
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Scorched Earth" graphics="ScorchedEarth.jpg" back="1" text="Play only if Runner is tagged. Do 4 meat damage.">
+      <attr value="3" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Silver Lining Recovery Protocol" graphics="SilverLiningRecoveryProtocol.jpg" back="1" text="If any agendas were stolen during Runner's last turn, gain bits equal to three times the number of advancement counters those agendas had.">
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Systematic Layoffs" graphics="SystematicLayoffs.jpg" back="1" text="Add two advancement counters to any combination of installed cards that can be advanced.">
+      <attr value="5" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+	  
+    </card>
+    <card name="Team Restructuring" graphics="TeamRestructuring.jpg" back="1" text="Add one advancement counter to each of up to two installed cards that can be advanced.">
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Trojan Horse" graphics="TrojanHorse.jpg" back="1" text="Play only if Runner stole any agendas during his or her last turn. Give Runner a tag.">
+      <attr value="2" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Urban Renewal" graphics="UrbanRenewal.jpg" back="1" text="Play only if Runner is tagged. Do 5 meat damage.">
+      <attr value="6" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Aardvark" graphics="Aardvark.jpg" back="1" text="Runner cannot use worms during runs on this fort. If Runner uses a worm during a run on this fort before Aardvark is rezzed, you may rez Aardvark to trash that worm, and any bits spent using that worm on the current piece of ice are lost to no effect. Runner may then use further icebreakers to break the ice.">
+      <attr value="4 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="ACME Savings and Loan" graphics="ACMESavingsandLoan.jpg" back="1" text="Rezzing ACME S&amp;L costs 1 agenda point, in addition to the normal cost. When you rez ACME S&amp;L, gain {12} and trash ACME S&amp;L. For the remainder of the game, pay {1} at the end of each of your turns, or lose the game. You can remove this effect, and score 1 agenda point, by taking an action to pay {12}.">
+      <attr value="0 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Transactions" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Antiquated Interface Routines" graphics="AntiquatedInterfaceRoutines.jpg" back="1" text="All ice on this fort has +1 strength.">
+      <attr value="1 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="BBS Whispering Campaign" graphics="BBSWhisperingCampaign.jpg" back="1" text="Put {16} from the bank on BBS Whispering Campaign when you rez it.  When all the bits have been removed, trash BBS Whispering Campaign. {A}: Take {2} from BBS Whispering Campaign.">
+      <attr value="4 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Advertisement" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+	  <attr value="16" key="rez_counters"/>	  
+    </card>
+    <card name="Bizarre Encryption Scheme" graphics="BizarreEncryptionScheme.jpg" back="1" text="Runner does not score any agenda (or agendas) during a run in which Bizarre Encryption Scheme is accessed; return that agenda to the fort instead. Runner scores the agenda at the start of his or her next turn if neither you nor Runner has scored it by then. This does not affect any further runs.">
+      <attr value="1 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Blood Cat" graphics="BloodCat.jpg" back="1" text="{A}:  Trace 5 -If trace is successful, give Runner a tag.">
+      <attr value="0 T" key="trash"/>
+      <attr value="6" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="AI" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Braindance Campaign" graphics="BraindanceCampaign.jpg" back="1" text="Put {12} from the bank on Braindance Campaign when you rez it. Take {2} from Braindance Campaign at the start of each of your turns. When all the bits have been removed, trash Braindance Campaign.">
+      <attr value="7 T" key="trash"/>
+      <attr value="6" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Advertisement-Gray Ops" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+      <attr value="12" key="rez_counters"/>	  
+    </card>
+    <card name="Chester Mix" graphics="ChesterMix.jpg" back="1" text="Cost to install ice on this fort is reduced by {2}.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sysop" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Chicago Branch" graphics="ChicagoBranch.jpg" back="1" text="A, {3}: Add two advancement counters to an installed card that can be advanced.">
+      <attr value="1 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Chimera" graphics="Chimera.jpg" back="1" text="When Runner accesses Chimera, trash a daemon.">
+      <attr value="3 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="City Surveillance" graphics="CitySurveillance.jpg" back="1" text="For each card Runner draws, give Runner a tag unless Runner pays {1}, in addition to any other costs, to avoid receiving that tag. You may rez City Surveillance just before the card is drawn.">
+      <attr value="2 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Corporate Negotiating Center" graphics="CorporateNegotiatingCenter.jpg" back="1" text="At the start of each of your turns, gain {1} for each agenda card stored in HQ that you show to Runner.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Corprunner's Shattered Remains" graphics="CorprunnersShatteredRemains.jpg" back="1" text="You may advance Shattered Remains before and after you rez it. When Runner accesses Shattered Remains, it destroys one piece of hardware for each advancement counter on it.">
+      <attr value="0 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Cowboy Sysop" graphics="CowboySysop.jpg" back="1" text="{A}: Choose one of your installed cards to be uninstalled. Store it in HQ.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Crybaby" graphics="Crybaby.jpg" back="1" text="When Runner accesses Crybaby, give Runner a Crying counter. Each Crying counter reduces Runner's link by 2 during each trace attempt. Runner can remove a Crying counter by taking an action to pay {2}.">
+      <attr value="2 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Crystal Palace Station Grid" graphics="CrystalPalaceStationGrid.jpg" back="1" text="Runner must pay {1}, in addition to the normal cost, to break each subroutine of each piece of ice encountered during runs on this fort. Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.">
+      <attr value="5 T" key="trash"/>
+      <attr value="5" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Data Masons" graphics="DataMasons.jpg" back="1" text="Cost to rez walls is reduced by {2}. All walls have +1 strength.">
+      <attr value="1 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Dedicated Response Team" graphics="DedicatedResponseTeam.jpg" back="1" text="When Runner accesses Dedicated Response Team, it does 3 meat damage. Ignore this effect unless Runner is tagged.">
+      <attr value="2 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Department of Truth Enhancement" graphics="DepartmentofTruthEnhancement.jpg" back="1" text="{A}: Put {3} from the bank on Department of Truth Enhancement. {A}: Take all the bits from Department of Truth Enhancement.">
+      <attr value="1 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Dieter Esslin" graphics="DieterEsslin.jpg" back="1" text="When Runner accesses Dieter Esslin, Dieter does 1 Net damage.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sysop-Ambush" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Disinfectant, Inc." graphics="DisinfectantInc.jpg" back="1" text="You may pay {1} to avoid receiving a Virus counter. Use this ability only once each turn.">
+      <attr value="4 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Dr. Dreff" graphics="DrDreff.jpg" back="1" text="Whenever Runner makes a successful run on this fort, you may choose an ice card stored in HQ. Pay half of that card's rez cost, rounded down, to force Runner to encounter it; the run is not considered successful unless Runner passes that piece of ice. Trash that ice after the encounter ends. Use this ability only once during each run on this fort.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sysop" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Encoder, Inc." graphics="EncoderInc.jpg" back="1" text="Cost to rez code gates is reduced by {1}. All code gates have an additional subroutine, &quot;. {S}: End the run,&quot; after all other subroutines.">
+      <attr value="1 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="ESA Contract" graphics="ESAContract.jpg" back="1" text="{A}: Draw two cards.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Euromarket Consortium" graphics="EuromarketConsortium.jpg" back="1" text="Hand size +2A, {1}: Draw two cards.">
+      <attr value="4 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Experimental AI" graphics="ExperimentalAI.jpg" back="1" text="You may advance Experimental AI before and afteryou rez it. When Runner accesses Experimental AI, it destroys one program for each advancement counter on it.">
+      <attr value="0 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="AI-Ambush" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Fortress Architects" graphics="FortressArchitects.jpg" back="1" text="Cost to install ice is reduced by {1}.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Hacker Tracker Central" graphics="HackerTrackerCentral.jpg" back="1" text="After each trace attempt, whether successful or not, put {1} from the bank on Hacker Tracker Central. During a trace attempt, each bit you spend from Hacker Tracker Central increases by 1 both your trace strength and your trace limit.">
+      <attr value="2 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Holovid Campaign" graphics="HolovidCampaign.jpg" back="1" text="Put {12} from the bank on Holovid Campaign when you rez it. Take {1} from Holovid Campaign at the start of each of your turns. When all the bits have been removed, trash Holovid Campaign.">
+      <attr value="7 T" key="trash"/>
+      <attr value="4" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Advertisement" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="I Got a Rock" graphics="IGotaRock.jpg" back="1" text="A, 3 agenda points, Do 15 meat damage to Runner. Use this ability only if Runner has two or more tags.">
+      <attr value="2 T" key="trash"/>
+      <attr value="3" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Information Laundering" graphics="InformationLaundering.jpg" back="1" text="You may advance Information Laundering before and after you rez it. A, T: Gain {4} for each advancement counter on Information Laundering.">
+      <attr value="1 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Transactions" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Investment Firm" graphics="InvestmentFirm.jpg" back="1" text="Take {1} from Investment Firm, if it has any bits, at the start of each of your turns. Whenever {1} or more bits are added to your pool, you may put {2} from the bank on Investment Firm for each {1} you choose not to add to your pool. Effects that give you bits at the start of your turn cannot be used this way.">
+      <attr value="2 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Transactions" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Jenny Jett" graphics="JennyJett.jpg" back="1" text="Whenever Runner makes a successful run on this fort, you may choose an ice card stored in HQ. Install that piece of ice on this fort in the innermost position, paying an installation cost of {1} for each piece of ice already on the fort. Runner is now considered to be approaching that piece of ice. Use this ability only once during each run on this fort.">
+      <attr value="1 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sysop" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Jerusalem City Grid" graphics="JerusalemCityGrid.jpg" back="1" text="Cost to rez walls on this fort is reduced by {2}. All walls on this fort have +1 strength. Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.">
+      <attr value="5 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Krumz" graphics="Krumz.jpg" back="1" text="Put {1} from the bank on Krumz when you rez it. Use this bit only to pay for traces. If you use this bit, replace it at the start of your next turn.">
+      <attr value="2 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="AI" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Namatoki Plaza" graphics="NamatokiPlaza.jpg" back="1" text="Rez Namatoki Plaza when you install it. Install Namatoki Plaza only if you can pay to rez it. Install only inside a subsidiary data fort. That fort may have an additional agenda or node installed inside it. If Namatoki Plaza leaves play while installed, and this results in the fort having too many agendas and nodes installed inside it, trash one of those agendas or nodes.">
+      <attr value="1 T" key="trash"/>
+      <attr value="3" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Nevinyrral" graphics="Nevinyrral.jpg" back="1" text="Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.">
+      <attr value="5 T" key="trash"/>
+      <attr value="3" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="AI-Unique" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="New Galveston City Grid" graphics="NewGalvestonCityGrid.jpg" back="1" text="All nodes and other upgrades installed inside this fort cost {2}, in addition to the normal cost, to trash. Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.">
+      <attr value="4 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Newsgroup Taunting" graphics="NewsgroupTaunting.jpg" back="1" text="At the start of each run, Runner must pay {1}, inaddition to any other costs, or end the run.">
+      <attr value="0 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Olivia Salazar" graphics="OliviaSalazar.jpg" back="1" text="For half cost, rounded down, rez a piece of ice installed on this fort. Derez that ice at the end of the run. Use this ability only once during each run on this fort.">
+      <attr value="1 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sysop" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Omni Kismet, Ph.D." graphics="OmniKismetPhD.jpg" back="1" text="Swap a piece of unrezzed ice on this fort with an ice card stored in HQ. The new ice card comes into play concealed. Use this ability only once during each run on this fort.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sysop" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Omniscience Foundation" graphics="OmniscienceFoundation.jpg" back="1" text="Give Runner a tag at the end of each turn during which Runner received a tag.">
+      <attr value="1 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Pacifica Regional AI" graphics="PacificaRegionalAI.jpg" back="1" text="You may advance Pacifica Regional AI before and after you rez it. Regional AI Advancement counter: Gain an action.">
+      <attr value="0 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="AI" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Paris City Grid" graphics="ParisCityGrid.jpg" back="1" text="Put {3} from the bank on Paris City Grid when you rez it. Use these bits only to pay for traces made during runs on this fort. If you use any of these bits, replace them at the start of your next turn. Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may beinstalled in each fort. Trash older ones.">
+      <attr value="6 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Red Herrings" graphics="RedHerrings.jpg" back="1" text="Runner must pay {5}, in addition to any other costs, to steal agendas accessed from this fort, even on the run during which Runner trashes Red Herrings.">
+      <attr value="1 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Remote Facility" graphics="RemoteFacility.jpg" back="1" text="Gain an action during each of your turns.">
+      <attr value="1 T" key="trash"/>
+      <attr value="5" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Rescheduler" graphics="Rescheduler.jpg" back="1" text="{A}: Note the number of cards stored in HQ. Shuffle those cards into R&amp;D, and then draw that many cards.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Rio de Janeiro City Grid" graphics="RiodeJaneiroCityGrid.jpg" back="1" text="Roll a die whenever Runner passes a piece of rezzed ice during a run on this fort. On a 1, end the run. Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.">
+      <attr value="6 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region-Random" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Rockerboy Promotion" graphics="RockerboyPromotion.jpg" back="1" text="Put {15} from the bank on Rockerboy Promotion when you rez it. When all the bits have been removed, trash Rockerboy Promotion. {A}: Take {3} from Rockerboy Promotion.">
+      <attr value="3 T" key="trash"/>
+      <attr value="4" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Advertisement" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+	  <attr value="15" key="rez_counters"/>	  
+    </card>
+    <card name="Roving Submarine" graphics="RovingSubmarine.jpg" back="1" text="Install only inside a subsidiary data fort. This fort may be run only if you installed or advanced a card inside oron this fort during your last turn. Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.">
+      <attr value="0 T" key="trash"/>
+      <attr value="3" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Rustbelt HQ Branch" graphics="RustbeltHQBranch.jpg" back="1" text="Hand size +2">
+      <attr value="2 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Schlaghund" graphics="Schlaghund.jpg" back="1" text="{A}: Roll a die. If you roll less than or equal to the number of tags Runner has, Schlaghund does 10 meat damage and you trash Schlaghund.">
+      <attr value="4 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Random-Black Ops" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Setup!" graphics="Setup.jpg" back="1" text="When Runner accesses Setup!, it does 2 Net damage, even if it is not installed. Ignore this effect if Runner accesses it from the Archives. If Setup! is accessed from R&amp;D, Runner must show it to you.">
+      <attr value="0 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Singapore City Grid" graphics="SingaporeCityGrid.jpg" back="1" text="Swap a piece of unrezzed ice on this fort with an ice card stored in HQ. The new ice card comes into play concealed. Use this ability only once during each run on this fort. Rez a region when you install it. Install a region onlyif you can pay to rez it. Only one region may be installed in each fort. Trash older ones.">
+      <attr value="5 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Skälderviken SA Beta Test Site" graphics="SkaldervikenSABetaTestSite.jpg" back="1" text="Cost to rez black ice is reduced by {2}.">
+      <attr value="2 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Solo Squad" graphics="SoloSquad.jpg" back="1" text="{A}: Do 1 meat damage. Use this ability only if Runner is tagged.">
+      <attr value="3 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="South African Mining Corp" graphics="SouthAfricanMiningCorp.jpg" back="1" text="A, A, {A}: Gain {6}.">
+      <attr value="1 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Transactions" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Spinn{R} Public Relations" graphics="SpinnPublicRelations.jpg" back="1" text="Take {1} from Spinn{R} Public Relations, if it has any bits, at the start of each of your turns. {A}: Put {3} from the bank on Spinn{R} Public Relations.">
+      <attr value="4 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Transactions" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Tesseract Fort Construction" graphics="TesseractFortConstruction.jpg" back="1" text="All ice on this fort has an additional subroutine, &quot;. {S}: End the run unless Runner pays {1},&quot; after allother subroutines.">
+      <attr value="3 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Tokyo-Chiba Infighting" graphics="TokyoChibaInfighting.jpg" back="1" text="Gain {2} after each unsuccessful run on this fort. Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.">
+      <attr value="6 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="TRAP!" graphics="TRAP.jpg" back="1" text="If you pay {4} when Runner accesses TRAP!, it does 3 Net damage and gives Runner a tag, even if TRAP! is not installed. Ignore this effect if Runner accesses it from the Archives. If TRAP! is accessed from R&amp;D, Runner must show it to you.">
+      <attr value="0 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Turbeau Delacroix" graphics="TurbeauDelacroix.jpg" back="1" text="Trace 10-If trace is successful, give Runner a tag. Use this ability only when Runner accesses Turbeau Delacroix, and only once during each run on this fort.">
+      <attr value="2 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sysop-Ambush" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Twenty-Four-Hour Surveillance" graphics="TwentyFourHourSurveillance.jpg" back="1" text="During runs on this fort, Runner cannot use bits from stealth sources.">
+      <attr value="2 T" key="trash"/>
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Vacant Soulkiller" graphics="VacantSoulkiller.jpg" back="1" text="You may advance Vacant Soulkiller before and after you rez it. When Runner accesses Vacant Soulkiller, it does 1 brain damage for each advancement counter on it.">
+      <attr value="0 T" key="trash"/>
+      <attr value="2" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Vapor Ops" graphics="VaporOps.jpg" back="1" text="You may advance Vapor Ops before and after you rez it. Vapor Ops advancement Counter: Gain {1}. {A}: Move any number of advancement counters from Vapor Ops to another installed card that can be advanced.">
+      <attr value="1 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Virus Test Site" graphics="VirusTestSite.jpg" back="1" text="You may advance Virus Test Site before and after you rez it. When Runner accesses Test Site, it does 2 Net damage per advancement counter on it, or 1 Net damage if it has no counters, even if it is not installed or rezzed. Ignore this effect if Runner accesses it from the Archives. If Test Site is accessed from R&amp;D, Runner must show it to you.">
+      <attr value="0 T" key="trash"/>
+      <attr value="0" key="cost"/>
+      <attr value="CU" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Washington, D.C., City Grid" graphics="WashingtonDCCityGrid.jpg" back="1" text="The difficulty of agendas installed inside this fort is reduced by 1. Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.">
+      <attr value="6 T" key="trash"/>
+      <attr value="7" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+  </cards>
+</ccg-setinfo>

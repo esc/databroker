@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Classic" game="NetRunner" dir="classic" abbrev="CL">
+  <cards>
+    <card name="Badtimes" graphics="Badtimes.jpg" back="1" text="Play only if Runner is tagged. Runner's MU is reduced by 2 until end of turn.">
+      <attr value="4" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Virus" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Baskerville" graphics="Baskerville.jpg" back="1" text="{S}: Do 2 Net damage. {S}: Trace5 - If trace is successful, give Runner a Baskerville counter. Each counter does 2 Net damage at the start of each run. Runner may remove a Baskerville counter by taking an action to spend {3}. {S}: End the run. If Runner has used a noisy icebreaker during this run, the cost to rez Baskerville is reduced by {5}.">
+      <attr value="10" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry - AP - Hellhound - Sleepy" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Bolter Swarm" graphics="BolterSwarm.jpg" back="1" text="{S}: Do 4 Net damage. {S}: Runner cannot break any subroutines on the next piece of ice encountered during this run. If Runner has used a noisy icebreaker during this run, the cost to rez Bolter Swarm is reduced by {5}.">
+      <attr value="8" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry - AP - Hellbolt - Sleepy" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Brain Drain" graphics="BrainDrain.jpg" back="1" text="{S}: Roll a die. On a 1, do 3 brain damage.">
+      <attr value="3" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry - Black Ice - AP" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Corporate Shuffle" graphics="CorporateShuffle.jpg" back="1" text="Draw five cards, then shuffle a card stored in HQ into R&amp;D. Playing a double operation costs two consecutive actions this turn instead of one.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Double" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Data Fort Remapping" graphics="DataFortRemapping.jpg" back="1" text="Put a Remap counter on Data Fort Remapping when you score it. Remap Counter: End a run.">
+      <attr value="4" key="difficulty"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Deadeye" graphics="Deadeye.jpg" back="1" text="{S}: Trash a program. {S}: End the run. If Runner has used a noisy icebreaker during this run, the cost to rez Deadeye is reduced by {5}.">
+      <attr value="5" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry - Killer - Sleepy" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Dumpster" graphics="Dumpster.jpg" back="1" text="Dumpster cannot be installed on the Archives. {S}: Runner is now encountering the outermost piece of rezzed ice on the Archives, instead of passing Dumpster. The run is now considered to be a run on the Archives. If there is no rezzed ice on the Archives, Runner is considered to have passed the last piece of ice on the Archives.">
+      <attr value="5" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate - Deflector" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Entrapment" graphics="Entrapment.jpg" back="1" text="{S}: If you pay {2}, Runner is now encountering the outermost piece of rezzed ice on a data fort of your choice, instead of passing Entrapment. The run is now considered to be a run on that data fort. If there is no rezzed ice on that fort, Runner is considered to have passed the last piece of ice on that fort.">
+      <attr value="2" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate - Deflector" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Glacier" graphics="Glacier.jpg" back="1" text="Rezzing Glacier cost 1 agenda point, in addition to the normal cost. {S}: End the run. {S}: End the run. {1}: Move Glacier to the outermost position of any other data fort. Use this ability only at the start of a run. You may use this ability even if Glacier is unrezzed, in which case, you reveal it.">
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Wall" key="card_subtype"/>
+      <attr value="Wall" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Imperial Guard" graphics="ImperialGuard.jpg" back="1" text="{S}: Trash a program. {S}: End the run. If Runner has used a noisy icebreaker during this run, the cost to rez Imperial Guard is reduced by {5}.">
+      <attr value="10" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sentry - Killer - Sleepy" key="card_subtype"/>
+      <attr value="Sentry" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Indiscriminate Response Team" graphics="IndiscriminateResponseTeam.jpg" back="1" text="After Runner makes a successful run, you may have Runner shuffle his or her hand into his or her stack and then draw as many cards as he or she had before.">
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Black Ops" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="London City Grid" graphics="LondonCityGrid.jpg" back="1" text="Runner must pay {1}, in addition to the normal cost, to use each subroutine of a noisy icebreaker during runs on this fort. Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.">
+      <attr value="3" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="6" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Region" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Puzzle" graphics="Puzzle.jpg" back="1" text="{S}: End the run, and trash Puzzle at end of turn. {S}: End the run, and trash Puzzle at end of turn.">
+      <attr value="2" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Reclamation Project" graphics="ReclamationProject.jpg" back="1" text="Search the archives for any number of ice cards. Show those cards to Runner, then store them in HQ. Playing a double operation costs two consecutive actions this turn instead of one.">
+      <attr value="0" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Double" key="card_subtype"/>
+      <attr value="Operation" key="card_type"/>
+    </card>
+    <card name="Satellite Monitors" graphics="SatelliteMonitors.jpg" back="1" text="At the start of each of your turns, you may roll a die for each run Runner made during his or her last turn. Dor each 1, give Runner a tag.">
+      <attr value="3" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="1" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Self-Destruct" graphics="SelfDestruct.jpg" back="1" text="Install Self-Destruct only in a subsidiary data fort. {T}. Traah all other cards installed in or on this data fort. Do 1 Net damage for each card successfully trashed in this way. Use this ability only when Runner accesses Self-Destruct.">
+      <attr value="2" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Shock Treatment" graphics="ShockTreatment.jpg" back="1" text="When Runner accesses Shock Treatment, trash all pieces of hardware and two programs. Ignore this effect unless Runner has four or more tags.">
+      <attr value="2" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="5" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Ambush" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Sterdroid" graphics="Sterdroid.jpg" back="1" text="{3}, {T}: Choose a piece of ice. That ice's strength is doubled until end of turn. If this would raise the ice's strength above 10, ist strength becomes 10.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Strategic Planning Group" graphics="StrategicPlanningGroup.jpg" back="1" text="Whenever you draw one or more cards, draw an extra card. Then place one of the drawn cards on the bottom of R&amp;D. Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.">
+      <attr value="2" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="4" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Unique" key="card_subtype"/>
+      <attr value="Node" key="card_type"/>
+    </card>
+    <card name="Street Enforcer" graphics="StreetEnforcer.jpg" back="1" text="At the start of each run on this data fort, Runner loses {X}, where X is equal to the number of tags Runner has.">
+      <attr value="1" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Sysop" key="card_subtype"/>
+      <attr value="Upgrade" key="card_type"/>
+    </card>
+    <card name="Superserum" graphics="Superserum.jpg" back="1" text="When you score Superserum, remove all Virus counters, and avoid receiving the next two Virus counters Runner gives to you.">
+      <attr value="3" key="difficulty"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Research" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Theorem Proof" graphics="TheoremProof.jpg" back="1" text="If Runner accesses Theorem Proof, he or she does not score it, but instead may install it as a 2 MU program that has the ability &quot;A: Score Theorem Proof&quot; but is removed from the game if it leaves play in any other way.">
+      <attr value="5" key="difficulty"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="agenda"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Research" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Trapdoor" graphics="Trapdoor.jpg" back="1" text="Install Trapdoor only on R&amp;D or HQ. {S}: Runner is now encountering the outermost piece of rezzed ice on a subsidiary data fort of your choice, instead of passing Trapdoor. The run is now considered to be a run on that data fort. If there is no rezzed ice on that fort, Runner is considered to have passed the last piece of ice on that fort. Runner automatically breaks this subroutine if there are no subsidiary data forts.">
+      <attr value="3" key="cost"/>
+      <attr value="CR" key="rarity"/>
+      <attr value="3" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate - Deflector" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Unlisted Research Lab" graphics="UnlistedResearchLab.jpg" back="1" text="Draw an additional card at the start of each of your turns.">
+      <attr value="3" key="difficulty"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="2" key="agenda"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Asset - Gray Ops" key="card_subtype"/>
+      <attr value="Agenda" key="card_type"/>
+    </card>
+    <card name="Vortex" graphics="Vortex.jpg" back="1" text="{S}: If you pay {2}, Runner is now encountering the outermost piece of rezzed ice on a data fort of your choice, instead of passing Vortex. The run is now considered to be a run on that data fort. If there is no rezzed ice on that fort, Runner is considered to have passed the last piece of ice on that fort.">
+      <attr value="0" key="cost"/>
+      <attr value="CC" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Corp" key="faction"/>
+      <attr value="Code Gate - Deflector" key="card_subtype"/>
+      <attr value="Code Gate" key="ice_type"/>
+      <attr value="Ice" key="card_type"/>
+    </card>
+    <card name="Boostergang Connections" graphics="BoostergangConnections.jpg" text="Trash your hand. Search your stack for as many cards as were successfuly trashed in this way and bring them into your hand. Shuffle your stack afterward.">
+      <attr value="7" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Corruption" graphics="Corruption.jpg" text="Play only if you scored any agendas this turn. Lose all agenda points you scored this turn, and the Corp scores that many agenda points. Gain [10] per agenda point lost in this way, and the Corp gives you a tag.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Crash Space" graphics="CrashSpace.jpg" text="Gain {1} at the start of each of your turns. All trace attempts are automatically successful, and give you a tag in addition to their other effects. If Crash Space leaves play lose {2}. A: Trash Crash Space. Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.">
+      <attr value="2" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Unique" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Do the 'Drine {TM}" graphics="DotheDrine.jpg" text="Suffer any amount of brain damage, but not enough to flatline you or to reduce your hand size to less than 0. Gain {4} for each point of brain damage you suffer in this way. This damage cannot be prevented.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Early Worm" graphics="EarlyWorm.jpg" text="{1}: Break wall subroutine. {2}: +3 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker - Worm" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Elena Laskova" graphics="ElenaLaskova.jpg" text="Whenever you play a prep, gain an additional {1} the first time you gain bits from its effet. Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.">
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection - Unique" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Executive File Clerk" graphics="ExecutiveFileClerk.jpg" text="{2},{T}: Look at all cards stored in HQ. Hidden resources are installed face down, but are put into the trash face up.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Connection - Hidden" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Finders Keepers" graphics="FindersKeepers.jpg" text="Roll three dice. Gain that many bits.">
+      <attr value="7" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Random" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Gypsy {TM} Schedule Analyzer" graphics="GypsyScheduleAnalyzer.jpg" text="Make a run on R&amp;D. If run is successful, do not access any cards. Instead, reveal cards one at a time from R&amp;D until you reveal an agenda card or there are no cards left in R&amp;D. Store the agenda, if any, in HQ and shuffle the other revealed cards, if any, into R&amp;D.">
+      <attr value="2" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Library Search" graphics="LibrarySearch.jpg" text="Make a run on R&amp;D or HQ. If run is successful, access two additional cards if you used no noisy icebreakers during the run and if no trace attempts were made during the run.">
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Little Black Box" graphics="LittleBlackBox.jpg" text="Provides +1 MU and +1 hand size. Prevent up to 1 Net or brain damage each turn. Put {1} from the bank on Little Black Box when it is installed. Use this bit only to pay for increasing your link. If you use the bit, replace it from the bank at the start of your next turn. Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="4" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Matador" graphics="Matador.jpg" text="{1}: Break sentry subroutine. {3}: +5 strength">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="0" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker - Killer" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Meat Upgrade" graphics="MeatUpgrade.jpg" text="Remove up to two tags, at no cost, and draw three cards. Playing a double prep costs two consecutive actions this turn instead of one.">
+      <attr value="2" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Double" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="MS-todon" graphics="MStodon.jpg" text="{1}: Break sentry subroutine. {1}: +1 strength The first time during each run that you break a sentry subroutine with MS-todon, lose all bits from all stealth cards, if you can, and the Corp gives you a tag.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="4" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker - Killer - Noisy" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Networking" graphics="Networking.jpg" text="Gain {9}. Playing a double prep costs two consecutive actions this turn instead of one.">
+      <attr value="3" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Double" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+	  <attr value="9" key="play_effect_gain"/>	  
+    </card>
+    <card name="Omnitech &quot;Spinal Tap&quot; Cybermodem" graphics="OmnitechSpinalTapCybermodem.jpg" text="Provides +1 Mu. Put {2} fromthe bank on Omnitech &quot;Spinal Tap&quot; Cybermodem when it is installed. Use this bits only to pay for using icebreakers during runs or increasing your link. If you use any of these bits, replace them at the start of your next turn. At the start of each of your turns roll a die. On a 1, suffer 2 brain damage. This damage cannot be prevented. If Omnitech &quot;Spinal Tap&quot; Cyermodem leaves play suffer 2 brain damage. Only one deck can be in play at a time. Trash any older decks.">
+      <attr value="5" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Deck - Random" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Omnitech Wet Drive" graphics="OmnitechWetDrive.jpg" text="Your base MU is equal to the number of cards in your hand instead of 4.">
+      <attr value="0" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Cybernetics" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Panzer Run" graphics="PanzerRun.jpg" text="Gain {4} and draw two cards. Playing a double prep costs two consecutive actions this turn instead of one.">
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Double" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+ 	  <attr value="4" key="play_effect_gain"/>	  
+  	  <attr value="2" key="play_effect_draw"/>	  
+    </card>
+    <card name="Psychic Friend" graphics="PsychicFriend.jpg" text="{1}: Break code gate subroutine. {2}: +1 strength until end of turn">
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="1" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker - 1MU" key="card_subtype"/>
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Rent-I-Con" graphics="RentICon.jpg" text="{1}: Break ice subroutine. At the end of this run, trash Rent-I-Con. {1}: +1 strength">
+      <attr value="2 MU" key="memory_use"/>
+      <attr value="3" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="2" key="strength"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Icebreaker" key="card_subtype"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Running Interference" graphics="RunningInterference.jpg" text="Make a run. During that run, the Corp must pay {X}, in addition to the normal cost, to rez each piece of ice, where X is the rez cost of that piece of ice. Playing a double prep costs two consecutive actions this turn instead of one.">
+      <attr value="2" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Double" key="card_subtype"/>
+      <attr value="Prep" key="card_type"/>
+    </card>
+    <card name="Sandbox Dig" graphics="SandboxDig.jpg" text="{3}, {T}: Look at the top three cards stored in R&amp;D. Hidden resources are installed face down, but are put into the trash face up.">
+      <attr value="0" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Hidden" key="card_subtype"/>
+      <attr value="Resource" key="card_type"/>
+    </card>
+    <card name="Schematics Search Engine" graphics="SchematicsSearchEngine.jpg" text="Whenever you access cards from HQ, expose all of the Corp's installed cards.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RR" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Superglue" graphics="Superglue.jpg" text="{T}: Derez a piece of ice. Use this ability only if you have just broken all the subroutines of that piece of ice.">
+      <attr value="1 MU" key="memory_use"/>
+      <attr value="2" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Program" key="card_type"/>
+    </card>
+    <card name="Vintage Camaro" graphics="VintageCamaro.jpg" text="{1}, Forgo your next action: Avoid receiving a tag.">
+      <attr value="1" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Vehicle" key="card_subtype"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+    <card name="Zetatech Portastation" graphics="ZetatechPortastation.jpg" text="Put {1} from the bank on Zetatech Portostation when it is installed. Use this bit only to pay for playing preps. If you use the bit, replace it from the bank at the start of your next turn.">
+      <attr value="3" key="cost"/>
+      <attr value="RC" key="rarity"/>
+      <attr value="Runner" key="faction"/>
+      <attr value="Hardware" key="card_type"/>
+    </card>
+  </cards>
+</ccg-setinfo>
