@@ -1,0 +1,68 @@
+#Title:
+#Security Code Cowboy
+#
+#Format:
+#CM, 15
+#
+#Author:
+#Fabian Fritzer
+#
+#Date:
+#Tue Mar 25, 2008 10:14 pm
+#
+#Deck list:
+8 [2.1] Armageddon {NR-PROTEUS}
+6 [1.0] Core Command: Jettison Ice {NR-BASESET}
+8 [1.0] Security Code WORM Chip {NR-BASESET}
+8 [1.0] Junkyard BBS {NR-BASESET}
+8 [1.0] Inside Job {NR-BASESET}
+8 [CM] Aubrey, Apprentice Cowboy {NR-CM}
+8 [CM] AI Template {NR-CM}
+8 [CM] Archive Storage Service {NR-CM}
+1 [2.2] Rent-I-Con {NR-CLASSIC}
+1 [1.0] Shredder Uplink Protocol {NR-BASESET}
+1 [2.1] Death from Above {NR-PROTEUS}
+1 [1.0] Terrorist Reprisal {NR-BASESET}
+1 [CM] Lars Dali, Consumer Advocate {NR-CM}
+2 [1.0] Sneak Preview {NR-BASESET}
+5 [1.0] The Short Circuit {NR-BASESET}
+7 [1.0] Mantis, Fixer-at-Large {NR-BASESET}
+8 [2.2] Panzer Run {NR-CLASSIC}
+8 [CM] Private Kelp Tank {NR-CM}
+8 [2.2] Vintage Camaro {NR-CLASSIC}
+1 [1.0] Back Door to Hilliard {NR-BASESET}
+7 [2.1] Back Door to Netwatch {NR-PROTEUS}
+7 [CM] What You Don't Know... {NR-CM}
+
+#Description:
+#120 cards 
+#
+#Last year, we played a 1/15 tournament with Chrysalid Matrix. The 
+#requirement was to have at least one third of Chrysalid Matrix cards in 
+#your deck. 
+#
+#I played with a "fat stack" (120 cards) for being allowed to include 8 
+#AI Templates. AI Template is a useful, but balanced Chrysalid Matrix 
+#card. With AI Template + Inside Job, you can auto-pass two ICE. 
+#
+#Archive Storage Service is less useful; I only included it for having 
+#something to trash with AI Template and for fulfilling the requirement 
+#with at least one third Chrysalid Matrix cards. 
+#
+#Lars Dali is a nice Chrysalid Matrix card, because it forces the Corp to 
+#play with many different agendas; decks with only Employee Empowerment 
+#or only Corporate War won't work once this card is in play. 
+#
+#The combo Security Code Worm Chip + Armageddon + Aubrey, Apprentice 
+#Cowboy exploits the fact that Aubrey allows you to make two runs at the 
+#end of your turn, after your 4th action. So you play an Inside Job on HQ 
+#with action 1, then Worm Chip with action 2 (trashing Ice on R&D), use 
+#Junkyard with action 3, Worm Chip again with action 4, trashing another 
+#Ice on R&D. This only costs you three bits! Now, your turn would 
+#normally end. But with Aubrey, you can now run an unprotected R&D and 
+#give the Corp Armageddon counters. 
+#
+#And one note on Private Kelp Tank: It is a nice and balanced card, a bit 
+#too slow for Constructed perhaps. In my opinion, the additional sentence 
+#"If any of your other installed resources leaves play, trash Private 
+#Kelp Tank" should be left away. 

@@ -1,0 +1,165 @@
+#Title:
+#Fermat's Last Big Theorems
+#
+#Format:
+#Revised
+#
+#Author:
+#Olaf Ulrich and Michael Nock
+#
+#Date:
+#2004
+#
+#Deck list:
+6 Edgerunner, Inc., Temps
+4 Project Consultants
+26 Team Restructuring
+14 Theorem Proof
+6 ACME Savings and Loan
+20 Executive Boot Camp
+4 Pacifica Regional AI
+20 Panic Button
+#
+#Description:
+#A variant to the Big Button deck that makes use of Theorem Proof. 
+#Instead of pillaging the Archives with Stereogram Antibodies the corp 
+#can get away with discarding and losing that agenda to runner in the 
+#first turn. It will be impossible to score three such agendas in one 
+#turn without any preparation beforehand. 
+#
+#The general recipe for a Big Button can be outlined as follows:
+#Turn 1 SOT(BITS 5) Draw one card
+#-A1(BITS 5) take 1 bit
+#-A2(BITS 6) install Panic Button
+#-A3(BITS 6) install Executive Boot Camp
+#
+#Runner runs HQ: 
+#Rez Executive Boot Camp, discard 4 cards gain 8 bits, Use one of these 
+#bits to rez Panic Button, then draw cards, use EBC again and so forth 
+#to draw all cards remaining in R&D except for one. 
+#
+#For the Theorem Proof variant the corp continues like that:
+#Turn 2 SOT(BITS 6) draw one card
+#-A1(BITS 6) Edgerunner: Pacifica Regional AI, Theorem Proof, 
+#ACME Savings and Loan
+#-A2(BITS 5) Team Restructuring (Pacifica Regional AI(1 AC), 
+#Theorem Proof1 (1 AC))
+#...
+#-A6(BITS 1) Team Restructuring (Pacifica Regional AI(2 AC), 
+#Theorem Proof1 (5 AC)), score Theorem Proof1, trigger ACME (BITS +12)
+#-A7(BITS 12) Edgerunner (Theorem Proof2, Theorem Proof3) | 
+#Pacifica Regional AI(1 AC)
+#-A8(BITS 11) Team Restructuring (Pacifica Regional AI(1 AC), 
+#Theorem Proof2 (1 AC))
+#...
+#-A12(BITS 7) Team Restructuring (Pacifica Regional AI(1 AC), 
+#Theorem Proof2 (5 AC)), score Theorem Proof2
+#-A13(Bits 6) Team Restructuring (Pacifica Regional AI(1 AC), 
+#Theorem Proof3 (1 AC))
+#...
+#-A17(Bits 2) Team Restructuring (Pacifica Regional AI(1 AC), 
+#Theorem Proof3 (5 AC)), score Theorem Proof3, win with 8 AP
+#
+#
+#There are many ways to implement the Big Button scheme, some of them
+#are listed below as kits and two full deck implementations of two 
+#such kits as further examples.
+#
+#Full deck implementation of kit 3
+#(100 cards)
+#
+#04 Charity Takeover 
+#06 Political Overthrow
+#04 Edgerunner
+#26 Team Restructuring
+#20 Executive Boot Camp
+#04 Pacifica Regional AI
+#16 Stereogram Antibody
+#20 Panic Button
+#
+#
+#Full deck implementation of kit 5
+#(90 cards)
+#
+#08 Corporate War
+#06 Edgerunner
+#08 Team Restructuring
+#06 Project Consultants
+#18 Executive Boot Camp
+#03 Pacifica Regional AI
+#15 Stereogram Antibody
+#06 ACME Savings and Loan
+#18 Panic Button
+#
+#
+#Kit 1: 23 cards
+#
+#02 Edgerunner
+#01 Accounts Receivable
+#03 Agendas
+#01 Pacifica Regional AI
+#01 ACME Savings 
+#
+#Kit 2: 25 cards
+#
+#03 Edgerunner
+#00 Accounts Reveivable
+#03 Agendas
+#01 Pacifica Regional AI
+#02 ACME Savings and Loan
+#02 Remote Facility
+#14 Team Restructuring
+#
+#Kit 3: 14 cards
+#01 Charity Takeover
+#01 Political Overthrow
+#11 Team Restructuring
+#01 Pacifica Regional AI
+#
+#Kit 4: 14 cards
+#01 Corporate Downsizing
+#02 Political Overthrow
+#10 Team Restructuring
+#01 Pacifica Regional AI
+#
+#Kit 5: 11 cards
+#03 Corporate War
+#02 ACME Savings and Loan
+#03 Team Restructuring
+#01 Pacifica Regional AI
+#02 Project Consultants
+#
+#Kit 6: 24 cards
+#04 Data Fort Reclamation
+#03 Payback ICE
+#13 Team Restructuring
+#01 Pacifica Regional AI
+#03 Washington DC City Grid
+#
+#Kit 7: 17 cards
+#02 Data Fort Reclamation
+#01 Corporate War
+#02 Payback ICE
+#09 Team Restructuring
+#01 Pacifica Regional AI
+#02 Washington DC City Grid
+#
+#Kit 8: 15 cards
+#02 Political Overthrow
+#01 Corporate Downsizing
+#06 Team Restructuring
+#01 Pacifica Regional AI
+#01 Information Laundering
+#01 Nevinyrral
+#01 ACME Savings and Loan
+#02 Project Consultants
+#
+#Kit 9: 14+X cards
+#02 Political Overthrow
+#01 Corporate Downsizing
+#06 Team Restructuring
+#01 Pacifica Regional AI
+#01 Information Laundering
+#0X Remote Facility
+#01 ACME Savings and Loan
+#02 Project Consultants

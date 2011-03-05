@@ -1,0 +1,186 @@
+#Title:
+#Nasty Code Gate
+#
+#Format:
+#n/a
+#
+#Author:
+#Jim McCoy
+#
+#Date:
+#Tue, 21 Jan 1997 17:42:57 -0800
+#
+#Deck list:
+8 Misleading Access Menus
+10 Ball and Chain
+3 Mazer
+2 Haunting Inquisition
+1 Rock is Strong
+1 Minotaur
+1 Code Corpse
+1 Chester Mix
+3 Antiquated Interface Routines
+2 Crystal Palace Station Grid
+1 Virus Test Site
+4 Encoder, Inc.
+1 BBS Whispering Campaign
+3 Off-Site Backup
+3 Accounts Receivable
+1 New Blood
+1 AI Chief Financial Officer
+4 Encryption Breakthroughs
+3 Tycho Extensions
+
+#Description:
+#As promised, here is my current fave corp deck built around code
+#gates.  This deck is very versatile, and is particularly nice against
+#LFC decks, anything using BartMoss, and runners who try to use
+#Precision Bribery (it only needs two subforts to play well...)
+#
+#How to play this deck
+#When you start off the odds favor you pulling two or three pieces of ice,
+#if your starting hand is all ice and operations (or upgrades like Crystal
+#Palace which are expensive to trash) you create two subforts and put a
+#piece of ice on R&D.  If you draw an agenda you ice HQ and leave R&D.
+#The objective during the initial turns should be to build one strong
+#fort (with Minotaur or Haunting Inquisition at the inside) and a second
+#subfort which has reasonable protection.  If Precision Bribery is not
+#played by the runner then you can create a third subfort (this fort can
+#be weaker than the others and consist mostly of Misleading Access Menus.)
+#
+#The fun begins when you draw your first Encoder, Inc. and place it in
+#the second subfort.  This card is the key to this deck.  The one bit
+#reduction in rez cost is nice, but the key attribute of Encoders is the
+#"add one end the run subroutine to each code gate."  With a single
+#Encoder in play Misleading Access Menus gains you three bits and stops
+#runners better than Sleeper.  The card which really wins with Encoders is
+#Ball and Chain.  This card in now better than a Mazer (Strength 5 with
+#and end the run) and has the annoying "pay two bits when encountering
+#ice" routine which eventually will always need to be broken as the
+#forts get bigger and bigger.  With two Encoders in play (the second Encoder
+#goes into subfort #3) the Ball and Chain rezzes for free and has two
+#end the run subroutines.  Once a single Encoders is in play the runner is
+#also usually obligated to break the "pay two bits when encountering a
+#piece of ice for the remainder of the run" routine because after raising
+#the icebreaker strength enough to get past the end of run routines it will
+#at least cost as much to pay that subroutine penalty as to break the
+#routine (the only exception is when Ball and Chain is the inside piece of
+#ice, but this usually only happens at the beginning of the game or during
+#the midgame until the New Blood is played and the Ball and Chain ice is
+#rearranged to the outside of the forts.)
+#
+#The big ice (Minotaur, Code Corpse, Rock, and Haunting Inquisition) are to
+#keep the runner honest.  There is no getting around installing a full set
+#of breakers against this deck.  Chester Mix makes building the big fort
+#cost less, and the Antiquated Interface Routines are a nice way to boost
+#the strength of the ice (as well as pushing Mazer and Ball and Chain above
+#the second breakpoint for Skeleton Passkeys.)  The Crystal Palace Station
+#Grid gets installed on the big fort.  Now each of those "end the run" routines
+#which Encoders is adding on to all of the code gates cost an additional bit,
+#and if the runner is trying to get through using icebreakers which have a
+#zero break cost they will start feeling the "death by a thousand paper cuts"
+#which this deck is designed to inflict.
+#
+#The New Blood is to rearrange your ice once you have the Minotaur
+#installed somewhere.  With New Blood you can rearrange the main subfort
+#so that Minotaur is at the bottom (and with a Crystal Palace and AIR
+#upgrade that Minotaur becomes a real bitch to get past...)  The Off-Site
+#Backups are to recover the Encoder, Inc. which get trashed by the runner
+#once they catch on to what is happening.  With a zero rez cost on Encoder
+#you can simply think of Off-Site as Encoder-to-be which can't be trashed
+#out of HQ or R&D and which can be used to pick up another trashed card if
+#you happen to need it :)  [With this deck I will sometimes store a few
+#agenda in Archives and pull them back when I want them, the runner is
+#usually too distracted by preparing for the big forts to make a run on
+#Archives and it reduces the need to protect HQ.]
+#
+#The agenda is fairly simple.  The Encryption Breakthrough makes each code
+#gate one stronger, and if you score after four or five turns you will end
+#up getting ten or twelve bits from it because almost all of the ice are
+#code gates.  The strength boost from Encryption Breakthroughs is also a
+#big win against certain runner icebreakers.  The AI CFO is used to recycle
+#operations and also to prevent you from getting decked.  This deck is
+#purposely slow, there are no fast advancement cards in it because
+#as the corp you can advance agenda over several turns and unless the runner
+#has twenty or thirty bits available (moving up to thirty or fourty bits
+#by the end of the game) there is no way they can get in to the main subfort.
+#I learned the hard way in a tournement that a single AI CFO is not enough;
+#if the runner gets lucky and manages to score the AI CFO then you need to
+#hope that your agenda are not clustered at the bottom of the deck or else
+#you will not have enough time to advance and score them.  The Tychos are
+#there to fill out the mix.  At one time I actually used Political Overthrows
+#instead of the Tychos (and managed to score them on two occasions against
+#good players who knew that a PO was being advanced in the main fort) but
+#if the runner gets lucky early and manages to score a PO out of HQ or
+#R&D before you rez an Encoder then a certain amount of panic can set in
+#which distracts you.
+#
+#This deck plays somewhat unconventionally.  It builds slowly and
+#incrementally, but if the runner does not run you hard at the start of
+#the game then they are going to be facing forts which are impervious to
+#even a run powered by three Loan From Chiba.  With this deck the corp is
+#at an advantage to slow the game down during the early turns, do not
+#spook the runner by advancing an agenda in a fort (although you could
+#advance the Virus Test Site to deter the runner from running forts.)  The
+#incremental build of this deck is ususally enough to keep ahead of the
+#runner, and the deck is flexible enough that if you face a runner with
+#a particular strategy (e.g HQ or R&D attacks) it is quite simple to
+#build up the appropriate forts in the same manner as the main subfort.
+#There are no advertisements for On The Fast Track or Subliminal Corruption
+#and only one piece of Black ice, so a bad publicity runner is also out of
+#luck.
+#
+#The strength of the large (and cheap to rez!) forts which this deck
+#builds should not be underestimated.  By midgame a main subfort of
+#a Minotaur inside, four Ball and Chain, and a Misleading Access Menu with
+#a Crystal Palace Substation and Antiquated Interface Routines installed
+#is very, very difficult for the runner to penetrate.  Assuming that a
+#single Encryption Breakthrough has been scored and the runner has a single
+#Encoders, Inc. rezzed, here is the cost for getting through the ice for
+#various icebreakers:
+#
+#Code Gate costs-
+#
+#Krash:  10 for MAM, 92 for 4 Ball and Chain
+#BartMoss:       6 for MAM, 40 for 4 Ball and Chain
+#Codecracker:    4 for MAM, 36 for 4 Ball and Chain
+#Skeleton Passkeys:      5 for MAM, 32 for 4 Ball and Chain
+#Raffles:3 for MAM, 32 for 4 Ball and Chain
+#Cyphermaster:   4 for MAM, 24 for 4 Ball and Chain
+#Wizards Book:   4 for MAM, 48 for 4 Ball and Chain
+#Dupre:  [varies, but assuming the best that it was used
+#on the MAM several times to boost it to strength
+#seven for a total cost of 42 over six runs]
+#3 for MAM, 16 for 4 Ball and Chain
+#Tinweasel:      can't be passed using Tinweasel
+#
+#Minotaur cost-
+#
+#Krash:  25
+#BartMoss:       15
+#Looney Goon:    15
+#Wild Card:      20
+#Shaka:  16
+#Raptor: 19
+#Black Dahlia:   15
+#Redecorator:    14
+#Big Frackin' Gun:       6 (although one more code gate pushes this to 12)
+#
+#Not bad for a fort which only costs a total of seven to rez.  With Chester
+#Mix and the bits for the Encryption Breakthrough this fort also only costs
+#twelve bits for installing the ice and install/rez on the upgrades. Even the
+#ideal combo of Cyphermaster and BFG for this particular arrangement costs the
+#runner 34 bits...and one more MAM on the fort bumps the ideal cost up to
+#44 bits; the additional MAM ups the total install cost to seventeen and drops
+#the total rez cost to four bits :)  [A second Encoders and you rez all ice
+#for free and the cost to get in goes up by at least eight bits.]
+#
+#Once you get experienced with how this deck plays you will find it a useful
+#addition to your collection of decks.  The defensive nature of this deck
+#makes it a good choice for tournement play where you are not sure what you
+#are going to be facing and do not want to get hosed by a runner deck which
+#happens to have the right combination of cards or otherwise exploits a
+#weakness in your deck.  Because most people do not play with multiple code
+#gate breakers in a tournement deck you can also consider changing the
+#Virus Test Site to an Experimental AI; if you trash the runners code gate
+#breaker and they can't get it back the game is over...

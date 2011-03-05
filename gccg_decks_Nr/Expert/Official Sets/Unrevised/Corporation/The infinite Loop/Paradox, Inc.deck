@@ -1,0 +1,75 @@
+#Title:
+#Paradox, Inc.
+#
+#Format:
+#Unrevised
+#
+#Author:
+#Erwin Wagner
+#
+#Date:
+#Mon, 2 Dec 1996 11:54:45 +0100
+#
+#Deck list: 
+3 AI Chief Financial Officer (AICFO)
+3 Tycho Extension
+3 Pacifica Regional AI (PRAI)
+3 Chicago Branch (CB)
+3 Mazer
+3 Firewall
+19 Credit Consolidation (CC)
+8 Accounts Receivable (AR)
+
+#Description:
+#Doing a little bit of math (it's my job ;) I found a working infinity 
+#loop for the corporation. Now stop laughing and relax. It really works, 
+#but it has one major drawback: It needs a complicated setup and a 
+#dedicated deck construction. 
+#
+#Now the setup: You'll need at least 34 bits in your bit pool. Better 
+#would be 37 or 40. Hand: 1xPRAI, 1xCB, 1xAICFO, 2xany other card 
+#(preferably CC). 
+#
+#Then we start: draw a card 1. action: install and rez PRAI 2. action: 
+#install and rez CB (32 bits left) 3. action: advance PRAI two times, 
+#using CB. (29 bits) 
+#
+#At this point we have two actions (via PRAI) left. For every action + 3 
+#bits we can now get 2 actions, which gives us 3 bits/action. Using 12 
+#bits we gain 4 additional actions (17 bits, 6 actions left). 
+#
+#Next, we must score the AI CFO:
+#install AI CFO
+#advance with CB
+#advance with CB
+#advance (10 bits, 2 actions left).
+#
+#If we have any money making cards left, we can now play one and use the 
+#gained bits to further advance PRAI. If not, we use AI CFO to draw five 
+#new cards. As we already have installed 3 cards, there are a maximum of 
+#42 cards in R&D now. So on average there are about 3.2 money cards in 
+#our newly drawn cards. With these cards we gain bits and use these bits 
+#to gain more actions. In the process we install all installable cards 
+#until there are only operations left. From this point, the process can 
+#continue ad infinitum. 
+#
+#Why does this work? Using AI CFO we only spend about 0.33 actions for 
+#drawing the money operations (1 action to get approx. 3 cards). So we 
+#have: 0.33 action (draw) + 1 action (play) = 4.7 bits (average) which 
+#yields 3.53 bits/action. Using CB/PRAI we only need 3 bits/action, so we 
+#have a net gain of 0.53 bits/action. 
+#
+#Finally, the problems: The setup is tricky. We need a lot of money and 
+#some ICE and three different cards. The current card mix already has 
+#some real life modifications, else you wouldn't need any Tychos, ICE or 
+#AR and not that many PRAI/CBs. In the best case (no ICE, only playing 
+#money cards) the loop can start on the 4th turn, but typically this 
+#would be the 6th or 7th turn and the worst case: never. 
+#
+#And as long as there are 4 cards other than operations in your R&D, the 
+#loop can break if you get subsequent draws of these four cards. Even 
+#with 3 nodes/agendas in the cycle it can still break if you only get AR, 
+#which do not yield a sufficient bits/actions ratio. But this is not very 
+#probable (anyone doing the statistics?). 
+#
+#Any comments to this idea? 

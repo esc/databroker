@@ -1,0 +1,511 @@
+#<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+#<html>
+#
+#<head>
+#<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+#<title>Netrunner Deck Taxonomy</title>
+#<style type="text/css">
+#.centered {margin: auto}
+#BODY {font: 1em Arial, Helvetica, sans-serif; background: url(steel_background.jpg); background-color: #f1f1f2}
+#TABLE.file-table {background-color:#252525; font:0.8em Arial, Helvetica, sans-serif;}
+#TABLE.file-table TD {color:#B0A68B; padding:2px; border: 0;}
+#TABLE.file-table TD A {text-decoration:none; color: #ebdeba;}
+#TABLE.file-table TD A:hover {color: #FFF; background: #a4997b;}
+#TABLE.file-table TD A:visited {color: #B9B4A0}
+#TABLE.file-table TD A:visited:hover {color: #FFF; background: #596C7E}
+#TABLE.file-table TD.header-row {background-color: #645F4F; color: #FFF; text-align: center; font-weight:bold; font-size: medium; line-height: 1.5;}
+#TABLE.file-table TD.centered_td {text-align: center}
+#TABLE.file-table TD.anchors {text-align: center; background-color:#A4997B; color:#EEECE7; line-height: 1.5; font-size: medium; font-weight: bold;}
+#TABLE.file-table TD.note {background-color: #817963; color: #000; text-align: center;}
+#TABLE.file-table TH {background-color:#252525; color:#8e8670; text-align:center; border: 0px;}
+#</style>
+#</head>
+#
+#<body>
+#
+#<table border="0" cellspacing="1" cellpadding="2" summary="anchor table" class="file-table centered">
+#<tr><td colspan="2" class="header-row"><b>Anchors</b></td></tr>
+#<tr><td class="centered_td"><a href="#IDChrysalid_Matrix-Corporation">Chrysalid Matrix\Corporation</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Ice_Destruction-">Official Sets\Revised\Runner\Ice Destruction</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDChrysalid_Matrix-Runner-">Chrysalid Matrix\Runner</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Journalism-">Official Sets\Revised\Runner\Journalism</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDDangerous_Allies-Corporation-">Dangerous Allies\Corporation</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Masochism_rules-">Official Sets\Revised\Runner\Masochism rules</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Highlander-Corporation-">Official Sets\Highlander\Corporation</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Preying_Mantis_-_Poisoned_Water_Supply-">Official Sets\Revised\Runner\Preying Mantis - Poisoned Water Supply</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Corporation-Black_ICE-">Official Sets\Revised 1in15\Corporation\Black ICE</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-RandD_Attack_-_Big_Dig-">Official Sets\Revised\Runner\R&amp;D Attack - Big Dig</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Corporation-Employee_Super_Management-">Official Sets\Revised 1in15\Corporation\Employee Super Management</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Special_themes-">Official Sets\Revised\Runner\Special themes</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Corporation-Fast_advancement-">Official Sets\Revised 1in15\Corporation\Fast advancement</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Tag_Me-">Official Sets\Revised\Runner\Tag Me</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Corporation-Generic_schemes-">Official Sets\Revised 1in15\Corporation\Generic schemes</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-The_Short_Stack-">Official Sets\Revised\Runner\The Short Stack</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Corporation-Rio-Siren-">Official Sets\Revised 1in15\Corporation\Rio-Siren</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Turn_One_Attack-">Official Sets\Revised\Runner\Turn One Attack</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Corporation-Tag__n__Bag-">Official Sets\Revised 1in15\Corporation\Tag 'n' Bag</a></td><td class="centered_td"><a href="#IDOfficial_Sets-UK-Corporation-">Official Sets\UK\Corporation</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Corporation-The_Great_Wall-">Official Sets\Revised 1in15\Corporation\The Great Wall</a></td><td class="centered_td"><a href="#IDOfficial_Sets-UK-Runner-">Official Sets\UK\Runner</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Corporation-The_World_would_swing_if_I_were_king-">Official Sets\Revised 1in15\Corporation\The World would swing if I were king</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised_1in15-Corporation-Generic_schemes-">Official Sets\Unrevised 1in15\Corporation\Generic schemes</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Runner-HQ_Attack_-_Bit_Denial-">Official Sets\Revised 1in15\Runner\HQ Attack - Bit Denial</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised_1in15-Corporation-Psycho_Tycho-">Official Sets\Unrevised 1in15\Corporation\Psycho Tycho</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Runner-RandD_Attack_-_Big_Dig-">Official Sets\Revised 1in15\Runner\R&amp;D Attack - Big Dig</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised_1in15-Corporation-Tag__n__Bag-">Official Sets\Unrevised 1in15\Corporation\Tag 'n' Bag</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Runner-Specialized_Schemes-">Official Sets\Revised 1in15\Runner\Specialized Schemes</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised_1in15-Runner-">Official Sets\Unrevised 1in15\Runner</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised_1in15-Runner-Tag_Me-">Official Sets\Revised 1in15\Runner\Tag Me</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Corporation-Generic_schemes-">Official Sets\Unrevised\Corporation\Generic schemes</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-ASD-Corp_War-">Official Sets\Revised\Corporation\ASD-Corp War</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Corporation-Greyhound_demolition_derby-">Official Sets\Unrevised\Corporation\Greyhound demolition derby</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Black_ICE-">Official Sets\Revised\Corporation\Black ICE</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Corporation-Nasty_Code_Gate-">Official Sets\Unrevised\Corporation\Nasty Code Gate</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Brenner_AG-">Official Sets\Revised\Corporation\Brenner AG</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Corporation-Newsgroup_Taunting-">Official Sets\Unrevised\Corporation\Newsgroup Taunting</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Corporate_Negotiation_Center-">Official Sets\Revised\Corporation\Corporate Negotiation Center</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Corporation-Psycho_Tycho-">Official Sets\Unrevised\Corporation\Psycho Tycho</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Dieter_Esslin-">Official Sets\Revised\Corporation\Dieter Esslin</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Corporation-Rio-Siren-">Official Sets\Unrevised\Corporation\Rio-Siren</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Employee_Super_Management-">Official Sets\Revised\Corporation\Employee Super Management</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Corporation-Specialized_schemes-">Official Sets\Unrevised\Corporation\Specialized schemes</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Fast_advancement-">Official Sets\Revised\Corporation\Fast advancement</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Corporation-Tag__n__Bag-">Official Sets\Unrevised\Corporation\Tag 'n' Bag</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Generic_schemes-">Official Sets\Revised\Corporation\Generic schemes</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Corporation-The_infinite_Loop-">Official Sets\Unrevised\Corporation\The infinite Loop</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Greyhound_Demolition_Derby-">Official Sets\Revised\Corporation\Greyhound Demolition Derby</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Runner-Bozomatic-">Official Sets\Unrevised\Runner\Bozomatic</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Net_damage-">Official Sets\Revised\Corporation\Net damage</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Runner-Generic_schemes-">Official Sets\Unrevised\Runner\Generic schemes</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Newsgroup_Taunting-">Official Sets\Revised\Corporation\Newsgroup Taunting</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Runner-HYHADIARS-">Official Sets\Unrevised\Runner\HYHADIARS</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Rio-Siren-">Official Sets\Revised\Corporation\Rio-Siren</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Runner-PB_TTC-">Official Sets\Unrevised\Runner\PB TTC</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Specialized_schemes-">Official Sets\Revised\Corporation\Specialized schemes</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Runner-RandD_Attack_Big_Dig-">Official Sets\Unrevised\Runner\R&amp;D Attack Big Dig</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Tag__n__Bag-">Official Sets\Revised\Corporation\Tag 'n' Bag</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Runner-Specialized_Schemes-">Official Sets\Unrevised\Runner\Specialized Schemes</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-The_Great_Wall-">Official Sets\Revised\Corporation\The Great Wall</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Runner-TagMe-">Official Sets\Unrevised\Runner\TagMe</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-The_infinite_Loop-">Official Sets\Revised\Corporation\The infinite Loop</a></td><td class="centered_td"><a href="#IDOfficial_Sets-Unrevised-Runner-The_Short_Stack-">Official Sets\Unrevised\Runner\The Short Stack</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-The_Nasty_Code_Gate_deck-">Official Sets\Revised\Corporation\The Nasty Code Gate deck</a></td><td class="centered_td"><a href="#IDRIP-">RIP</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-The_Rent-to-Own_deck-">Official Sets\Revised\Corporation\The Rent-to-Own deck</a></td><td class="centered_td"><a href="#IDTournament_Decks-">Tournament Decks</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-The_World_would_swing_if_I_were_king-">Official Sets\Revised\Corporation\The World would swing if I were king</a></td><td class="centered_td"><a href="#IDTournament_Decks-Corp_Shuffle_2000-">Tournament Decks\Corp Shuffle 2000</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Turn_One_Agenda-">Official Sets\Revised\Corporation\Turn One Agenda</a></td><td class="centered_td"><a href="#IDTournament_Decks-European_Championships_2000-">Tournament Decks\European Championships 2000</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Corporation-Viral_Breeding_Ground-">Official Sets\Revised\Corporation\Viral Breeding Ground</a></td><td class="centered_td"><a href="#IDTournament_Decks-French_Open_2002-">Tournament Decks\French Open 2002</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Arasaka_Owns_You-">Official Sets\Revised\Runner\Arasaka Owns You</a></td><td class="centered_td"><a href="#IDTournament_Decks-German_Nationals_1999-">Tournament Decks\German Nationals 1999</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Blink-">Official Sets\Revised\Runner\Blink</a></td><td class="centered_td"><a href="#IDTournament_Decks-German_Nationals_2000-">Tournament Decks\German Nationals 2000</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Bozomatic-">Official Sets\Revised\Runner\Bozomatic</a></td><td class="centered_td"><a href="#IDTournament_Decks-South_German_Regionals_1999-">Tournament Decks\South German Regionals 1999</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Flexible-">Official Sets\Revised\Runner\Flexible</a></td><td class="centered_td"><a href="#IDTournament_Decks-World_Championships_2001-Round_1-">Tournament Decks\World Championships 2001\Round 1</a></td></tr>
+#<tr class="row2"><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-Gypsy-">Official Sets\Revised\Runner\Gypsy</a></td><td class="centered_td"><a href="#IDTournament_Decks-World_Championships_2001-Round_2-">Tournament Decks\World Championships 2001\Round 2</a></td></tr>
+#<tr><td class="centered_td"><a href="#IDOfficial_Sets-Revised-Runner-HQ_Attack_-_Bit_Denial-">Official Sets\Revised\Runner\HQ Attack - Bit Denial</a></td><td class="centered_td"><a href="#IDTournament_Decks-World_Championships_2001-Round_3-">Tournament Decks\World Championships 2001\Round 3</a></td></tr>
+#</table>
+#<br>
+#
+#<table border="1" cellspacing="1" cellpadding="2" summary="file table" class="file-table centered">
+#<tr><td colspan="2" class="anchors" ><a id="IDChrysalid_Matrix-Corporation"></a>Chrysalid Matrix/Corporation</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Chrysalid%20Matrix/Corporation/Nasty%20Corp.txt">Nasty Corp.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDChrysalid_Matrix-Runner-"></a>Chrysalid Matrix\Runner</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Chrysalid%20Matrix/Runner/Security%20Code%20Cowboy.txt">Security Code Cowboy.txt</a></td><td>&nbsp;<a href="Chrysalid%20Matrix/Runner/Viral%2066.txt">Viral 66.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDDangerous_Allies-Corporation-"></a>Dangerous Allies\Corporation</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Dangerous%20Allies/Corporation/One%20good%20trick.txt">One good trick.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Highlander-Corporation-"></a>Official Sets\Highlander\Corporation</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Highlander/Corporation/Fun,%20Incorporated.txt">Fun, Incorporated.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Corporation-Black_ICE-"></a>Official Sets\Revised 1in15\Corporation\Black ICE</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Corporation/Black%20ICE/Back%20in%20Black.txt">Back in Black.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Corporation-Employee_Super_Management-"></a>Official Sets\Revised 1in15\Corporation\Employee Super Management</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Corporation/Employee%20Super%20Management/Recycle.txt">Recycle.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Corporation-Fast_advancement-"></a>Official Sets\Revised 1in15\Corporation\Fast advancement</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Corporation/Fast%20advancement/Fast%20Advancement%20Corp.txt">Fast Advancement Corp.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised%201in15/Corporation/Fast%20advancement/Speed%20Corp.txt">Speed Corp.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Corporation-Generic_schemes-"></a>Official Sets\Revised 1in15\Corporation\Generic schemes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Corporation/Generic%20schemes/A%20winning%20PO%20deck.txt">A winning PO deck.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised%201in15/Corporation/Generic%20schemes/Gray%20Ops%20Subterfuge.txt">Gray Ops Subterfuge.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Corporation-Rio-Siren-"></a>Official Sets\Revised 1in15\Corporation\Rio-Siren</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Corporation/Rio-Siren/Brazilian%20Siren.txt">Brazilian Siren.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Corporation-Tag__n__Bag-"></a>Official Sets\Revised 1in15\Corporation\Tag 'n' Bag</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Corporation/Tag%20'n'%20Bag/Cats%20&amp;%20Dogs.txt">Cats &amp; Dogs.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised%201in15/Corporation/Tag%20'n'%20Bag/Meaty%20Beaty%20Big%20'n'%20Bouncy.txt">Meaty Beaty Big 'n' Bouncy.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Corporation-The_Great_Wall-"></a>Official Sets\Revised 1in15\Corporation\The Great Wall</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Corporation/The%20Great%20Wall/Fort%20Knox.txt">Fort Knox.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Corporation-The_World_would_swing_if_I_were_king-"></a>Official Sets\Revised 1in15\Corporation\The World would swing if I were king</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Corporation/The%20World%20would%20swing%20if%20I%20were%20king/The%20world%20in%2015%20days.txt">The world in 15 days.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Runner-HQ_Attack_-_Bit_Denial-"></a>Official Sets\Revised 1in15\Runner\HQ Attack - Bit Denial</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Runner/HQ%20Attack%20-%20Bit%20Denial/Da%20big%20Truck.txt">Da big Truck.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Runner-RandD_Attack_-_Big_Dig-"></a>Official Sets\Revised 1in15\Runner\R&amp;D Attack - Big Dig</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Runner/R&amp;D%20Attack%20-%20Big%20Dig/The%20Lurker.txt">The Lurker.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Runner-Specialized_Schemes-"></a>Official Sets\Revised 1in15\Runner\Specialized Schemes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Runner/Specialized%20Schemes/(A)%20Bit%20efficient%20-%20description.txt">(A) Bit efficient - description.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised%201in15/Runner/Specialized%20Schemes/Elena%20Laskova.txt">Elena Laskova.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised%201in15/Runner/Specialized%20Schemes/A%20dish%20best%20served%20cold.txt">A dish best served cold.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised%201in15/Runner/Specialized%20Schemes/Lucy's%20Friends.txt">Lucy's Friends.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Runner/Specialized%20Schemes/Cookie%20Monster.txt">Cookie Monster.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised%201in15/Runner/Specialized%20Schemes/The%20Blackhander.txt">The Blackhander.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised_1in15-Runner-Tag_Me-"></a>Official Sets\Revised 1in15\Runner\Tag Me</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised%201in15/Runner/Tag%20Me/The%20Taxman.txt">The Taxman.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-ASD-Corp_War-"></a>Official Sets\Revised\Corporation\ASD-Corp War</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/ASD-Corp%20War/ASD%20Corporate%20War%202.txt">ASD Corporate War 2.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/ASD-Corp%20War/Corporate%20War.txt">Corporate War.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/ASD-Corp%20War/ASD%20Corporate%20War.txt">ASD Corporate War.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/ASD-Corp%20War/I%20Hate%20Weefletech.txt">I Hate Weefletech.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/ASD-Corp%20War/Basic%20ASD%20Corporate%20War.txt">Basic ASD Corporate War.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/ASD-Corp%20War/Restricted%20War%202.01.txt">Restricted War 2.01.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Black_ICE-"></a>Official Sets\Revised\Corporation\Black ICE</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Black%20ICE/House%20of%20Terror.txt">House of Terror.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Black%20ICE/This%20Is%20Your%20Brain.txt">This Is Your Brain.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Black%20ICE/The%20Hounds%20from%20the%20grave.txt">The Hounds from the grave.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Black%20ICE/Undead,%20Inc.txt">Undead, Inc.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Brenner_AG-"></a>Official Sets\Revised\Corporation\Brenner AG</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Brenner%20AG/Brenner%20AG.txt">Brenner AG.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Brenner%20AG/Just%20sit%20and%20wait.txt">Just sit and wait.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Brenner%20AG/Bring%20it%20on!.txt">Bring it on!.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Corporate_Negotiation_Center-"></a>Official Sets\Revised\Corporation\Corporate Negotiation Center</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Corporate%20Negotiation%20Center/CNC%20Shuffle.txt">CNC Shuffle.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Corporate%20Negotiation%20Center/Schneider%20Negotiations.txt">Schneider Negotiations.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Corporate%20Negotiation%20Center/Political%20Overkill.txt">Political Overkill.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Corporate%20Negotiation%20Center/The%20All-Rare%20Corp%20Deck.txt">The All-Rare Corp Deck.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Dieter_Esslin-"></a>Official Sets\Revised\Corporation\Dieter Esslin</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Dieter%20Esslin/Dieter's%20Data%20Dump.txt">Dieter's Data Dump.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Dieter%20Esslin/Overtime%20Enjoyment.txt">Overtime Enjoyment.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Dieter%20Esslin/Dieter's%20Law.txt">Dieter's Law.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Employee_Super_Management-"></a>Official Sets\Revised\Corporation\Employee Super Management</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Employee%20Super%20Management/Employee%20Super%20Management.txt">Employee Super Management.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Employee%20Super%20Management/Post%20Ban%20Psycho%20Tycho.txt">Post Ban Psycho Tycho.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Employee%20Super%20Management/I'm%20Rupert%20Murdoch%20and%20you%20are%20not.txt">I'm Rupert Murdoch and you are not.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Employee%20Super%20Management/Strategic%20Empowerment.txt">Strategic Empowerment.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Fast_advancement-"></a>Official Sets\Revised\Corporation\Fast advancement</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Fast%20advancement/Chicago%20Bay.txt">Chicago Bay.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Fast%20advancement/Manpower.txt">Manpower.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Fast%20advancement/Corporate%20Lullaby.txt">Corporate Lullaby.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Fast%20advancement/Speedy%20Downsizing.txt">Speedy Downsizing.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Fast%20advancement/Data%20Guard.txt">Data Guard.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Fast%20advancement/Super-Power%20Secret%20Weapon%20in%20R&amp;D.txt">Super-Power Secret Weapon in R&amp;D.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Generic_schemes-"></a>Official Sets\Revised\Corporation\Generic schemes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Artificial%20Schlaghund.txt">Artificial Schlaghund.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Kill%20'em%20Before%20Card%20Limits%20Go%20Into%20Effect.txt">Kill 'em Before Card Limits Go Into Effect.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Asgardian%20Security%20Systems.txt">Asgardian Security Systems.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Life%20in%20the%20Fast%20Lane.txt">Life in the Fast Lane.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/AT&amp;T.txt">AT&amp;T.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Microsoft.txt">Microsoft.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Basic%20RTO.txt">Basic RTO.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Militech,%20Inc.txt">Militech, Inc.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Basic%20Speed%20Corp.txt">Basic Speed Corp.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/MS(c)%20BG(tm).txt">MS(c) BG(tm).txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Caught%20in%20the%20Crossfire.txt">Caught in the Crossfire.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Release%20the%20Hound.txt">Release the Hound.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/CIBC.txt">CIBC.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Rent%20To%20Own.txt">Rent To Own.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Classic%20Cinemas%20Technologies.txt">Classic Cinemas Technologies.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Rent-to-Own%20War.txt">Rent-to-Own War.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Come%20and%20get%20it!.txt">Come and get it!.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Rightsizing.txt">Rightsizing.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Corp%20with%20Proteus%20ICE.txt">Corp with Proteus ICE.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/ShadoeCorp.txt">ShadoeCorp.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Corporate%20Shuffle.txt">Corporate Shuffle.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Standard%20w%20Anti-TagMe%20tech.txt">Standard w Anti-TagMe tech.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Crossfire.txt">Crossfire.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/T%20&amp;%20B.txt">T &amp; B.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Evil,%20Inc..txt">Evil, Inc..txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Tag'n'Slag.txt">Tag'n'Slag.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Grayscale%20Operations.txt">Grayscale Operations.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/The%20Cartel.txt">The Cartel.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/In%20the%20loop%20Mk%20II.txt">In the loop Mk II.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Weefle%20Tech(nologies).txt">Weefle Tech(nologies).txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Generic%20schemes/Infinity.txt">Infinity.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Greyhound_Demolition_Derby-"></a>Official Sets\Revised\Corporation\Greyhound Demolition Derby</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Greyhound%20Demolition%20Derby/Hybrid%20Black%20Ops.txt">Hybrid Black Ops.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Greyhound%20Demolition%20Derby/Nasty%20Omni%20Foundation.txt">Nasty Omni Foundation.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Net_damage-"></a>Official Sets\Revised\Corporation\Net damage</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Net%20damage/Latest%20Corp%20Deck.txt">Latest Corp Deck.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Net%20damage/The%20Toaster.txt">The Toaster.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Net%20damage/Shields%20Recommended%20TM.txt">Shields Recommended TM.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Net%20damage/Theoretical%20Political%20AI%20Chief.txt">Theoretical Political AI Chief.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Net%20damage/The%20Electric%20Company.txt">The Electric Company.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Newsgroup_Taunting-"></a>Official Sets\Revised\Corporation\Newsgroup Taunting</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Newsgroup%20Taunting/Newsgroup%20Taunting%20Prototype.txt">Newsgroup Taunting Prototype.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Newsgroup%20Taunting/Nightly%20News.txt">Nightly News.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Newsgroup%20Taunting/Newsgroup%20Taunting.txt">Newsgroup Taunting.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Newsgroup%20Taunting/Those%20Darn%20Newsies!.txt">Those Darn Newsies!.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Rio-Siren-"></a>Official Sets\Revised\Corporation\Rio-Siren</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Rio-Siren/Brazilian%20Siren.txt">Brazilian Siren.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Rio-Siren/Really%20Big%20Dogs.txt">Really Big Dogs.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Rio-Siren/B-Veil,%20Inc.txt">B-Veil, Inc.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Rio-Siren/The%20Fire%20Engine.txt">The Fire Engine.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Rio-Siren/Payback%20Corp,%20Inc..txt">Payback Corp, Inc..txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Specialized_schemes-"></a>Official Sets\Revised\Corporation\Specialized schemes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Antibodies.txt">Antibodies.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Long-term%20investments%20.txt">Long-term investments .txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Anti-Clown.txt">Anti-Clown.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/More%20than%20X.txt">More than X.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Anti-Daemon.txt">Anti-Daemon.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Planning%20Consultants.txt">Planning Consultants.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Blinded%20me%20with%20Science.txt">Blinded me with Science.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Project%20Venice.txt">Project Venice.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Bootcamp.txt">Bootcamp.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Rescheduler%20Deck%20.txt">Rescheduler Deck .txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Convincing.txt">Convincing.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/The%20Energizer.txt">The Energizer.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Fermat's%20Last%20Big%20Theorems.txt">Fermat's Last Big Theorems.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/The%20southern%20hemisphere%20on%201eb%20a%20day.txt">The southern hemisphere on 1eb a day.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/In%20the%20Loop.txt">In the Loop.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Trust%20No%20One.txt">Trust No One.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/Incinerator.txt">Incinerator.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Specialized%20schemes/X-Files.txt">X-Files.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Tag__n__Bag-"></a>Official Sets\Revised\Corporation\Tag 'n' Bag</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Tag%20'n'%20Bag/A%20Really%20Killer%20Corp%20Deck.txt">A Really Killer Corp Deck.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Tag%20'n'%20Bag/Manhunt.txt">Manhunt.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Tag%20'n'%20Bag/Deal%20with%20PurgeTech(tm).txt">Deal with PurgeTech(tm).txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Tag%20'n'%20Bag/Tag'n'Die.txt">Tag'n'Die.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Tag%20'n'%20Bag/Legend%20of%20the%20Burning%20Sands.txt">Legend of the Burning Sands.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Tag%20'n'%20Bag/Tag'n'Slag%20Mk%20II.txt">Tag'n'Slag Mk II.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-The_Great_Wall-"></a>Official Sets\Revised\Corporation\The Great Wall</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/The%20Great%20Wall/Bricklayers%20on%20Ice.txt">Bricklayers on Ice.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/The%20Great%20Wall/The%20Wall.txt">The Wall.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/The%20Great%20Wall/Con-crete%20Walls.txt">Con-crete Walls.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-The_infinite_Loop-"></a>Official Sets\Revised\Corporation\The infinite Loop</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/The%20infinite%20Loop/A%20Loop%20Tale.txt">A Loop Tale.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/The%20infinite%20Loop/Loop%20deck.txt">Loop deck.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/The%20infinite%20Loop/Get%20a%20loop.txt">Get a loop.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/The%20infinite%20Loop/The%20Loop%20Mk%20III.txt">The Loop Mk III.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-The_Nasty_Code_Gate_deck-"></a>Official Sets\Revised\Corporation\The Nasty Code Gate deck</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/The%20Nasty%20Code%20Gate%20deck/Nasty%20Code%20Gate.txt">Nasty Code Gate.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/The%20Nasty%20Code%20Gate%20deck/Son%20Of%20McCodeGate.txt">Son Of McCodeGate.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-The_Rent-to-Own_deck-"></a>Official Sets\Revised\Corporation\The Rent-to-Own deck</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/The%20Rent-to-Own%20deck/Come%20and%20Get%20it!.txt">Come and Get it!.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/The%20Rent-to-Own%20deck/Rent-to-Own.txt">Rent-to-Own.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/The%20Rent-to-Own%20deck/Rent%20an%20Ice.txt">Rent an Ice.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/The%20Rent-to-Own%20deck/Wag%20the%20dog.txt">Wag the dog.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/The%20Rent-to-Own%20deck/Rent%20Your%20Own%20War.txt">Rent Your Own War.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-The_World_would_swing_if_I_were_king-"></a>Official Sets\Revised\Corporation\The World would swing if I were king</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/The%20World%20would%20swing%20if%20I%20were%20king/Conquer%20the%20World.txt">Conquer the World.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/The%20World%20would%20swing%20if%20I%20were%20king/The%20World%20Would%20Swing%20If%20I%20Were%20King%202.txt">The World Would Swing If I Were King 2.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/The%20World%20would%20swing%20if%20I%20were%20king/The%20World%20Would%20Swing%20If%20I%20Were%20King%201.txt">The World Would Swing If I Were King 1.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Turn_One_Agenda-"></a>Official Sets\Revised\Corporation\Turn One Agenda</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Turn%20One%20Agenda/Turn-One%20Colonel.txt">Turn-One Colonel.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Turn%20One%20Agenda/Turn-One%20War.txt">Turn-One War.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Turn%20One%20Agenda/Turn-One%20War%20Make%20II.txt">Turn-One War Make II.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Corporation-Viral_Breeding_Ground-"></a>Official Sets\Revised\Corporation\Viral Breeding Ground</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Corporation/Viral%20Breeding%20Ground/Quarantine.txt">Quarantine.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Viral%20Breeding%20Ground/Viral%20Breeding%20Ground.txt">Viral Breeding Ground.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Corporation/Viral%20Breeding%20Ground/Usual%20Virus.txt">Usual Virus.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Corporation/Viral%20Breeding%20Ground/Viral%20Scheme.txt">Viral Scheme.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Arasaka_Owns_You-"></a>Official Sets\Revised\Runner\Arasaka Owns You</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Arasaka%20Owns%20You/The%20Price%20of%20Power.txt">The Price of Power.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Blink-"></a>Official Sets\Revised\Runner\Blink</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Blink/Interrupted%20Vision.txt">Interrupted Vision.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Bozomatic-"></a>Official Sets\Revised\Runner\Bozomatic</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Bozomatic/Bozomatic%20V1.2.txt">Bozomatic V1.2.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Bozomatic/PsychTherapy.txt">PsychTherapy.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Bozomatic/Bozomatic.txt">Bozomatic.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Bozomatic/The%20Bozomatic%20Stack%20make%202.txt">The Bozomatic Stack make 2.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Bozomatic/Fast%20Clowns.txt">Fast Clowns.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Bozomatic/Viral%20Clownline.txt">Viral Clownline.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Bozomatic/Happy%20Smiling%20Programs.txt">Happy Smiling Programs.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Bozomatic/Weefle%20Circus.txt">Weefle Circus.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Flexible-"></a>Official Sets\Revised\Runner\Flexible</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Flexible/50%20Organs.txt">50 Organs.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Flexible/Johnson's%20Baby%20Shampoo.txt">Johnson's Baby Shampoo.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Flexible/Donors%20Wanted.txt">Donors Wanted.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Flexible/Le%20Nerf%20de%20la%20Guerre.txt">Le Nerf de la Guerre.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Flexible/Fear%20and%20Loathing%20in%20Las%20Vegas.txt">Fear and Loathing in Las Vegas.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Flexible/Lucy%20is%20in%20the%20sky.txt">Lucy is in the sky.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Flexible/Good%20friends%20in%20Berlin.txt">Good friends in Berlin.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Flexible/Mechanical%20Man.txt">Mechanical Man.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Flexible/I've%20got%20a%20Girlfriend.txt">I've got a Girlfriend.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Flexible/Rent-I-Con.txt">Rent-I-Con.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Flexible/Jack%20of%20all%20trades.txt">Jack of all trades.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Flexible/The%20Runner%20Connections.txt">The Runner Connections.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Flexible/Jack'n'Score.txt">Jack'n'Score.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Flexible/Viral%20Vice.txt">Viral Vice.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Gypsy-"></a>Official Sets\Revised\Runner\Gypsy</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Gypsy/Grave%20Digging.txt">Grave Digging.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Gypsy/The%20Gypsy.txt">The Gypsy.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Gypsy/Gypsy%20Mole.txt">Gypsy Mole.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-HQ_Attack_-_Bit_Denial-"></a>Official Sets\Revised\Runner\HQ Attack - Bit Denial</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/HQ%20Attack%20-%20Bit%20Denial/Brute%20Force%20Oppression.txt">Brute Force Oppression.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/HQ%20Attack%20-%20Bit%20Denial/Tax%20MAX.txt">Tax MAX.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/HQ%20Attack%20-%20Bit%20Denial/Destroyer.txt">Destroyer.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/HQ%20Attack%20-%20Bit%20Denial/The%20Bankruptor.txt">The Bankruptor.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/HQ%20Attack%20-%20Bit%20Denial/ER.txt">ER.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/HQ%20Attack%20-%20Bit%20Denial/The%20Taxman.txt">The Taxman.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/HQ%20Attack%20-%20Bit%20Denial/Rompin'%20Around.txt">Rompin' Around.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Ice_Destruction-"></a>Official Sets\Revised\Runner\Ice Destruction</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Ice%20Destruction/Ice%20Destruction.txt">Ice Destruction.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Journalism-"></a>Official Sets\Revised\Runner\Journalism</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Journalism/Journalism%20-%20Live%20from%20the%20front!.txt">Journalism - Live from the front!.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Masochism_rules-"></a>Official Sets\Revised\Runner\Masochism rules</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Masochism%20rules/Masochism%20Rules.txt">Masochism Rules.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Masochism%20rules/The%20Big%20Hurt.txt">The Big Hurt.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Masochism%20rules/The%20Big%20Hit.txt">The Big Hit.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Preying_Mantis_-_Poisoned_Water_Supply-"></a>Official Sets\Revised\Runner\Preying Mantis - Poisoned Water Supply</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Preying%20Mantis%20-%20Poisoned%20Water%20Supply/Preying%20Mantis%20Poisoned%20Water%20Supply.txt">Preying Mantis Poisoned Water Supply.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-RandD_Attack_-_Big_Dig-"></a>Official Sets\Revised\Runner\R&amp;D Attack - Big Dig</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Achillies's%20Deck.txt">Achillies's Deck.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Rent%20a%20Box.txt">Rent a Box.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Better%20Living%20through%20Chemistry.txt">Better Living through Chemistry.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/SNAFU.txt">SNAFU.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Big%20is%20beautiful.txt">Big is beautiful.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Stealth%20in%20a%20box.txt">Stealth in a box.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/It's%20Who%20You%20Know.txt">It's Who You Know.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Surprises,%20surprises.txt">Surprises, surprises.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Journ%E9e%20Portes%20Ouvertes.txt">Journ&#233;e Portes Ouvertes.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/The%20Frequent%20Flyer%20Program.txt">The Frequent Flyer Program.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Michael%20Miliken%20Memorial.txt">Michael Miliken Memorial.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/The%20Tax%20Shelter.txt">The Tax Shelter.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Purity%20Control.txt">Purity Control.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/R&amp;D%20Attack%20-%20Big%20Dig/Top%20Runner's%20Conference%20Deck%20v2.3.txt">Top Runner's Conference Deck v2.3.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Special_themes-"></a>Official Sets\Revised\Runner\Special themes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Big%20Boostergang.txt">Big Boostergang.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/Sevens.txt">Sevens.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Control%20Freak.txt">Control Freak.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/Show%20Me%20the%20Money.txt">Show Me the Money.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Hacking%20on%20a%20Budget.txt">Hacking on a Budget.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/The%20Blackhander.txt">The Blackhander.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Inquiring%20Minds%20Want%20to%20Know.txt">Inquiring Minds Want to Know.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/The%20ChaoslordBSO%20Deck.txt">The ChaoslordBSO Deck.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Journey%20into%20Adventure.txt">Journey into Adventure.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/The%20Cheap%20Termite.txt">The Cheap Termite.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Lemmings%20from%20Hell%203.txt">Lemmings from Hell 3.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/The%20Infamous%20Drip%20Deck.txt">The Infamous Drip Deck.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Special%20themes/My%20first%20Loans.txt">My first Loans.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/The%20Monster.txt">The Monster.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Pay%20Interest!.txt">Pay Interest!.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/Trainspotting.txt">Trainspotting.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Rache%20Bartmoss'%20Personal%20Deck.txt">Rache Bartmoss' Personal Deck.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/Trash%20and%20Bribe.txt">Trash and Bribe.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Ritual%20Unbiased%20Media%20Abuse.txt">Ritual Unbiased Media Abuse.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/Vous%20en%20r%EAviez%20!.txt">Vous en r&#234;viez !.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Special%20themes/Sevens,%20Mark%20II.txt">Sevens, Mark II.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Special%20themes/Widowmaker.txt">Widowmaker.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Tag_Me-"></a>Official Sets\Revised\Runner\Tag Me</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Tag%20Me/Come%20'n%20get%20me!%20-%20Maximum%20self%20exposure.txt">Come 'n get me! - Maximum self exposure.txt</a></td><td>&nbsp;<a href="Official%20Sets/Revised/Runner/Tag%20Me/M'sieur,%20il%20m'a%20Frapp%E9.txt">M'sieur, il m'a Frapp&#233;.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Revised/Runner/Tag%20Me/Let's%20Burn%20Something.txt">Let's Burn Something.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-The_Short_Stack-"></a>Official Sets\Revised\Runner\The Short Stack</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/The%20Short%20Stack/The%20Short%20Stack%20Mark%202.txt">The Short Stack Mark 2.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Revised-Runner-Turn_One_Attack-"></a>Official Sets\Revised\Runner\Turn One Attack</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Revised/Runner/Turn%20One%20Attack/Turn%20One%20Wreck.txt">Turn One Wreck.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-UK-Corporation-"></a>Official Sets\UK\Corporation</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/UK/Corporation/Sound%20of%20Siren.txt">Sound of Siren.txt</a></td><td>&nbsp;<a href="Official%20Sets/UK/Corporation/UK%20Corp%20by%20B2BAlive.txt">UK Corp by B2BAlive.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/UK/Corporation/Super%20Employment.txt">Super Employment.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-UK-Runner-"></a>Official Sets\UK\Runner</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/UK/Runner/Doo%20da%20drine.txt">Doo da drine.txt</a></td><td>&nbsp;<a href="Official%20Sets/UK/Runner/UK%20deck%20by%20B2BAlive.txt">UK deck by B2BAlive.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/UK/Runner/Myster%20box%20deck.txt">Myster box deck.txt</a></td><td>&nbsp;<a href="Official%20Sets/UK/Runner/Uk%20deck%20by%20iniquity.txt">Uk deck by iniquity.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised_1in15-Corporation-Generic_schemes-"></a>Official Sets\Unrevised 1in15\Corporation\Generic schemes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised%201in15/Corporation/Generic%20schemes/Banana%20State%20Corp.txt">Banana State Corp.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised%201in15/Corporation/Generic%20schemes/Cheap%20Bag%20o'%20Tricks.txt">Cheap Bag o' Tricks.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised_1in15-Corporation-Psycho_Tycho-"></a>Official Sets\Unrevised 1in15\Corporation\Psycho Tycho</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised%201in15/Corporation/Psycho%20Tycho/Psycho%20Frenchie.txt">Psycho Frenchie.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised_1in15-Corporation-Tag__n__Bag-"></a>Official Sets\Unrevised 1in15\Corporation\Tag 'n' Bag</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised%201in15/Corporation/Tag%20'n'%20Bag/FrenchNationalsCorp.txt">FrenchNationalsCorp.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised_1in15-Runner-"></a>Official Sets\Unrevised 1in15\Runner</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised%201in15/Runner/HQ%20Restructuring.txt">HQ Restructuring.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Corporation-Generic_schemes-"></a>Official Sets\Unrevised\Corporation\Generic schemes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Generic%20schemes/Basic%20Speed%20Corp.txt">Basic Speed Corp.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Generic%20schemes/Mardi%20Gras.txt">Mardi Gras.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Corporation/Generic%20schemes/Couer-du-Bois.txt">Couer-du-Bois.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Generic%20schemes/Random%20thoughts.txt">Random thoughts.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Generic%20schemes/Deck%20v1.0.txt">Deck v1.0.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Generic%20schemes/The%20Cleaning%20Woman.txt">The Cleaning Woman.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Corporation/Generic%20schemes/Dirty%20Harry.txt">Dirty Harry.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Corporation-Greyhound_demolition_derby-"></a>Official Sets\Unrevised\Corporation\Greyhound demolition derby</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Greyhound%20demolition%20derby/Greyhound%20Demolition%20Derby.txt">Greyhound Demolition Derby.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Greyhound%20demolition%20derby/Tycho%20Tag'n'Bag.txt">Tycho Tag'n'Bag.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Corporation/Greyhound%20demolition%20derby/Tag'n'Schlaghund.txt">Tag'n'Schlaghund.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Corporation-Nasty_Code_Gate-"></a>Official Sets\Unrevised\Corporation\Nasty Code Gate</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Nasty%20Code%20Gate/The%20Nasty%20Code%20Gate%20Deck.txt">The Nasty Code Gate Deck.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Corporation-Newsgroup_Taunting-"></a>Official Sets\Unrevised\Corporation\Newsgroup Taunting</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Newsgroup%20Taunting/Iceless%20Taunting.txt">Iceless Taunting.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Corporation-Psycho_Tycho-"></a>Official Sets\Unrevised\Corporation\Psycho Tycho</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Psycho%20Tycho/ACME%20Extensions.txt">ACME Extensions.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Psycho%20Tycho/Psycho%20Tycho.txt">Psycho Tycho.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Corporation/Psycho%20Tycho/Basic%20Psycho%20Tycho.txt">Basic Psycho Tycho.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Psycho%20Tycho/Super-Speed%20Tycho.txt">Super-Speed Tycho.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Psycho%20Tycho/Diverse%20Tycho.txt">Diverse Tycho.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Psycho%20Tycho/Tycho%20Deck.txt">Tycho Deck.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Corporation/Psycho%20Tycho/Fast%20Draw.txt">Fast Draw.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Corporation-Rio-Siren-"></a>Official Sets\Unrevised\Corporation\Rio-Siren</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Rio-Siren/Big,%20Big%20and%20Bad.txt">Big, Big and Bad.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Rio-Siren/Zero%20G%20Houes%20of%20Horrors.txt">Zero G Houes of Horrors.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Corporation/Rio-Siren/Rio%20Reiser.txt">Rio Reiser.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Corporation-Specialized_schemes-"></a>Official Sets\Unrevised\Corporation\Specialized schemes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Specialized%20schemes/Big%20Button.txt">Big Button.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Specialized%20schemes/FinePrint.txt">FinePrint.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Corporation/Specialized%20schemes/Dr.%20Dreff.txt">Dr. Dreff.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Specialized%20schemes/The%20Big%20Bluff.txt">The Big Bluff.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Corporation-Tag__n__Bag-"></a>Official Sets\Unrevised\Corporation\Tag 'n' Bag</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Tag%20'n'%20Bag/Anti-Precision%20Bribery.txt">Anti-Precision Bribery.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Tag%20'n'%20Bag/Damned%20if%20You%20Do,%20Damned%20if%20You%20Don't.txt">Damned if You Do, Damned if You Don't.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Corporation/Tag%20'n'%20Bag/Colony%20in%20Danger.txt">Colony in Danger.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Tag%20'n'%20Bag/No%20Trace%20Tag'n'Bag.txt">No Trace Tag'n'Bag.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/Tag%20'n'%20Bag/Damage,%20Inc.txt">Damage, Inc.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/Tag%20'n'%20Bag/Tag'n'Bag.txt">Tag'n'Bag.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Corporation-The_infinite_Loop-"></a>Official Sets\Unrevised\Corporation\The infinite Loop</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Corporation/The%20infinite%20Loop/Paradox,%20Inc.txt">Paradox, Inc.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Corporation/The%20infinite%20Loop/The%20Never-Ending%20Turn.txt">The Never-Ending Turn.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Runner-Bozomatic-"></a>Official Sets\Unrevised\Runner\Bozomatic</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/Bozomatic/Baglady's%20Revenge.txt">Baglady's Revenge.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/Bozomatic/So%20Happy%20Together.txt">So Happy Together.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Runner-Generic_schemes-"></a>Official Sets\Unrevised\Runner\Generic schemes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/Generic%20schemes/Krash%20&amp;%20Burn.txt">Krash &amp; Burn.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/Generic%20schemes/The%20Flu.txt">The Flu.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Runner/Generic%20schemes/Pacificon.txt">Pacificon.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/Generic%20schemes/Unnamed.txt">Unnamed.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/Generic%20schemes/Shop%20'til%20You%20Dropp.txt">Shop 'til You Dropp.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/Generic%20schemes/Vewy,%20Vewy,%20Quiet.txt">Vewy, Vewy, Quiet.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Runner/Generic%20schemes/Skivviss%202.txt">Skivviss 2.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/Generic%20schemes/Who%20Called%20this%20Meeting.txt">Who Called this Meeting.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/Generic%20schemes/Skivviss.txt">Skivviss.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Runner-HYHADIARS-"></a>Official Sets\Unrevised\Runner\HYHADIARS</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/HYHADIARS/HYHADIARS.txt">HYHADIARS.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Runner-PB_TTC-"></a>Official Sets\Unrevised\Runner\PB TTC</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/PB%20TTC/PB-TTC.txt">PB-TTC.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Runner-RandD_Attack_Big_Dig-"></a>Official Sets\Unrevised\Runner\R&amp;D Attack Big Dig</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/R&amp;D%20Attack%20Big%20Dig/Big%20Dig.txt">Big Dig.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Runner-Specialized_Schemes-"></a>Official Sets\Unrevised\Runner\Specialized Schemes</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/Specialized%20Schemes/All%20Programs.txt">All Programs.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/Specialized%20Schemes/Decker%20In%20A%20Box.txt">Decker In A Box.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Runner/Specialized%20Schemes/Big%20Hurt.txt">Big Hurt.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/Specialized%20Schemes/Greed%20is%20Good.txt">Greed is Good.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/Specialized%20Schemes/Body'n'Score.txt">Body'n'Score.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/Specialized%20Schemes/Mr.%20Mongo%20-%20The%20true%20form%20of%20masochism.txt">Mr. Mongo - The true form of masochism.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Runner/Specialized%20Schemes/Commons%20Only%20Runner.txt">Commons Only Runner.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/Specialized%20Schemes/Using%20the%20First%20Amendment.txt">Using the First Amendment.txt</a></td></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/Specialized%20Schemes/Crash%20and%20Burn.txt">Crash and Burn.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Runner-TagMe-"></a>Official Sets\Unrevised\Runner\TagMe</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/TagMe/Anti%20Psycho%20Tycho.txt">Anti Psycho Tycho.txt</a></td><td>&nbsp;<a href="Official%20Sets/Unrevised/Runner/TagMe/What's%20Netrunner.txt">What's Netrunner.txt</a></td></tr>
+#<tr class="row2"><td><a href="Official%20Sets/Unrevised/Runner/TagMe/TagMe-Scaldan.txt">TagMe-Scaldan.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDOfficial_Sets-Unrevised-Runner-The_Short_Stack-"></a>Official Sets\Unrevised\Runner\The Short Stack</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Official%20Sets/Unrevised/Runner/The%20Short%20Stack/The%20Short%20Stack.txt">The Short Stack.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDRIP-"></a>RIP</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="RIP/RIP-only.txt">RIP-only.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-"></a>Tournament Decks</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/French%20Nationals%20Tournament%20Corp.txt">French Nationals Tournament Corp.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Tournament%20Corp%20Deck.txt">Tournament Corp Deck.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/French%20Tournament%20Corp%20Deck.txt">French Tournament Corp Deck.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Tournament%20Runner%20Deck.txt">Tournament Runner Deck.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/French%20Tournament%20Runner%20Deck.txt">French Tournament Runner Deck.txt</a></td><td></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-Corp_Shuffle_2000-"></a>Tournament Decks\Corp Shuffle 2000</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Corp%20Geulen.txt">CS 00 Corp Geulen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Runner%20Geulen.txt">CS 00 Runner Geulen.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Corp%20Janssen.txt">CS 00 Corp Janssen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Runner%20Janssen.txt">CS 00 Runner Janssen.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Corp%20Jeurink.txt">CS 00 Corp Jeurink.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Runner%20Jeurink.txt">CS 00 Runner Jeurink.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Corp%20Kautzsch.txt">CS 00 Corp Kautzsch.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Runner%20Kautzsch.txt">CS 00 Runner Kautzsch.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Corp%20Kreutzer.txt">CS 00 Corp Kreutzer.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Runner%20Kreutzer.txt">CS 00 Runner Kreutzer.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Corp%20Mescam.txt">CS 00 Corp Mescam.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Runner%20Mescam.txt">CS 00 Runner Mescam.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Corp%20Roerden.txt">CS 00 Corp Roerden.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Runner%20Roerden.txt">CS 00 Runner Roerden.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Corp%20Schneider.txt">CS 00 Corp Schneider.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/Corp%20Shuffle%202000/CS%2000%20Runner%20Schneider.txt">CS 00 Runner Schneider.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-European_Championships_2000-"></a>Tournament Decks\European Championships 2000</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Crins.txt">EC 00 Corp Crins.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Crins.txt">EC 00 Runner Crins.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Delcourt.txt">EC 00 Corp Delcourt.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Delcourt.txt">EC 00 Runner Delcourt.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Estournet.txt">EC 00 Corp Estournet.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Estournet.txt">EC 00 Runner Estournet.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Garnier.txt">EC 00 Corp Garnier.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Garnier.txt">EC 00 Runner Garnier.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Geysels.txt">EC 00 Corp Geysels.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Geysels.txt">EC 00 Runner Geysels.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Jeudon.txt">EC 00 Corp Jeudon.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Jeudon.txt">EC 00 Runner Jeudon.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Jeurink.txt">EC 00 Corp Jeurink.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Jeurink.txt">EC 00 Runner Jeurink.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Kautzsch.txt">EC 00 Corp Kautzsch.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Kautzsch.txt">EC 00 Runner Kautzsch.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Mescam.txt">EC 00 Corp Mescam.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Mescam.txt">EC 00 Runner Mescam.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Mourjan.txt">EC 00 Corp Mourjan.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Mourjan.txt">EC 00 Runner Mourjan.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Nock.txt">EC 00 Corp Nock.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Nock.txt">EC 00 Runner Nock.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Schediwy.txt">EC 00 Corp Schediwy.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Schediwy.txt">EC 00 Runner Schediwy.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Corp%20Toupart.txt">EC 00 Corp Toupart.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/European%20Championships%202000/EC%2000%20Runner%20Toupart.txt">EC 00 Runner Toupart.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-French_Open_2002-"></a>Tournament Decks\French Open 2002</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/French%20Open%202002/Panzer%20Division.txt">Panzer Division.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/French%20Open%202002/The%20Best%20Things%20Are%20Free.txt">The Best Things Are Free.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-German_Nationals_1999-"></a>Tournament Decks\German Nationals 1999</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Borchers.txt">GN 99 Corp Borchers.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Borchers.txt">GN 99 Runner Borchers.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Dringautzki.txt">GN 99 Corp Dringautzki.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Dringautzki.txt">GN 99 Runner Dringautzki.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Filary.txt">GN 99 Corp Filary.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Filary.txt">GN 99 Runner Filary.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Hofmann.txt">GN 99 Corp Hofmann.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Hofmann.txt">GN 99 Runner Hofmann.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Janssen.txt">GN 99 Corp Janssen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Janssen.txt">GN 99 Runner Janssen.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Kautzsch.txt">GN 99 Corp Kautzsch.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Kautzsch.txt">GN 99 Runner Kautzsch.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Kootz.txt">GN 99 Corp Kootz.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Kootz.txt">GN 99 Runner Kootz.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Kreutzer.txt">GN 99 Corp Kreutzer.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Kreutzer.txt">GN 99 Runner Kreutzer.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Neuzling.txt">GN 99 Corp Neuzling.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Neuzling.txt">GN 99 Runner Neuzling.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Quiter.txt">GN 99 Corp Quiter.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Quiter.txt">GN 99 Runner Quiter.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Regner.txt">GN 99 Corp Regner.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Regner.txt">GN 99 Runner Regner.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20R%F6rden.txt">GN 99 Corp R&#246;rden.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20R%F6rden.txt">GN 99 Runner R&#246;rden.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Schediwy.txt">GN 99 Corp Schediwy.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Schediwy.txt">GN 99 Runner Schediwy.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Schmidt.txt">GN 99 Corp Schmidt.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Schmidt.txt">GN 99 Runner Schmidt.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20Schneider.txt">GN 99 Corp Schneider.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20Schneider.txt">GN 99 Runner Schneider.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Corp%20S%F6rensen.txt">GN 99 Corp S&#246;rensen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%201999/GN%2099%20Runner%20S%F6rensen.txt">GN 99 Runner S&#246;rensen.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-German_Nationals_2000-"></a>Tournament Decks\German Nationals 2000</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Bogdan.txt">GN 00 Corp Bogdan.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Bogdan.txt">GN 00 Runner Bogdan.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Fritzer.txt">GN 00 Corp Fritzer.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Fritzer.txt">GN 00 Runner Fritzer.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Gschl%F6%DFl.txt">GN 00 Corp Gschl&#246;&#223;l.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Gschl%F6%DFl.txt">GN 00 Runner Gschl&#246;&#223;l.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Janssen.txt">GN 00 Corp Janssen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Janssen.txt">GN 00 Runner Janssen.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Leimbach.txt">GN 00 Corp Leimbach.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Leimbach.txt">GN 00 Runner Leimbach.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20M%FCller.txt">GN 00 Corp M&#252;ller.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20M%FCller.txt">GN 00 Runner M&#252;ller.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Nock.txt">GN 00 Corp Nock.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Nock.txt">GN 00 Runner Nock.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Schediwy.txt">GN 00 Corp Schediwy.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Schediwy.txt">GN 00 Runner Schediwy.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Schmidt.txt">GN 00 Corp Schmidt.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Schmidt.txt">GN 00 Runner Schmidt.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20S%FCtterlin.txt">GN 00 Corp S&#252;tterlin.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20S%FCtterlin.txt">GN 00 Runner S&#252;tterlin.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Ulrich.txt">GN 00 Corp Ulrich.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Ulrich.txt">GN 00 Runner Ulrich.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Corp%20Wagner.txt">GN 00 Corp Wagner.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/German%20Nationals%202000/GN%2000%20Runner%20Wagner.txt">GN 00 Runner Wagner.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-South_German_Regionals_1999-"></a>Tournament Decks\South German Regionals 1999</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/South%20German%20Regionals%201999/SGR%2099%20Corp%20Geulen.txt">SGR 99 Corp Geulen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/South%20German%20Regionals%201999/SGR%2099%20Runner%20Geulen.txt">SGR 99 Runner Geulen.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/South%20German%20Regionals%201999/SGR%2099%20Corp%20Janssen.txt">SGR 99 Corp Janssen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/South%20German%20Regionals%201999/SGR%2099%20Runner%20Janssen.txt">SGR 99 Runner Janssen.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/South%20German%20Regionals%201999/SGR%2099%20Corp%20Kautzsch.txt">SGR 99 Corp Kautzsch.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/South%20German%20Regionals%201999/SGR%2099%20Runner%20Kautzsch.txt">SGR 99 Runner Kautzsch.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/South%20German%20Regionals%201999/SGR%2099%20Corp%20Schediwy.txt">SGR 99 Corp Schediwy.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/South%20German%20Regionals%201999/SGR%2099%20Runner%20Schediwy.txt">SGR 99 Runner Schediwy.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-World_Championships_2001-Round_1-"></a>Tournament Decks\World Championships 2001\Round 1</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Corp%20Bailey.txt">WD 01 Corp Bailey.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Runner%20Bailey.txt">WD 01 Runner Bailey.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Corp%20Bartholow.txt">WD 01 Corp Bartholow.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Runner%20Bartholow.txt">WD 01 Runner Bartholow.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Corp%20Cripe.txt">WD 01 Corp Cripe.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Runner%20Cripe.txt">WD 01 Runner Cripe.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Corp%20Dickie.txt">WD 01 Corp Dickie.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Runner%20Dickie.txt">WD 01 Runner Dickie.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Corp%20Harvey.txt">WD 01 Corp Harvey.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Runner%20Harvey.txt">WD 01 Runner Harvey.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Corp%20Janssen.txt">WD 01 Corp Janssen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Runner%20Janssen.txt">WD 01 Runner Janssen.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Corp%20Kreutzer.txt">WD 01 Corp Kreutzer.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Runner%20Kreutzer.txt">WD 01 Runner Kreutzer.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Corp%20Roerden.txt">WD 01 Corp Roerden.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%201/WD%2001%20Runner%20Roerden.txt">WD 01 Runner Roerden.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-World_Championships_2001-Round_2-"></a>Tournament Decks\World Championships 2001\Round 2</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Corp%20Bailey.txt">WD 01 Corp Bailey.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Runner%20Bailey.txt">WD 01 Runner Bailey.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Corp%20Bartholow.txt">WD 01 Corp Bartholow.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Runner%20Bartholow.txt">WD 01 Runner Bartholow.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Corp%20Cripe.txt">WD 01 Corp Cripe.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Runner%20Cripe.txt">WD 01 Runner Cripe.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Corp%20Dickie.txt">WD 01 Corp Dickie.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Runner%20Dickie.txt">WD 01 Runner Dickie.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Corp%20Harvey.txt">WD 01 Corp Harvey.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Runner%20Harvey.txt">WD 01 Runner Harvey.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Corp%20Janssen.txt">WD 01 Corp Janssen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Runner%20Janssen.txt">WD 01 Runner Janssen.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Corp%20Kreutzer.txt">WD 01 Corp Kreutzer.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Runner%20Kreutzer.txt">WD 01 Runner Kreutzer.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Corp%20Roerden.txt">WD 01 Corp Roerden.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%202/WD%2001%20Runner%20Roerden.txt">WD 01 Runner Roerden.txt</a></td></tr>
+#<tr><td colspan="2" class="anchors"><a id="IDTournament_Decks-World_Championships_2001-Round_3-"></a>Tournament Decks\World Championships 2001\Round 3</td></tr>
+#<tr><th><b>Deck</b></th><th><b>Deck</b></th></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Corp%20Bailey.txt">WD 01 Corp Bailey.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Runner%20Bailey.txt">WD 01 Runner Bailey.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Corp%20Bartholow.txt">WD 01 Corp Bartholow.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Runner%20Bartholow.txt">WD 01 Runner Bartholow.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Corp%20Cripe.txt">WD 01 Corp Cripe.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Runner%20Cripe.txt">WD 01 Runner Cripe.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Corp%20Dickie.txt">WD 01 Corp Dickie.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Runner%20Dickie.txt">WD 01 Runner Dickie.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Corp%20Harvey.txt">WD 01 Corp Harvey.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Runner%20Harvey.txt">WD 01 Runner Harvey.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Corp%20Janssen.txt">WD 01 Corp Janssen.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Runner%20Janssen.txt">WD 01 Runner Janssen.txt</a></td></tr>
+#<tr><td><a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Corp%20Kreutzer.txt">WD 01 Corp Kreutzer.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Runner%20Kreutzer.txt">WD 01 Runner Kreutzer.txt</a></td></tr>
+#<tr class="row2"><td><a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Corp%20Roerden.txt">WD 01 Corp Roerden.txt</a></td><td>&nbsp;<a href="Tournament%20Decks/World%20Championships%202001/Round%203/WD%2001%20Runner%20Roerden.txt">WD 01 Runner Roerden.txt</a></td></tr>
+#</table>
+#
+#<p style="font:0.75em Arial, Helvetica, sans-serif;">
+#Files: 466
+#<br>Size of all files: 678113 bytes</p>
+#</body>
+#</html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

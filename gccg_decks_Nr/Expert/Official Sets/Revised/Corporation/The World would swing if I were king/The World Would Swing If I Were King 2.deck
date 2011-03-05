@@ -1,0 +1,307 @@
+#Title:
+#The World Would Swing If I Were King!
+#
+#Format:
+#Revised
+#
+#Author:
+#Frisco Del Rosario
+#
+#Date:
+#21.01.97
+#
+#Deck list: 
+6 World Domination
+4 Data Wall 2.0
+4 Quandary
+3 Shock.r
+2 Vacuum Link
+2 Euromarket Consortium
+1 Braindance Campaign
+5 Accounts Receivable
+2 Credit Consolidation
+3 Silver Lining Recovery Protocol
+1 Overtime Incentives
+2 Edgerunner Inc. Temps
+3 Project Consultants
+? Rio De Janeiro City Grid
+? Chester Mix
+? Lesley Major
+? Bizarre Encryption Scheme
+? Red Herrings
+
+#Description:
+#Warning: 2,200 words about World Domination follow. :)
+#
+#A Plan for World Domination
+#
+#To rule the world is a dream of cartoon mice and the 21st
+#century corporations which inhabit the Netrunner multiverse.
+#World Domination, a corporate agenda from the Proteus expansion,
+#aims for just that -- a one-card win. No muss, no fuss. Advance
+#and score one agenda, and the world is yours.
+#
+#The World Domination agenda is most difficult to accomplish -- the
+#corporation has to add 12 advancement counters to the card in
+#order to gain three agenda points, plus the card-text bonus which
+#awards the corporation four additional agenda points. In contrast,
+#the second-hardest agenda to complete is Political Overthrow,
+#which awards six agenda points for nine difficulty.
+#
+#The first bit of arithmetic that favors a World Dominating
+#corporation is that the runner opposing a 45-card,
+#tournament-legal deck containing six World Dominations has to
+#steal three of them to win, whereas the corporation has only to
+#score one.
+#
+#Part of World Domination's charm lies in its "B"-movie grandiose
+#-- in one fell swoop, rule the world and win the game! The card is
+#also intriguing for its impracticality. No one I know includes it
+#in even a whimsical deck -- the obvious question "how do you score
+#it?" deflates many ambitious players.
+#
+#I suggest a deck makeup which gives a World Domination plan a
+#serious chance for success. Be the first Napoleon on your
+#Netrunner block to conquer the world. The deck construction
+#described here won the Silicon Netrunner tournament in Sunnyvale,
+#Calif., in December.
+#
+#* The Tortoise and the Hare
+#
+#There are two methods of agenda advancement. One is pay one bit to
+#add one advancement counter to the card. The other is to pay 5,
+#10, or 12 bits to play operations (Systematic Layoffs, Management
+#Shakeup, Project Consultants) which permit multiple advancements.
+#
+#The first method is cost-efficient (one bit per advancement
+#counter) but very slow. The longer the agenda remains on the
+#tableau, the more likely it is that the runner will steal it. The
+#second method is expensive, but often results in scoring agenda
+#directly from HQ.
+#
+#It's inordinately difficult to advance an agenda 12 times. To
+#install and advance the card once per action would take at least
+#four turns, all the while keeping the fort safe from the runner,
+#not to mention the other forts. To score World Domination directly
+#from Headquarters -- a safer route, since the agenda is less
+#vulnerable in HQ -- would cost 38 bits. That is, two bits to play
+#Corporate Guard Temps, which gives the corporation an extra action
+#on his next turn, then installing World Domination and playing
+#three Project Consultants.
+#
+#Yes, that's a five-card combination which costs 38 bits -- no one
+#said conquering the world is easy. It is slightly more expensive
+#-- 40 bits -- and more efficient to play one Overtime Incentives
+#and three Project Consultants in the same turn, but the inclusion
+#of Corporate Guard Temps will be discussed below.
+#
+#A crafty corporate player will advance World Domination with both
+#methods, often in combination.
+#
+#* The Preemptive Strike
+#
+#In the earliest stages of the game, the runner is searching for
+#his ice breaking programs, and striving to earn the bits necessary
+#to install and run them.
+#
+#By installing Filter and Data Wall (the least-expensive ice with
+#"end the run" subroutines), and Shock.r (the least-expensive
+#"stun" sentry), the corporation can halt the runner while saving
+#bits to pay for agenda advancement. As the runner develops his
+#breaker suite, the corporation should improve the subsidiary fort
+#with Rio de Janeiro City Grid and more ice.
+#
+#Riddler and Sandstorm from the Proteus set are stronger pieces of
+#ice which might be considered for inclusion, since they allow the
+#corporation to pay for a different number of "end the run"
+#subroutines during each encounter with the runner.  A wealthy
+#corporation might just pay to protect his agenda.
+#
+#The other upgrades to the subsidiary fort are Lesley Major,
+#Bizarre Encryption Scheme, and Red Herrings. Lesley Major from the
+#Proteus expansion ("pay 3 to add two advancement counters to this
+#card only after the last piece of ice on this fort has been
+#passed") seems designed to add venom to an advanceable ambush
+#node, but in unison with Red Herrings ("runner must pay 5 in
+#addition to other costs to steal agenda from this fort") or
+#Bizarre Encryption Scheme ("runner doesn't steal agenda from this
+#fort upon accessing; return it to the fort and the runner steals
+#it at the start of his next turn unless the corporation scores it
+#by then"), Lesley Major is the only card in Netrunner which allows
+#the corporation to advance an agenda during the runner's turn.
+#
+#Red Herrings intends to frustrate the runner before the
+#corporation is able to score the World Domination. When the
+#corporation has the agenda in its sights, Bizarre Encryption
+#Scheme slaps a much stronger lock on the fort.  Chester Mix
+#reduces the cost of installing ice on the critical subsidiary fort.
+#
+#* Plan B
+#
+#Should the runner install all of his icebreakers (a generic
+#icebreaker like Bartmoss Memorial or Krash is a definite bane for
+#this deck), the World Dominating corporation must move quickly.
+#Edgerunner, Inc. Temps will serve to install an upgrade, as well
+#as another piece of ice or two. (Beware! Runners are adapting to
+#the "many pieces of cheap ice over Rio" strategy by employing
+#Startup Immolator.)
+#
+#Remember, eight advancement counters already played plus one
+#Project Consultants wins the game, and more cleverly, an action
+#gained by Corporate Guard Temps can also be used for a single
+#advancement.
+#
+#If the runner steals a partially-advanced World Domination, cash
+#in a Silver Lining Recovery Protocol for three bits per
+#advancement counter. If World Domination was advanced seven times
+#before the runner broke through the Shock-enhanced and
+#Rio-bolstered Filters and Data Walls, two Silver Linings could be
+#redeemed for 42 bits, enough to play the fore-mentioned 38-bit
+#combination.
+#
+#After the Silver Lining windfall, the corporation would like to
+#play Corporate Guard Temps. There are then three distinct tactics:
+#
+#1) The corporation has 38 bits and three Project Consultants in
+#hand: Play Corporate Guard Temps and pay two bits, which gives the
+#corporation one extra action on his next turn. At the next turn,
+#install World Domination, and Project Consult three times to win.
+#
+#2) The corporation has 32 bits and two Project Consultants in
+#hand: Play Corporate Guard Temps and pay four bits. The
+#corporation will need seven actions over two turns to install a
+#World Domination, Project Consult twice, and advance the agenda
+#singly four times. This is a slight improvement over installing
+#the World Domination in the same turn you play Silver Lining,
+#because the agenda is installed (i.e., vulnerable) for one fewer
+#turn.
+#
+#3) If the corporation has more than 18 bits but no Project
+#Consultants in hand:  Pay six bits for Corporate Guard Temps, and
+#conduct four actions per turn for three turns. Perhaps advancing
+#World Domination singly over three turns rather than four will
+#find the luck of Rio de Janeiro on the corporation's side.
+#
+#* Nose to the Grindstone
+#
+#A plan to dominate the world requires focus. Bits should be gained
+#through operations rather than nodes, since they pay more per
+#action. Prefer Accounts Receivable to Credit Consolidation because
+#Accounts Receivable is playable from the initial draw, and time is
+#of the essence  -- soon the runner, if not some masked superhero,
+#will come calling. Silver Lining Recovery Protocol should result
+#in one or sometimes two large bit influxes per game. Also, the
+#fewer nodes the corporation has in his deck, the fewer useful
+#cards the runner can trash.
+#
+#Rustbelt HQ Branch is perhaps the most useful node, for hand size
+#is crucial to any corporate headquarters which houses three
+#Project Consultants and a Corporate Guard Temps, along with any
+#surfaced agenda. Euromarket Consortium costs two to rez, but has a
+#higher trash cost, and confers the additional ability of drawing
+#two cards with an action. Late in a game where the corporation is
+#trying to score World Domination with Project Consultants, the
+#power to draw that Project Consultants, or an Accounts Receivable
+#to pay for it, is a plus.
+#
+#"Yeah, the world would swing if I were king."--Tom Petty
+#
+#I wrote the above about six weeks ago. Since then, the deck makeup
+#described above has gone through a few minor changes -- it still
+#wins more often than it loses, but *always* in great style, and
+#that's what makes the deck so much fun to play.
+#
+#Minor changes:
+#
+#* Filter and Data Wall have been upgraded to Quandary/Sleeper and
+#Data Wall 2.0, so the Code cracking and Jackhammering runner has to
+#pay a bit or two on the way through. Vacuum Link was added for the
+#purpose of installing on top of Rio de Janeiro (a 3-cost,
+#5-strength sentry is a lot of bang for the buck), and Neural Blade
+#might replace Shock.R soon, with the hope that a runner might die
+#someday on a Vacuum Linked Blade.
+#
+#The ice breakdown at the moment is: 4 Data Wall 2.0, 4 Quandary, 3
+#Shock.R, 2 Vacuum Link.
+#
+#* A bit node, Braindance Campaign, was added. Ideally, Braindance
+#Campaign will be installed with an Edgerunner, and it's neatly
+#convenient to take two Braindance bits, draw, and advance World
+#Domination three times.
+#
+#Nodes: 2 Euromarket Consortium, 1 Braindance Campaign
+#
+#* Two Credit Consolidations took the place of two Accounts
+#Receivable. Just once or twice have I been unlucky to have a
+#Credit Consolidation in hand with the initial draw, and been
+#unable to play it.
+#
+#* The biggest change -- Overtime Incentives replaced Corporate
+#Guard Temps. All the neat planning that went into the inclusion of
+#Corporate Guard Temps flew out the window for two reasons. 1) It
+#proved impractical in practice to know exactly when to play
+#Corporate Guard Temps and for how long. 2) If the runner steals an
+#advanced WD, and the corporation has no Silver Lining Recovery
+#Protocol in hand, then he has to draw one. If the mandatory draw
+#doesn't pull a Silver Lining, and the first Euromarket draw
+#doesn't pull one, what if the second Euromarket draw pulls two?
+#Then the corp should play Overtime, and two Silver Linings. This
+#makes it impossible to pull off the fabulous 40-bit nirvana coup
+#of Overtime/install World Domination/Project Consult/Project
+#Consult/Project Consult, but maybe a laboratory mouse brainier
+#than I will include an Off-Site Backups in his deck.
+#
+#Operations: 5 Accounts Receivable, 2 Credit Consolidation, 3
+#Silver Lining Recovery Protocol, 1 Overtime Incentives, 2
+#Edgerunner, Inc. Temps, 3 Project Consultants
+#
+#General observations:
+#
+#* A World Domination deck is not well-suited for tournament play,
+#for one scores zero agenda points in a loss. (However, I will
+#continue to play it just to amuse my opponents.)
+#
+#* The best runner counterattack against the "World Would Swing" is
+#to ignore the subsidiary fort until the last possible moment, and
+#concentrate on stealing agenda and trashing upgrades from the
+#central forts (virus decks are more effective against "World Would
+#Swing" than any other kind of runner deck). "The last possible
+#moment" is often sooner than the runner thinks, though -- for
+#instance, a World Domination advanced five times is in range when
+#the corporation has 19 bits (Overtime Incentives, advance,
+#advance, advance, Project Consultants).
+#
+#* Promises, Promises and Hot Tip for WNS easily swing the game
+#in the runner's favor, for he needs to liberate two World
+#Dominations rather than one.
+#
+#* Do not play one or more Project Consultants until it wins. Keep your
+#powder dry.
+#
+#* Play economically. Given a choice between installing one card,
+#or drawing a fifth or 10th bit (for the purposes of Accounts
+#Receivable or Credit Consolidation), draw the bit, and hope to
+#Edgerunner the installed card later. (That's good advice for any
+#deck, I tell myself with a smack to my head.)
+#
+#* I have never been coy about the card being advanced in the
+#subsidiary fort -- Jim McCoy has called the deck, "All World
+#Domination, All the Time." Still, runners are always wary about
+#rushing into a huge ambush node -- would you like to be
+#remembered as the runner who hit a Vacant Soulkiller with 10
+#counters? That wariness could possibly be played upon by including
+#an ambush node in a World Domination deck, but not installing
+#it. By never installing it, the corporation will not lose time by
+#advancing it, and if the runner accesses the ambush node from a
+#central fort, the uncertainty about the advanced card in the subsidiary
+#fort will grow.
+#
+#An obvious question is, "can World Domination co-exist peacefully
+#in a Namatoki/ambush node fort?" I believe the answer is no --
+#there's no time. It takes time and money to dominate the world,
+#and a World Domination deck must be in constant motion. Install
+#it, and advance it -- the plan described here works because it is
+#a homogeneous system. That is, if you advance and score the first
+#WD out of hand, great -- but sometimes you have to cash in a Silver
+#Lining or two in order to fast advance the next one. The deck
+#works as a whole. :)

@@ -1,0 +1,82 @@
+#Title:
+#Doo da Drine
+#
+#Format:
+#UK, Revised
+#
+#Author:
+#Fabian Fritzer
+#
+#Date:
+#Thu Jul 19, 2007 9:16 pm
+#
+#Deck list:
+1 Scaldan
+1 Shredder
+2 Inside Job
+1 Core Command, Jettison Ice
+1 Code Viral Cache
+1 Junkyard
+1 Back Door to Netwatch
+4 Do the Drine
+8 Militech Mram Chip
+12 Arasaka Owns You
+5 Smith's Pawnshop
+5 Omnitech Spinal Tap Cybermodem
+5 The Shell Traders
+21 Bodyweight Synthetic Blood
+13 Organ Donor
+5 MIT West Tier
+1 Sneak Preview
+2 The Short Circuit
+1 Krash
+
+#Description:
+#90 cards
+#
+#Here is the deck that I played in the UK format tournament organized by Paul about half a year ago.
+#
+#Every runner dreams about getting rich with Do the Drine [tm], and then removing all the brain damage with Arasaka Owns You. The problem is just: How can you commit controlled suicide for triggering Arasaka Owns You? Michael Nock found the solution: Omnitech Spinal Tap Cybermodem and Smith's Pawnshop! The 2 brain damage you receive when you trash Omnitech Spinal Tap Cybermodem with Smith's Pawnshop are preventable! For making the whole combo more stable, I added The Shell Traders and Organ Donor.
+#
+#If everything works fine, here is how you play this deck (in theory):
+#
+#TURN 1 (5 cards, 5 bits):
+#Action 1: Bodyweight Synthetic Blood
+#Action 2: Bodyweight Synthetic Blood
+#Action 3: Organ Donor (gain 10)
+#Action 4: Militech Mram Chip
+#
+#TURN 2 (6 cards, 9 bits):
+#Action 1: Bodyweight Synthetic Blood
+#Action 2: Bodyweight Synthetic Blood
+#Action 3: Organ Donor (gain 10)
+#Action 4: Militech Mram Chip
+#
+#TURN 3 (7 cards, 13 bits):
+#Action 1: Bodyweight Synthetic Blood
+#Action 2: The Shell Traders
+#Action 3: Omnitech Spinal Tap Cybermodem on The Shell Traders
+#Action 4: Smiths Pawnshop
+#
+#TURN 4 (8 cards, 11 bits):
+#Start of turn: remove one Shell counter, 4 left
+#Action 1: Bodyweight Synthetic Blood
+#Action 2: Bodyweight Synthetic Blood (16 cards on hand after that)
+#Action 3: Do the Drine (10 cards, 40 bits) Hopefully, we still have one Arasaka Owns you left
+#Action 4: Organ Donor (3 cards, 6 bits)
+#We now have 53 bits, hand size 1 and Arasaka Owns you on our hand.
+#
+#TURN 5 (1 cards, 53 bits):
+#Start of turn: Remove one Shell counter, 3 left. Pay Cybermodem off.
+#Before the die roll would occur, trash Cybermodem. You would get flatlined by that, so you can play Arasaka Owns You.
+#62 bits in your pool, 11 cards on your hand.
+#Actions 1-4: foregoe
+#
+#In turn 6, we are well equipped with 62 bits and 11 cards, so we can now run our attack.
+#
+#Well, I actually never played this deck as described above.
+#I just started to run after playing a Bodyweight and having drawn Arasaka.
+#In two cases, it was sufficient to install Shredder and pick the agendas from HQ. In one case (it was against iniquity), I encountered nasty Data Darts, so I didn't need to play Do the Drine for triggering Arasaka. I just installed some MRAM Chips and trashed my hand with Organ Donor, leaving an Arasaka. Then I hit Data Darts without breaking it, gaining me 10 bits and drawing 10 cards.
+#In one case (it was against dbeats), I feared that I couldn't leave the Corp unattacked for too long. dbeats played a speed Corp with Corporate Negotiating Center. So I tried to win with pure Organ Donor engine, trashing all the cards from the Do the Drine engine. It was probably a mistake, I lost in the final against him.
+#
+#But I am looking forward to play this deck again some day, in a fun match, and then, I really want to doo da Drine!

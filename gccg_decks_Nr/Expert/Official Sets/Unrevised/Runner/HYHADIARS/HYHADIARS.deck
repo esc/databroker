@@ -1,0 +1,382 @@
+#Title:
+#HYHADIARS
+#
+#Format:
+#Unrevised
+#
+#Author:
+#David R. Liu
+#
+#Date:
+#October 1996
+#
+#Deck list:
+11 Loan From Chiba
+7 Bodyweight Synthetic Blood
+4 Militech MRAM Chip
+1 Bartmoss Memorial Icebreaker
+1 Joan of Arc
+1 Viral Pipeline
+4 Code Viral Cache
+2 Pirate Broadcast
+2 Inside Job
+2 Junkyard BBS
+3 Time to Collect
+3 Airport Locker
+2 The Deck
+2 Fall Guy
+
+#Description:
+#45 cards
+#After receiving several requests for the composition and strategy behind 
+#my HYHAD deck, I've decided to post my original, never before 
+#distributed article describing the deck. I hope you enjoy it and find it 
+#interesting. 
+#
+#I haven't been able to keep up with the latest NR deck technology, so it 
+#may not be that powerful before, but it is worth mentioning that Jim 
+#McCoy used this deck at EuCon and it was undefeated. I have never lost 
+#with this deck outside of my own (2-person) testing circle. 
+#
+#GOAL This deck can win in three ways: 
+#
+#1) The primary condition for winning is giving the corp three Pipe 
+#counters while having two Code Viral Cache's installed. The three pipe 
+#counters reduce the number of actions of the corp down to an autodraw 
+#and ZERO actions, and the CVCs prevent the corp from removing the Pipe 
+#counters. The corp cannot trash a CVC by taking an action and paying 5, 
+#since the corp does not have any actions left to do this. 
+#Mathematically, the runner can pick his or her nose for the rest of the 
+#game, and the corp will lose by drawing cards until it runs out of 
+#cards, losing the game. 
+#
+#2) The secondary goal is to win by liberating 7 points of agenda, which 
+#often happens (by chance) before the primary condition is met. 
+#
+#3) The tertiary goal is to win by scoring a 7th agenda point via a 
+#successful Pirate Broadcast. Since a successful PB gives the runner one 
+#agenda point, if you already have 5 or 6 you can calculate the number of 
+#bits you need to win. 
+#
+#STRATEGY In order to move as efficiently as possible toward the primary 
+#goal, the runner accomplishes the following sub-goals, in order: 
+#
+#A1) Make one successful run on HQ and install one or two CVCs A2) 
+#Install one or more Time to Collects (TTC) A3) Install Viral Pipeline 
+#and Bartmoss (and Joan if needed) B1) Make one Pirate Broadcast run, or 
+#B2) Make three successful runs: one on HQ, one on RnD, and one on 
+#Archives C1) Make a second Pirate Broadcast run, or C2) Make three 
+#successful runs: one on HQ, one on RnD, and one on Archives D1) Make a 
+#third Pirate Broadcast run, or D2) Make three successful runs: one on 
+#HQ, one on RnD, and one on Archives 
+#
+#Usually I accomplish the sub-goals in the order listed, but it is only 
+#essential that the A goals be accomplished before the B/C goals; i.e., 
+#if you install Viral Pipeline first you have the advantage of giving 
+#early Socket counters to the corp but at the expense of revealing your 
+#main strategy early. Installing TTC first is also fine. This flexibility 
+#in what you need to accomplish during the critical opening phase of the 
+#game is what makes this deck relatively insensitive to "good opening 
+#draws". 
+#
+#The deck is extremely well-powered with 11 Loan From Chiba (LFC) and the 
+#optimal balance of rapid-drawing and hand size-increasing cards. Using 
+#this powerful card and bit engine, accomplishing these goals usually 
+#takes fewer than 9 turns. 
+#
+#Once you have done the above, the game is over. 
+#
+#IMPLEMENTATION The combination of your opening draw and the corp's 
+#opening moves determine which of the A goals you work on first. We will 
+#analyze the possibilities as follows: 
+#
+#On the corp's opening turn, 1) The corp protects HQ and has a credible 
+#number of bits to rez HQ ice. 2) The corp does not ice HQ. 3) The corp 
+#installs ice and an agenda/node in a subsidiary data fort, and begins 
+#advancing the agenda/node, presumably for an early score or ambush. 
+#
+#Case 1: If the runner does not draw an Inside Job, the runner should 
+#ignore the corp for a turn and move to the rapid accomplishment of the A 
+#goals. If the runner does draw an Inside Job on the opening draw, then 
+#goto case 2. 
+#
+#Case 2: If the runner draws one or more CVCs, the runner should make a 
+#successful run on HQ with Inside Job and then install as many CVCs as 
+#possible (see the section below on Tag and Bag decks). Once your CVCs 
+#are installed, install one or more TTCs as soon as possible, 
+#accomplishing A1 and A2. 
+#
+#Case 3: Super speed advancement strategies can be thwarted if you draw 
+#any of the following cards: - Bartmoss + LFC - Inside Job - Airport 
+#Locker + LFC - Bodyweight Synthetic Blood (BSB), followed by any of the 
+#above three possibilities. 
+#
+#If you feel the corp is going for the early speed score, take the 
+#agenda. the agenda points probably won't be significant since you don't 
+#need them to win, but robbing the corp of important functionality IS 
+#important. 
+#
+#Once you have done what you can according to case 1, 2, or 3, then move 
+#toward the accomplishment of the remaining A goals: 
+#
+#If you draw a BSB, play it for your first action of a turn. If you draw 
+#a MRAM chip in your first 9 cards (likely), then install that as well. 
+#Otherwise, install or play three cards, and discard one. Obviously 
+#discard a Junkyard BBS or Deck if you are holding two copies, otherwise 
+#use your discretion. If you cannot install three cards, as a last resort 
+#install a Loan From Chiba at the end of your turn. This will cost you a 
+#bit at the start of your next turn, but early on this is not a problem. 
+#Your aim is to rapidly draw enough LFCs and Bartmoss (or Inside Job) and 
+#CVCs to get the first one or two CVCs installed. 
+#
+#Once you have done the above, install Viral Pipeline (and Bartmoss) if 
+#you haven't already. BSB will often get your them, but equally often you 
+#should install an Airport Locker for each program you need, then LFC and 
+#install the programs at a cost of 5 extra bits without taking an action, 
+#saving you several actions. Example: 
+#
+#Suppose I have installed CVC and I would like to install Viral Pipeline 
+#and Bartmoss as soon as possible. I draw and install two Airport 
+#Lockers. Then I play two LFCs and make a run on HQ. With the 24 bits I 
+#spend 10 + 5 + 3 = 18 bits to install VP and Bartmoss DURING the run. 
+#This leaves me 6 bits (enough to break about 6 rez-cost worth of ice) to 
+#make my HQ run, plus any bits I had at the start of the turn. If I am 
+#successful, I give the corp a Socket counter on HQ. If I have a Pirate 
+#Broadcast, I play three LFC, install Bartmoss and VP, leaving me with 18 
+#bits to make successful runs on Archives, HQ, and RnD. Always choose the 
+#order of your Pirate Broadcast runs so as the maximize the number of 
+#different Socket counters you give the corp. 
+#
+#After you have Bartmoss and Viral Pipeline installed, accomplish goal B, 
+#listed above. Make multiple runs or use Pirate Broadcast until you have 
+#one Socket counter on HQ, RnD, and Archives. *IMMEDIATELY* convert these 
+#three Socket counters into one Pipe counter. As long as you convert the 
+#Sockets to Pipes as SOON as you give the corp the third action, you can 
+#safely give the corp ONE Pipe counter with only ONE CVC installed. 
+#Here's the reasoning: The rulebook specifically states that when the 
+#corp and the runner can both perform a function at the same time, that 
+#the runner always get priority to do so first. Suppose you have only ONE 
+#CVC installed, and a Socket counter on Archives and RnD. Just before you 
+#make your successful HQ run, the corp Carnot forgo actions to lose the 
+#two Socket counters, since the two Socket counters are protected by the 
+#CVC. As you give the corp your third Socket counter, you immediately 
+#convert the three Sockets into one Pipe counter, and if the corp tries 
+#to forgo actions you can restate the rulebook to justify your ability to 
+#convert the counters BEFORE the corp can forgo actions. To be honest, 
+#even if you let the corp forgo three actions, on your next turn simply 
+#do it again, and again, and again... You will give the corp counters 
+#faster that it can forgo actions, and you will end up with a string of 
+#many, many actions if the corp vehemently does not let you convert three 
+#Socket counters with one CVC out. With two or more CVCs out, you are in 
+#good shape. 
+#
+#Once goal B is achieved, the game is more or less over. The corp has 
+#lost an action permanently, and this means that almost all speed decks I 
+#have seen are destroyed, and most other decks are severely crippled. Of 
+#course, we really want to teach the corp a lesson, so open the viral 
+#pipelines again and finish the corp off. To accomplish goals C and D, 
+#draw or Junkyard a Pirate Broadcast, play one or two (or three) LFC, and 
+#Pirate away. Remember to hit the forts in the proper order so as to 
+#maximize Socket counter delivery. Alternatively, you could make separate 
+#runs on forts, but it is much more action and bit efficient to use 
+#Pirate Broadcast. 
+#
+#EFFICIENT USE OF THE ENGINE Success with the HYHAD deck requires an 
+#efficient use of the LFC/BSB/MRAM engine. This engine, as mentioned 
+#above, not only is the best way to get bits to power runs, but is also 
+#the best (and only) way to acquire ALL the useful functionality in the 
+#deck. 
+#
+#Bodyweights provide you with 5 new cards for two bits and one action; 
+#Militech MRAM Chips expand your hand size by three cards for an action 
+#and two bits as well. Usually I install one MRAM Chip as soon as 
+#possible (preferably by turn one or two), and install a second shortly 
+#after; this gives you a hand size of 11. If it is convenient, installing 
+#a third MRAM Chip provides you with a hand size large enough to hold 
+#(probably) all the cards you need to win the game, and a huge safety net 
+#against brain damage. 
+#
+#Some important strategic guidelines for using the LFC/BSB/MRAM engine: 
+#
+#1) Unless the corp's opening move and your opening draw fall into case 
+#1, 2, or 3 described above, your first action (unless the corp installs 
+#a node that could be City Surveillance, see below) should be to play BSB 
+#if you have it, or to draw one card if you do not. 
+#
+#2) Before the end of your first turn, it is very useful to install one 
+#Militech MRAM Chip if possible. 
+#
+#3) Once you have Junkyard BBS installed, it may be tempting to use 
+#Junkyard to retrieve other cards from your trash. Often (not always), 
+#this is a BAD idea. For example, suppose BSB is on the top of your 
+#trash, and that you would like to Bodyweight because you need a Loan or 
+#Bartmoss or Code Viral Cache. You have one bit after paying Chiba at the 
+#start of the turn. You *could* gain a bit, gain a bit, Junkyard the BSB, 
+#then play the BSB for your fourth action. This is terribly inefficient; 
+#you are much better off drawing single cards until you get the card you 
+#need, or until you draw a BSB (this is why there are seven BSBs in the 
+#deck). USE JUNKYARD to retrieve the following cards: Bartmoss if you 
+#ever lose it, Pirate Broadcast if you need one quickly, Inside Job if 
+#you need it quickly, Joan of Arc if you couldn't pay 1 bit to return it 
+#to your hand (always do this!), LFC if you are forced to discard one and 
+#feel you need the money, and Time to Collect if the corp makes the 
+#mistake of trying to trash your Code Viral Caches; simply Junkyard the 
+#TTC and reinstall it for free. 
+#
+#4) If you need money-- even just two bits-- it is usually better to play 
+#LFC rather than to draw bits singly. Speed is of the essence here. 
+#Obviously, you don't want to waste LFC bits by losing huge numbers of 
+#bits at the start of each turn so do not waste the LFCs, but definitely 
+#do not skimp on the money. The difference between the HYHAD deck and 
+#other decks is that the HYHAD deck lets YOU decide what to play since 
+#you will almost always have enough money to pay for it, whereas most 
+#other decks force you to play only the option that you can afford to 
+#play. Unless you know you only need a bit for the rest of the turn, play 
+#that Loan. 
+#
+#5) Very often (maybe 50% of my turns), my first two actions are LFC and 
+#BSB. This two action combo nets you 10 bits and five additional cards. 
+#The last two actions can be spent installing programs or resources, or 
+#making two runs, or making one run on HQ and installing CVC, or playing 
+#another LFC and making a HUGE run (Pirate Broadcast or with Airport 
+#Lockers). 
+#
+#AGAINST SPECIFIC CORP STRATEGIES 1. Against the Speed Deck: 
+#
+#The speed deck is arguably the most common form of corp deck around, and 
+#for good reason. This deck was largely designed to defeat speed decks, 
+#however, and against them the HYHAD deck really shines. Be carefully not 
+#to get so obsessed with Socket counter delivery that you forget about an 
+#advancing agenda. In the extreme case, if you repeatedly pull speed 
+#cards from HQ (e.g. ACME S&L, Project Consultants, etc.) you may want to 
+#make extra runs on HQ just to keep the corp agenda-poor. If the corp 
+#ever installs and advances an agenda in a iced SDF, simply put your 
+#plans aside for one turn, play LFC, and steal the agenda. Once you 
+#accomplish goal B and deliver that first Pipe counter, however, you are 
+#in excellent shape, and Pirate Broadcast ensures that speed advancement 
+#nodes and upgrades will be regularly cleared off the board. 
+#
+#As an aside, I have designed ONE speed deck which can beat this deck 
+#more than 50% of the time, but I have yet to see anything like it 
+#played, discussed, or even mentioned and thus I think it is unlikely 
+#that you will encounter a similar deck. The deck is somewhat specialized 
+#and therefore (hopefully) similar ones won't emerge anytime soon. 
+#
+#2. Against the Tag and Bag Deck: 
+#
+#You may notice that I haven't mentioned the use of four of the cards in 
+#the HYHAD deck. Two copies of Fall Guy and two copies of The Deck are 
+#obviously tailored to provide defense against Tag and Bag decks, a 
+#matter of critical importance with a LFC-powered deck. Their 
+#installation is optional, but if you catch wind of an impending tag, it 
+#would be prudent to install these cards as soon as possible. 
+#
+#In the even that you feel a tag is coming on the corp's next turn, do 
+#the following or verify that you have done the following in order of 
+#priority: 
+#
+#A) If you installed a LFC this turn and the corp has four or more bits, 
+#or if you have run this turn and the corp has three or more bits, or if 
+#you have run twice this turn and the corp has one or more bits, then 
+#install The Deck. Most likely, this will mean installing a LFC followed 
+#by the Deck. As usual, running early in your turn helps save actions for 
+#this sort of defense later on, but the best defense is simply to install 
+#The Deck early in a game against an unknown deck. 
+#
+#B) If you trashed a node this turn and the corp has five or more bits, 
+#or if you have liberated an agenda this turn and the corp has three or 
+#more bits, or if you get tagged on your last action, or if any of the 
+#conditions in A are satisfied but you cannot install The Deck, install a 
+#Fall Guy. 
+#
+#C) If conditions in A or B are met but you cannot install The Deck or 
+#Fall Guy and do not already have these cards installed, install TTC. 
+#
+#D) If you cannot install a TTC, the next best thing to do (surprisingly) 
+#is to install a fresh LFC. If the corp tags you (one action + bits) and 
+#trashes your LFC (one action and two bits), you will be able to pay the 
+#10 bit cost and trash your LFC, and the corp will need to use its last 
+#action and pay another two bits to trash another LFC. If the corp has a 
+#Corporate Detective Agency this will likely fail, but if you come to a 
+#situation where you have not and cannot install The Deck, Fall Guy, TTC, 
+#or LFC then you are either very unlucky or playing too recklessly. 
+#
+#If you lose a Fall Guy, remember to Junkyard it and reinstall it, unless 
+#the corp is going to lose on your next turn. 
+#
+#As with the speed deck, the tag deck is in serious trouble once you 
+#accomplish goal B. With one less action, it becomes difficult to both 
+#tag and bag the runner in one turn; once you reach goal C you are more 
+#or less safe from tag and bag strategies. Also note that Pirate 
+#Broadcasting is lethal to all tag nodes, including Schlaghund, City 
+#Surveillance, etc, and as in the case against speed decks the optimal 
+#strategy would include preventing and nodes/upgrades from remaining 
+#installed for any significant period of time. 
+#
+#One note about City Surveillance: if you are about to play BSB and there 
+#is an unrezzed node installed that could be City Surveillance, be sure 
+#to either run the node first (with two bits to trash it), or make sure 
+#you have 7 bits before playing BSB to avoid the tags. 
+#
+#3. Against the Ambush/Damage Deck: 
+#
+#You will notice a distinct lack of brain and net damage protection in 
+#the HYHAD deck on the surface. In reality, the combination of BSB and 
+#Militech MRAM chips provides excellent damage "buffering" albeit not 
+#damage prevention. As you might expect, Junkyarding any cards you lose 
+#as a result of damage that are essential to your goal achievement is 
+#important. Typically I have a hand size of at least 11 by the mid-game, 
+#and therefore I am unlikely to be flatlined by damage other than the 
+#Schlaghund or I Got a Rock meat damage that results from multiple tags 
+#(see above). 
+#
+#Against a deck filled with TRAP! and SETUP!, the HYHAD deck does well 
+#since you typically only accessing fewer than 12 different cards during 
+#the entire game, and even if 1/2 are ambushes you should have enough 
+#cards to avoid getting flatlined. As always, Junkyard back what you 
+#cannot afford to lose. 
+#
+#Against Virus Test Site decks in which the VTS is advanced to ridiculous 
+#degrees, you should never let the VTS remain unmolested for long enough 
+#to acquire more than two advancement counters. In addition, most VTS / 
+#Namatoki Plaza decks I have seen or designed are far too slow to resist 
+#the overwhelming onslaught of Pipe counters delivered by the HYHAD deck. 
+#Also, keep in mind that the runner may jack out before the corp rezzes a 
+#node or upgrade, even if this means that your Pirate Broadcast is 
+#unsuccessful. The action you lose as a result is often not a significant 
+#penalty. 
+#
+#4. Against Disinfectant, Inc.: 
+#
+#Disinfectant is not an effective defense against the HYHAD deck, despite 
+#its name (just a little deceptive humor here). The HYHAD player simply 
+#runs and destroys all Disinfectants as he/she would with any naked node 
+#or agenda. The only case in which Disinfectant is an issue is if the 
+#corp successfully installs the Disinfectant in a Roving Sub. But again, 
+#this is not a problem: 
+#
+#- If the corp can do this on turn one, the corp's deck is likely to be 
+#composed of roughly 7 or more Roving Subs and 7 or more Disinfectants. 
+#Not only is this highly unlikely (especially since I have only once seen 
+#a Disinfectant in play ever), but if the corp has devoted one-third of 
+#its deck to these two cards, you can safely assume that the deck will 
+#move about as fast as a crippled Yugo on Crisco. 
+#
+#- Even if the corp gets a Disinfectant locked away in a Roving Sub, the 
+#Disinfectant can only be used once per turn. This simply means you will 
+#need to spend an extra action and bits delivering the Socket counter 
+#which the corp avoided earlier. Usually this is not a problem. 
+#
+#5. Against Subsidiary Data Fort Decks: 
+#
+#Decks that rely on many SDFs (such as Newsgroup Taunting, Poison Pill, 
+#etc.) are prone to fall from Pirate Broadcasting with many bits. If you 
+#see rezzed Newsgroup Tauntings, run them before delivering the Socket 
+#counters to reduce costs. If you feel that the corp has many naked face 
+#down ambush nodes, simply jack out before accessing them and end your 
+#Pirate Broadcast. 
+#
+#NOTE added in proof: my reasoning regarding the runner's socket/pipe 
+#counter installment was verified as correct in a later email by Glenn 
+#Elliot of WotC. 
+#

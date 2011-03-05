@@ -1,0 +1,84 @@
+#Title:
+#Gypsy Mole
+#
+#Format:
+#Revised
+#
+#Author:
+#Googol
+#
+#Date:
+#Mon Sep 03, 2007 11:02 pm
+#
+#Deck list:
+2 Rent-I-Con
+3 Joan of Arc
+8 Gypsy Schedule Analyzer
+2 Remote Detonator
+4 MIT West Tier
+10 Boostergang Connections
+4 HQ Mole
+3 Bodyweight Data Creche
+3 False Echo
+2 Emergency Self-Construct
+21 Bodyweight Synthetic Blood
+50 Top Runners' Conference
+2 misc.for-sale
+2 Valu-Pak Software Bundle
+1 Mouse
+1 Technician Lover
+1 Krash
+1 Access to Arasaka
+
+#Description:
+#My runner deck is called the Gypsy Mole, for obvious reasons. Its a 
+#design I came up with some time ago when I was playing NR but I couldn't 
+#make it work because I didn't have the TRCs for it. 
+#
+#A couple of points from the tournament - this is not a deck to play if 
+#Corp is using City Surveillances - I gave up adding tags after I hit 36! 
+#Closed Accounts is also bad news if tagged, I said I would publish part 
+#of the game log for a laugh: 
+#
+#1:01:14 [cheffo] cheffo puts Closed Accounts to Graveyard from Play
+#1:01:18 [Googol] Googol's life total is now 44 (-10)
+#1:01:19 [Googol] Googol's life total is now 34 (-10)
+#1:01:21 [Googol] Googol's life total is now 24 (-10)
+#1:01:22 [Googol] Googol's life total is now 14 (-10)
+#1:01:23 [Googol] Googol's life total is now 4 (-10)
+#1:01:25 [Googol] Googol's life total is now 0 (-4)
+#
+#I may have set a record by losing 54 bits to CA Shocked .
+#
+#Anyway, back to the deck: the principle is simple, but I messed it up in 
+#this tournament by trying to be too clever with the Rent-I-Cons and 
+#Joans (I'd forgotten that the "trash Rent-I-Con" was subroutine based!). 
+#I would recommend dropping them, and using only Krash as in my original 
+#deck. 
+#
+#The idea is to draw and install lots of TRCs to build a large bit pool 
+#(using misc-for-sale its possible to have 70 bits in your pool after six 
+#turns). Then use Boostergang to start the last turn with a hand of: 
+#
+#Gypsy Schedule Analyser x 4
+#Remote Detonator
+#
+#The last turn is then:
+#Actions: Bit cost
+#
+#1 Run with GSA 2 + X
+#Activate False Echo 2
+#2 Remote Detonate 7
+#3 Run with GSA 2
+#4 Run with GSA 2
+#5 Use BDC to run HQ X
+#and sequentially access all cards using HQ Moles 16
+#
+#32 bits are needed in the last round for fixed costs plus the cost of 
+#two breaks (unless Corp has been clever and held back a Glacier). The HQ 
+#run should be cheap unless Corp has a lot of bits because none of the 
+#ice would have been rezzed on it till the BDC run and hopefully False 
+#Echo will have forced Corp to spend most of their bits anyway. 
+#
+#I have a more detailed analysis of the in-game turns which I will post 
+#if anyone is interested. 

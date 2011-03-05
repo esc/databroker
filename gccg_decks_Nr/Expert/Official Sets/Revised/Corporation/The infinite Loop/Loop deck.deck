@@ -1,0 +1,96 @@
+#Title:
+#Cash Overflow
+#
+#Format:
+#Revised
+#
+#Author:
+#Wyatt Cheng
+#
+#Date:
+#Fri, 21 Feb 1997 11:05:03 -0800
+#
+#Deck list: 
+6 AI Chief Financial Officer
+2 Employee Empowerment
+11 Team Restructuring
+4 Project Consultants
+6 Credit Consolidations
+3 Accounts Receivable
+5 Pacifica Regional AIs
+2 Edgerunner Inc. Temps
+1 Filter 
+1 Sleeper
+1 Quandary
+1 Data Wall
+1 Data Wall 2.0
+1 Wall of Static
+
+#Description:
+#Before I start let me say that this deck has a) A reasonable chance of 
+#scoring an agenda out of hand on turn 1 or turn 2 b) A fairly good 
+#chance of looping by turn 6, and fairly high by turn 8. 
+#
+#When I say loop, I am referring to infinite actions and infinite bits. 
+#
+#The key is: After scoring an AI CFO, a card is 1/5 of an action 
+#
+#Using only credit consolidation, a bit is 1/5 of an action. Since it 
+#takes a card, that's 3/25ths of an action, but we'll stick with 1/5 
+#
+#For 1 bit + 1 card + 1 action I can team restructure onto two Pacifica 
+#Regional AIs, gaining 2 actions 
+#
+#i.e.. 1 and 2/5 of an action -> 2 actions 
+#
+#Just to describe the mechanics of the deck, basically I try to score an AI 
+#CFO as fast as possible. The deck can't win unless it scores that first 
+#AI CFO. Once that is done, I try to get up to 12-13 bits. Then I CFO and 
+#draw until I can start a turn with 2 Pacifica Regional AIs and at least 
+#1, preferably 2 team Restructurings in my hand. 
+#Action 1: Install Regional AI
+#Action 2: Install Regional AI
+#Action 3: Team restructure
+#(1 counter left> AI CFO, draw 5 cards, pray for another team restructure
+#
+#This continues, in which I keep CFOing until I get a hand that has at 
+#least 2 team restructures in it, then I play both. The number of actions 
+#i have remaining has now increase by 1. Basically, from here on in, this 
+#is how I do my turns based on the contents of my hand 
+#
+#Play all team restructures, play at most one credit consolidation, based 
+#on current bit pool and actions remaining this turn, if I have an 
+#Edgerunner and at least 2 installable cards, Edgerunner and install 
+#them, use the AI CFO 
+#
+#This continues on and on. The net result is this, if I have no team 
+#restructures, my number of actions goes down by one as I CFO again. If I 
+#have 1 team restructures, my bit pool decreases by one, and I CFO again. 
+#If I have X team restructures, my "action pool" goes up by X - 1, my bit 
+#pool decrease by X, and I CFO again. 
+#
+#So, obviously I need consistently at least 1 team restructure, and 
+#preferably 2 in every CFO hand. That's why there are 11 team 
+#restructures in the deck. 
+#
+#Approximate deck size = 45 - 1 scored CFO - 2 Pacifica's - 2 pieces of 
+#ice = 40 cards. 
+#
+#11/40 = more than 1/5, which is the ratio required to draw, on average 1 
+#Team restructure per CFO. Since the ratio is significantly higher, it 
+#helps prevent screwage, and increases the chance of getting 2 in one 
+#hand. 
+#
+#Anyways, this deck, once it gets at least 2 extra actions, has never 
+#failed to loop out of the 4-5 times I've tried it. Once looping it get's 
+#infinite bits and actions and just sticks out agendas and advances them. 
+#It has lost once, and looped roughly on turns 5-8. I don't think it ever 
+#failed to loop by turn 8 if the runner handn't yet won already. It is 
+#not unreasonable for me be able to fall into infinite actions by turn 6, 
+#all it takes is: 
+#Turn 1: Accounts, Accounts, ice
+#Turn 2: Credit, draw, ice
+#Turn 3: Credit, Credit, draw
+#Turn 4: AI CFO, Project, advance
+#Turn 5: CFO,CFO,CFO (or wahtever number of times it takes)
+#Turn 6: Regional AI, Regional AI, Team restrcutre... wheeeeeeee
