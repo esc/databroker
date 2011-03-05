@@ -1,0 +1,1882 @@
+--NR [NetRunner] Winterdawn
+Set { id="WD", name="Winterdawn" }
+-------------------------------------------------------------------------------
+Item { id="advanced_chipset", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Advanced Chipset",
+       type="Hardware - Chip",
+       cost="1",
+       rarity="U",
+       text=[[Put {2} from the bank on AC when you play it. Use these bits only to pay for installing Hardware-Chips. If you use any of these bits replace them at the start of your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="agitatorl", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Agitator",
+       type="Program - Virus - 1 MU",
+       cost="3",
+       rarity="U",
+       text=[[Whenever you make a successful run on HQ, give the Corp an Agitator Counter. For every 2 Agitator Counters the Corp has, the Corp must pay {1} in addition to any other costs to put an Advancement Counter on a card that can be advanced.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ai_advisor", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="AI Advisor",
+       type="Operation",
+       cost="2",
+       rarity="U",
+       text=[[Do one of the following:
+- Gain {5}
+- Draw 3 cards
+- Gain up to 3 actions which can only be used to install cards.]],
+       flavor=[["Well, the algorithms in this construct refine the decision-making process to matter of nanoseconds. Just make sure you have a loaded benefactor ready to pay your power bill before you call it up though."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="blind_mans_bluff", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Blind Man's Bluff",
+       type="Prep",
+       cost="2",
+       rarity="C",
+       text=[[Make a Run. Before encountering any Ice on the fort you run on, re-arrange all unrezzed ice on that fort without revealing them. The Corp can look at them after you've moved them.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bobs_virtual_warehouse", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Bob's Virtual Warehouse",
+       type="Program - 1 MU",
+       cost="3",
+       rarity="U",
+       text=[[Maintenence: {1}
+#(At the beginning of your turn, pay the maintenence cost or trash this card; this trashing cannot be prevented.)#
+At the end of your turn, before you discard, look through your Stack and select any one Hardware or Program Card. Show this card to the Corp and put it in your Hand. Shuffle your Stack afterwards.]],
+       flavor=[["Buy, buy, buy! Save, save, save!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="boobytrap", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Boobytrap",
+       type="Resource - Hidden - Sabotage",
+       cost="0",
+       rarity="C",
+       text=[[{T}: Give the Corp a Bad-Publicity Counter and remove all tags. Use this ability only if the Corp is trying to trash Boobytrap.]],
+       flavor=[["You know, there's something to be said for hiring a stunt-double" - Nero Yakata]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bountyhunter", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Bountyhunter™",
+       type="Hardware",
+       cost="6",
+       rarity="U",
+       text=[[Put 3 Bounty Counters on Bountyhunter™ when it comes into play. 
+Bounty Counter: Break an Ice Subroutine. When you remove the last Bounty Counter from Bountyhunter™, trash it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bureaucratic_loop", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Bureaucratic Loop",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="U",
+       text=[[{4}, {T}: Give the Corp a Loop counter. For every Loop counter the Corp has, increase the difficulty of all Agendas by 1. Use this ability only after a successful run on HQ. The Corp may remove a Loop counter by taking an action to pay {3}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="calculus", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Calculus",
+       type="Hardware",
+       cost="4",
+       rarity="C",
+       text=[[Put 3 Calculus counters on Calculus when it comes into play. 
+Calculus counter: Break a Code Gate Subroutine. When you remove the last Calculus counter from Calculus, trash it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="catburglar_2000", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Catburglar 2000",
+       type="Hardware",
+       cost="3",
+       rarity="C",
+       text=[[When Catburglar 2000 comes into play, put {2} on it from the bank. Use these bits only during a Run for paying for Icebreakers encountering Sentries. If you use any of these bits, replace them from the bank at the start of your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="chameleon", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Chameleon",
+       type="Program - Base Link - Stealth - 1 MU",
+       cost="8",
+       rarity="R",
+       text=[[{0}: Base Link 3 
+{1}: +1 Link
+Put {2} from the bank on Chameleon when it is installed. Use these bits only to pay for Icebreakers but not for Noisy Icebreakers. If you use any of these bits replace them at the start of your turn. 
+#(Use only one base link card for each trace attempt made against you.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="charity_fundraising", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Charity Fundraising",
+       type="Operation - White Ops",
+       cost="4",
+       rarity="C",
+       text=[[Gain {7}, or remove up to 2 Bad Publicity points.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="charity_starts_at_home", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Charity Starts at Home",
+       type="Operation - White Ops",
+       cost="3",
+       rarity="U",
+       text=[[Gain 5 Justice counters. Play Charity Starts at Home only if you scored any White Ops agendas during this turn.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="chemical_reaction", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Chemical Reaction",
+       type="Resource - Hidden - Sabotage",
+       cost="0",
+       rarity="U",
+       text=[[{T}, Trash X Cards from your hand at random: The Corp trashes X cards from R&D face down in the Archives. Use this ability only after a successful run on R&D.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="chicos_used_hardware_emporium", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Chico's Used Hardware Emporium",
+       type="Resource - Connection",
+       cost="3",
+       rarity="R",
+       text=[[{A}, Trash X pieces of hardware from your hand: Gain 3 times {X}. X cannot be greater than 5.]],
+       flavor=[["I told him they fell off the back of a truck."
+"Did you leave out the part about standing the truck on end and shaking it first?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="chlorofoam", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Chlorofoam",
+       type="Program - Random - 1 MU",
+       cost="0",
+       rarity="R",
+       text=[[Maintenence: {1}
+#(At the beginning of your turn, pay the maintenence cost or trash this card; this trashing cannot be prevented.)#
+At the beginning of an action you declare as a Run, roll a die. On a 5 or 6, the Corp derezzes one piece of Ice on the fort you declare the Run on.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="clone_of_angus", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Clone of Angus",
+       type="Resource - Position",
+       cost="2",
+       rarity="C",
+       text=[[For each Clone of Angus you have installed, increase your Base Link by 1.
+{T}: Avoid receiving a Tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="cook_the_books", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Cook the Books",
+       type="Prep - Sabotage",
+       cost="1",
+       rarity="U",
+       text=[[Make a run on HQ. If run is successful do one of the following: 
+- If the Corp has any bits, do not access any cards; instead Corp loses {1} and gives you a tag, and you gain {8}.
+- Do not access cards from HQ; instead, Corp loses {4}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="core_command_shut_down", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Core Command Shut Down",
+       type="Prep - Sabotage",
+       cost="5",
+       rarity="R",
+       text=[[Play only if you made a successful run on HQ this turn. Derez a piece of rezzed Sentry ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="counter_terrorism", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Counter-Terrorism",
+       type="Operation - White Ops",
+       cost="3",
+       rarity="C",
+       text=[[Do not play Counter-Terrorism as an action; instead play Counter-Terrorism when Runner plays a Sabotage card. Cancel the effect of that Sabotage card and gain 2 Justice counters.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="crackerjack_2000", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Crackerjack 2000",
+       type="Hardware",
+       cost="3",
+       rarity="C",
+       text=[[When Crackerjack 2000 comes into play put {2} on it from the bank. Use these bits only during a Run for paying for Icebreakers encountering Code Gates. If you use any of these bits replace them at the start of your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="crash_test_dummy", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Crash Test Dummy",
+       type="Hardware",
+       cost="6",
+       rarity="C",
+       text=[[Put 4 CTD Counters on CTD when it comes into play.
+CTD Counter: Break a Sentry Subroutine. When you remove the last CTD Counter from CTD, trash it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="cyberrally_bbs", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="CyberRally™ BBS",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Do one of the following: 
+- Gain {2}.
+- Remove a tag, at no cost.
+- Gain {1} and up to two actions which may only be used for installing programs. If you do not use the {1} during these actions, return it to the bank.]],
+       flavor=[["Remember them old 'Tron bikes they had in that Eighties movie? Well, today's are three times as fast, and you can bet on them, too..."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="digital_adrenalin", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Digital Adrenalin",
+       type="Prep",
+       cost="4",
+       rarity="C",
+       text=[[Give all of your installed Icebreakers +3 strength. At the beginning of each turn reduce the strength of all icebreakers affected by Digital Adrenalin by 1. All changes in strength are permanent.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="digital_archeologist", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Digital Archeologist",
+       type="Operation",
+       cost="0",
+       rarity="U",
+       text=[[Pay {X} to choose X cards from the face-up pile of the Archives and shuffle them into R&D.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="digital_baglady", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Digital Baglady",
+       type="Program - 1 MU",
+       cost="2",
+       rarity="U",
+       text=[[At the start of your turn, put the bottom 2 cards in your trash on the bottom of your stack.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="disaster_relief_force", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Disaster Relief Force",
+       type="Operation - White Ops",
+       cost="2",
+       rarity="C",
+       text=[[Choose up to five pieces of ice from your archives, show them to Runner and put them on the top of R&D. You cannot choose black ice.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="disposable_body_armor", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Disposable Body Armor",
+       type="Hardware - Cybernetics",
+       cost="3",
+       rarity="R",
+       text=[[{T}: Prevent yourself from being flatlined and keep the cards you now have in hand. Put X cards from the top of your Stack into the Trash. X is the damage you would have taken beyond reducing your handsize to zero.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="double_edged_sword", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Double Edged Sword",
+       type="Prep",
+       cost="2",
+       rarity="R",
+       text=[[Make a run. Ignore all subroutines that contain "End the Run". You may not break any other subroutines during this run. You may not jack out during this run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="eenie_meenie_minie_mo", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Eenie-Meenie-Minie-Mo",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="U",
+       text=[[{4}, {T}: Give the Corp a EMMO Counter. For every EMMO Counter the Corp has, you may look at an additional card from R&D, access one of those cards, and replace the others on top of R&D in the same order. Use this ability only after making a successful run on R&D. The Corp may remove a EMMO Counter by taking an action to pay {3}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="emergency_morph_command", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Emergency Morph Command",
+       type="Prep",
+       cost="3",
+       rarity="R",
+       text=[[Pay 1 Agenda Point to choose an icebreaker and replace any 'Break X Subroutine' where X is Sentry, Code-Gate or Wall, with 'Break Y Subroutine' where Y can be Sentry, Code-Gate or Wall. This change is permanent.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ethics_training", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Ethics Training",
+       type="Operation - White Ops",
+       cost="0",
+       rarity="C",
+       text=[[Forgo you next action. Reveal all installed black ice and gain {1} for each revealed black ice. Trash any amount of revealed black ice. For each piece of black ice trashed in this way, gain {3}.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="excaliber_protocol", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Excaliber Protocol",
+       type="Operation - White Ops",
+       cost="2",
+       rarity="C",
+       text=[[Do not play Excaliber Protocol as an action; instead play Excaliber Protocol when Runner encounters a piece of white ice. For every Justice counter you remove, increase the strength of that ice by 1.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="food_poisoning", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Food Poisoning",
+       type="Prep - Sabotage",
+       cost="2",
+       rarity="U",
+       text=[[Make a run. Prevent the effect of one Sysop installed in the fort you run and derez it. This Sysop cannot be rezzed for the remainder of the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="for_the_common_good", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="For the Common Good",
+       type="Operation - White Ops",
+       cost="0",
+       rarity="R",
+       text=[[Pay 1 agenda point to gain 2 actions.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="forget_you_not_inc", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Forget You Not Inc.",
+       type="Operation - Black Ops",
+       cost="6",
+       rarity="U",
+       text=[[Play only if Runner has been tagged this game. Do 2 meat damage.]],
+       flavor=[["Yeah, sure, the name sounds cute, but I've seen these guys. They're plug-ugly."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ghost_in_the_machine", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Ghost in the Machine",
+       type="Prep - Sabotage",
+       cost="2",
+       rarity="U",
+       text=[[Play this card only if you made a successful run on HQ this turn. Do one of the following:
+- Trash an unrezzed piece of ice.
+- Pay the rez cost of a piece of rezzed ice to trash it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="handshake_deal", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Handshake Deal",
+       type="Operation - White Ops",
+       cost="2",
+       rarity="U",
+       text=[[Do not play Handshake Deal as an action. Play Handshake Deal only after Runner has trashed one or more of your installed cards. Prevent those cards from being trashed and gain 1 Justice counter.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hotwired_chips", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Hotwired Chips",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Gain up to 3 consecutive actions, which you may only use to install Hardware-Chips.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ice_and_data_investigative_report", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Ice and Data Investigative Report",
+       type="Prep",
+       cost="2",
+       rarity="U",
+       text=[[Play only if you have made a successful run on HQ. If there are any rezzed SysOps in play, the Corp must trash those SysOps or gain 1 Bad Publicity Point.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="internment_camp_round_up", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Internment Camp Round-Up",
+       type="Operation - Black Ops",
+       cost="4",
+       rarity="R",
+       text=[[Pay 1 agenda point: Trace12 - If trace is successful give Runner 3 tags. For every Bad Publicity point you have add 3 to your trace strength for this attempt.]],
+       flavor=[["Women on the left, men on the right, this way please."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="interrogation", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Interrogation",
+       type="Operation",
+       cost="4",
+       rarity="C",
+       text=[[Play Interrogation only if you or Runner trashed a resource during this turn.  Trash one resource and give Runner a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="jobbin_at_ice_and_datas", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Jobbin' at Ice and Data's™",
+       type="Prep",
+       cost="1",
+       rarity="C",
+       text=[[Do one of the following:
+- Gain {3}.
+- Expose up to two cards.
+- Draw three cards and then discard one card of your choice.]],
+       flavor=[["They aren't noted for generosity, but you get all of the new stuff first-hand."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="just_grab_it_all", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="'Just grab it all...'",
+       type="Prep",
+       cost="3",
+       rarity="C",
+       text=[[Make a run on HQ or R&D. If run is successful access one additional card.]],
+       flavor=[["...we'll sort it out later!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="kneecapper", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Kneecapper",
+       type="Program - 1 MU",
+       cost="2",
+       rarity="C",
+       text=[[{2}: Reduce the strength of one piece of rezzed Ice by 1 permanently. Use this ability only after successfully breaking all subroutines on that piece of Ice and only once per Run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="knothole", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Knothole",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="U",
+       text=[[{4}, {T}: Give the Corp a Knothole Counter. For every Knothole Counter the Corp has, the Corp must pay {2} when installing a card in a Data Fort or reveal that card immediately after installing it. Use this ability only after making a successful run on HQ. The Corp may remove a Knothole counter by taking an action to pay {4}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="lockdown", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Lockdown",
+       type="Operation - Gray Ops",
+       cost="3",
+       rarity="U",
+       text=[[Play Lockdown only if Runner was tagged during this game. Give Runner a Lockdown counter. As long as Runner has a Lockdown counter, he or she cannot access cards. Runner may take an action to pay {3} to remove a Lockdown counter.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="long_needle", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Long Needle",
+       type="Prep",
+       cost="2",
+       rarity="R",
+       text=[[Make a run. If run is successful each virus delivers one additonal virus counter.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="markers", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Markers",
+       type="Prep",
+       cost="0",
+       rarity="R",
+       text=[[Make a run. For every agenda point you pay during this run, you may pass a piece of rezzed Ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="monkeys_revenge", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Monkey's Revenge",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="U",
+       text=[[{4}, {T}: Give the Corp a Monkey Counter. For every Monkey Counter the Corp must draw an additional card from R&D when he draws a card and immediately discard all but one of them. The Corp may pay {1} when drawing a card from R&D to cancel this effect for that draw. Use this ability only after making a successful Run on R&D. The Corp may remove a Monkey Counter by taking an action to pay {4}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="nero_yakata", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Nero Yakata",
+       type="Resource - Connection - Uniqe",
+       cost="4",
+       rarity="R",
+       text=[[{2}: Prevent all Meat damage from a single source.
+The Corp must pay 1 Agenda Point in addition to any other costs to trash Nero Yakata.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="netwatch_live_on_dms", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="'Netwatch' Live on DMS",
+       type="Operation",
+       cost="4",
+       rarity="C",
+       text=[[Gain {7}. Gain an additional {2} if Runner is tagged.]],
+       flavor=[["We're broadcasting live from the DMS fortress, where an unsuspecting felon..." - "Boy, this will really raise our viewer percentage!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="no_pain_no_gain", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="No Pain, No Gain",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Make a run. During this run you may pay {2} to change any Subroutine you choose not to break to "{S} Do 1 brain damage. This damage can not be prevented.".]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="nomad_terrorists", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Nomad Terrorists",
+       type="Resource - Connection - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{3}, {T}: For the remainder of this run cancel the effects of an Upgrade-Region installed on the Fort you are running on. Use this ability only after declaring a Run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="now_enriched_with_vitamin_c", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Now Enriched with Vitamin C",
+       type="Operation - Research",
+       cost="4",
+       rarity="C",
+       text=[[Play Now Enriched With Vitamin C only if you scored any Research agendas this turn. Put a +1 strength counter on each rezzed piece of ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="one_bad_apple", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="One Bad Apple",
+       type="Operation - White Ops",
+       cost="5",
+       rarity="U",
+       text=[[Trash a rezzed piece of black ice: Increase the strength of all other installed ice except other black ice by 1.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="one_armed_bandit", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="One-Armed Bandit",
+       type="Hardware",
+       cost="3",
+       rarity="R",
+       text=[[At the beginning of each of your turns roll a die. On a 2, 3, or 4, put that many bits from the bank on One-Armed Bandit. On a 5 or 6, remove all bits from One Armed Bandit. 
+{A}: Take all bits from One-Armed Bandit.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="pillage_the_pension", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Pillage the Pension",
+       type="Operation - Gray Ops - Bad Publicity",
+       cost="4",
+       rarity="C",
+       text=[[Gain {10} and 1 Bad Publicity point.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="power_of_the_press", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Power of the Press",
+       type="Resource - Position",
+       cost="5",
+       rarity="R",
+       text=[[While Power of the Press is in play treat all White Ops Agendas as Research; all Research Agendas as Gray Ops; all Gray Ops Agendas as Black Ops; and all Black Ops Agendas as Assets.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="repo_man", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Repo-Man",
+       type="Resource - Connection - Unique",
+       cost="2",
+       rarity="C",
+       text=[[At start of your turn you may trash up to five cards from your stack. Gain {1} for each card trashed in this way. 
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="reverse_polarity", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Reverse Polarity",
+       type="Prep",
+       cost="2",
+       rarity="R",
+       text=[[When you play Reverse Polarity, remove it from the game instead of trashing it. Take all cards from trash and shuffle them. They become the new stack, while you shuffle the old stack and put it face up as the new trash.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rockerboy_roadie", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Rockerboy Roadie",
+       type="Resource - Position",
+       cost="6",
+       rarity="C",
+       text=[[When Rockerboy Roadie comes into play, put 4 Tour Counters on it. 
+Remove a Tour Counter from Rockerboy Roadie: avoid receiving a tag. 
+{T}: Avoid receiving a tag.]],
+       flavor=[["So where are we this week?"  "2 dates at the 'Cesspool' in Baltimore, 3 more  at 'The Hole' in Newark  and then onto 'The Bomb Shelter' in Pittsburgh for the weekend.  "And the booking agent?" "Him? He thinks we're in Boston."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="secret_handshake", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Secret Handshake",
+       type="Prep",
+       cost="0",
+       rarity="U",
+       text=[[Gain {1} and take an action to install up to 4 Non-Hidden Resource-Positions. If you did not use that bit during this action, return that bit to the bank.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="semtex_2000", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Semtex 2000",
+       type="Hardware",
+       cost="3",
+       rarity="C",
+       text=[[When Semtex 2000 comes into play put {2} on it from the bank. Use these bits only during a Run for paying for Icebreakers encountering Walls. If you use any of these bits replace them at the start of your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="shareholder_revolt", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Shareholder Revolt",
+       type="Resource - Hidden - Sabotage",
+       cost="0",
+       rarity="R",
+       text=[[{T}, {X}, Trash X cards at random from your hand: Remove X Advancement counters from a card that can be advanced. Use this ability only after a successful run on HQ.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="siamese_twin", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Siamese Twin",
+       type="Program - 1 MU",
+       cost="3",
+       rarity="C",
+       text=[[Forgo your next action: Remove a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="sift_the_trash", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Sift the Trash",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Take the card directly beneath Sift the Trash from the trash into your hand. You may pay {1} when you play Sift the Trash to take it back into your hand from the trash.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="silent_partner", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Silent Partner",
+       type="Resource - Connection",
+       cost="3",
+       rarity="C",
+       text=[[For every action, up to three, that you forgo when installing Silent Partner, put a bit from the bank on Silent Partner. Use these bits for paying any costs except for those incurred while making a run, installing cards, or playing preps. If you use these bits, replace them at the start of your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="skalderviken_beta_test_subject", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Skälderviken Beta Test Subject",
+       type="Resource - Position",
+       cost="3",
+       rarity="U",
+       text=[[For every point of Net Damage successfully done to you, gain {1}. For every point of Brain Damage successfully done to you, gain {2}.]],
+       flavor=[["Sometimes, fortune favours the stupid too."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="sniper", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Sniper",
+       type="Program - Virus - 1 MU",
+       cost="5",
+       rarity="U",
+       text=[[For every successful Run on HQ give the Corp a Sniper Counter. If the Corp has 3 Sniper counters he must trash a piece of installed Ice at the start of his turn. Remove 3 Sniper counters if a piece of Ice is trashed in this way.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="soup_kitchen_volunteer", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Soup Kitchen Volunteer",
+       type="Resource - Position",
+       cost="2",
+       rarity="C",
+       text=[[For every Justice Counter the Corp gains, gain {1}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="streetcleaners_inc", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Streetcleaners, Inc.",
+       type="Operation - Gray Ops",
+       cost="4",
+       rarity="C",
+       text=[[Play only if Runner is tagged. Runner must reveal all hidden resources. For every resource Runner has installed, Runner must pay {2} or trash that resource.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tabloid_tommy_turnbull", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="'Tabloid' Tommy Turnbull",
+       type="Resource - Connection - Hidden",
+       cost="0",
+       rarity="U",
+       text=[[{T}: For every {2} you spend, the Corp loses 1 Justice Counter. Use this ability only after a successful Run on HQ.]],
+       flavor=[["Yeah, right! And what part of yourself couldn't you live with, the designer eyes or the freaky haircut?" -  'Tabloid' Tommy Turnbull]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="termite", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Termite",
+       type="Hardware",
+       cost="4",
+       rarity="C",
+       text=[[Put 3 Termite Counters on Termite when it comes into play. 
+Termite Counter: Break a Wall Subroutine. When you remove the last Termite Counter from Termite, trash it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="the_meek", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="The Meek",
+       type="Resource - Hidden - Sabotage",
+       cost="0",
+       rarity="U",
+       text=[[{T}, Trash X cards from your hand at random: The Corp trashes X cards stored in HQ face down in the Archives. Use this ability only after a successful run on HQ.]],
+       flavor=[["Booster Gang?"
+"Well, their secret handshake broke 2 of my ribs, waddayouthink?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="the_truth_is_out_there", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="The Truth is Out There",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Play only after a successful run on HQ. Gain {1} for each Justice counter the corp has, and the corp loses {3} if it has any Justice counters.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="the_zinger_pm", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="The Zinger PM",
+       type="Hardware - Deck - Cybernetics",
+       cost="4",
+       rarity="R",
+       text=[[Provides +1 MU. When you install The Zinger PM you can pay, above the installation cost, {2} to give The Zinger PM "+1 MU"; {1} to give The Zinger PM "+1 Handsize"; {2} to Give The Zinger PM "Prevents up to 2 Net Damage or 1 Brain Damage each turn"; {2} to put on The Zinger PM {1} that may only be used on Icebreakers during a run, and which gets replaced from the bank at the start of your turn if used.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[["It slices, It dices..." - Zinger]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="underground_crimelord", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Underground Crimelord",
+       type="Resource - Position",
+       cost="2",
+       rarity="C",
+       text=[[When you install Underground Crimelord put {2} on it from the bank. Use these bits only for any costs you must pay in order for a Hidden Card to take effect. If you use any of these bits replace them at the start of your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="virtual_quarantine", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Virtual Quarantine",
+       type="Operation - Gray Ops",
+       cost="6",
+       rarity="U",
+       text=[[Play Virtual Quarantine only if Runner is tagged. Pay 1 agenda point and give Runner a Quarantine counter. Each Quarantine counter causes Runner to forgo an action at the start of each of his or her turns.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="work_to_rule", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Work To Rule",
+       type="Program - Virus - 1 MU",
+       cost="3",
+       rarity="C",
+       text=[[For every successful run put a WTR Counter on the Datafort that was run. For every 2 WTR counters, the Corp must pay an additional {1} to Rez Ice on that Datafort.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="zetatech_data_cache_3000", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Zetatech Data Cache 3000",
+       type="Hardware",
+       cost="2",
+       rarity="U",
+       text=[[At the beginning of your turn, look at the top card from your stack and place it facedown on Zetatech Data Cache 3000.
+{A}: For every bit you spend, choose one card from Zetatech Data Cache 3000 and put it into your hand. If Zetatech Data Cache 3000 is trashed, all cards on it are also trashed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="zetatech_prototype", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Zetatech Prototype",
+       type="Hardware - Deck",
+       cost="4",
+       rarity="U",
+       text=[[Provides +1 MU. Put {2} from the bank on ZP when you play it. Use these bits only to pay for installing programs. If you use any of these bits replace them at the start of your turn.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="zinger", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Zinger",
+       type="Resource - Connection - Unique",
+       cost="4",
+       rarity="R",
+       text=[[{2}: Prevent a piece of Hardware from being trashed.
+When you install Zinger put {2} on it from the bank. Use these bits only for installing Hardware. If you use any of these bits, replace them at the start of your turn. 
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="agents_on_the_street", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Agents on the Street",
+       type="Node - Gray Ops",
+       cost="3",
+       rarity="U",
+       trash="1",
+       text=[[Gain {2} whenever Runner takes an action to use the ability of an installed card.]],
+       ruling=[[The original name of this card was "Word on the Street", but it was the same name of two other cards from Chrysalid Matrix and Repeat Intrusion Patterns, so it has been changed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ai_old_boys_club", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="AI Old Boys Club",
+       type="Node - Transactions",
+       cost="3",
+       rarity="R",
+       trash="1",
+       text=[[{A}, {A}, Trash X cards from R&D face up: Gain three times {X}. X cannot be greater than 5.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="anchorman", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Anchorman",
+       type="Ice - Sentry",
+       cost="6",
+       rarity="U",
+       power="2",
+       text=[[{S} End the run.
+For each piece of rezzed ice installed outside of Anchorman, Runner must pay {1} in addition to any other costs to break subroutines on Anchorman.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ares_antarctica", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Ares Antarctica",
+       type="Upgrade - Sysop",
+       cost="0",
+       rarity="U",
+       trash="3",
+       text=[[{A}: Install up to two pieces of ice on this fort.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="basel_city_grid", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Basel City Grid",
+       type="Upgrade - Region",
+       cost="2",
+       rarity="U",
+       trash="5",
+       text=[[For every Research agenda you have scored, increase the strength of all ice installed on this fort by 1.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="berserker", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Berserker",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="6",
+       rarity="C",
+       power="8",
+       text=[[{2}: +1 strength 
+{1}: Break Sentry Subroutine 
+At the start of your turn reduce the strength of Berserker by 2.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="but_wait_thats_not_all", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="But Wait! That's Not All...",
+       type="Agenda - Gray Ops",
+       cost="3",
+       rarity="C",
+       points="1",
+       text=[[When you score But Wait! That's Not All... refill with bits from the bank all Node-Advertisements you have in play up to their maximum amount of bits they receive when rezzed.]],
+       flavor=[["Any idea as to how long we have to keep flogging the Disposable In-Law Set? The hair on the Dads in the warehouse is starting to turn grey."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="claudia", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Claudia",
+       type="Ice - Sentry - Black Ice - Vampire - AP",
+       cost="9",
+       rarity="C",
+       power="5",
+       text=[[{S} Trace5 - If Trace is successful end the run and do 1 brain damage.
+{S} Trace5 - If Trace is successful end the run and do 1 brain damage. This damage may not be prevented.
+When Runner encounters Claudia, you may reduce the strength of a rezzed piece of ice installed outside of Claudia by X permanently and increase Claudia's strength by X for this encounter. X cannot be greater than the strength of that piece of ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="co_ordinated_comsats", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Co-Ordinated Comsats",
+       type="Agenda - Gray Ops",
+       cost="4",
+       rarity="U",
+       points="2",
+       text=[[When you score Co-Ordinated Comsats, put 4 CC counters on it. At the start of your turn you may remove 1 CC counter from Co-Ordinated Comsats and put an advancement counter on a card that can be advanced.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="corporate_image_change", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Corporate Image Change",
+       type="Agenda - White Ops",
+       cost="3",
+       rarity="C",
+       points="2",
+       text=[[When you score Corporate Image Change remove up to 1 Bad Publicity point and gain 4 Justice counters.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="corporate_liquidation", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Corporate Liquidation",
+       type="Node - Transactions",
+       cost="0",
+       rarity="R",
+       trash="4",
+       text=[[At start of each of your turns trash a piece of rezzed ice and gain bits equal to the rez cost of the trashed ice. If you don't trash a piece of ice, trash Corporate Liquidation.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="corporate_priority_change", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Corporate Priority Change",
+       type="Agenda - Asset",
+       cost="4",
+       rarity="C",
+       points="3",
+       text=[[At start of your turn you may cut any number of cards from the top of R&D to the bottom of R&D.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="court_district", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Court District",
+       type="Upgrade - Region - White Ops",
+       cost="2",
+       rarity="R",
+       trash="4",
+       text=[[After Runner passes each piece of ice on this fort, gain one Justice counter.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="data_recycler", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Data Recycler",
+       type="Upgrade",
+       cost="2",
+       rarity="R",
+       trash="3",
+       text=[[Install Data Recycler only in HQ.
+{A}, Discard 2 cards face down: Take a card from Archives and put it in your hand.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="digital_oath", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Digital Oath",
+       type="Ice - Code Gate - White Ice",
+       cost="6",
+       rarity="C",
+       power="5",
+       text=[[{S} The Corp gains one Justice counter.
+{S} End the run.
+#(At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="encryptor", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Encryptor",
+       type="Ice - Code Gate",
+       cost="3",
+       rarity="C",
+       power="3",
+       text=[[{S} Runner accesses one less card during this run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="encryptor_20", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Encryptor 2.0",
+       type="Ice - Code Gate",
+       cost="5",
+       rarity="U",
+       power="4",
+       text=[[{S} Runner accesses one less card during this run.
+{S} End the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="encryptor_30", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Encryptor 3.0",
+       type="Ice - Code Gate",
+       cost="8",
+       rarity="U",
+       power="5",
+       text=[[{S} Runner accesses one less card during this run.
+{S} Runner accesses one less card during this run.
+{S} End the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="encryptor_deluxe", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Encryptor Deluxe",
+       type="Ice - Code Gate",
+       cost="10",
+       rarity="R",
+       power="6",
+       text=[[{S} Runner accesses one less card during this run.
+{S} Runner accesses one less card during this run.
+{S} End the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ethan_rolodex_reynolds_hr", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Ethan 'Rolodex' Reynolds, HR",
+       type="Upgrade - Sysop",
+       cost="0",
+       rarity="R",
+       trash="2",
+       text=[[{1}: Take a sysop upgrade stored in HQ and install it in the fort containing Ethan "Rolodex" Reynolds.
+{2}: Take a sysop upgrade stored in Archives and install it in the fort containing Ethan "Rolodex" Reynolds.   Use this ability only after Runner has passed a piece of ice and only once per run. After the run, trash that sysop upgrade.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="flypaper", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Flypaper™",
+       type="Node - Ambush",
+       cost="2",
+       rarity="U",
+       trash="0",
+       text=[[You may advance Flypaper™ before and after you rez it. When Runner accesses Flypaper™, it gives Runner a tag for every advancement counter on it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="four_eyes", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Four-Eyes",
+       type="Program - Icebreaker - 1 MU",
+       cost="4",
+       rarity="R",
+       power="3",
+       text=[[{2}: Break Code Gate Subroutine 
+{3}: +2 strength 
+For every {2} you spend when accessing cards after a successful run in which you used Four-Eyes, you may access 1 additional card. You may not spend more than {4} per run on this ability.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="goldsworthy_accountants_inc", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Goldsworthy Accountants Inc.",
+       type="Node - Gray Ops",
+       cost="2",
+       rarity="C",
+       trash="4",
+       text=[[Gain {1} whenever you rez a card.]],
+       flavor=[["I'd like to thank my wife and two children for being tax write-offs" - Bill Spooner, The Tubes.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="gti_product_catalogue", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="GTI Product Catalogue",
+       type="Node - White Ops",
+       cost="2",
+       rarity="U",
+       trash="3",
+       text=[[{A}: Show to Runner one card stored in HQ. Shuffle that card into R&D. Draw 2 cards.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="gti_scholarship_fund", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="GTI Scholarship Fund",
+       type="Agenda - White Ops",
+       cost="3",
+       rarity="C",
+       points="2",
+       text=[[For every 2 Advancement counters over GTI Scholarship Fund's difficulty that are on GTI Scholarship Fund when you score it, gain 1 Justice counter at the start of each of your turns.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="guineveire", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Guineveire",
+       type="Ice - Sentry - White Ice",
+       cost="5",
+       rarity="C",
+       power="3",
+       text=[[{S} The Corp gains one Justice counter.
+#(At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hide_and_seek", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Hide and Seek",
+       type="Upgrade",
+       cost="3",
+       rarity="R",
+       trash="0",
+       text=[[Install Hide and Seek only in a subsidary data fort. Rez Hide and Seek only after Runner has passed the last piece of ice on this fort, but before Runner accesses cards.
+{T}: Install any one agenda in this fort in another existing subsidary data fort. Any advancement counters on that agenda remain on it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="humanitarian_of_the_year_award", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Humanitarian of the Year Award",
+       type="Agenda - Asset",
+       cost="3",
+       rarity="R",
+       points="1",
+       text=[[All White Ops Agendas have their difficulty reduced by one.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="intruder_alert", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Intruder Alert",
+       type="Ice - Code Gate - Anti Stealth",
+       cost="3",
+       rarity="C",
+       power="2",
+       text=[[{S} End the run.
+Whenever Runner encounters Intruder Alert, reduce all bits on all Stealth sources by 1.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="iron_rhino", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Iron Rhino",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="7",
+       rarity="R",
+       power="4",
+       text=[[{3}: Break up to 2 Wall Subroutines 
+{1}: +1 strength
+Whenever you break Wall Subroutines with Iron Rhino, lose a total of 1 from Stealth cards. For every {2} you spend when accessing cards after a successful run in which you used Iron Rhino to break a subroutine, you may trash a card you are accessing, even if it cannot normally be trashed. You may not spend more than {4} per run on this ability.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="justice_attractor", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Justice Attractor",
+       type="Ice - Sentry - White Ice",
+       cost="2",
+       rarity="C",
+       power="5",
+       text=[[{S} For the remainder of this run, the Corp gains one Justice counter for each piece of ice Runner encounters.
+#(At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="king_arthur", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="King Arthur",
+       type="Ice - Sentry - White Ice",
+       cost="13",
+       rarity="R",
+       power="6",
+       text=[[{S} The Corp gains one Justice counter.
+{S} The Corp gains one Justice counter.
+{S} The Corp gains one Justice counter.
+{S} End the run.
+{S} End the run.
+#(At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="lancelot", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Lancelot",
+       type="Ice - Sentry - White Ice",
+       cost="9",
+       rarity="U",
+       power="5",
+       text=[[{S} The Corp gains one Justice counter.
+{S} The Corp gains one Justice counter.
+#(At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="lestat", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Lestat",
+       type="Ice - Sentry - Black Ice - Vampire - AP",
+       cost="13",
+       rarity="R",
+       power="7",
+       text=[[{S} Trace7 - If Trace is successful end the run and do 1 brain damage.
+{S} Trace7 - If Trace is successful end the run and do 1 brain damage. This damage cannot be prevented.
+When Runner encounters Lestat, you may reduce the strength of a rezzed piece of ice installed outside of Lestat by X permanently and increase Lestat's strength by X for this encounter. X cannot be greater than the strength of that piece of ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="louis", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Louis",
+       type="Ice - Sentry - Black Ice - Vampire - AP",
+       cost="11",
+       rarity="U",
+       power="6",
+       text=[[{S} Trace6 - If Trace is successful end the run and do 1 brain damage.
+{S} Trace6 - If Trace is successful end the run and do 1 brain damage. This damage cannot be prevented.
+When Runner encounters Louis, you may reduce the strength of a rezzed piece of ice installed outside of Louis by X permanently and increase Louis' strength by X for this encounter. X cannot be greater than the strength of that piece of ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="market_analysts", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Market Analysts",
+       type="Agenda - Asset",
+       cost="4",
+       rarity="U",
+       points="3",
+       text=[[From the time you score Market Analysts until the end of the game, you must play with the top card of R&D face up.
+{0}: Draw the top card from R&D
+{1}: Shuffle your R&D
+You may only use these abilities during a run on R&D and only one ability once during any particular run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="matrixatron", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Matrixatron™",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="5",
+       rarity="C",
+       power="8",
+       text=[[{3}: +1 strength 
+{1}: Break Code Gate Subroutine 
+At the start of your turn reduce the strength of Matrixatron™ by 2.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="medical_bill", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Medical Bill",
+       type="Upgrade - Sysop",
+       cost="3",
+       rarity="U",
+       trash="2",
+       text=[[Rez Medical Bill when Runner attempts to prevent any amount of Net or brain damage during a run on a fort where Medical Bill is installed. Runner must pay {1} per point of damage prevented, in addition to any other costs, or that point of damage is not prevented.]],
+       flavor=[["Humane? Only if you can pay for it"  - 'Tabloid' Tommy Turnbull]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="meltdown", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Meltdown™",
+       type="Program - Icebreaker - 2 MU",
+       cost="9",
+       rarity="R",
+       power="3",
+       text=[[{1}: Break Ice Subroutine 
+{1}: +1 strength 
+If you use Meltdown™ during a Run, take 1 brain damage at the end of that Run. This brain damage cannot be prevented.]],
+       flavor=[["Oh well, didn't like 5th grade that much anyway" - Zinger]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="mobile_surveillence_unit", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Mobile Surveillence Unit",
+       type="Agenda - Asset",
+       cost="4",
+       rarity="C",
+       points="3",
+       text=[[Runner must pay {1} in addition to any other costs to remove a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="morgan_lefey", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Morgan LeFey",
+       type="Program - Icebreaker - 1 MU",
+       cost="3",
+       rarity="U",
+       power="3",
+       text=[[{1}: +1 strength 
+{1}: Break White Ice Subroutine.]],
+       flavor=[[Business Ethics - Famous Oxymorons by George Carlin]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="of_rice_and_zen", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Of Rice and Zen",
+       type="Node - Transactions - White Ops",
+       cost="5",
+       rarity="R",
+       trash="1",
+       text=[[Gain {1} after every action Runner takes in which Runner didn't run.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[["Ooooommmmmmmmmmmmm"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="open_door_policy", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Open Door Policy",
+       type="Node - White Ops",
+       cost="3",
+       rarity="C",
+       trash="4",
+       text=[[For every piece of ice you choose not to rez during a run, gain a Justice counter when Runner passes that ice.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[["We have nothing to hide here at GTI. Come on in and look for yourself" - Terrel Lacroix, CEO GenTech International]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="osmosis", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Osmosis",
+       type="Program - Icebreaker - Worm - 1 MU",
+       cost="4",
+       rarity="U",
+       power="5",
+       text=[[Maintenence: {1}
+#(At the beginning of your turn, pay the maintenence cost or trash this card; this trashing cannot be prevented.)#
+{1}: +1 strength 
+{1}: Break Wall Subroutine.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="percival", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Percival",
+       type="Ice - Sentry - White Ice",
+       cost="7",
+       rarity="C",
+       power="4",
+       text=[[{S} The Corp gains one Justice counter.
+{S} The Corp gains one Justice counter.
+#(At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="phalanx", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Phalanx",
+       type="Ice - Wall - White Ice",
+       cost="7",
+       rarity="C",
+       power="5",
+       text=[[{S} The Corp gains one Justice counter.
+{S} End the run.
+#(At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="preacher_jones", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Preacher Jones",
+       type="Upgrade - Sysop - White Ops",
+       cost="3",
+       rarity="R",
+       trash="1",
+       text=[[All agendas scored by Runner from this fort are worth one agenda point less, to a minimum of 1 agenda point.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[["The Grid giveth, and the Grid taketh away..."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="project_camelot", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Project Camelot",
+       type="Agenda - White Ops",
+       cost="5",
+       rarity="R",
+       points="2",
+       text=[[All White Ice gain "{S} End the run" after all of the other subroutines written on the card. When you score Project Camelot reveal as many White Ice as you wish. Then gain one Justice counter for each rezzed or revealed White Ice.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="project_winterdawn", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Project Winterdawn",
+       type="Agenda - Research - White Ops",
+       cost="4",
+       rarity="U",
+       points="2",
+       text=[[When you score Project Winterdawn, put 4 Winterdawn counters on it.
+Winterdawn counter: Remove or avoid receiving a Bad Publicity point.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="project_winterstorm", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Project Winterstorm",
+       type="Agenda - Research - Black Ops",
+       cost="5",
+       rarity="R",
+       points="2",
+       text=[[{5}, {A}: Do 2 Meat Damage
+Use this ability only if Runner has been tagged this game.]],
+       flavor=[["That's the nice thing about networking. If one of these babies see you, they all do." - Terrel LaCroix]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="pythagoras_plus", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Pythagoras Plus",
+       type="Program - Icebreaker - 1 MU",
+       cost="3",
+       rarity="U",
+       power="5",
+       text=[[Maintenence: {1}
+#(At the beginning of your turn, pay the maintenence cost or trash this card; this trashing cannot be prevented.)#
+{1}: +1 strength 
+{1}: Break Code Gate Subroutine]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rocket_booster", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Rocket Booster",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="5",
+       rarity="C",
+       power="8",
+       text=[[{3}: +1 strength
+{1}: Break Wall Subroutine
+At the start of your turn reduce the strength of Rocket Booster by 2.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="samurai", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Samurai",
+       type="Program - Icebreaker - 1 MU",
+       cost="4",
+       rarity="U",
+       power="3",
+       text=[[Maintenence: {1}
+#(At the beginning of your turn, pay the maintenence cost or trash this card; this trashing cannot be prevented.)#
+{1}: +1 strength 
+{1}: Break Sentry Subroutine]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="silent_crusaders_society", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Silent Crusaders Society",
+       type="Node - White Ops",
+       cost="0",
+       rarity="C",
+       trash="1",
+       text=[[You may Advance Silent Crusaders Society before and after you rez it.
+{A}, {T}: Gain 2 Justice counters for each advancement counter on Silent Crusaders Society.
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[["Founded some 34 years ago, the SCS recruits from among the executive elite those who wish to make the world a better place without drawing attention to themselves"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="skalderviken_city_grid", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Skalderviken City Grid",
+       type="Upgrade - Region",
+       cost="2",
+       rarity="U",
+       trash="0",
+       text=[[After Runner passes each piece of ice on this fort, do 1 brain damage.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="snake_charmer", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Snake Charmer",
+       type="Ice - Wall",
+       cost="5",
+       rarity="U",
+       power="3",
+       text=[[{S} End The run.
+If Runner uses a worm to break a subroutine on Snake Charmer, add 4 to the strength of Snake Charmer.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tear_gas", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Tear Gas",
+       type="Ice - Wall - Knockout",
+       cost="7",
+       rarity="U",
+       power="4",
+       text=[[{S} Runner forgoes his or her next action.
+{S} End the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="terrel_lacroix", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Terrel LaCroix",
+       type="Upgrade - Sysop",
+       cost="0",
+       rarity="R",
+       trash="2",
+       text=[[You may change all ice on this fort to white ice and remove the AP keyword from all ice installed on this fort during a run. Pay {1} for each ice you change that is not a black ice. You may rez Terrel LaCroix when Runner approaches a piece of ice.]],
+       flavor=[["Sometimes, what you don't know will hurt you." - Nero Yakata]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="the_walls_have_ears", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="The Walls Have Ears",
+       type="Ice - Wall - Anti Stealth",
+       cost="3",
+       rarity="C",
+       power="1",
+       text=[[{S} End the run.
+Whenever Runner encounters The Walls Have Ears, reduce all bits on all Stealth sources by 1.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="trash_masher", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Trash Masher",
+       type="Program - Icebreaker - 1 MU",
+       cost="5",
+       rarity="C",
+       power="3",
+       text=[[{2}: +3 strength 
+{1}: Break Killer Subroutine]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="trasher", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Trasher™",
+       type="Ice - Sentry - Killer",
+       cost="4",
+       rarity="C",
+       power="3",
+       text=[[{S} Trash a program.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="truncheon_line", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Truncheon Line",
+       type="Ice - Wall - Knockout",
+       cost="4",
+       rarity="C",
+       power="3",
+       text=[[{S} Runner forgoes his or her next action.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="usaf_battlesat_subgrid", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="USAF Battlesat Subgrid",
+       type="Upgrade - Region",
+       cost="3",
+       rarity="U",
+       trash="4",
+       text=[[When Runner accesses USAF Battlesat Subgrid, it does 1 Net damage for every rezzed piece of ice installed on this fort.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       flavor=[["Though battlesat intranets are tiny, the Spacecorps sure cram them full with all sorts of nasty deterrents to any would-be orbital terrorists. Don't even go near them without your shields up."  - Spider Murphy]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="virtual_eye_scan_technology", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Virtual Eye Scan Technology",
+       type="Node - Black Ops - Unique",
+       cost="4",
+       rarity="R",
+       trash="3",
+       text=[[{2}: Put an VEST counter on Virtual Eye Scan Technology. Each VEST counter increases your trace strength and your trace limit by 1. Use this ability only after Runner has completed a successful run, and only once for each succesful run.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="virtual_vatican", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Virtual Vatican",
+       type="Upgrade - Region - White Ops",
+       cost="4",
+       rarity="R",
+       trash="3",
+       text=[[The difficulty of White Ops agendas installed in this fort is reduced by 1.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#
+#(When a White Ops card is liberated or trashed by Runner, the Corp gains a Justice counter. At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="walkie_talkie", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Walkie Talkie",
+       type="Ice - Sentry - Anti Stealth",
+       cost="3",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run.
+Whenever Runner encounters Walkie Talkie, reduce all bits on all Stealth sources by 1.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="watchtower", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Watchtower™",
+       type="Upgrade - Region",
+       cost="3",
+       rarity="R",
+       trash="1",
+       text=[[Install Watchtower™ only in HQ. Once per run, you may pay {3}, in addition to any other costs, to install a piece of ice stored in HQ on the fort Runner is running on, before the encounter with the first piece of ice.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       flavor=[["Bandits, 5 O'Clock high!!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="water_cannon", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Water Cannon",
+       type="Ice - Wall - Knockout",
+       cost="9",
+       rarity="R",
+       power="5",
+       text=[[{S} Runner forgoes his or her next action.
+{S} Runner forgoes his or her next action.
+{S} End the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="winterwitch", set="WD",
+       copyright="© The AI, Beats, Rabbi Small, Tinweasel, Whirlybird Gameboy",
+       name="Winterwitch",
+       type="Program - Icebreaker - 1 MU",
+       cost="7",
+       rarity="R",
+       power="0",
+       text=[[{1}: Break Sentry Subroutine 
+{0}: Break Black Ice Subroutine 
+{3}: +2 strength 
+When encountering Black Ice add 3 to the strength of Winterwitch for that Encounter. If you use Winterwitch during a Run, give the Corp a Justice counter at the end of that Run.
+#(At the start of its turn the Corp may remove 4 Justice counters to gain {4}, or to gain an action, or to remove 2 Bad Publicity counters.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------

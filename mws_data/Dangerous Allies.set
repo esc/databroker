@@ -1,0 +1,1837 @@
+--NR [NetRunner] Dangerous Allies
+Set { id="DAL", name="Dangerous Allies" }
+-------------------------------------------------------------------------------
+Item { id="working_for_arasaka", set="DAL",
+       copyright="© Neal",
+       name="Working for Arasaka",
+       type="Prep",
+       cost="3",
+       rarity="C",
+       text=[[Expose all cards in a subsidiary data fort. You may then choose to make a run on that fort.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_archon", set="DAL",
+       copyright="© Neal",
+       name="Working for Archon",
+       type="Prep",
+       cost="3",
+       rarity="C",
+       text=[[Make a run. During the run, all icebreakers have +1 strength  and all trash costs are reduced by {1}. When any agenda points are scored during this run, lose 1 agenda point.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_bodyweight", set="DAL",
+       copyright="© Neal",
+       name="Working for Bodyweight™",
+       type="Prep",
+       cost="3",
+       rarity="C",
+       text=[[Draw two cards. You may take an extra action which may only be used to install one of those cards. Make a run. All trash costs are increased by {3}. Any agenda points scored during the run are split between the Corp and Runner, rounding in Runner's favor. When you play Working for Bodyweight, remove it from the game.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_dermatech", set="DAL",
+       copyright="© Neal",
+       name="Working for Dermatech",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Make a run. During the run, all tags are automatically prevented, and trash costs are increased by {1}. When any agenda points are scored during this run, lose 1 agenda point.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_encoder_inc", set="DAL",
+       copyright="© Neal",
+       name="Working for Encoder, Inc.",
+       type="Prep",
+       cost="2",
+       rarity="C",
+       text=[[Make a run. During the run, all code gates are at -3 strength. When any agenda points are scored during this run, lose 1 agenda point.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_microtech", set="DAL",
+       copyright="© Neal",
+       name="Working for Microtech",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Gain {1}. Make a run. All damage is prevented during this run. When any agenda points are scored during this run, lose 1 agenda point.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_militech", set="DAL",
+       copyright="© Neal",
+       name="Working for Militech",
+       type="Prep",
+       cost="2",
+       rarity="C",
+       text=[[Make a run. During the run, all ice is encountered at -2 strength, all trash costs are increased by 3, and any agendas points scored are split between Runner and Corp, rounding in Runner's favor.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_raven_microcyb", set="DAL",
+       copyright="© Neal",
+       name="Working for Raven Microcyb",
+       type="Prep",
+       cost="2",
+       rarity="C",
+       text=[[Place {10} on any installed deck and make a run. Use those bits only to pay for icebreakers during the run. At the end of the run, return any unused bits to the bank. Any agenda points scored during the run are split between the Corp and Runner, rounding in Runner's favor.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_viacox", set="DAL",
+       copyright="© Neal",
+       name="Working for Viacox",
+       type="Prep - Random",
+       cost="0",
+       rarity="C",
+       text=[[Make a run. Roll a die at the start of the run. On a 1, all ice is encountered at -1 strength. On a 2, automatically pass the first piece of rezzed ice. On a 3, trash costs are reduced by {1}. On a 6, end the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_wutech", set="DAL",
+       copyright="© Neal",
+       name="Working for Wutech",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Take an icebreaker from the stack and install it at no cost. Shuffle the stack. Make a run. All trash costs are increased by 2 and all sources of Net damage are +1. At the end of the run shuffle the icebreaker into your stack if it still installed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="working_for_zetatech", set="DAL",
+       copyright="© Neal",
+       name="Working for Zetatech",
+       type="Prep",
+       cost="4",
+       rarity="C",
+       text=[[Search your stack for up to 2 icebreakers and install them at no cost, ignoring any MU requirements. Shuffle your stack. Make run on a subsidiary data fort. At the end of the run place those icebreakers in the trash. Any agenda points scored during the run are split between the Corp and Runner, rounding in Runner's favor.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="correction_post", set="DAL",
+       copyright="© Neal",
+       name="Correction Post",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Remove any number of Bad Publicity points. Gain {2} for each point you remove.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="deal_with_bartmoss", set="DAL",
+       copyright="© Neal",
+       name="Deal with Bartmoss",
+       type="Prep",
+       cost="4",
+       rarity="C",
+       text=[[Take 3 brain damage, which cannot be prevented. Make a run. During the run, all ice is at -2 strength. Automatically pass the last piece of ice on the fort.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="deal_with_cattekin", set="DAL",
+       copyright="© Neal",
+       name="Deal with Cattekin",
+       type="Prep",
+       cost="2",
+       rarity="C",
+       text=[[Make up to three runs. After each run, take 1 brain damage, which cannot be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="deal_with_a_databroker", set="DAL",
+       copyright="© Neal",
+       name="Deal with a Databroker",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Take {3} from the bank. Make a run. All damage is prevented during this run. When any agenda points are scored during this run, lose 1 agenda point. At the end of the run, return any unused bits to the bank.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="deal_with_neto", set="DAL",
+       copyright="© Neal",
+       name="Deal with N.E.T.O.",
+       type="Prep",
+       cost="2",
+       rarity="C",
+       text=[[Make a run. During the run, all icebreakers are at +2 strength. At the end of the run, remove an installed icebreaker from the game.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="fizz_walker_substance_fixer", set="DAL",
+       copyright="© Neal",
+       name="Fizz Walker, Substance Fixer",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Take the top eight cards of the stack. Select three of those cards at random and remove them from the game. Bring the remaining five cards to your hand.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ice_and_datas_in_depth_report", set="DAL",
+       copyright="© Neal",
+       name="Ice and Data's In-Depth Report",
+       type="Prep",
+       cost="1",
+       rarity="C",
+       text=[[Expose the innermost ice on each data fort.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="identity_gamble", set="DAL",
+       copyright="© Neal",
+       name="Identity Gamble",
+       type="Prep - Random",
+       cost="0",
+       rarity="C",
+       text=[[Roll two dice. You can remove any number of tags, but for each tag removed roll two dice and take meat damage equal to the total if the result is equal to the total of the first roll. This meat damage may not be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="leash", set="DAL",
+       copyright="© Neal",
+       name="Leash",
+       type="Prep",
+       cost="3",
+       rarity="C",
+       text=[[Play only if you made a successful run on HQ this turn. Trash a rezzed or exposed Watchdog, Bloodhound, Pit Bull or Hellhound.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="scouting_for_encoder_inc", set="DAL",
+       copyright="© Neal",
+       name="Scouting for Encoder, Inc.",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Make a run on R&D. At the end of the run, gain {5} for each code gate you access from R&D.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="scouting_for_ice_and_data", set="DAL",
+       copyright="© Neal",
+       name="Scouting for Ice and Data",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Make a run on R&D. At the end of the run, gain {2} for each ice you access from R&D.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="scouting_for_netwatch", set="DAL",
+       copyright="© Neal",
+       name="Scouting for Netwatch",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Make a run on R&D. At the end of the run, gain {5} for each Black Ops you access from R&D.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="cisco_dettik_fixer_for_hire", set="DAL",
+       copyright="© Neal",
+       name="Cisco Dettik, Fixer-for-Hire",
+       type="Resource - Connection",
+       cost="2",
+       rarity="C",
+       text=[[{A}, trash an installed hardware or program: Draw 3 cards]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="cringing_hacker_bbs", set="DAL",
+       copyright="© Neal",
+       name="Cringing Hacker BBS",
+       type="Resource - BBS",
+       cost="2",
+       rarity="C",
+       text=[[1 agenda point: Prevent any number of installed resources from being trashed, and remove all tags.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="del_nobla_experienced_fixer", set="DAL",
+       copyright="© Neal",
+       name="Del Nobla, Experienced Fixer",
+       type="Resource - Connection",
+       cost="2",
+       rarity="C",
+       text=[[{A}: Search your stack for a piece of hardware. Show that program to the Corp, and then bring it into your hand. Reshuffle your stack afterwards.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="francine_le_rjikkslewe_planner", set="DAL",
+       copyright="© Neal",
+       name="Francine Le Rjikkslewe, Planner",
+       type="Resource - Connection",
+       cost="1",
+       rarity="C",
+       text=[[At the start of each run, you may look at the top two cards of the stack.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="free_rogues_alliance", set="DAL",
+       copyright="© Neal",
+       name="Free Rogues Alliance",
+       type="Resource - Alliance",
+       cost="1",
+       rarity="C",
+       text=[[The installation cost of AIs installed by Runner is reduced by {1}.
+#(If more than one Alliance is installed, place all but one Alliance in the trash.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hackers_anonymous", set="DAL",
+       copyright="© Neal",
+       name="Hackers Anonymous",
+       type="Resource - Alliance",
+       cost="1",
+       rarity="C",
+       text=[[All trace attempts have +1 link value.
+#(If more than one Alliance is installed, place all but one Alliance in the trash.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="jolly_roger_alliance", set="DAL",
+       copyright="© Neal",
+       name="Jolly Roger Alliance",
+       type="Resource - Alliance",
+       cost="3",
+       rarity="C",
+       text=[[All trash costs are reduced by {1}.
+#(If more than one Alliance is installed, place all but one Alliance in the trash.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="liberty_or_death", set="DAL",
+       copyright="© Neal",
+       name="Liberty or Death",
+       type="Resource - BBS",
+       cost="0",
+       rarity="C",
+       text=[[Discard two cards at random: Remove a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="netspace_alliance", set="DAL",
+       copyright="© Neal",
+       name="Netspace Alliance",
+       type="Resource - Alliance",
+       cost="2",
+       rarity="C",
+       text=[[Provides +2 MU.
+#(If more than one Alliance is installed, place all but one Alliance in the trash.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="no_borders_alliance", set="DAL",
+       copyright="© Neal",
+       name="No Borders Alliance",
+       type="Resource - Alliance",
+       cost="2",
+       rarity="C",
+       text=[[All walls are encountered at -1 strength.
+#(If more than one Alliance is installed, place all but one Alliance in the trash.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="no_load_fund", set="DAL",
+       copyright="© Neal",
+       name="No-Load Fund",
+       type="Resource - Position - Random",
+       cost="2",
+       rarity="C",
+       text=[[At the start of each of your turns, place a Futures counter on No-Load Fund and roll a die. If the result is less than the number of Futures counters, remove all Futures counters.
+{A}: Remove all Futures counters and gain {2} for each Futures counter removed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="runners_bank_account", set="DAL",
+       copyright="© Neal",
+       name="Runners' Bank Account",
+       type="Resource - Unique",
+       cost="5",
+       rarity="C",
+       text=[[At the start of each run, gain {1}.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="run_record_analyst", set="DAL",
+       copyright="© Neal",
+       name="Run Record Analyst",
+       type="Resource - Connection - Unique",
+       cost="2",
+       rarity="C",
+       text=[[Each time you trash a Corp card, the Corp must expose one installed card in another fort.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="sprawl_alliance", set="DAL",
+       copyright="© Neal",
+       name="Sprawl Alliance",
+       type="Resource - Alliance",
+       cost="6",
+       rarity="C",
+       text=[[You may draw a card at the start of each run.
+#(If more than one Alliance is installed, place all but one Alliance in the trash.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="sunrise_alliance", set="DAL",
+       copyright="© Neal",
+       name="Sunrise Alliance",
+       type="Resource - Alliance",
+       cost="5",
+       rarity="C",
+       text=[[You may expose one piece of ice on a fort at the start of each run you make on that fort.
+#(If more than one Alliance is installed, place all but one Alliance in the trash.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="archon_datascythe", set="DAL",
+       copyright="© Neal",
+       name="Archon DataScythe",
+       type="Hardware - Deck",
+       cost="9",
+       rarity="C",
+       text=[[Provides +1 MU. Prevent 1 Net or brain damage each turn. Gain {1} at the start of each run.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="cranial_distributor", set="DAL",
+       copyright="© Neal",
+       name="Cranial Distributor",
+       type="Hardware",
+       cost="1",
+       rarity="C",
+       text=[[{A}, {1}: Look at the top three cards of the Stack.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bitstream_scanner", set="DAL",
+       copyright="© Neal",
+       name="Bitstream Scanner",
+       type="Hardware",
+       cost="0",
+       rarity="C",
+       text=[[{A}: Take the top four cards of the stack, look at them,  and place them on the bottom of the stack, in any order. You may not take this action if the stack has less than four cards.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="dermatech_power_suit", set="DAL",
+       copyright="© Neal",
+       name="Dermatech Power Suit",
+       type="Hardware - Deck",
+       cost="3",
+       rarity="C",
+       text=[[Provides +1 MU. Each source of meat damage is reduced by 1.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="multiuser_linkup", set="DAL",
+       copyright="© Neal",
+       name="Multiuser Linkup",
+       type="Hardware",
+       cost="4",
+       rarity="C",
+       text=[[Each of your turns, you may take only one action to use Multiuser Linkup.
+{A}: Make two runs. During these runs, all walls and code gates are at -1 strength, and all sentries are at +2 strength.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="power_grid_shunt", set="DAL",
+       copyright="© Neal",
+       name="Power Grid Shunt",
+       type="Hardware - Random",
+       cost="3",
+       rarity="C",
+       text=[[{A}: Roll a die. On a 1, trash Shunt and take 1 unpreventable Net damage. On a 2, trash Shunt. On a 4, gain {2} if you immediately install a program. On a 5, gain {3} if you immediately install hardware. On a 6, gain {4} if you immediately make a run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="raven_microcyb_robin", set="DAL",
+       copyright="© Neal",
+       name="Raven Microcyb Robin",
+       type="Hardware - Deck",
+       cost="2",
+       rarity="C",
+       text=[[After each successful run, you may draw a card.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="simura_hoverjet", set="DAL",
+       copyright="© Neal",
+       name="Simura Hoverjet",
+       type="Hardware - Vehicle - Unique",
+       cost="4",
+       rarity="C",
+       text=[[All trace attempts have +1 link value. Anytime you would take meat damage, prevent that damage and put an Airborne counter on Simura Hoverjet for each point of damage prevented this way. When Simura Hoverjet has 12 Airborne counters, trash it. When Simura Hoverjet is trashed, you take 1 unpreventable meat damage for each Airborn counter on it.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="smoothspeed_interface", set="DAL",
+       copyright="© Neal",
+       name="SmoothSpeed Interface",
+       type="Hardware - Cybernetic - Unique",
+       cost="6",
+       rarity="C",
+       text=[[Ignore up to one subroutine per turn.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="software_van", set="DAL",
+       copyright="© Neal",
+       name="Software Van",
+       type="Hardware - Cybernetic - Unique",
+       cost="8",
+       rarity="C",
+       text=[[{0}: Install a program that costs {0}. Use this ability only once per turn.
+{A},{A},{A}: Gain {5}
+{T}: Prevent 2 meat damage
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="stack_loader", set="DAL",
+       copyright="© Neal",
+       name="Stack Loader",
+       type="Hardware",
+       cost="5",
+       rarity="C",
+       text=[[{A}, {4}: Note the number of cards in your hand. Shuffle your hand into your stack. Draw as many cards as your previous hand contained.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="surveillance_alarm", set="DAL",
+       copyright="© Neal",
+       name="Surveillance Alarm",
+       type="Hardware",
+       cost="2",
+       rarity="C",
+       text=[[{2}: The Corp must reveal all installed cards that trace or give tags. Use this ability only if you made a run this turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="wutech_extrema_chip", set="DAL",
+       copyright="© Neal",
+       name="Wutech Extrema Chip",
+       type="Hardware",
+       cost="4",
+       rarity="C",
+       text=[[Each Hardware that provides bits for using icebreakers gains an additional bit at the start of each turn.]],
+       flavor=[[]],
+       artist=[[]],
+       ruling=[[It increases the bit limit of a card like Raven Eagle from {1} to {2} and so on. It does not raise the bit limit by one turn after turn.]],
+}
+-------------------------------------------------------------------------------
+Item { id="wutech_neurojack", set="DAL",
+       copyright="© Neal",
+       name="Wutech Neurojack",
+       type="Hardware - Cybernetic - Unique",
+       cost="2",
+       rarity="C",
+       text=[[All trace attempts have +1 link value.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="wutech_150r", set="DAL",
+       copyright="© Neal",
+       name="Wutech 150R",
+       type="Hardware - Deck",
+       cost="9",
+       rarity="C",
+       text=[[Place {3} from the bank on Wutech 150R when you install it. Use these bits only to pay for icebreakers. Replace any bits used at the start of your turn.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ai_analysis_interface", set="DAL",
+       copyright="© Neal",
+       name="AI Analysis Interface",
+       type="Program - AI - 2 MU",
+       cost="6",
+       rarity="C",
+       text=[[TraceX - If trace is successful, no subroutines on the ice can be broken. Otherwise, all installed icebreakers have +X strength during this encounter. You may use this ability only during an encounter with a piece of ice whose strength is X and only once for each encounter. Ignore the base link value of any Base Link card when using Analysis Interface.]],
+       flavor=[[]],
+       artist=[[]],
+       ruling=[[You always have to start with a link value of 0 and then use cards like Signpost, Neurojack or Wired Sitchboard to increase your link.]],
+}
+-------------------------------------------------------------------------------
+Item { id="error_worm", set="DAL",
+       copyright="© Neal",
+       name="Error Worm",
+       type="Program - Virus - 1 MU",
+       cost="2",
+       rarity="C",
+       text=[[Whenever you break all the subroutines on a piece of ice and pass it, you may put an Error counter on that piece of ice and end the run. At the start of each of your turns, move each Error counter to the next innermost ice. If an Error counter is on an innermost ice when you would move it, remove the Error counter and the Corp pays {1}.
+#(The Corp may remove all Virus counters at any time, but must then forgo its next three actions.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="homunculus", set="DAL",
+       copyright="© Neal",
+       name="Homunculus",
+       type="Program - Daemon - 1 MU",
+       cost="2",
+       rarity="C",
+       attach=true,
+       text=[[Homunculus can have up to 2 MU of programs installed in it. If Homunculus leaves play, trash all programs installed in it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="netwatch_alliance_database", set="DAL",
+       copyright="© Neal",
+       name="Netwatch Alliance Database",
+       type="Program - 1 MU",
+       cost="2",
+       rarity="C",
+       text=[[{A}: Take an Alliance card from the stack and show it to the Corp. Shuffle the stack. Place the Alliance card on top of the stack.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="netwatch_database_interface", set="DAL",
+       copyright="© Neal",
+       name="Netwatch Database Interface",
+       type="Program - 2 MU",
+       cost="2",
+       rarity="C",
+       text=[[{A}: Take a Connection from the stack and show it to the Corp. Shuffle the stack. Place the Connection on top of the stack.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="pattels_worm", set="DAL",
+       copyright="© Neal",
+       name="Pattel's Worm",
+       type="Program - Virus - 1 MU",
+       cost="2",
+       rarity="C",
+       text=[[Whenever you pass a piece of ice, you may place a Worm counter on that ice. Use this ability only once per run. At the start of each of your turns, you may move each Worm counter to the next innermost ice. Each Worm counter on a piece of ice reduces its strength by 1.
+#(The Corp may remove all Virus counters at any time, but must then forgo its next three actions.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="reflex_multiplier", set="DAL",
+       copyright="© Neal",
+       name="Reflex Multiplier",
+       type="Program - 2 MU",
+       cost="2",
+       rarity="C",
+       text=[[{0}: Take 1 brain damage, which cannot be prevented. Jack out. You may use this ability at any time.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="risky_hack", set="DAL",
+       copyright="© Neal",
+       name="Risky Hack",
+       type="Program - 1 MU",
+       cost="2",
+       rarity="C",
+       text=[[TraceX - If trace is successful, take a tag and end the run. Otherwise, gain {3} from the bank, which are returned to the bank if not spent during this encounter. You must use this ability at the start of each encounter with a piece of ice whose strength is X and only once for each encounter. Ignore the base link value of any Base Link card when using Risky Hack.]],
+       flavor=[[]],
+       artist=[[]],
+       ruling=[[You always have to start with a link value of 0 and then use cards like Signpost, Neurojack or Wired Sitchboard to increase your link.]],
+}
+-------------------------------------------------------------------------------
+Item { id="sid_meyer_hardware_catalog", set="DAL",
+       copyright="© Neal",
+       name="Sid Meyer Hardware Catalog",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="C",
+       text=[[{A}: Take a hardware card from the stack and show it to the Corp. Shuffle the stack. Place the hardware card underneath the top card of the stack.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="sid_meyer_software_catalog", set="DAL",
+       copyright="© Neal",
+       name="Sid Meyer Software Catalog",
+       type="Program - 1 MU",
+       cost="1",
+       rarity="C",
+       text=[[{A}: Take a program from the stack and show it to the Corp. Shuffle the stack. Place the program underneath the top card of the stack.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="smiths_ride_along_linkup", set="DAL",
+       copyright="© Neal",
+       name="Smith's Ride-Along Linkup",
+       type="Program - 1 MU",
+       cost="2",
+       rarity="C",
+       text=[[{0}, trash an installed card: Gain {1}. You may only use this ability during a run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="smiths_salvage_linkup", set="DAL",
+       copyright="© Neal",
+       name="Smith's Salvage Linkup",
+       type="Program - 1 MU",
+       cost="3",
+       rarity="C",
+       text=[[{0}, remove an installed card from the game: Gain {2}. You may use this ability only during a run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="wilsons_legacy", set="DAL",
+       copyright="© Neal",
+       name="Wilson's Legacy",
+       type="Program - 1 MU",
+       cost="1",
+       rarity="C",
+       text=[[TraceX - If trace is successful, take a tag and end the run. Otherwise, trash the Node or Upgrade. You may use this ability only when accessing a Node or Upgrade whose trash cost is X and only once for each access. Ignore the base link value of any Base Link card when using Wilson's Legacy.]],
+       flavor=[[]],
+       artist=[[]],
+       ruling=[[You always have to start with a link value of 0 and then use cards like Signpost, Neurojack or Wired Sitchboard to increase your link.]],
+}
+-------------------------------------------------------------------------------
+Item { id="collapsing_sum", set="DAL",
+       copyright="© Neal",
+       name="Collapsing Sum",
+       type="Program - Icebreaker - 1 MU",
+       cost="1",
+       power="0",
+       rarity="C",
+       text=[[{0}: +1 strength
+{0}: Break up to two code gate subroutines. Remove Collapsing Sum from the game. Take 1 Net damage, which cannot be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="encryption_meld", set="DAL",
+       copyright="© Neal",
+       name="Encryption Meld",
+       type="Program - Icebreaker - 1 MU",
+       cost="1",
+       power="1",
+       rarity="C",
+       text=[[{3}: +1 strength
+{1}: Break code gate subroutine
+{1}: After breaking all subroutines on a code gate with Encryption Meld, place a Meld counter on that ice.
+Meld Counter: Encryption Meld gets +6 strength for the current encounter.
+Remove all Meld counters from Encryption Meld at the end of the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="eprom_hybrid", set="DAL",
+       copyright="© Neal",
+       name="EPROM Hybrid",
+       type="Program - Icebreaker - Killer - 1 MU",
+       cost="1",
+       power="2",
+       rarity="C",
+       text=[[{1} taken from an Hardware card: +1 strength
+{2}: +1 strength
+{1} taken from an Hardware card: Break sentry subroutine
+{2}: Break sentry subroutine]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="flagger", set="DAL",
+       copyright="© Neal",
+       name="Flagger",
+       type="Program - Icebreaker - Killer - 1 MU",
+       cost="4",
+       power="1",
+       rarity="C",
+       text=[[{2}: +1 Strength
+{1}: Break sentry subroutine
+Place a -1 Strength counter on a Killer Ice if you break all its subroutines with Flagger.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="flowchart_fork", set="DAL",
+       copyright="© Neal",
+       name="Flowchart Fork",
+       type="Program - Icebreaker - Killer - Noisy - 1 MU",
+       cost="1",
+       power="2",
+       rarity="C",
+       text=[[{2}: +1 strength
+{1}: Break Killer subroutine
+{2}: Break AP or Flatline subroutine
+{3}: Break Watchdog, Pit Bull, Bloodhound or DecKrash subroutine]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="freedom_32", set="DAL",
+       copyright="© Neal",
+       name="Freedom 3.2",
+       type="Program - Icebreaker - Noisy - 2 MU",
+       cost="5",
+       power="0",
+       rarity="C",
+       text=[[TraceX - If the trace is unsuccessful, Freedom gains the ability "{0}: Break ice subroutine" during this encounter. You may use this ability only during an encounter with a piece of ice whose strength is X and only once for each encounter. Ignore the base link value of any Base Link card when using Freedom 3.2.]],
+       ruling=[[You always have to start with a link value of 0 and then use cards like Signpost, Neurojack or Wired Sitchboard to increase your link.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ladder", set="DAL",
+       copyright="© Neal",
+       name="Ladder",
+       type="Program - Icebreaker - Worm - 1 MU",
+       cost="2",
+       power="0",
+       rarity="C",
+       text=[[{2}: +1 Strength
+{1}: Break Wall subroutine
+{2}: Place a +1 strength counter on Ladder if you have used it to break all the subroutines on a Wall.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="plastique", set="DAL",
+       copyright="© Neal",
+       name="Plastique",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="1",
+       power="0",
+       rarity="C",
+       text=[[{0}: +1 strength
+{0}: Break up to two Wall subroutines. Remove Plastique from the game. Take 1 Net damage, which cannot be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rolling_thunder", set="DAL",
+       copyright="© Neal",
+       name="Rolling Thunder",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="4",
+       power="1",
+       rarity="C",
+       text=[[TraceX - If the trace is unsuccessful, you may set the type of ice broken by Rolling Thunder to Wall or Code Gate. You may use this ability only during an encounter with a piece of ice whose strength is X and only once for each encounter. Ignore the base link value of any Base Link card when using Rolling Thunder.
+{1}: +1 strength
+{1}: Break a subroutine of the type set for Rolling Thunder, if any.]],
+       flavor=[[]],
+       artist=[[]],
+       ruling=[[You always have to start with a link value of 0 and then use cards like Signpost, Neurojack or Wired Sitchboard to increase your link.]],
+}
+-------------------------------------------------------------------------------
+Item { id="ai_special_forces", set="DAL",
+       copyright="© Neal",
+       name="AI Special Forces",
+       type="Ice - Sentry - AI - Hellhound - AP - Black Ice",
+       cost="13",
+       power="5",
+       rarity="C",
+       text=[[AI Special Forces has one "{S} Do 1 Net damage, which cannot be prevented" subroutine for each piece of ice rezzed outside it.
+{S} Trace5 - If trace is successful, do 1 Net damage for each tag Runner has. This damage cannot be prevented.
+{S} End the run
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="barking", set="DAL",
+       copyright="© Neal",
+       name="Barking",
+       type="Ice - Sentry - Watchdog",
+       cost="2",
+       power="3",
+       rarity="C",
+       text=[[{S} After each encounter with a piece of ice during this run, Trace2 - If trace is successful, give Runner a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="construct_picket", set="DAL",
+       copyright="© Neal",
+       name="Construct Picket",
+       type="Ice - Sentry - AP",
+       cost="3",
+       power="3",
+       rarity="C",
+       text=[[{S} After each encounter with a piece of ice during this run, Trace3 - If trace is successful, do 1 Net damage, which cannot be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="construct_squad", set="DAL",
+       copyright="© Neal",
+       name="Construct Squad",
+       type="Ice - AI - Sentry - Black Ice - AP",
+       cost="6",
+       power="1",
+       rarity="C",
+       text=[[{S} Do 1 Net damage
+{S} Do 1 Net damage
+{S} Do 1 Net damage
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="fenris_pygmalion", set="DAL",
+       copyright="© Neal",
+       name="Fenris Pygmalion",
+       type="Ice - Sentry - Bloodhound - AP",
+       cost="8",
+       power="5",
+       rarity="C",
+       text=[[You may pay {3}, above the rez cost, when you rez Fenris Pygmalion to make it a Wall instead of a Sentry.
+{S} Trace6 - If trace is successful, give Runner one tag for each point of difference between the trace value and the link value.
+{S} Do 1 Net damage for each tag Runner has.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="fractal_fang", set="DAL",
+       copyright="© Neal",
+       name="Fractal Fange",
+       type="Ice - Sentry - Bloodhound - AP",
+       cost="6",
+       power="4",
+       rarity="C",
+       text=[[You may pay {3}, above the rez cost, when you rez Fractal Fang to make it a Code Gate instead of a Sentry
+{S} Do 2 Net damage
+{S} Trace5 - If trace is successful, give Runner a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hybrid_code_mesh_21", set="DAL",
+       copyright="© Neal",
+       name="Hybrid Code Mesh 2.1",
+       type="Ice - Sentry - AP - Knockout",
+       cost="6",
+       power="4",
+       rarity="C",
+       text=[[You may pay {3}, above the rez cost, when you rez Hybrid Code Mesh to make it a Code Gate instead of a Sentry
+{S} Runner cannot make another run during his or her next three actions.
+{S} Do 2 Net damage]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="jackals", set="DAL",
+       copyright="© Neal",
+       name="Jackals",
+       type="Ice - Sentry - AP - Hellhound - Black Ice",
+       cost="6",
+       power="2",
+       rarity="C",
+       text=[[{S} Trace2 - If trace is successful, do 1 Net damage, which cannot be prevented.
+{S} Trace3 - If trace is successful, do 1 Net damage, which cannot be prevented.
+{S} Trace4 - If trace is successful, do 1 Net damage, which cannot be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="junkyard_dog", set="DAL",
+       copyright="© Neal",
+       name="Junkyard Dog",
+       type="Ice - Sentry - Watchdog",
+       cost="6",
+       power="3",
+       rarity="C",
+       text=[[{S} Trace3 - If trace is successful, give Runner a tag.
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="kennel", set="DAL",
+       copyright="© Neal",
+       name="Kennel",
+       type="Ice - Sentry - Bloodhound - Pit Bull",
+       cost="5",
+       power="2",
+       rarity="C",
+       text=[[{S} Trace3 - If trace is successful, give Runner a tag.
+{S} Trace6 - If trace is successful, end the run.
+Whenever Kennel is encountered, gain {3}. Use these bits only to pay for the above traces. When the encounter ends, return to the bank any of the {3} you did not spend.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="kujough", set="DAL",
+       copyright="© Neal",
+       name="Kujough",
+       type="Ice - Sentry - AP - Bloodhound - Hellhound - Black Ice",
+       cost="14",
+       power="6",
+       rarity="C",
+       text=[[{S} Trace3 - If trace is successful, do 1 Net damage, which cannot be prevented.
+{S} Trace4 - If trace is successful, do 1 Net damage, which cannot be prevented.
+{S} Trace5 - If trace is successful, give Runner a tag.
+{S} End the run
+Whenever Kujough is encountered, gain {4}. Use these bits only to pay for the above traces. When the encounter ends, return to the bank any of the {4} you did not spend.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="morphing_mass", set="DAL",
+       copyright="© Neal",
+       name="Morphing Mass",
+       type="Ice - Sentry",
+       cost="5",
+       power="2",
+       rarity="C",
+       text=[[At the start of an encounter with Morphing Mass, you may make Morphing Mass a Code Gate, or pay {1} and make it a Wall, or pay {2} and make it a Sentry. All changes are pemanent.
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="militech_surge_control", set="DAL",
+       copyright="© Neal",
+       name="Militech Surge Control",
+       type="Ice - Sentry - Firestarter",
+       cost="3",
+       power="5",
+       rarity="C",
+       text=[[{S} Trace5 - If trace is successful, trash a piece of hardware.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="netwatch_beacon", set="DAL",
+       copyright="© Neal",
+       name="Netwatch Beacon",
+       type="Ice - Sentry",
+       cost="1",
+       power="4",
+       rarity="C",
+       text=[[Ignore the base link value of any Base Link card with a Beacon counter. Runner may remove a Beacon counter by taking an action to pay {4}.
+{S} Trace5 - If trace is successful, place a Beacon counter on an installed Base Link card.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="netwatch_picket", set="DAL",
+       copyright="© Neal",
+       name="Netwatch Picket",
+       type="Ice - Sentry",
+       cost="6",
+       power="3",
+       rarity="C",
+       text=[[{S} Give Runner a Crying counter 
+{S} Give Runner a Crying counter 
+{S} Give Runner a Crying counter
+Each Crying counter reduces Runners link by 2 during each trace attempt. Runner can remove a Crying counter by taking an action to pay {2}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="spikes", set="DAL",
+       copyright="© Neal",
+       name="Spikes",
+       type="Ice - Sentry - AP - Black Ice",
+       cost="1",
+       power="3",
+       rarity="C",
+       text=[[{S} Do 1 Net damage for each rezzed Wall installed inside Spikes. This damage cannot be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="static_attack", set="DAL",
+       copyright="© Neal",
+       name="Static Attack",
+       type="Ice - Sentry - Random",
+       cost="1",
+       power="3",
+       rarity="C",
+       text=[[{S} Roll a die. On a 3 or 4, all trace attempts have -1 link for the rest of the run. On a 5, all ice is encountered at +1 strength for the rest of the run. On a 6, end the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="the_hounds", set="DAL",
+       copyright="© Neal",
+       name="The Hounds",
+       type="Ice - Sentry - Bloodhound",
+       cost="0",
+       power="1",
+       rarity="C",
+       text=[[{S} Trace2 - If trace is successful, give Runner a tag.
+{S} Trace3 - If trace is successful, give Runner a tag.
+{S} Trace4 - If trace is successful, give Runner a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="werewolf", set="DAL",
+       copyright="© Neal",
+       name="Werewolf",
+       type="Ice - Sentry - Bloodhound - DecKrash",
+       cost="7",
+       power="2",
+       rarity="C",
+       text=[[You may pay {1}, above the rez cost, when you rez Werewolf to make it a Wall instead of a Sentry.
+{S} Trace5 - If trace is successful, give Runner one tag for each point of difference between the trace value and the link value
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="whistler", set="DAL",
+       copyright="© Neal",
+       name="Whistler",
+       type="Ice - Sentry",
+       cost="5",
+       power="3",
+       rarity="C",
+       text=[[{S} The rez cost of ice is reduced by {2} for the rest of the run
+{S} The trash cost of Nodes and Upgrades is increased by {1} for the rest of the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="box_canyon", set="DAL",
+       copyright="© Neal",
+       name="Box Canyon",
+       type="Ice - Wall",
+       cost="11",
+       power="5",
+       rarity="C",
+       text=[[{S} Runner pays {1}
+{S} Runner pays {2}
+{S} Runner pays {3}
+{S} End the Run
+{S} End the Run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="calthrops", set="DAL",
+       copyright="© Neal",
+       name="Calthrops",
+       type="Ice - Wall",
+       cost="2",
+       power="1",
+       rarity="C",
+       text=[[{S} Install and rez, at no cost, an Ice - Wall token, in the outermost position on this fort. The Wall token has strength 0 and "{S} End the run".]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="data_dike", set="DAL",
+       copyright="© Neal",
+       name="Data Dike",
+       type="Ice - Wall",
+       cost="9",
+       power="5",
+       rarity="C",
+       text=[[{S} Do 1 Net damage. Data Dike gains +1 strength for the rest of the run. Runner continues the run by encountering the ice immediately outside of Data Dike. Ignore these effects if Data Dike is the outermost ice.
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="foundation", set="DAL",
+       copyright="© Neal",
+       name="Foundation",
+       type="Ice - Wall",
+       cost="3",
+       power="0",
+       rarity="C",
+       text=[[When Foundation is rezzed, the cost to install ice outside Foundation is reduced by {1}.
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="merlons", set="DAL",
+       copyright="© Neal",
+       name="Merlons",
+       type="Ice - Wall",
+       cost="3",
+       power="0",
+       rarity="C",
+       attach=true,
+       text=[[When Runner approaches Merlons, and Merlons is already rezzed, you may take a piece of ice from HQ and install it on Merlons, at no cost. Runner encounters that ice instead of Merlons. Return that ice to HQ at the end of the encounter.
+{S} End the Run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="metawall", set="DAL",
+       copyright="© Neal",
+       name="Metawall",
+       type="Ice - Wall",
+       cost="8",
+       power="5",
+       rarity="C",
+       text=[[Metawell gains +3 strength against Noisy icebreakers. Metawall gains +1 strength for each rezzed Wall installed outside it.
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rock_slide", set="DAL",
+       copyright="© Neal",
+       name="Rock Slide",
+       type="Ice - Wall",
+       cost="1",
+       power="3",
+       rarity="C",
+       text=[[{S} When Runner encounters the next Wall on this run, immediately do 2 Net damage, which cannot be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="stumbling_block", set="DAL",
+       copyright="© Neal",
+       name="Stumbling Block",
+       type="Ice - Wall",
+       cost="2",
+       power="0",
+       rarity="C",
+       text=[[{S} Do 1 Net damage
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="data_tree_shift", set="DAL",
+       copyright="© Neal",
+       name="Data Tree Shift",
+       type="Ice - Code Gate - Random",
+       cost="2",
+       power="4",
+       rarity="C",
+       text=[[{S} For the rest of the run, when each ice is encountered, roll a die. On a 1 or 2, the ice is a Code Gate for that encounter. On a 3 or 4, the ice is a Wall for that encounter, on a 5 or 6 the ice is a Sentry for that encounter.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="encryption_key", set="DAL",
+       copyright="© Neal",
+       name="Encryption Key",
+       type="Ice - Code Gate",
+       cost="2",
+       power="2",
+       rarity="C",
+       text=[[{S} For the rest of the run, duplicate one subroutine of your choice on each piece of ice Runner encounters. Treat this as if the repeated subroutine appeared immediately after the original subroutine.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="groundwork", set="DAL",
+       copyright="© Neal",
+       name="Groundwork",
+       type="Ice - Code Gate",
+       cost="2",
+       power="0",
+       rarity="C",
+       text=[[When Groundwork is rezzed, the cost to rez ice outside Groundwork is reduced by {1}.
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="holomultiplier", set="DAL",
+       copyright="© Neal",
+       name="Holomultiplier",
+       type="Ice - Code Gate",
+       cost="2",
+       power="X",
+       rarity="C",
+       text=[[X is equal to the number of ice installed inside Holomultiplier.
+{S} End the run]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ice_fork", set="DAL",
+       copyright="© Neal",
+       name="Ice Fork",
+       type="Ice - Code Gate - Daemon",
+       cost="2",
+       power="0",
+       rarity="C",
+       attach=true,
+       text=[[Rez Ice Fork when you install it. Only install Ice Fork if you can rez it. Up to 2 pieces of ice may be installed in Ice Fork. When Runner encounters Ice Fork, you may choose one of these ice. Runner encounters this ice instead of Ice Fork. If Ice Fork is trashed, trash all ice installed in it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ice_shuttle", set="DAL",
+       copyright="© Neal",
+       name="Ice Shuttle",
+       type="Ice - Code Gate - Daemon",
+       cost="4",
+       power="0",
+       rarity="C",
+       attach=true,
+       text=[[Rez ice Shuttle when you install it. Only install ice Shuttle if you can rez it. Up to 3 pieces of ice may be installed on ice Shuttle. When Runner encounters ice Shuttle, you may choose one of these ice. Runner encounters this ice instead of ice Shuttle. If Ice Fork is trashed, trash all ice installed in it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="twin_keys", set="DAL",
+       copyright="© Neal",
+       name="Twin Keys",
+       type="Ice - Code Gate",
+       cost="1",
+       power="3",
+       rarity="C",
+       text=[[{S} For the rest of the run, duplicate each subroutine on Code Gates encountered by Runner. Treat this as if the repeated subroutine appeared immediately after the original subroutine.]],
+       flavor=[[]],
+       artist=[[]],
+       ruling=[[If multiple Twin Keys are encountered and their subroutines are not broken, next ice will have all their subroutines twice, not thrice.]]
+}
+-------------------------------------------------------------------------------
+Item { id="access_log_audit", set="DAL",
+       copyright="© Neal",
+       name="Access Log Audit",
+       type="Operation",
+       cost="X",
+       rarity="C",
+       text=[[Play only if Runner attempted at least two runs during his or her last turn.
+TraceY - Y is twice X. If trace is successful, give Runner a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="amnesty_exchange", set="DAL",
+       copyright="© Neal",
+       name="Amnesty Exchange",
+       type="Operation",
+       cost="1",
+       rarity="C",
+       text=[[Remove any number of tags. Take {2} from Runner for each tag you remove.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="dog_show", set="DAL",
+       copyright="© Neal",
+       name="Dog Show",
+       type="Operation",
+       cost="1",
+       rarity="C",
+       text=[[Reveal as many Bloodhound, Watchdog, Pit Bull or Hellhound ice as you choose. Then gain {1} for each card revealed this way.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hiring_tip", set="DAL",
+       copyright="© Neal",
+       name="Hiring Tip",
+       type="Operation",
+       cost="1",
+       rarity="C",
+       text=[[Install and rez a Sysop. Gain {4}, which you may use only to pay for its installation and rez costs. Return to the bank any of the {4} you did not spend.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="netwatch_symposium", set="DAL",
+       copyright="© Neal",
+       name="Netwatch Symposium",
+       type="Operation",
+       cost="1",
+       rarity="C",
+       text=[[Place {6} from the bank on an installed card or scored agenda. Use these bits only to pay for traces made with that card.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="plea_bargain", set="DAL",
+       copyright="© Neal",
+       name="Plea Bargain",
+       type="Operation - Gray Ops",
+       cost="0",
+       rarity="C",
+       text=[[Remove any number of tags. For each tag you remove, lose one Bad Publicity point.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="security_conference", set="DAL",
+       copyright="© Neal",
+       name="Security Conference",
+       type="Operation",
+       cost="2",
+       rarity="C",
+       text=[[Place a +1 Strength counter on an installed piece of ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="siege_tactics", set="DAL",
+       copyright="© Neal",
+       name="Siege Tactics",
+       type="Operation - Black Ops",
+       cost="6",
+       rarity="C",
+       text=[[Play only if Runner is tagged. Do 1 meat damage four times.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tracking_pipeline", set="DAL",
+       copyright="© Neal",
+       name="Tracking Pipeline",
+       type="Operation",
+       cost="4",
+       rarity="C",
+       text=[[Play Tracking Pipeline only if Runner trashed a Node or Upgrade during his last turn.
+Trace4 - If trace is successful, give Runner a tag.
+Trace3 - If trace is successful, give Runner a tag.
+Trace2 - If trace is successful, give Runner a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ai_account_monitor", set="DAL",
+       copyright="© Neal",
+       name="AI Account Monitor",
+       type="Node - Ambush - Gray Ops",
+       cost="3",
+       rarity="C",
+       trash="2",
+       text=[[You may advance AI Account Monitor before and after it is rezzed. When Credit Monitor is accessed, Runner loses {1} for each advancement counter on AI Account Monitor.
+{A}, {T}: TraceX - If trace is successful, give Runner a tag. X is the number of advancement counters on AI Account Monitor.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ai_trackin_director", set="DAL",
+       copyright="© Neal",
+       name="AI Trackin Director",
+       type="Node - AI - Unique",
+       cost="5",
+       rarity="C",
+       trash="3",
+       text=[[Place {4} from the bank on AI Tracking Director when it is rezzed. Use these bits only to pay for traces. If you use any of these bits, replace them at the start of your next turn.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="central_ice_control", set="DAL",
+       copyright="© Neal",
+       name="Central Ice Control",
+       type="Node",
+       cost="0",
+       rarity="C",
+       trash="3",
+       text=[[You may advance Central Ice Control before and after it is rezzed.
+Central Ice Control advancement counter: Move an installed piece of ice to the outermost position on this fort. Use this ability only at the start of a run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="control_implant", set="DAL",
+       copyright="© Neal",
+       name="Control Implant",
+       type="Node - Ambush - Virus",
+       cost="0",
+       rarity="C",
+       trash="0",
+       text=[[When Runner accesses Control Implant, even if it is not installed or rezzed, you may pay {2} to give Runner an Implant counter. Each Implant counter forces Runner to pay {1} at the start of each run, or end that run. Runner may remove an Implant counter by taking an action to pay {2}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="defense_campaign", set="DAL",
+       copyright="© Neal",
+       name="Defense Campaign",
+       type="Node - Transaction - Unique",
+       cost="2",
+       rarity="C",
+       trash="2",
+       text=[[At the start of each of your turns, count the number of Walls rezzed, the number of Code Gates rezzed, and the number of Sentries rezzed. X is the lowest of these numbers. Gain {X}.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="emergency_picket", set="DAL",
+       copyright="© Neal",
+       name="Emergency Picket",
+       type="Node",
+       cost="1",
+       rarity="C",
+       trash="0",
+       text=[[{T}: Install up to two pieces of ice. Use this ability only at the start of a run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="loan_enforcement_officers", set="DAL",
+       copyright="© Neal",
+       name="Loan Enforcement Officers",
+       type="Node - Asset",
+       cost="2",
+       rarity="C",
+       trash="5",
+       text=[[For each bit Runner owes but does not pay at the start of his or her turn, do 1 meat damage.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="searchlite", set="DAL",
+       copyright="© Neal",
+       name="SearchLite™",
+       type="Node - Asset - Random",
+       cost="1",
+       rarity="C",
+       trash="3",
+       text=[[{A}: Roll a die. If the result is less than or equal to the number of tags on Runner, trash a Resource at no cost.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="superconducting_network", set="DAL",
+       copyright="© Neal",
+       name="Superconducting Network",
+       type="Node - Asset",
+       cost="2",
+       rarity="C",
+       trash="2",
+       text=[[You may advance Superconducting Network before and after it is rezzed.
+Superconducting Network advancement counter:  Draw two cards.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="wilderspace_ambush", set="DAL",
+       copyright="© Neal",
+       name="Wilderspace Ambush",
+       type="Node - Ambush",
+       cost="0",
+       rarity="C",
+       trash="0",
+       text=[[When Runner accesses Wilderspace Ambush, even if it is not installed or rezzed, his or her base link value becomes permanently 0 for all traces. Runner can remove this effect by taking an action to pay {3}. If Runner accesses Wilderspace Ambush from R&D, he must show it to you.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="world_operations", set="DAL",
+       copyright="© Neal",
+       name="World Operations",
+       type="Node - Transaction - Unique",
+       cost="4",
+       rarity="C",
+       trash="3",
+       text=[[Gain {1} at the start of each of your turns for each subsidiary data fort.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ai_code_trainer", set="DAL",
+       copyright="© Neal",
+       name="AI Code Trainer",
+       type="Agenda - AI - Research",
+       cost="5",
+       rarity="C",
+       trash="",
+       points="2",
+       text=[[Each Bloodhound, Watchdog, Pit Bull or Hellhound gains +2 strength.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="corporate_army", set="DAL",
+       copyright="© Neal",
+       name="Corporate Army",
+       type="Agenda - Asset",
+       cost="8",
+       rarity="C",
+       trash="",
+       points="4",
+       text=[[{A}: Do 1 Meat damage three times. Use this ability only if Runner is tagged.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="cyborg_assassin", set="DAL",
+       copyright="© Neal",
+       name="Cyborg Assassin",
+       type="Agenda - Black Ops - Random",
+       cost="3",
+       rarity="C",
+       trash="",
+       points="1",
+       text=[[{A}: Roll a die. If the result is less than or equal to the number of Runner tags, remove a tag and do 1 Meat damage, which cannot be prevented. You may repeat this effect without spending an action until the die roll is greater than the number of Runner tags.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="defense_budget", set="DAL",
+       copyright="© Neal",
+       name="Defense Budgetn",
+       type="Agenda - Research",
+       cost="5",
+       rarity="C",
+       trash="",
+       points="2",
+       text=[[The cost to install ice is reduced by {2}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="fortress_scheme", set="DAL",
+       copyright="© Neal",
+       name="Fortress Scheme",
+       type="Agenda - Research",
+       cost="4",
+       rarity="C",
+       trash="",
+       points="2",
+       text=[[All Walls gain +2 strength]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="kali_assault_team", set="DAL",
+       copyright="© Neal",
+       name="Kali Assault Team",
+       type="Agenda - Asset",
+       cost="5",
+       rarity="C",
+       trash="",
+       points="2",
+       text=[[Place 3 Mission counters on Kali Assault Team when you score it.
+Mission counter: If Runner is tagged, do 3 Meat damage and remove a tag.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="manifest_destiny", set="DAL",
+       copyright="© Neal",
+       name="Manifest Destiny",
+       type="Agenda - Asset",
+       cost="4",
+       rarity="C",
+       trash="",
+       points="2",
+       text=[[Each time you install the first piece of ice on a new data fort, gain {2}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="neural_engineering", set="DAL",
+       copyright="© Neal",
+       name="Neural Engineering",
+       type="Agenda - Research",
+       cost="4",
+       rarity="C",
+       trash="",
+       points="3",
+       text=[[Place three Assault counters on Neural Engineering when you score it. You may only spend an Assault counter when Runner suffers brain damage.
+Assault counter: Brain damage Runner is suffering is unpreventable.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="open_door_policy", set="DAL",
+       copyright="© Neal",
+       name="Open Door Policy",
+       type="Agenda - Asset",
+       cost="4",
+       rarity="C",
+       trash="",
+       points="3",
+       text=[[Reveal the top card of R&D to Runner at the start of your turn and gain {2}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="security_summit", set="DAL",
+       copyright="© Neal",
+       name="Security Summit",
+       type="Agenda - Gray Ops",
+       cost="6",
+       rarity="C",
+       trash="",
+       points="3",
+       text=[[All ice has +1 Strength.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="self_destruct_sequence", set="DAL",
+       copyright="© Neal",
+       name="Self-Destruct Sequence",
+       type="Agenda - Research",
+       cost="4",
+       rarity="C",
+       trash="",
+       points="1",
+       text=[[When you score Self-Destruct Sequence, choose a positive number less than or equal to the number of agenda points Runner has scored. If Runner cannot guess the number chosen, Runner loses 1 agenda point.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tracking_consultants", set="DAL",
+       copyright="© Neal",
+       name="Tracking Consultants",
+       type="Agenda - Asset",
+       cost="5",
+       rarity="C",
+       trash="",
+       points="2",
+       text=[[Place two Track counters on Tracking Consultants when you score it. Gain +3 trace value whenever you perform a trace with Tracking Consultants.
+Track counter: Trace9 - if trace is successful, give Runner two tags.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="delacroix_console", set="DAL",
+       copyright="© Neal",
+       name="Delacroix Console",
+       type="Upgrade - Unique",
+       cost="3",
+       rarity="C",
+       trash="2",
+       text=[[Immediately after each trace performed with another card on or in this fort, you may Trace3 - If trace is successful, give Runner a tag.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="digital_inductor", set="DAL",
+       copyright="© Neal",
+       name="Digital Inductor",
+       type="Upgrade",
+       cost="2",
+       rarity="C",
+       trash="3",
+       text=[[All ice on this fort has an additional subroutine "{S} Do 1 Net damage unless Runner pays {1}", after all other subroutines.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="les_kippick", set="DAL",
+       copyright="© Neal",
+       name="Les Kippick",
+       type="Upgrade - Sysop",
+       cost="2",
+       rarity="C",
+       trash="2",
+       text=[[When Les Kippick is installed, even if he is not rezzed, you can install a single piece of ice in this fort. When this fort is accessed and Les Kippick is rezzed, you may force Runner to approach that piece of ice, and Runner may not access other cards in this fort until that ice is passed. If Les Kippick leaves play, trash that piece of ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="prime_number_scheme", set="DAL",
+       copyright="© Neal",
+       name="Prime Number Scheme",
+       type="Upgrade - Research",
+       cost="3",
+       rarity="C",
+       trash="2",
+       text=[[Immediately after any run where Runner accesses Prime Number Scheme, even if it is trashed, you may take an Agenda, Node or Upgrade from HQ and install it in this fort.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rick_flaag", set="DAL",
+       copyright="© Neal",
+       name="Rick Flaag",
+       type="Upgrade - Sysop",
+       cost="0",
+       rarity="C",
+       trash="4",
+       text=[[The cost to rez ice installed on this fort is reduced by {1}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="timecost_profile", set="DAL",
+       copyright="© Neal",
+       name="Time/Cost Profile",
+       type="Upgrade - Research",
+       cost="0",
+       rarity="C",
+       trash="0",
+       text=[[{T}: Draw a card. Use this ability only when Runner passes the last piece of ice on this fort.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="trapdoor", set="DAL",
+       copyright="© Neal",
+       name="TRAP!door",
+       type="Upgrade - Ambush",
+       cost="0",
+       rarity="C",
+       trash="0",
+       text=[[{T}: Runner ignores but does not pass the last piece of ice on this fort, and must now access the contents of the fort. Use this ability only when Runner encounters the last piece of ice on this fort.]],
+       flavor=[[]],
+       artist=[[]],
+       ruling=[[According to Sparky's run chart the Corp won't be able to rez stuff inside the fort after the use of TRAP!door]],
+}
+-------------------------------------------------------------------------------

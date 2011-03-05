@@ -1,0 +1,161 @@
+--NR [NetRunner] Dioscuri
+Set { id="DIO", name="Dioscuri" }
+-------------------------------------------------------------------------------
+Item { id="degenerate_corporate_investigators", set="DIO",
+       copyright="© Muneki Tada",
+       name="Degenerate Corporate Investigators",
+       type="Corporation",
+       cost=[[]],
+       rarity="C",
+       text=[[At the start of each of your turns, put 2 Relaxation counters on Degenerate Corporate Investigators.
+{A}: Add a number of bits to your bit pool equal to the number of Relaxation counters on Degenerate Corporate Investigators, and remove one Relaxation counter. You may use this ability only once per turn.
+If the Runner makes a run, he or she may pay {1} to remove one Relaxation counter.
+Starting Hand/Bits: 4/6]],
+       flavor=[["But who investigates the investigators?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="diversified_holdings_corp", set="DIO",
+       copyright="© Muneki Tada",
+       name="Diversified Holdings Corp.",
+       type="Corporation",
+       cost=[[]],
+       rarity="C",
+       text=[[The trash cost of all your nodes (including those stored in HQ and R&D) is increased by the number of rezzed and/or revealed nodes you have in play.
+Whenever you rez a node that contains the text "Put {X} from the bank on [card name] when you rez it.", put double that number of bits instead.
+Starting Hand/Bits: 5/5]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="infinite_fax_loop", set="DIO",
+       copyright="© Muneki Tada",
+       name="Infinite Fax Loop",
+       type="Runner",
+       cost=[[]],
+       rarity="C",
+       text=[[Infinite Fax Loop starts the games with 2 Paperwork counters.
+Paperwork Counter: Prevent an advancement counter from being added to any card. The number of advancement counters being added cannot be reduced below 1 in this way.
+3 Paperwork Counters, {A}: Corp may not advance any cards during its next turn.
+Whenever the corp successfully adds multiple advancement counters to an agenda in a single turn, add one Paperwork counter to Infinite Fax Loop.]],
+       flavor=[[You just tape the ends together, and it faxes forever. Serves 'em right for still using paper!]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="mu_nu_gamma", set="DIO",
+       copyright="© Muneki Tada",
+       name="Mu Nu Gamma",
+       type="Corporation",
+       cost=[[]],
+       rarity="C",
+       text=[[Discard a Black Ops or Black Ice card face-up into the Archives: Gain {3} or remove one Bad Publicity counter.
+{A}, trash a rezzed piece of Black Ice: Gain {5} or remove four Bad Publicity counters.
+Starting Hand/Bits: 6/5]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="paranoid_bob_ex_combat_runner", set="DIO",
+       copyright="© Muneki Tada",
+       name="Paranoid Bob, Ex-Combat Runner",
+       type="Runner",
+       cost=[[]],
+       rarity="C",
+       text=[[At the start of each of your turns, for each installed unrevealed Corporation card, pay either {2} or forfeit your next action. Then, reveal all of these cards.
+{A}: Reveal an installed Corporation card.]],
+       flavor=[[Third Corporate War, Militech Special Ops. Used to tag along with the solo team. They hit the perimeter defense and the other Corp's solos; I hit the first terminal I could find. Then, they'd clear up meatspace resistance, I'd clear the 'Net. One day, damn sysops set me up. Liche nearly ate me up alive. Now, I always look where I go. I'm not cannon fodder anymore, ya know?]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="psych_profilers", set="DIO",
+       copyright="© Muneki Tada",
+       name="Psych Profilers",
+       type="Corporation",
+       cost=[[]],
+       rarity="C",
+       text=[[{0}: Declare a card the Runner has in play or in the trash "profiled". 
+{0}: Declare a card the Runner has in play "targeted". 
+Use the above abilities only once per game each.
+Whenever the Runner plays a "profiled" card, add two Psych counters to Psych Profilers. If, during an action, the Runner uses any abilities printed on a "targeted" card, add one Psych counter to Psych Profilers at the end of that action.
+2 Psych counters: Give Runner a tag. The Runner may pay {3} to avoid this tag.
+6 Psych counters, {3}, {A}: Give Runner a tag. Receiving this tag may not be avoided
+Starting Hand/Bits: 4/3]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="psychic_ai_inc", set="DIO",
+       copyright="© Muneki Tada",
+       name="Psychic AI, Inc.",
+       type="Corporation",
+       cost=[[]],
+       rarity="C",
+       text=[[At the start of the game, put 6 Psi counters on Psychic AI, Inc.
+Psi Counter: Lower a die roll made by either player by 1. A die roll of less than "1" is treated as a 1. You may use this ability after the die is rolled, but you may only use 1 Psi counter per die roll to be affected.
+Psi Counter: Gain 2 bits. You may use this ability only once per turn, and only during your own turn.
+Starting Hand/Bits: 4/3]],
+       flavor=[[But the Devil does dice with Einstein.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="randd_informer", set="DIO",
+       copyright="© Muneki Tada",
+       name="R&D Informer",
+       type="Runner",
+       cost=[[]],
+       rarity="C",
+       text=[[If the Corp installs multiple cards from a single action, you may immediately install one card at no cost. The Corp may pay {2} when you do this, in which case you may either pay the normal installation cost plus all other appropriate costs, or return the card to your hand.
+If the Corp draws multiple cards from a single action, you may draw one card. The Corp may pay {2} to prevent this.]],
+       flavor=[[We hear they're opening a branch in Chicago.
+Chicago! You know what that means! Let's move!]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="serbian_badman", set="DIO",
+       copyright="© Muneki Tada",
+       name="Serbian Badman",
+       type="Runner",
+       cost=[[]],
+       rarity="C",
+       text=[[{A}: Gain {5} and reveal cards from your stack until you reveal a piece of hardware. You may install this hardware immediately. Return any of the {5} not spent to the bank. Shuffle any revealed cards (including the hardware if uninstalled) back into your stack.
+If the corp successfully trashes a piece of installed hardware, all other installed hardware is trashed as well.]],
+       flavor=[[On the plus side, we own everything that anyone in our network owns. On the downside, if we lose the link ... pffft!]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="silent_wu_li", set="DIO",
+       copyright="© Muneki Tada",
+       name="Silent Wu Li",
+       type="Runner",
+       cost=[[]],
+       rarity="C",
+       text=[[At the start of the game, put {12} on Silent Wu Li. After each run, put {1} on Silent Wu Li; you may then replenish stealth cards with bits from Silent Wu Li.]],
+       flavor=[[Its beauty is like a rose unfolding in the garden. Beware thorns.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="the_will_and_the_way", set="DIO",
+       copyright="© Muneki Tada",
+       name="The Will and the Way",
+       type="Runner",
+       cost=[[]],
+       rarity="C",
+       text=[[Once per turn, you may take an action and spend {2} to add one keyword from the following list to any revealed Corp card. This change stays in effect until the beginning of your next turn.
+Ice only: AP, Black Ice, Pit Bull, Bloodhound, Brainwipe, DecKrash, Deflector, Firestarter, Flatline, Hellbolt, Hellhound, Knockout, Random, Sleepy, Stun, Sword, Watchdog, Zombie.
+Non-ice: Advertisement, AI, Ambush, Asset, Black Ops, Gray Ops, Research, Transaction, Virus.]],
+       flavor=[[Ashema:"Simply use your will to bend the spoon." Weef:"Honored Ashema, the secret is that there is no spoon." Ashema:"That's what you think, grasshopper."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="world_wide_widgets", set="DIO",
+       copyright="© Muneki Tada",
+       name="World Wide Widgets",
+       type="Corporation",
+       cost=[[]],
+       rarity="C",
+       text=[[Once during each run when you could normally use special effects, you may make a trace 4. For purposes of this trace (only), the Runner is considered to have a base link of 2 and a link increase value of {2}:+2. No other base link may be used during this trace. If the trace is successful, give the Runner a tag OR do 1 meat damage. This damage cannot be prevented.
+Starting Hand/Bits: 3/3]],
+       flavor=[["There's one in every household, and no one knows what they do-until they try an illegal data run!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------

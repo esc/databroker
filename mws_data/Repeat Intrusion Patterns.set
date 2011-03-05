@@ -1,0 +1,1921 @@
+--NR [NetRunner] Repeat Intrusion Patterns
+Set { id="RIP", name="Repeat Intrusion Patterns" }
+-------------------------------------------------------------------------------
+Item { id="adaptek_2100", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Adaptek™ 2100",
+       type="Hardware - Deck",
+       cost="4",
+       rarity="R",
+       text=[[Provides +1 MU. Reduce the installation cost of any non-cybernetic chip hardware by {3}, to a minimum of {0}. 
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="amateur_hack", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Amateur Hack",
+       type="Prep",
+       cost="4",
+       rarity="C",
+       text=[[Put 3 hack counters on an icebreaker. Each hack counter gives an icebreaker +1 strength. At the end of each run, remove a hack counter from any program that has at least one hack counter. You may not put hack counters on an icebreaker that already has hack counters.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="angel_gibson_police_chief", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Angel Gibson, Police Chief",
+       type="Resource - Cyberpunk - Cop - Unique",
+       cost="6",
+       rarity="R",
+       text=[[{A}, discard a card: The Corporation must show you cards stored in HQ equal to the cost to play the discarded card. 
+The Corporation may take an action and pay {6} to return Angel Gibson, Police Chief to Runner's hand.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="arasaka_license", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Arasaka License",
+       type="Resource - License",
+       cost="5",
+       rarity="U",
+       text=[[{A}, {2}: Make a run. During the run, all ice encountered is at -1 strength. 
+{A}, {A}, {2}: Select an ice type: code gate or wall. Make a run. During the run, all ice of the selected type has a base strength of 0. 
+If a Corporation trashes Arasaka License, that Corporation may trash two icebreakers at no cost. 
+#(Only one license can be in play at a time. You cannot play a license while you have one in play.)#]],
+       flavor=[["Nothing like working from the source code."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bio_feedback", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Bio-Feedback",
+       type="Operation - Black Ops",
+       cost="3",
+       rarity="C",
+       text=[[Play only if Runner has 2 or more tags. Trash up to 2 pieces of cybernetic hardware and do 2 meat damage. This damage cannot be prevented.]],
+       flavor=[["So you wanted to be wired?  Watch me turn up the feed!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bio_status_implants", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Bio-Status Implants",
+       type="Hardware - Cybernetic",
+       cost="0",
+       rarity="C",
+       text=[[{T}: Draw two cards.]],
+       flavor=[["They make your skin crawl -- literally."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="blackball_major_rocker", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Blackball, Major Rocker",
+       type="Resource - Cyberpunk - Rockerboy - Unique",
+       cost="5",
+       rarity="R",
+       text=[[At the start of your turn, gain {1} for each rezzed node or upgrade. The Corporation may take an action and pay {5} to return Blackball, Major Rocker to Runner's hand. 
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bootstrap_rogue_sysop", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Bootstrap, Rogue Sysop",
+       type="Resource - Cyberpunk - Netrunner - Unique",
+       cost="6",
+       rarity="R",
+       text=[[{A}, discard a card: Trash a piece of black ice with a rez cost less than or equal to the cost to play the discarded card. 
+The Corporation may take an action and pay {6} to return Bootstrap, Rogue Sysop to Runner's hand. 
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[["Information is more important than power."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bypass_code", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Bypass Code",
+       type="Prep",
+       cost="6",
+       rarity="R",
+       text=[[Select a piece of ice on a data fort, and make a run on that data fort. During that run the Corporation may not rez the selected ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="celeritine_auto_inject", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Celeritine™ Auto-Inject",
+       type="Hardware",
+       cost="3",
+       rarity="U",
+       text=[[Gain {3} at the start each run. When each run is over, pay {3}. For each run after the first in a turn, take 1 meat damage when the run is complete; this damage cannot be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="celeritine_booster", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Celeritine™ Booster",
+       type="Prep",
+       cost="0",
+       rarity="U",
+       text=[[Gain {6} and make a run. After that run is completed, return {6} to the bank and suffer 1 meat damage; this damage cannot be prevented.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="charity_work", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Charity Work",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[If you have {0}, gain {6}; otherwise, gain {2}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="chuck_lie_police_detective", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Chuck Lie, Police Detective",
+       type="Resource - Cyberpunk - Cop",
+       cost="1",
+       rarity="U",
+       text=[[At the start of your turn, the Corporation must show you one card stored in HQ for each Chuck Lie, Police Detective in play. The Corporation may trash a Chuck Lie, Police Detective by taking an action to spend {1}.]],
+       flavor=[["The search warrant says ALL files, sir. Don't make me pull this trigger."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="clyton_elite_solo", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Clyton, Elite Solo",
+       type="Resource - Cyberpunk - Solo - Unique",
+       cost="6",
+       rarity="R",
+       text=[[{A}, discard a card: Chose a rezzed or exposed node or upgrade. If the cost to play the discarded card is greater than the trash cost of the chosen card, trash it at no cost. 
+The Corporation may take an action and pay {6} to return Clyton, Elite Solo to Runner's hand.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="code_net_prototype", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Code-Net™ Prototype",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="C",
+       text=[[Gain {2} when you install Code-Net™ Prototype.
+Trash Code-Net™ Prototype: Prevent one of your programs from being trashed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="corporate_bribery", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Corporate Bribery",
+       type="Operation - Gray Ops",
+       cost="0",
+       rarity="U",
+       text=[[Gain an action. Offer an agenda point you have to a Runner. If Runner accepts, reduce your agenda points and increase Runner's agenda points appropriately, and you may remove from the game up to 2 non-agenda cards.]],
+       flavor=[["So you see, working with us is easier than working against us."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="corporate_payoff", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Corporate Payoff",
+       type="Operation - Gray Ops",
+       cost="0",
+       rarity="U",
+       text=[[Gain an action. Offer any number of bits you have to a Runner. If Runner accepts, reduce your bit pool and increase Runner's bit pool appropriately, and remove from the game any 1 non-agenda card.]],
+       flavor=[["Understand that profit motivates both of us."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="cyber_psychosis", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Cyber-Psychosis",
+       type="Operation",
+       cost="0",
+       rarity="R",
+       text=[[Only play Cyber-Psychosis if Runner is tagged and has cybernetic hardware installed. Give Runner a Cyber-Psychosis counter. If Runner has a Cyber-Psychosis counter, roll a die each time Runner is about to make a run. On a 1, the run is on HQ. On a 2, the run is on R&D. On a 3, Runner jacks out before any access or encounter. Runner may remove a Cyber-Psychosis counter by taking an action to trash a piece of cybernetic hardware.]],
+       flavor=[["If man were meant to have replaceable parts, God would have made machines."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="danshi_license", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Danshi License",
+       type="Resource - License",
+       cost="3",
+       rarity="U",
+       text=[[{A}: Remove a tag at no cost. 
+{A}, {4}: Remove all tags at no cost. 
+If a Corporation trashes Danshi License, draw 2 cards. 
+#(Only one license can be in play at a time. You cannot play a license while you have one in play.)#]],
+       flavor=[["New ID every day. New fingerprints every month. New genetics every year. We're Danshi's. Who are you?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="data_fort_technical_readouts", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Data Fort Technical Readouts",
+       type="Prep",
+       cost="5",
+       rarity="R",
+       text=[[Make a run. During this run, the Corp must pay {1} to rez ice, in addition to the normal cost.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="derek_street_ronin", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Derek, Street Ronin",
+       type="Resource - Cyberpunk - Solo",
+       cost="1",
+       rarity="C",
+       text=[[Reduce the trash cost of nodes and upgrades by {1} to a minimum of {0}. The Corporation may take an action and pay {1} to trash Derek, Street Ronin.]],
+       flavor=[["You take out the security system personnel. I'll trash the data."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ebm_license", set="RIP",
+       copyright="© Robert G. Flack",
+       name="EBM License",
+       type="Resource - License",
+       cost="4",
+       rarity="C",
+       text=[[While EBM License is in play, any hardware removed from play is returned to your hand instead of going to the trash. If a Corporation trashes EBM License, you may immediately install a hardware card at no cost. 
+#(Only one license can be in play at a time. You cannot play a license while you have one in play.)#]],
+       flavor=[["Hey, I didn't break the contract. This stuff is mine now."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="electronic_interference", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Electronic Interference",
+       type="Prep",
+       cost="5",
+       rarity="U",
+       text=[[Play only if you made a successful run on HQ this turn. Discard up to 4 cards. The Corporation must discard as many cards as you.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="electronic_registration", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Electronic Registration",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Return an installed program to your hand and immediately reinstall it at no cost. The Corporation gives you a tag.]],
+       flavor=[["The trick is to make sure the registration is overwritten."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="exposure_run", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Exposure Run",
+       type="Prep",
+       cost="0",
+       rarity="R",
+       text=[[Make a run on a subsidiary fort. When you encounter AP Ice or access an Ambush during the run, gain {2} for each Media or Rockerboy Cyberpunk Resource you have in play.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="fortress_restructuring", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Fortress Restructuring",
+       type="Operation",
+       cost="4",
+       rarity="C",
+       text=[[Install a piece of ice as the innermost ice on a data fort.  Ignore all installation costs.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="gwen_pyro_media_personality", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Gwen Pyro, Media Personality",
+       type="Resource - Cyberpunk - Media - Unique",
+       cost="6",
+       rarity="R",
+       text=[[The Corp must pay {2}, in addition to normal costs, to play an operation while Gwen Pyro, Media Personality is in play. The Corp may take an action and pay {6} to return Gwen Pyro, Media Personality to Runner's hand.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[["Tonight, Gwen has more info on corporate plans to torch YOUR neighborhood. Stay tuned."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hardwired_ripperdoc", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Hardwired, Ripperdoc",
+       type="Resource - Cyberpunk - Medtech - Unique",
+       cost="4",
+       rarity="U",
+       text=[[Reduce the installation cost of cybernetic hardware by {2}, to a minimum of {0}. 
+{A}, {6}: Remove 1 brain damage. 
+The Corp may take an action and pay {4} to trash Hardwired, Ripperdoc.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[["I love repeat business."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="help_from_the_street", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Help from the Street",
+       type="Prep",
+       cost="1",
+       rarity="U",
+       text=[[Search your stack for up to 3 cyberpunk resources, show them to the Corp, and bring them into your hand. Reshuffle your stack afterwards.]],
+       ruling=[[The original name of this card was "Word on the Street", but it was the same name of two other cards from Chrysalid Matrix and Winterdawn, so it has been changed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hidden_information", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Hidden Information",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Gain an action. Offer to remove up to 3 specific virus counters from the Corp for a specific number of bits from the Corp's bit pool. If the Corp accepts, reduce its bits and increase your bits appropriately, and the remove the specified virus counters from the Corp.]],
+       flavor=[["Getting rid of information is sometimes more valuable than having it."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hit_on_hq", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Hit on HQ",
+       type="Prep",
+       cost="0",
+       rarity="U",
+       text=[[Make a run on HQ. Access an additional card for each Cop Cyberpunk Resource you have in play. You may trash 1 accessed card at no cost for each Solo Cyberpunk Resource you have in play, even if that card could not normally be trashed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hit_on_randd", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Hit on R&D",
+       type="Prep",
+       cost="0",
+       rarity="U",
+       text=[[Make a run on R&D. Access an additional card for each Tech Cyberpunk Resource you have in play. You may trash 1 accessed card at no cost for each Solo Cyberpunk Resource you have in play, even if that card could not normally be trashed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hollow_victory", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Hollow Victory",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="R",
+       text=[[{6}, {T}: Treat the Corporate bonus for the agenda just scored as if it didn't exist. You may only use this ability when an agenda is scored. 
+#(Hidden Resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[["If you can't beat 'em, cheat 'em." - Spider Murphy]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hq_access_shunt", set="RIP",
+       copyright="© Robert G. Flack",
+       name="HQ Access Shunt",
+       type="Hardware",
+       cost="5",
+       rarity="U",
+       text=[[When you make a successful run on R&D, do not access cards from R&D. Instead, access cards from HQ. You may only install HQ Access Shunt if you have made a successful run on HQ this turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="infocomp_license", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Infocomp License",
+       type="Resource - License",
+       cost="5",
+       rarity="U",
+       text=[[When you install Infocomp License, select an agenda type: Black Ops, Gray Ops, or Research. 
+{A}, {A}, {5}: Select an agenda type: Black Ops, Gray Ops, or Research. 
+When you score an agenda, gain an additional agenda point if it is the type selected.
+#(Only one license can be in play at a time. You cannot play a license while you have one in play.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="inside_information", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Inside Information",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{2}, {T}: Prevent an ice subroutine from taking effect. 
+#(Hidden Resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="insider_negotiations", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Insider Negotiations",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Gain an action. Offer any number of agenda points you have scored to the Corp. If the Corp accepts, reduce your agenda points and increase the Corp's agenda points appropriately, and trash facedown 6 cards from the top of R&D.]],
+       flavor=[["If they only knew the real cost."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="insidious_bug", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Insidious Bug",
+       type="Program - Virus - 1 MU",
+       cost="3",
+       rarity="U",
+       text=[[Whenever you pass an unrezzed piece of ice, give it a bug counter. The Corporation cannot rez ice that has 2 or more bug counters. 
+#(The Corp may remove all virus counters by forgoing its next three actions.)#]],
+       flavor=[["I thought you tested that code before you released it."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="interface_upgrade", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Interface Upgrade",
+       type="Hardware",
+       cost="1",
+       rarity="C",
+       text=[[Put {4} from the bank on Interface Upgrade when it is installed. Use these bits only to pay for installing a deck. If you use any of these bits, replace them from the bank at the start of your next turn. If Interface Upgrade is trashed, trash your deck and all of your non-cybernetic hardware.]],
+       flavor=[["Nice chrome, Johnny-boy! That's your third upgrade this year, ain't it?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="invalidator", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Invalidator",
+       type="Program - 1 MU",
+       cost="3",
+       rarity="U",
+       text=[[If you access an agenda, but cannot score it, you may trash that agenda.]],
+       flavor=[["There's no way this can work. Who's idea was this?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="life_is_good", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Life is Good",
+       type="Resource - BBS",
+       cost="0",
+       rarity="R",
+       text=[[{A}: Shuffle your stack. Look at the top card of your stack. 
+{A}: Shuffle your trash.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="linc_patchman", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Linc, Patchman",
+       type="Resource - Cyberpunk - Medtech",
+       cost="2",
+       rarity="C",
+       text=[[Prevent up to 3 meat damage after the first one each turn. The Corporation may take an action and pay {2} to trash a Linc, Patchman.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="lylewood_private_operator", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Lylewood, Private Operator",
+       type="Resource - Cyberpunk - Tech",
+       cost="2",
+       rarity="C",
+       text=[[While there is a Lylewood, Private Operator in play, the Corporation cannot trash any of your hardware. The Corporation may take an action and pay {2} to trash Lylewood, Private Operator.]],
+       flavor=[["I'm running BioTechnica tonight. Anything need rewired?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="microtech_license", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Microtech License",
+       type="Resource - License",
+       cost="4",
+       rarity="R",
+       text=[[{A}: The Corporation must trash, face down, the top card of R&D. You may only use this ability if you made a successful run on R&D this turn. 
+If a Corporation trashes Microtech License, that Corporation may shuffle all of the cards stored in the Archives into R&D. 
+#(Only one license can be in play at a time. You cannot play a license while you have one in play.)#]],
+       flavor=[["What idiot laid off all the development personnel?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="misdirection", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Misdirection",
+       type="Program - Stealth - 1 MU",
+       cost="4",
+       rarity="C",
+       text=[[Put {2} from the bank on Misdirection when it is installed. Use these bits only to pay for using icebreakers during runs, but not for using noisy icebreakers. At the start of each run, place {1} on Misdirection from the bit bank.]],
+       flavor=[["Look! It's a flying elephant!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="nash_nomad_scout", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Nash, Nomad Scout",
+       type="Resource - Cyberpunk - Nomad",
+       cost="2",
+       rarity="U",
+       text=[[While there is a Nash, Nomad Scout in play, the Corporation cannot trash any of your resources except a Nash, Nomad Scout. The Corporation may take an action and pay {2} to trash Nash, Nomad Scout.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="net_psychosis", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Net-Psychosis",
+       type="Operation",
+       cost="0",
+       rarity="R",
+       text=[[Play only if Runner is tagged and made more than 1 run last turn. Give Runner a Net-Psychosis counter. At the end of Runner's turn, Runner takes 1 meat damage unless there were at least as many runs that turn as Net-Psychosis counters. This damage may not be prevented. Runner may remove a Net-Psychosis counter by taking an action to trash a program.]],
+       flavor=[["Get rid of that software!  It's no good for you."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="perpetual_access", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Perpetual Access",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="R",
+       text=[[When a program is about to receive a RIP counter, give it to Perpetual Access instead. If Perpetual Access has five or more RIP counters on it at the end of a run, trash Perpetual Access.]],
+       flavor=[["It doesn't do anything but access ice, over, and over, and over..."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="poppy_concert_rocker", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Poppy, Concert Rocker",
+       type="Resource - Cyberpunk - Nomad",
+       cost="1",
+       rarity="C",
+       text=[[Whenever you trash a node or upgrade, gain {2}. The Corporation may take an action and pay {1} to trash Poppy, Concert Rocker.]],
+       flavor=[["Nothin' sounds better than Poppy Fields, man."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="programmers_toolkit", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Programmer's Toolkit",
+       type="Program - 1 MU",
+       cost="3",
+       rarity="C",
+       text=[[{A}: Remove a RIP counter from an icebreaker. 
+{A}, {6}: Put a +1 strength counter on an icebreaker.]],
+       flavor=[["One way to avoid being tagged is to keep changing your 'breakers."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="public_knowledge", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Public Knowledge",
+       type="Operation - Asset",
+       cost="0",
+       rarity="U",
+       text=[[Gain an action. Offer to expose up to 5 specific Corp cards. If Runner accepts, expose the specified cards, and gain {2} for each card exposed this way.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="randd_access_shunt", set="RIP",
+       copyright="© Robert G. Flack",
+       name="R&D Access Shunt",
+       type="Hardware",
+       cost="5",
+       rarity="U",
+       text=[[When you make a successful run on HQ, do not access cards from HQ. Instead, access cards from R&D. You may only install R&D Access Shunt if you have made a successful run on R&D this turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="raldos_request", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Raldo's Request",
+       type="Prep - Sabotage",
+       cost="0",
+       rarity="R",
+       text=[[Make a run on HQ. If the run is successful, do not access cards. Instead, the Corp must show you all cards stored in HQ. You may trash any operation stored in HQ, at a cost of {1} per card.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="remote_video_interface", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Remote Video Interface",
+       type="Hardware",
+       cost="3",
+       rarity="R",
+       text=[[{A}: Gain {5} if you accessed an agenda this turn, but didn't score it. 
+You may access an agenda but not score it while Remote Video Interface is installed.]],
+       flavor=[["Always record what happens. It can save your hide."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="retraction_offer", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Retraction Offer",
+       type="Prep",
+       cost="0",
+       rarity="R",
+       text=[[Gain an action. Offer to remove a Bad Publicity point from the Corp for a specific number of bits from the Corp's bit pool. If the Corp accepts, reduce its bits and increase your bits appropriately, and remove a Bad Publicity point from the Corp.]],
+       flavor=[["So what if I didn't really do it? Give the people what they want."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="roberto_obvious_hacker", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Roberto, Obvious Hacker",
+       type="Resource - Cyberpunk - Netrunner",
+       cost="2",
+       rarity="C",
+       text=[[Gain {1} at the start of each of your turns. Reduce your base link by 2. You can not break a trace subroutine. The Corporation may take an action and pay {2} to trash Roberto, Obvious Hacker.]],
+       flavor=[["Mind if I tag along?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="selective_recall", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Selective Recall",
+       type="Operation - Bad Publicity",
+       cost="8",
+       rarity="R",
+       text=[[Play only if Runner is tagged. Gain 3 Bad Publicity points. Search Runner's stack, then select a card. Trash all installed copies of the selected card. Place in Runner's trash all copies of the selected card from Runner's stack.  Runner must reshuffle the stack afterwards.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="sev_lotrim_crime_boss", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Sev Lotrim, Crime Boss",
+       type="Resource - Cyberpunk - Fixer - Unique",
+       cost="6",
+       rarity="R",
+       text=[[You may play the top card of your trash as if it was in your hand. If a card is put into the Trash, remove it from the game instead. The Corporation may take an action and pay {6} to return Sev Lotrim to Runner's hand. 
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="short_development_cycle", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Short Development Cycle",
+       type="Operation - Research",
+       cost="2",
+       rarity="C",
+       text=[[Draw a card and gain an action.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="skin_inductance_trodes", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Skin Inductance 'Trodes",
+       type="Hardware",
+       cost="1",
+       rarity="R",
+       text=[[{A}, {T}: Make a run. During this run ignore all AP subroutines, Net and brain damage; all ice you encounter is +2 strength.]],
+       flavor=[["Running the Net raw is wild. Some ice can't even touch you."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="soft_reset", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Soft Reset",
+       type="Prep",
+       cost="2",
+       rarity="C",
+       text=[[Replace all stealth bits on all your cards as if it was the start of your turn.]],
+       flavor=[["Don't reboot. Just restart the applications."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="statistical_analysis", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Statistical Analysis",
+       type="Operation - Research",
+       cost="1",
+       rarity="C",
+       text=[[Draw three cards.  Place two cards stored in HQ on top of R&D in any order you choose.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="status_report_request", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Status Report Request",
+       type="Prep",
+       cost="1",
+       rarity="C",
+       text=[[Make a run on HQ. If the run is successful, do not access any cards. Instead, for the rest of the turn reduce the strength of all ice on R&D by 2.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="surveillance", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Surveillance",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="U",
+       text=[[At the end of your turn, gain {1} for each run you made.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="teamwork", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Teamwork",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Gain {1} for each cyberpunk resource you have in play.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="technology_sell_off", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Technology Sell-Off",
+       type="Operation - Research",
+       cost="1",
+       rarity="C",
+       text=[[Trash up to 5 cards from the top of R&D.  Gain {2} for each card trashed this way.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="thane_kent_senior_engineer", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Thane Kent, Senior Engineer",
+       type="Resource - Cyberpunk - Tech - Unique",
+       cost="5",
+       rarity="R",
+       text=[[{A}, discard a card: If the discarded card is a hardware card, gain bits equal to half its cost to play. 
+The Corporation may take an action and pay {5} to return Thane Kent, Senior Engineer to Runner's hand. 
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="the_eurotheater", set="RIP",
+       copyright="© Robert G. Flack",
+       name="The EuroTheater",
+       type="Resource - Territory",
+       cost="3",
+       rarity="U",
+       text=[[{A}: Search your stack for a resource card. Show it to the Corp, then place it in your hand. Shuffle your stack when you are done. You may only use this ability once a turn. 
+Pay {1} at the start of your turn, or trash The EuroTheater. 
+#(Only one Territory can be in play at a time. If you bring another into play, trash any old Territory. The Corporation cannot trash a Territory.)#]],
+       flavor=[["You can find whatever you want, but the conversion rates may drain you."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="the_rustbelt", set="RIP",
+       copyright="© Robert G. Flack",
+       name="The Rustbelt",
+       type="Resource - Territory",
+       cost="1",
+       rarity="C",
+       text=[[{A}: Search your stack for an hardware card. Show it to the Corp, then place it in your hand. Shuffle your stack when you are done. You may only use this ability once a turn. 
+Pay {1} at the start of your turn, or trash The Rustbelt. 
+#(Only one Territory can be in play at a time. If you bring another into play, trash any old Territory. The Corporation cannot trash a Territory.)#]],
+       flavor=[["The Rustbelt still manufactures a large amount of hardware. If only it was high quality."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="the_wasteland", set="RIP",
+       copyright="© Robert G. Flack",
+       name="The Wasteland",
+       type="Resource - Territory",
+       cost="0",
+       rarity="C",
+       text=[[Your hand size is 1 less while The Wasteland is in play. The first 3 meat damages done to you each turn have no effect. 
+#(Only one Territory can be in play at a time. If you bring another into play, trash any old Territory. The Corporation cannot trash a Territory.)#]],
+       flavor=[["The fracking signal is coming out of the middle of nowhere!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tokyo_chiba", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Tokyo-Chiba",
+       type="Resource - Territory",
+       cost="4",
+       rarity="U",
+       text=[[{A}: Draw three cards. You may only use this ability once a turn. 
+#(Only one Territory can be in play at a time. If you bring another into play, trash any old Territory. The Corporation cannot trash a Territory.)#]],
+       flavor=[["Hey Johnny! Do you still know that black market medic?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="true_value_hardware_bundle", set="RIP",
+       copyright="© Robert G. Flack",
+       name="True-Value Hardware Bundle",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Install up to five pieces of hardware. Reduce the installation cost of any single piece of hardware by {2}, to a minimum of {0}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="underworld_resources", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Underworld Resources",
+       type="Operation - Gray Ops - Bad Publicity",
+       cost="4",
+       rarity="U",
+       text=[[Trash a unique non-hidden resource at no cost or take a card from Runner's trash and remove it from the game. Gain 2 Bad Publicity points.]],
+       flavor=[["Round up the usual suspects."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="weasel_street_punk", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Weasel, Street Punk",
+       type="Resource - Cyberpunk - Fixer",
+       cost="1",
+       rarity="C",
+       text=[[At the start of your turn, look at one card from the top of your Stack for each Weasel, Street Punk in play. Return the cards to the Stack in the same order. The Corporation may trash a Weasel, Street Punk by taking an action to spend {1}.]],
+       flavor=[["The word is that WuTech is dumping memory tomorrow. You need any?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="wns_license", set="RIP",
+       copyright="© Robert G. Flack",
+       name="WNS License",
+       type="Resource - Cyberpunk - Fixer",
+       cost="5",
+       rarity="R",
+       text=[[When you score an agenda, give the Corporation a Bad Publicity point. You may not win by agenda while WNS License is in play. If a Corporation trashes WNS License, remove 3 Bad Publicity points from the Corporation. 
+#(Only one license can be in play at a time. You cannot play a license while you have one in play.)#]],
+       flavor=[["The power of the word is immense. Make sure it works for you, not against you."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="worldsat_license", set="RIP",
+       copyright="© Robert G. Flack",
+       name="WorldSat License",
+       type="Resource - License",
+       cost="6",
+       rarity="U",
+       text=[[Forgo your next action, {2}: Break a subroutine on the ice you are currently encountering. You may only use this ability once per turn. 
+If a Corporation trashes WorldSat License, you must forgo your next 4 actions. 
+#(Only one license can be in play at a time. You cannot play a license while you have one in play.)#]],
+       flavor=[["LDL technology at its best... or worse."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="wu_staff_reporter", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Wu, Staff Reporter",
+       type="Resource - Cyberpunk - Media",
+       cost="1",
+       rarity="C",
+       text=[[At the start of your turn, look at one card from the top of R&D for each Wu, Staff Reporter in play, without changing their order. The Corporation may then shuffle R&D by spending {3}. The Corporation may take an action and pay {2} to trash Wu, Staff Reporter.]],
+       flavor=[["Wu is asking too many questions. Pay him a visit."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="wutech_memory_prototype", set="RIP",
+       copyright="© Robert G. Flack",
+       name="WuTech Memory Prototype",
+       type="Hardware - Chip",
+       cost="0",
+       rarity="C",
+       text=[[Provides +2 MU. 
+Gain {1} when you install WuTech Memory Prototype. If any of your programs or hardware is removed from play, trash WuTech Memory Prototype.]],
+       flavor=[["Some prototype. Cheap, yet cheap."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="zz37_speed_chip_prototype", set="RIP",
+       copyright="© Robert G. Flack",
+       name="ZZ37 Speed Chip Prototype",
+       type="Hardware - Chip",
+       cost="0",
+       rarity="C",
+       text=[[Gain {1} when you install ZZ37 Speed Chip Prototype. Put {1} from the bank on ZZ37 Speed Chip Prototype when it is installed. Use this bit only to pay for using killers during runs. If you use the bit, replace it from the bank at the start of your next turn. If any of your programs or hardware is removed from play, trash Z37 Speed Chip Prototype.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="admission_of_guilt", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Admission of Guilt",
+       type="Agenda - Gray Ops - Bad Publicity",
+       cost="3",
+       rarity="R",
+       points="2",
+       text=[[You must expose Admission of Guilt when you install it. If Runner accesses Admission of Guilt, remove all Bad Publicity counters. Ignore this effect if Runner accesses Admission of Guilt from the Archives. If you score Admission of Guilt, gain 1 Bad Publicity counter.]],
+       flavor=[["Honesty is the second-best policy."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="arena", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Arena",
+       type="Ice - Sentry",
+       cost="5",
+       rarity="U",
+       power="0",
+       text=[[{S} End the run.
+When Runner encounters Arena, you must show the top card of R&D to Runner. If it is an ice, replace Arena with the ice, rezzed, at no cost, and trash Arena; otherwise, place the card back on top of R&D face up.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="arena_champion", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Arena Champion",
+       type="Ice - Sentry - AP - Black Ice - Killer - Brainwipe - Sword",
+       cost="9",
+       rarity="U",
+       power="4",
+       text=[[{S} Trash a program.
+{S} Do 1 brain damage. Runner may not prevent this damage.
+{S} Do 1 Net damage. Runner may not prevent this damage.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="autocyph_prototype", set="RIP",
+       copyright="© Robert G. Flack",
+       name="AutoCyph Prototype",
+       type="Program - Icebreaker - 1 MU",
+       cost="1",
+       rarity="C",
+       power="0",
+       text=[[{1}: Break a code gate subroutine. 
+{1}: +1 strength. 
+Make a run when you install AutoCyph Prototype.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="autogrynd_prototype", set="RIP",
+       copyright="© Robert G. Flack",
+       name="AutoGrynd Prototype",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="0",
+       rarity="C",
+       power="0",
+       text=[[{1}: Break a wall subroutine. 
+{1}: +1 strength. 
+Make a run when you install AutoGrynd Prototype. Whenever you break a wall subroutine with AutoGrynd Prototype, lose {1} from a stealth card.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="autoping_prototype", set="RIP",
+       copyright="© Robert G. Flack",
+       name="AutoPing Prototype",
+       type="Program - Icebreaker - 1 MU",
+       cost="3",
+       rarity="C",
+       power="0",
+       text=[[{2}: Break a sentry subroutine. 
+{1}: +1 strength. 
+Make a run when you install AutoPing Prototype.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="barbed_wire_fence", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Barbed Wire Fence",
+       type="Ice - Wall - RIP",
+       cost="4",
+       rarity="R",
+       power="0",
+       text=[[{S} Do 1 Net damage.
+{S} End the run.
+Barbed Wire Fence has +1 strength for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Barbed Wire Fence, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["When they slow down to avoid the barbs, we snatch their configuration."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="beagle", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Beagle",
+       type="Ice - Sentry - Bloodhound - RIP",
+       cost="0",
+       rarity="C",
+       power="2",
+       text=[[{S} Trace0 - If trace is successful, give Runner a tag.
+Increase the trace limit by 1 for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Beagle, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["His bark is much worse than his bite."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bender_harlow", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Bender Harlow",
+       type="Upgrade - Sysop",
+       cost="3",
+       rarity="U",
+       trash="5",
+       text=[[Runner must pay an {2}, in addition to the normal cost, to break each trace subroutine of each piece of ice encountered during runs on this fort.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="beneficial_merger", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Beneficial Merger",
+       type="Agenda - Asset",
+       cost="5",
+       rarity="C",
+       points="2",
+       text=[[Score an additional 1 agenda point when you score Beneficial Merger.]],
+       flavor=[["Do you spell that Synergy of Sinergy?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="brazen_ai", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Brazen AI",
+       type="Agenda - Research - AI",
+       cost="3",
+       rarity="C",
+       points="2",
+       text=[[You must expose Brazen AI when you install it. If Runner accesses Brazen AI but does not score it, Runner gains {10}. Ignore this effect if Runner accesses Brazen AI from the Archives. A Runner may access Brazen AI, and choose not to score it. If Brazen AI is accessed from R&D, Runner must show it to you.]],
+       flavor=[["Stop back later and I'll tell you the ISA Grand Lotto number for tonight."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="camouflage", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Camouflage",
+       type="Program - Icebreaker - Stealth - 1 MU",
+       cost="0",
+       rarity="U",
+       power="0",
+       text=[[{1}: Pass the encountered ice if the strength of Camouflage is equal to or greater than the encountered ice. 
+{2}: +1 strength. 
+You may only use bits from stealth sources to pay for using Camouflage.]],
+       flavor=[[You can outfight them, or you can outthink them.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="combination_lock", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Combination Lock",
+       type="Ice - Code Gate - RIP",
+       cost="2",
+       rarity="R",
+       power="0",
+       text=[[{S} End the run.
+Combination Lock has +1 strength for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Combination Lock, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["The tricky part is knowing whether to start to the left or right."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="concentric_walls", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Concentric Walls",
+       type="Ice - Wall - RIP",
+       cost="5",
+       rarity="C",
+       power="2",
+       text=[[{S} End the run.
+Concentric Walls has one additional "{S} End the run" subroutine for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Concentric Walls, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["Just when you thought is was over..."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="damage_control_center", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Damage Control Center",
+       type="Node - AI",
+       cost="4",
+       rarity="R",
+       trash="1",
+       text=[[{2}: Remove a virus counter of Runner's choice.
+{4}: Prevent Runner from trashing a piece of ice.
+{A}, {A}: Install 3 cards.
+If a Runner trashes Damage Control Center, remove up to 4 Bad Publicity points. Ignore this effect if Runner accesses Damage Control Center from the Archives.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="disassembler", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Disassembler",
+       type="Ice - Sentry - DecKrash - RIP",
+       cost="4",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run.
+Disassembler has +1 strength for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Disassembler, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["Frackin' thing inserts bugs as you break it." - Dog]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="electric_tripwire", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Electric Tripwire",
+       type="Ice - Sentry - AP - Sword",
+       cost="3",
+       rarity="U",
+       power="1",
+       text=[[{S} Do 1 Net damage.
+{S} Do 1 Net damage.]],
+       flavor=[["Do you want fried with that?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="employee_owned_franchise", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Employee-Owned Franchise",
+       type="Agenda - Gray Ops",
+       cost="4",
+       rarity="R",
+       points="2",
+       text=[[Place 6 Franchise counters on Employee-Owned Franchise when you score it.
+Franchise counter: Do not take your mandatory draw this turn. You may only use this ability at the start of your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="encryption_algorithm", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Encryption Algorithm",
+       type="Program - Icebreaker - Base Link - 1 MU",
+       cost="3",
+       rarity="C",
+       power="2",
+       text=[[{1}: Break code gate subroutine. 
+{1}: Base link 2. 
+{2}: +1 to link. 
+#(Use only one base link card for each trace attempt made against you.)#]],
+       flavor=[["Just use your mother's maiden name. No Corp will guess that."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="esa_quality_organization", set="RIP",
+       copyright="© Robert G. Flack",
+       name="ESA Quality Organization",
+       type="Node",
+       cost="0",
+       rarity="C",
+       trash="2",
+       text=[[Place a quality counter on ESA Quality Organization when it is rezzed. If you use the counter, replace it at the start of your next turn.
+Quality counter: Gain {1}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="falsified_debit", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Falsified Debit",
+       type="Node - Transactions",
+       cost="2",
+       rarity="R",
+       trash="0",
+       text=[[You may advance Falsified Debit only after you rez it.  You may only rez Falsified Debit if Runner is tagged.  For each advancement counter on Falsified Debit, Runner must pay {1} at the start of Runner's turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ghost", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Ghost",
+       type="Upgrade - Sysop - Ambush",
+       cost="2",
+       rarity="U",
+       trash="1",
+       text=[[When Runner accesses Ghost, trash a program that has a RIP counter. Ignore this effect if Ghost is not rezzed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="gladiator", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Gladiator",
+       type="Ice - Sentry - AP - Sword - RIP",
+       cost="5",
+       rarity="C",
+       power="0",
+       text=[[{S} Do 1 Net damage.
+{S} End the run.
+Gladiator has +1 strength for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Gladiator, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["Rez and fight like a program."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="gladiator_20", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Gladiator 2.0",
+       type="Ice - Sentry - AP - Sword - RIP",
+       cost="8",
+       rarity="U",
+       power="4",
+       text=[[{S} Do 1 Net damage for each RIP counter on Runner's icebreakers.
+{S} End the run.
+If Runner uses an icebreaker on Gladiator, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["Choose a weapon, churl."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="gravekeeper", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Gravekeeper",
+       type="Node - AI - Ambush",
+       cost="4",
+       rarity="R",
+       trash="0",
+       text=[[You may advance Gravekeeper before and after you rez it. When Runner accesses Gravekeeper, add 1 RIP counter to any icebreaker for each advancement counter on Gravekeeper.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["Just stay away from the run-down house icon and you'll be fine."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="house_of_mirrors", set="RIP",
+       copyright="© Robert G. Flack",
+       name="House of Mirrors",
+       type="Ice - Wall",
+       cost="3",
+       rarity="R",
+       power="0",
+       text=[[When Runner encounters House of Mirrors, you may select a piece of rezzed ice and pay half its rez cost, rounded down. For the remainder of the encounter, House of Mirrors has the keywords, subroutines and strength of the selected piece of ice instead of its own. House of Mirrors does not have any non-subroutine abilities of the selected ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="house_of_wax", set="RIP",
+       copyright="© Robert G. Flack",
+       name="House of Wax",
+       type="Ice - Sentry",
+       cost="0",
+       rarity="R",
+       power="0",
+       text=[[{S} End the run.
+When Runner encounters House of Wax, you may select a piece of rezzed ice and pay {2}. For the remainder of the encounter, House of Wax has the strength of the selected piece of ice instead of its own.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="icepick_prototype", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Icepick™ Prototype",
+       type="Program - Icebreaker - 1 MU",
+       cost="0",
+       rarity="C",
+       power="5",
+       text=[[{1}: Break a subroutine and return Icepick™ Prototype to your hand. 
+Gain {1} when you install Icepick Prototype.]],
+       flavor=[["You get what you pay for."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="insidious_software_house", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Insidious Software House",
+       type="Node - Virus",
+       cost="4",
+       rarity="R",
+       trash="0",
+       text=[[When Runner installs a program, you may pay {2} to give it a software counter.  If Runner is tagged, you may take an action and pay {2} to trash a program with a software counter.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="jack_the_ripper", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Jack the Ripper",
+       type="Ice - Sentry - AP - Black Ice - Brainwipe - Sword - RIP",
+       cost="10",
+       rarity="U",
+       power="5",
+       text=[[{S} Do 1 Net damage for each RIP counter on Runner's icebreakers.
+{S} Do 1 brain damage for each RIP counter on Runner's icebreakers.
+{S} End the run.
+If Runner uses an icebreaker on Jack the Ripper, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["He reaches into your brain and squeezes.  Reminds me of an old girlfriend I had." - Rache Bartmoss]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ji3", set="RIP",
+       copyright="© Robert G. Flack",
+       name="JI3",
+       type="Upgrade - Sysop",
+       cost="0",
+       rarity="U",
+       trash="2",
+       text=[[Install JI3 only in R&D or HQ.
+{3}: Remove a virus counter.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="kamikaze", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Kamikaze",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="0",
+       rarity="C",
+       power="0",
+       text=[[{T}: Break all subroutines on the encountered ice if the strength of Kamikaze is equal to or greater than the encountered ice. Whenever you use this ability, lose all bits from stealth cards. 
+{2}: +1 strength.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="labyrinth", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Labyrinth",
+       type="Ice - Sentry - AP - Black Ice - Brainwipe - Sword - RIP",
+       cost="8",
+       rarity="U",
+       power="4",
+       text=[[{S} End the run.
+{S} End the run.
+If Runner uses an icebreaker on Labyrinth, give that icebreaker a RIP counter after the encounter. Runner must pay {1} for each RIP counter on all icebreakers, in addition to the normal cost, to break each subroutine of Labyrinth.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ldl_router", set="RIP",
+       copyright="© Robert G. Flack",
+       name="LDL Router",
+       type="Node",
+       cost="1",
+       rarity="U",
+       trash="0",
+       text=[[When Runner starts a run put an LDL counter on LDL Router.  You may rez LDL Router at the start of a run.
+LDL counter: Gain {1}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="legionnaire", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Legionnaire",
+       type="Ice - Sentry - AP - Hellbolt",
+       cost="6",
+       rarity="R",
+       power="5",
+       text=[[{S} Trace3 - Do 1 Net damage.
+{S} Trace4 - Do 1 Net damage.
+{S} Trace5 - Do 1 Net damage.
+{S} End the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="lingering_brain_death", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Lingering Brain-Death",
+       type="Node - Ambush",
+       cost="0",
+       rarity="R",
+       trash="0",
+       text=[[When Runner accesses Lingering Brain-Death, it does 1 brain damage for each {4} you pay. Ignore this effect if Runner accesses Lingering Brain-Death from the Archives. If Lingering Brain-Death is accessed from R&D, Runner must show it to you.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="long_island_city_grid", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Long Island City Grid",
+       type="Upgrade - Region",
+       cost="1",
+       rarity="R",
+       trash="2",
+       text=[[Reduce the rez cost of cards in or on this fort by {1}, to a minimum of {0}.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="magnetic_grapple", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Magnetic Grapple",
+       type="Ice - Sentry",
+       cost="6",
+       rarity="C",
+       power="2",
+       text=[[{S} Do 1 Net damage. Runner cannot prevent this damage.
+{S} End the run.]],
+       flavor=[["Come here. Now."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="malicious_ai", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Malicious AI",
+       type="Agenda - Research - AI - Ambush",
+       cost="5",
+       rarity="U",
+       points="2",
+       text=[[If Runner accesses Malicious AI, it does 1 brain damage. Ignore this effect if Runner accesses Malicious AI from the Archives. This damage cannot be prevented unless Runner pays {3} in addition to any other costs.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="maze_of_contortions", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Maze of Contortions",
+       type="Ice - Code Gate - RIP",
+       cost="2",
+       rarity="C",
+       power="2",
+       text=[[{S} For the remainder of the run, Runner must pay {1}, in addition to any other costs, to break a subroutine.
+If Runner uses an icebreaker on Maze of Contortions, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="maze_of_deceptions", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Maze of Deceptions",
+       type="Ice - Code Gate - RIP",
+       cost="3",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run.
+If Runner uses an icebreaker on Maze of Deceptions, give that icebreaker a RIP counter after the encounter. Maze of Deceptions has +1 strength for each RIP counter on Runner's icebreakers.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="maze_of_thorns", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Maze of Thorns",
+       type="Ice - Sentry",
+       cost="4",
+       rarity="C",
+       power="2",
+       text=[[{S} For the remainder of the run, Runner takes 1 Net damage for each subroutine encountered that isn't broken.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="microkernal", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Microkernal",
+       type="Node",
+       cost="2",
+       rarity="U",
+       trash="4",
+       text=[[You may advance Microkernal before and after you rez it.
+Microkernal advancement counter: Draw 2 cards.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="murphy", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Murphy",
+       type="Node - Virus - Ambush",
+       cost="0",
+       rarity="C",
+       trash="1",
+       text=[[When Runner accesses Murphy, it gives a Murphy counter to a program. Ignore this effect if Runner accesses Murphy from the Archives. If Murphy is accessed from R&D, Runner must show it to you. When Runner pays a cost to use an ability of a program with a Murphy counter, roll a die for each Murphy counter.  On a 5 or 6, trash the program. Runner may remove a Murphy counter by taking an action to pay {5}.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="net_matrix_technology", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Net Matrix Technology",
+       type="Agenda - Research - AI - Ambush",
+       cost="5",
+       rarity="C",
+       points="3",
+       text=[[At the start of each run, Runner must pay {1} for each tag, in addition to any other costs, or end the run.]],
+       flavor=[["You can make life difficult if you know how they are running."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ninja", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Ninja",
+       type="Program - Icebreaker - Killer - 1 MU",
+       cost="5",
+       rarity="R",
+       power="0",
+       text=[[{0}: Trash encountered ice and a stealth card if the strength of Ninja is equal to or greater than the encountered ice. 
+{2}: +1 strength. 
+You may only use bits from stealth sources to pay for using Ninja.]],
+       flavor=[["Look! It's a flying elephant!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="observed_doorway", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Observed Doorway",
+       type="Ice - Code Gate - RIP",
+       cost="2",
+       rarity="C",
+       power="1",
+       text=[[{S} End the run.
+If Runner uses an icebreaker on Observed Doorway, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["The thing records what you do to get by.  If it wasn't so easy I'd be upset." - Edger]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="oral_exam", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Oral Exam",
+       type="Ice - Code Gate - RIP",
+       cost="4",
+       rarity="C",
+       power="3",
+       text=[[{S} End the run.
+If Runner uses an icebreaker on Oral Exam, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["It's kinda like those dreams where you're at school in your underwear."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="padlock", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Padlock",
+       type="Ice - Code Gate",
+       cost="7",
+       rarity="C",
+       power="6",
+       text=[[{S} End the run.]],
+       flavor=[["I like my privacy." - Saburo Arasaka]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="palisade", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Palisade",
+       type="Ice - Wall - RIP",
+       cost="3",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run.
+Palisade has +1 strength for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Palisade, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["I didn't see the forest for the trees."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="pattern_development", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Pattern Development",
+       type="Agenda - Research - RIP",
+       cost="4",
+       rarity="U",
+       points="3",
+       text=[[If Runner accesses Pattern Development, give each installed icebreaker a RIP counter. Ignore this effect if Runner accesses Pattern Development from the Archives.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["Even if they steal it, they help our testing."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="picket_fence", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Picket Fence",
+       type="Ice - Wall - RIP",
+       cost="2",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run.
+If Runner uses an icebreaker on Picket Fence, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["See the old lady icon in the background watching?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="poodle", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Poodle",
+       type="Ice - Sentry - Watchdog - RIP",
+       cost="0",
+       rarity="U",
+       power="0",
+       text=[[{S} For the remainder of the run, all ice is encountered at +1 strength.
+{S} Runner removes {1} from each stealth source.
+Poodle has +1 strength for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Poodle, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["Yap-Yap-Yap."  "Shut up!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="pop_quiz", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Pop Quiz",
+       type="Ice - Code Gate - RIP",
+       cost="1",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run.
+If Runner uses an icebreaker on Pop Quiz, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["You got a favorite icebreaker and the Corp's got a favorite Sysop.  Wonder who's smarter?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="possibility_vortex", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Possibility Vortex",
+       type="Ice - Code Gate - RIP",
+       cost="4",
+       rarity="R",
+       power="0",
+       text=[[{S} Give an icebreaker a RIP counter if there is a RIP counter on an icebreaker.
+{S} End the run.
+Possibility Vortex has +1 strength for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Possibility Vortex, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="pretty_boy", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Pretty Boy",
+       type="Ice - Sentry - AP - Sword - Killer",
+       cost="8",
+       rarity="C",
+       power="3",
+       text=[[{S} Trash a program.
+{S} Do 1 Net damage.
+{S} End the run.]],
+       flavor=[["Weapons - foils. We duel until first blood. En Garde!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="redirector", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Redirector",
+       type="Program - Icebreaker - Stealth - 1 MU",
+       cost="3",
+       rarity="R",
+       power="0",
+       text=[[{1}: Break code gate or wall subroutine. 
+{2}: Break sentry subroutine. 
+{1}: +1 strength. 
+You may only use bits from stealth sources to pay for using Redirector.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="remote_development_station", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Remote Development Station",
+       type="Node",
+       cost="0",
+       rarity="U",
+       trash="0",
+       text=[[You may advance Remote Development Station before and after you rez it. You may rez Remote Development Station at any time.  If you overwrite Remote Development Station, draw 3 cards for each advancement counter on it.  If Runner trashes Remote Development Station, discard 1 card for each advancement counter on it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="remote_research_center", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Remote Research Center",
+       type="Node",
+       cost="3",
+       rarity="U",
+       trash="0",
+       text=[[{A}: Draw a card from the bottom of R&D.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="research_technology", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Research Technology",
+       type="Agenda - Research",
+       cost="4",
+       rarity="C",
+       points="3",
+       text=[[When you score Research Technology, you may draw up to 5 cards.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="resource_control", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Resource Control",
+       type="Node - Random",
+       cost="1",
+       rarity="U",
+       trash="2",
+       text=[[Each time Runner draws a card, roll a die.  On a 1, gain {1}. On a 2, Runner must discard a card if tagged.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rifle", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Rifle",
+       type="Program - Icebreaker - Random - Noisy - 1 MU",
+       cost="3",
+       rarity="U",
+       power="3",
+       text=[[{2}: Roll a die. On a 1, 2, 3 or 4, pass the encountered ice. On a 5 or 6, suffer 1 brain damage. You may only use this ability if the strength of Rifle is equal to or greater than the encountered ice. Whenever you use this ability, lose all bits from stealth cards. 
+{3}: +1 strength]],
+       flavor=[["If all you have is a rifle, all nodes start to look like a target."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rip_database", set="RIP",
+       copyright="© Robert G. Flack",
+       name="RIP Database",
+       type="Node - RIP",
+       cost="2",
+       rarity="C",
+       trash="0",
+       text=[[All RIP Ice have +1 strength. If Runner accesses RIP Database, give an icebreaker a RIP counter. Ignore this effect if RIP Database is not rezzed.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rip_technology", set="RIP",
+       copyright="© Robert G. Flack",
+       name="RIP Technology",
+       type="Agenda - Asset",
+       cost="3",
+       rarity="R",
+       points="2",
+       text=[[The cost to rez RIP ice is reduced by {1} to a minimum of {0}.]],
+       flavor=[["The best invention since razor wire." - Andrea D'Tonio]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="roanoke_city_grid", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Roanoke City Grid",
+       type="Upgrade - Region - Random",
+       cost="1",
+       rarity="U",
+       trash="4",
+       text=[[Install only inside a subsidiary data fort.
+{A}, {1}: Install a card in this subsidiary data fort, at normal cost, then roll a die. On a 1 or 2, you may place an advancement counter on the installed card if it can be advanced. On a 6, trash Roanoke City Grid.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="scalper_mattison", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Scalper Mattison",
+       type="Upgrade - Sysop - Unique",
+       cost="3",
+       rarity="R",
+       trash="3",
+       text=[[Install Scalper Mattison only in a subsidiary data fort. Runner may not trash any other card in or on this fort while Scalper Mattison is rezzed, even on the run during which Runner trashes Scalper Mattison. If Runner trashes Scalper Mattision, return to HQ any cards in this data fort that with advancement counters on it.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="shanghai_city_grid", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Shanghai City Grid",
+       type="Upgrade - Region - Random",
+       cost="2",
+       rarity="R",
+       trash="7",
+       text=[[Roll a die when Runner passes the last piece of ice during a run on this fort. On a 1, Runner resumes the run at the first piece of ice on this fort, and must pay {4} to jack out in addition to any normal costs.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="signal_lock", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Signal Lock",
+       type="Ice - Sentry - RIP",
+       cost="4",
+       rarity="C",
+       power="0",
+       text=[[{S} For the remainder of the run Runner must pay {1} for each RIP counter on Runner's icebreakers to jack out.
+{S} End the run.
+If Runner uses an icebreaker on Signal Lock, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="simon_graves", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Simon Graves",
+       type="Upgrade - Sysop - Ambush",
+       cost="5",
+       rarity="R",
+       trash="4",
+       text=[[When Runner accesses Simon Graves, he gives one RIP counter to each icebreaker. Ignore this effect if Simon Graves is not rezzed.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["He's the best pattern man this side of Pacifica."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="spartacus", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Spartacus",
+       type="Ice - Sentry - AP - Black Ice - Zombie - RIP",
+       cost="9",
+       rarity="U",
+       power="0",
+       text=[[{S} Do 1 brain damage.
+{S} Do 1 brain damage.
+{S} Do 1 brain damage and end the run.
+Spartacus has +1 strength for each RIP counter on Runner's icebreakers. If Runner uses an icebreaker on Spartacus, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[[Be prepared.  I've learned your tricks, churl.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="synthetic_intelligence", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Synthetic Intelligence",
+       type="Agenda - Research - AI",
+       cost="2",
+       rarity="C",
+       points="2",
+       text=[[You may not score Synthetic Intelligence the turn you install it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="think_outside_the_box", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Think Outside the Box",
+       type="Agenda - Asset",
+       cost="3",
+       rarity="C",
+       points="1",
+       text=[[When you rez a piece of ice, reduce the rez cost by {1} to a minimum of {0}, unless there is a piece of ice with the same name already rezzed.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="variable_access_code", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Variable Access Code",
+       type="Ice - Sentry - AP - Black Ice - Zombie - RIP",
+       cost="5",
+       rarity="R",
+       power="2",
+       text=[[{S} End the run.
+Runner must pay {1} for each RIP counter on Runner's icebreakers, in addition to the normal cost , to break each subroutine of Variable Access Code. If Runner uses an icebreaker on Variable Access Code, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["Just let the breaker do the work.  There is no pattern."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="virtual_firestorm", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Virtual Firestorm",
+       type="Ice - Sentry - Killer - RIP",
+       cost="8",
+       rarity="R",
+       power="3",
+       text=[[{S} Trash a program for each RIP counter on Runner's icebreakers. 
+{S} End the run.
+When Virtual Firestorm is encountered, Runner may voluntarily trash any program that has a RIP counter. If Runner uses an icebreaker on Virtual Firestorm, give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="wall_of_electrons", set="RIP",
+       copyright="© Robert G. Flack",
+       name="Wall of Electrons",
+       type="Ice - Wall - Random - RIP",
+       cost="3",
+       rarity="C",
+       power="2",
+       text=[[{S} Roll a die. If result is less than the number of RIP counters on Runners icebreakers end the run. If Runner uses an icebreaker on Wall of Electrons give that icebreaker a RIP counter after the encounter.
+#(Runner may remove a RIP counter by taking an action to pay {1}.)#]],
+       flavor=[["I'm sorry.  You're transmission was garbled."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------

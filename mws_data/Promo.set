@@ -1,0 +1,110 @@
+--NR [NetRunner] Promo (2.0)
+Set { id="PRO", name="Promo" }
+-------------------------------------------------------------------------------
+Item { id="forged_activation_orders", set="PRO",
+       copyright="v2.0 © 1996-1999 WotC",
+       name="Forged Activation Orders",
+       type="Prep - Sabotage",
+       cost="1",
+       rarity="R",
+       text=[[Choose a piece of unrezzed ice. The Corp either rezzes that piece of ice or trashes it.]],
+       ruling=[[@ ERRATA  Forged Activation Orders has no effect on a piece of rezzed ice; the card should say "Choose an unrezzed piece of ice."  (Official Netrunner Rulings, 4/21/97)]],
+       flavor=[[]],
+       artist="Mark Maxwell",
+}
+-------------------------------------------------------------------------------
+Item { id="miscfor_sale", set="PRO",
+       copyright="v2.0 © 1996-1999 WotC",
+       name="misc.for-sale",
+       type="Prep - BBS",
+       cost="0",
+       rarity="R",
+       text=[[Trash any number of your installed cards. Gain {3} for each card trashed in this way.]],
+       ruling=[[@ misc.for-sale no longer has an erratum that inserts the word  "successfully" before the word "trashed."  But you still can't get bits from misc.for-sale if you use Joan of Arc to prevent programs from being trashed. (Skipper Pickle, Netrunner-L, 9/29/98)]],
+       flavor=[["Why throw it away when you can convince some half-brained weef to use it for creative suicide instead?" - Rache Bartmoss]],
+       artist="Douglas Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="the_shell_traders", set="PRO",
+       copyright="v2.0 © 1996-1999 WotC",
+       name="The Shell Traders",
+       type="Resource",
+       cost="0",
+       rarity="R",
+       text=[[Remove one Shell counter from one card at the start of each of your turns.
+{A}: Choose a program or hardware card from your hand. Set that card aside face up, and put a number of Shell counters on it equal to its installation cost. When the last Shell counter on that card has been removed, install it, at no cost.
+{1}: Remove one Shell counter from a card.]],
+       ruling=[[@ ERRATA  "A: Choose a program or hardware card from your hand. Set that card aside face up, and put a number of Shell counters on it equal to its installation cost. When the last Shell counter on that card has been removed, install that card, at no cost. "1: Remove one Shell counter from a card. "Remove one Shell counter from one card at the start of each of your turns."(Sparky, Netrunner-L, 5/19/96)
+
+@ The removal of a Shell counter at the start of a turn is mandatory.  (Wendy Wallace, Netrunner-L, 5/2/96)
+
+@ When the last Shell counter is removed, the program or hardware must be installed.  (Wendy Wallace, Netrunner-L, 5/2/96)
+
+@ You can pay to remove Shell counters and install cards set aside by The Shell Traders in the middle of a run, whenever special effects may be used by the Runner. (Sparky, Netrunner-L, 5/6/96)  Remember that the Runner cannot react to the Corporation's rezzing of an ice card by using his or her own special effects.  (Netrunner FAQ v.1.0, 5/22/96)
+
+@ At the start of a turn, each copy of The Shell Traders can remove one counter from any one card that has them. (Sparky, Netrunner-L, 5/19/96)
+
+@ If Shell Traders is removed from play, any cards with Shell counters on them remain 'in limbo' and can have their counters removed by subsequent copies of Shell Traders. (Sparky, Netrunner-L, 5/19/96)
+
+@ "At no cost" means the regular bit cost of a card.  If a card states that it has additional installation costs, you must pay them.  If another card indicates that additional costs must be paid to install the card being processed by Shell Traders, you must pay that cost. (Sparky, Netrunner-L, 5/19/96)
+
+@ If you remove the last counter from a program and don't have any free MU, you MUST overwrite an existing program.  (Sparky, Netrunner-L, 5/19/96)
+
+@ If you remove the last counter from a card that has additional costs to install and you have those resources, you MUST spend them and install the card.
+
+@ If you CANNOT pay the additional costs, you lose the opportunity to install that card, and it slips into limbo permanently; remove it from the game.  (Sparky, Netrunner-L, 5/19/96)
+
+@ You cannot activate Shell Traders in response to the Corp's trashing it.  (Sparky, Netrunner-L, 7/30/96)]],
+       flavor=[[]],
+       artist="David Ho",
+}
+-------------------------------------------------------------------------------
+Item { id="bizarre_encryption_scheme", set="PRO",
+       copyright="v2.0 © 1996-1999 WotC",
+       name="Bizarre Encryption Scheme",
+       type="Upgrade",
+       cost="0",
+       rarity="U",
+       trash="1",
+       text=[[Bizarre Encryption Scheme may only be installed in a subsidiary data fort. Runner does not score any agenda (or agendas) that he or she accesses from this fort; return the agenda to the fort instead. Runner scores the agenda at the start of his or her next turn if it is still in the fort.]],
+       ruling=[[@ ERRATA  Reword as follows "Bizarre Encryption Scheme may only be installed in a subsidiary data fort. Runner does not score any agenda (or agendas) that he or she accesses from this fort; return the agenda to the fort instead. Runner scores the agenda at the start of his or her next turn if it is still in the fort."  (Sparky, Netrunner-L, 10/11/96)
+
+@ If you re-access Bizarre Encryption Scheme on a second run, the whole card text takes effect again and you can't score the agenda, but if you trash it, then run again, you can score the agenda.  (Sparky, Netrunner-L, 7/25/96)
+
+@ Under the errata, if the agenda leaves a Bizarrely-Encrypted fort, Bizarre Encryption Scheme loses track of the agenda, and the Runner does not score it.  (Sparky, Netrunner-L, 9/13/96)
+
+@ An agenda scored at the beginning of the Runner's turn in this way is considered neither stolen nor accessed.  Thus, if the agenda is a Fetal AI, then, at the beginning of the Runner's next turn, the Runner will score the Fetal AI without any obligations--no Net damage, no 2 bits to pay. (Skipper Pickle, NR-L, 3/16/98)]],
+       flavor=[[]],
+       artist="David Seeley",
+}
+-------------------------------------------------------------------------------
+Item { id="new_galveston_city_grid", set="PRO",
+       copyright="v2.0 © 1996-1999 WotC",
+       name="New Galveston City Grid",
+       type="Upgrade - Region",
+       cost="1",
+       rarity="R",
+       trash="4",
+       text=[[Each node and upgrade installed in this fort, other than New Galveston City Grid, gets +{2} trash cost. 
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       ruling=[[@ When the Runner trashes multiple cards in a fort, all of them are trashed at the same time; thus, New  alveston City Grid still increases the cost of everything else being trashed.  The only benefit of sequential trashing is that the Runner can determine the order in which the cards hit the Archives.  (Sparky, Netrunner-L, 7/10/96)]],
+       flavor=[[]],
+       artist="Dave Logan",
+}
+-------------------------------------------------------------------------------
+Item { id="pacifica_regional_ai", set="PRO",
+       copyright="v2.0 © 1996-1999 WotC",
+       name="Pacifica Regional AI",
+       type="Node - AI",
+       cost="0",
+       rarity="R",
+       trash="0",
+       text=[[You may advance Pacifica Regional AI before and after you rez it.
+Regional AI advancement counter: Gain an action. Use this ability only during your turn.]],
+       ruling=[[@ ERRATA  Add to the ability line "Use this ability only during your turn."  (Sparky, Netrunner-L, 10/11/96) 
+
+@ Neither player can use effects to gain actions during the other player's turn.  (Netrunner FAQ v.1.0, 5/22/96)]],
+       flavor=[[]],
+       artist="Norm Dwyer",
+}
+-------------------------------------------------------------------------------

@@ -1,0 +1,664 @@
+--NR [NetRunner] Classic (2.2)
+Set { id="CLA", name="Classic" }
+-------------------------------------------------------------------------------
+Item { id="badtimes", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Badtimes",
+       type="Operation - Virus",
+       cost="4",
+       rarity="C",
+       text=[[Play only if Runner is tagged.
+Runner's MU is reduced by 2 until end of turn.]],
+       flavor=[["They always think it's a hoax."]],
+       artist="Kevin T. Phillips",
+}
+-------------------------------------------------------------------------------
+Item { id="boostergang_connections", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Boostergang Connections",
+       type="Prep",
+       cost="7",
+       rarity="U",
+       text=[[Trash your hand. Search your stack for as many cards as were successfully trashed in this way and bring them into your hand. Shuffle your stack afterward.]],
+       flavor=[["If you don't fear death, they're great to hang with."]],
+       artist="Clint Langley",
+}
+-------------------------------------------------------------------------------
+Item { id="corporate_shuffle", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Corporate Shuffle",
+       type="Operation - Double",
+       cost="0",
+       rarity="C",
+       text=[[Draw five cards, then shuffle a card stored in HQ into R&D.
+#(Playing a double operation costs two consecutive actions this turn instead of one.)#]],
+       flavor=[["It's a shell game for the shareholders."]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="corruption", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Corruption",
+       type="Prep",
+       cost="0",
+       rarity="U",
+       text=[[Play only if you scored any agendas this turn. Lose all agenda points you scored this turn, and the Corp scores that many agenda points. Gain {10} per agenda point lost in this way, and the Corp gives you a tag.]],
+       flavor=[["Excuse me, Dave? Can I borrow 250,000 eb 'til payday?"]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="crash_space", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Crash Space",
+       type="Resource - Unique",
+       cost="2",
+       rarity="U",
+       text=[[Gain {1} at the start of each of your turns. All trace attempts are automatically successful, and give you a tag in addition to their other effects. If Crash Space leaves play, lose {2}.
+{A}: Trash Crash Space.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[]],
+       artist="John Bolton",
+}
+-------------------------------------------------------------------------------
+Item { id="do_the_drine", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Do the 'Drine™",
+       type="Prep",
+       cost="0",
+       rarity="U",
+       text=[[Suffer any amount of brain damage, but not enough to flatline you or to reduce your hand size to less than 0. Gain {4} for each point of brain damage you suffer in this way. This damage cannot be prevented.]],
+       flavor=[["I may be stupid, but I'm rich!"]],
+       artist="Matthew D. Wilson",
+}
+-------------------------------------------------------------------------------
+Item { id="elena_laskova", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Elena Laskova",
+       type="Resource - Connection - Unique",
+       cost="3",
+       rarity="U",
+       text=[[Whenever you play a prep, gain an additional {1} the first time you gain bits from its effect.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       ruling=[[@ Each time you play a prep, you can use Elena Laskova, unless the prep generates multiple sequential effects (like Playful AI). All 'simple effect' (or 'one shot' effect) preps are always affected during all the game. The unaffected preps would be then Playful AI (only the first dice rolled would give one extra bit, if any), misc for Sale (only the first card trashed would give 4 bits), Organ Donor (only the first card trashed would give 3 bits), Reconnaissance (only the first ice rezzed would give 2 bits). If you keep cycling the same Organ Donor over and over again, Elena Laskova gives one more bit each time you play that Organ Donor, etc.(Tom Wylie 11/12/99)
+
+@ The extra bit has the same restrictions (if any) as the base bits, a la Bioweapons Engineering (Cinderella would give 3 unpreventable meat damage). Lucidrine Booster Drug would give then 10 'Lucidrine' bits, usable only during the run. With Hijack, you would get 4 bits, that you would have to give back to the bank if not spent. (Tom Wylie 11/12/99)]],
+       flavor=[["...But somehow you never go away thinking you got the best of the deal."]],
+       artist="John Bolton",
+}
+-------------------------------------------------------------------------------
+Item { id="executive_file_clerk", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Executive File Clerk",
+       type="Resource - Connection - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{2}, {T}: Look at all cards stored in HQ.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[["I only signed a noncompete agreement; it didn't say anything about nondisclosure."]],
+       artist="Paul Chadwick",
+}
+-------------------------------------------------------------------------------
+Item { id="finders_keepers", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Finders Keepers",
+       type="Prep - Random",
+       cost="7",
+       rarity="C",
+       text=[[Roll three dice. Gain that many bits.]],
+       flavor=[["Looks like both our luck's changed."]],
+       artist="Thomas Gianni",
+}
+-------------------------------------------------------------------------------
+Item { id="gypsy_schedule_analyzer", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Gypsy™ Schedule Analyzer",
+       type="Prep",
+       cost="2",
+       rarity="U",
+       text=[[Make a run on R&D. If run is successful, do not access any cards. Instead, reveal cards one at a time from R&D until your reveal an agenda card or there are no cards left in R&D. Store the agenda, if any, in HQ and shuffle the other revealed cards, if any, into R&D.]],
+       flavor=[[]],
+       artist="Douglas Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="library_search", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Library Search",
+       type="Prep",
+       cost="2",
+       rarity="C",
+       text=[[Make a run on R&D or HQ. If run is successful, access two additional cards if you used no noisy icebreakers during the run and if no trace attempts were made during the run.]],
+       flavor=[["Sshhhh!"]],
+       artist="Corey Macourek",
+}
+-------------------------------------------------------------------------------
+Item { id="little_black_box", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Little Black Box",
+       type="Hardware - Deck",
+       cost="4",
+       rarity="U",
+       text=[[Provides +1 MU and +1 hand size. Prevent up to 1 Net or brain damage each turn. Put {1} from the bank on Little Black Box when it is installed. Use this bit only to pay for increasing your link. If you use the bit, replace it from the bank at the start of your next turn.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[]],
+       artist="Randy Gallegos",
+}
+-------------------------------------------------------------------------------
+Item { id="meat_upgrade", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Meat Upgrade",
+       type="Prep - Double",
+       cost="2",
+       rarity="U",
+       text=[[Remove up to two tags, at no cost, and draw three cards.
+#(Playing a double prep costs two consecutive actions this turn instead of one.)#]],
+       flavor=[[They can make you gorgeous cheap, but to make you plain costs extra.]],
+       artist="David Seeley",
+}
+-------------------------------------------------------------------------------
+Item { id="networking", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Networking",
+       type="Prep - Double",
+       cost="3",
+       rarity="C",
+       text=[[Gain {9}.
+#(Playing a double prep costs two consecutive actions this turn instead of one.)#]],
+       flavor=[["It's not what you know or even who; it's how often."]],
+       artist="Thomas Gianni",
+}
+-------------------------------------------------------------------------------
+Item { id="omnitech_spinal_tap_cybermodem", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name=[[Omnitech "Spinal Tap" Cybermodem]],
+       type="Hardware - Deck - Random",
+       cost="5",
+       rarity="U",
+       text=[[Provides +1 MU. Put {2} from the bank on Omnitech Spinal Tap Cybermodem when it is installed. Use these bits only to pay for using icebreakers during runs or increasing your link. If you use any of these bits, replace them at the start of your next turn.
+At the start of each of your turns, roll a die. On a 1, suffer 2 brain damage. This damage cannot be prevented.
+If Omnitech Spinal Tap Cybermodem leaves play, suffer 2 brain damage.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[]],
+       artist="Clint Langley",
+}
+-------------------------------------------------------------------------------
+Item { id="omnitech_wet_drive", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Omnitech Wet Drive",
+       type="Hardware - Cybernetics",
+       cost="0",
+       rarity="U",
+       text=[[Your base MU is equal to the number of cards in your hand instead of 4.]],
+       ruling=[[@ The MU vary dynamically and instantly. With MIT West Tier, the Runner's hand is 0 before he DRAWs 5 cards. The MU are 0 for an moment. (Tom Wylie 11/12/99)]],
+       flavor=[["Now with reduced long-term memory loss!" - Rejected marketing slogan]],
+       artist="Terese Nielsen",
+}
+-------------------------------------------------------------------------------
+Item { id="panzer_run", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Panzer Run",
+       type="Prep - Double",
+       cost="1",
+       rarity="C",
+       text=[[Gain {4} and draw two cards.
+#(Playing a double prep costs two consecutive actions this turn instead of one.)#]],
+       flavor=[["So, I just drive a truck from Point A to Point B? How hard can that be?"]],
+       artist="Brice Parker",
+}
+-------------------------------------------------------------------------------
+Item { id="reclamation_project", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Reclamation Project",
+       type="Operation - Double",
+       cost="0",
+       rarity="U",
+       text=[[Search the Archives for any number of ice cards. Show those cards to Runner, then store them in HQ.
+#(Playing a double operation costs two consecutive actions this turn instead of one.)#]],
+       flavor=[["The code's already there; why let it go to waste?"]],
+       artist="David Seeley",
+}
+-------------------------------------------------------------------------------
+Item { id="running_interference", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Running Interference",
+       type="Prep - Double",
+       cost="2",
+       rarity="U",
+       text=[[Make a run. During that run, the Corp must pay {X}, in addition to the normal cost, to rez each piece of ice, where X is the rez cost of that piece of ice.
+#(Playing a double prep costs two consecutive actions this turn instead of one.)#]],
+       flavor=[["Look! A distraction!"]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="sandbox_dig", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Sandbox Dig",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{3}, {T}: Look at the top three cards stored in R&D.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[["As long as the drones keep griping online, I'm in business."]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="schematics_search_engine", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Schematics Search Engine",
+       type="Program - 1 MU",
+       cost="2",
+       rarity="U",
+       text=[[Whenever you access cards from HQ, Expose all of the Corp's installed cards.]],
+       flavor=[["Not only is the map the terrain - sometimes you can only get places by folding the map." - Edger]],
+       artist="Douglas Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="superglue", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Superglue",
+       type="Program - 1 MU",
+       cost="2",
+       rarity="C",
+       text=[[{T}: Derez a piece of ice. Use this ability only if you have just broken all the subroutines of that piece of ice.]],
+       ruling=[[@ You cannot use Superglue to derez the ice after using Dropp to break the subroutines on that ice.  We should have used the Disintegrate template rather than the old Dropp one. Treat like Dropp and Disintegrate.(Tom Wylie, 12/21/99)]],
+       flavor=[["Epoxy both your houses!" - Bard]],
+       artist="James Allen",
+}
+-------------------------------------------------------------------------------
+Item { id="vintage_camaro", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Vintage Camaro",
+       type="Hardware - Vehicle",
+       cost="1",
+       rarity="C",
+       text=[[{1}, Forgo your next action: Avoid receiving a tag.]],
+       flavor=[["I'm not firing a LAW at that! It's a classic!"]],
+       artist="Romas",
+}
+-------------------------------------------------------------------------------
+Item { id="zetatech_portastation", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Zetatech Portastation",
+       type="Hardware",
+       cost="3",
+       rarity="C",
+       text=[[Put {1} from the bank on Zetatech Portastation when it is installed. Use this bit only to pay for playing preps. If you use the bit, replace it from the bank at the start of your next turn.]],
+       flavor=[["Zetatech. All you need is a brain, a deck, and a friend" - Short-lived WNS ad campaign]],
+       artist="Brice Parker",
+}
+-------------------------------------------------------------------------------
+Item { id="baskerville", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Baskerville",
+       type="Ice - Sentry - AP - Hellhound - Sleepy",
+       cost="10",
+       rarity="U",
+       power="4",
+       text=[[{S} Do 2 Net damage.
+{S} Trace5 - If trace is successful, give Runner a Baskerville counter. Each Baskerville counter does 2 Net damage at the start of each run. Runner may remove a Baskerville counter by taking an action to spend {3}.
+{S} End the run.
+If Runner has used a noisy icebreaker during this run, the cost to rez Baskerville is reduced by {5}.]],
+       flavor=[[]],
+       artist="Mark Rattin",
+}
+-------------------------------------------------------------------------------
+Item { id="bolter_swarm", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Bolter Swarm",
+       type="Ice - Sentry - AP - Hellbolt - Sleepy",
+       cost="8",
+       rarity="C",
+       power="4",
+       text=[[{S} Do 4 Net damage.
+{S} Runner cannot break any subroutines of the next piece of ice encountered during this run.
+If Runner has used a noisy icebreaker during this run, the cost to rez Bolter Swarm is reduced by {5}.]],
+       flavor=[[]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="brain_drain", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Brain Drain",
+       type="Ice - Sentry - Black Ice - AP",
+       cost="3",
+       rarity="U",
+       power="3",
+       text=[[{S} Roll a die. On a 1, do 3 brain damage.]],
+       flavor=[["Weefs never look 'up'." - Edger]],
+       artist="David Ho",
+}
+-------------------------------------------------------------------------------
+Item { id="data_fort_remapping", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Data Fort Remapping",
+       type="Agenda - Gray Ops",
+       cost="4",
+       rarity="C",
+       points="2",
+       text=[[Put a Remap counter on Data Fort Remapping when you score it.
+Remap counter: End a run.]],
+       flavor=[["In netspace, the map is often the territory. Thats just one more reason we don't hire philosophy grads." - Dave Michaels]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="deadeye", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Deadeye",
+       type="Ice - Sentry- Killer - Sleepy",
+       cost="5",
+       rarity="C",
+       power="0",
+       text=[[{S} Trash a program.
+{S} End a run.
+If Runner has used a noisy icebreaker during this run, the cost to rez Deadeye is reduced by {5}.]],
+       flavor=[[Wakes up shooting at the drop of a hat.]],
+       artist="Douglas Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="dumpster", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Dumpster",
+       type="Ice - Code Gate - Deflector",
+       cost="5",
+       rarity="U",
+       power="5",
+       text=[[Dumpster cannot be installed on the Archives.
+{S} Runner is now encountering the outermost piece of rezzed ice on the Archives, instead of passing Dumpster. The run is now considered to be a run on the Archives. If there is no rezzed ice on the Archives, Runner is considered to have passed the last piece of ice on the Archives.]],
+       ruling=[[@See Vortex for Rulings on Deflector Ice.]],
+       flavor=[[]],
+       artist="Mark Poole",
+}
+-------------------------------------------------------------------------------
+Item { id="early_worm", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Early Worm",
+       type="Program - Icebreaker - Worm - 1 MU",
+       cost="4",
+       rarity="C",
+       power="2",
+       text=[[{1}: Break wall subroutine.
+{2}: +3 strength]],
+       flavor=[["The Early Worm gets the bird... from corporate sysops." - Al Boone]],
+       artist="James Allen",
+}
+-------------------------------------------------------------------------------
+Item { id="entrapment", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Entrapment",
+       type="Ice - Code Gate - Deflector",
+       cost="2",
+       rarity="C",
+       power="4",
+       text=[[{S} If you pay {2}, Runner is now encoutering the outermost piece of rezzed ice on a data fort of your choice, instead of passing Entrapment. The run is now considered to be a run on that data fort. If there is no rezzed ice on that fort, Runner is considered to have passed the last piece of ice on that fort.]],
+       flavor=[[]],
+       ruling=[[@See Vortex for Rulings on Deflector Ice.]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="glacier", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Glacier",
+       type="Ice - Wall",
+       cost="0",
+       rarity="U",
+       power="5",
+       text=[[Rezzing Glacier costs 1 agenda point, in addition to the normal cost.
+{S} End the run.
+{S} End the run.
+{1}: Move Glacier to the outermost position of any other data fort. Use this ability only at the start of a run. You may use this ability even if Glacier is unrezzed, in which case, you reveal it.]],
+       flavor=[[]],
+       ruling=[[@ Dr Dreff acts with a 'rez cost' and only that. The 'rez cost' is the number shown in the upper right corner of the card. The agenda point is not concerned, because it is written in the text (technically speaking, it is not a part of a rez cost : it is just something subsequent to the fact of rezzing Glacier). Therefore, the Corp doesn't pay the agenda point with Dr Dreff, because Dr Dreff doesn't rez the ice. (Tom Wylie 11/12/99)
+
+@ Security Purge says 'rez them, at no cost'. 'No cost' refers to the number in the upper right corner of a card. Security Purge doesn't let you get out of paying Glacier's agenda point cost. Note that Security Purge instructs you to install and rez the ice, which means you have to do so if possible. If there are additional costs to install + rez, and you can pay them, you have to install + rez and pay those costs. I.e, if you've scored any agenda, and Security Purge turns up Glacier, you have to install + rez Glacier, and therefore spend 1 of your agenda points.(Tom Wylie 11/12/99)]],
+       artist="Daniel Gelon",
+}
+-------------------------------------------------------------------------------
+Item { id="imperial_guard", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Imperial Guard",
+       type="Ice - Sentry - Killer - Sleepy",
+       cost="10",
+       rarity="C",
+       power="5",
+       text=[[{S} Trash a program.
+{S} End the run.
+If runner has used a noisy icebreaker during this run, the cost to rez Imperial Guard is reduced by {5}.]],
+       flavor=[["Watch my katana spill your subroutines, inferior gaijin tech!"]],
+       artist="Douglas Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="indiscriminate_response_team", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Indiscriminate Response Team",
+       type="Node - Black Ops",
+       cost="0",
+       rarity="U",
+       trash="2",
+       text=[[After Runner makes a successful run, you may have Runner shuffle his or her hand into his or her stack and then draw as many cards as he or she had before.]],
+       ruling=[[@ Indiscriminate Response Team is used after a successfull run has ended. So if Indiscriminate Response Team is trashed during the run it can no longer be used. (Sensei 03/11/00)]],
+       flavor=[["But did you GET him?"]],
+       artist="Ian Miller",
+}
+-------------------------------------------------------------------------------
+Item { id="london_city_grid", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="London City Grid",
+       type="Upgrade - Region",
+       cost="3",
+       rarity="U",
+       trash="6",
+       text=[[Runner must pay {1}, in addition to the normal cost, to use each subroutine of a noisy icebreaker during runs on this fort.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       flavor=[[London: home to Big Ben, Buckingham Palace, and some of the nastiest, most insidious, and downright brilliant code this side of the Pond.]],
+       artist="Pete Venters",
+}
+-------------------------------------------------------------------------------
+Item { id="matador", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Matador",
+       type="Program - Icebreaker - Killer - 1 MU",
+       cost="4",
+       rarity="C",
+       power="0",
+       text=[[{1}: Break sentry subroutine.
+{3}: +5 strength]],
+       flavor=[[This little fella really cuts through the bull.]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="ms_todon", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="MS-todon",
+       type="Program - Icebreaker - Killer - Noisy - 1 MU",
+       cost="4",
+       rarity="C",
+       power="2",
+       text=[[{1}: Break sentry subroutine.
+{1}: +1 strength
+The first time during each run that you break a sentry subroutine with MS-todon, lose all bits from all stealth cards, if you can, and the Corp gives you a tag.]],
+       flavor=[["This isn't running - it's stomping."]],
+       artist="Douglas Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="psychic_friend", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Psychic Friend",
+       type="Program - Icebreaker - 1 MU",
+       cost="2",
+       rarity="C",
+       power="1",
+       text=[[{1}: Break code gate subroutine.
+{2}: +1 strength until end of turn]],
+       flavor=[["Call now for ten nanoseconds of icebreaking absolutely free! (10 eb each subsequent ns.)"]],
+       artist="Mike Kimble",
+}
+-------------------------------------------------------------------------------
+Item { id="puzzle", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Puzzle",
+       type="Ice - Code Gate",
+       cost="2",
+       rarity="C",
+       power="5",
+       text=[[{S} End the run, and trash Puzzle at end of turn.
+{S} End the run, and trash Puzzle at end of turn.]],
+       ruling=[[@ The trashing effect of Puzzle is triggered because Runner has encountered the ice. So even if Puzzle is derezzed at the end of run, it 'remembers' the fact that it must be trashed, and so ends its days in the Archives. Simply derezzing a piece of ice doesn't wipe out any effects that would apply to it, even if they're internal effects like imploding at end of turn. (Tom Wylie 15/02/00)]],
+       flavor=[["Design a puzzle any fool can solve, and only fools will solve it."]],
+       artist="Kino",
+}
+-------------------------------------------------------------------------------
+Item { id="rent_i_con", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Rent-I-Con",
+       type="Program - Icebreaker - 2 MU",
+       cost="3",
+       rarity="U",
+       power="2",
+       text=[[{1}: Break ice subroutine. At the end of this run, trash Rent-I-Con.
+{1}: +1 strength]],
+       ruling=[[@ Each time you use the "break an ice subroutine" effect, a "trash Rent-I-Con at the end of the run" effect piggybacks with it. At the end of the run, all end-of-run effects are processed, one at a time. If you use Joan on the first one, it won't be there for the next one. (Sensei 03/11/00)]],
+       flavor=[[It's big and mean and lasts about sixteen microseconds.]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="satellite_monitors", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Satellite Monitors",
+       type="Node",
+       cost="3",
+       rarity="C",
+       trash="1",
+       text=[[At the start of each of your turns, you may roll a die for each run Runner made during his or her last turn. For each 1, give Runner a tag.]],
+       flavor=[["Say, isn't that your daughter?"]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="self_destruct", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Self-Destruct",
+       type="Upgrade - Ambush",
+       cost="2",
+       rarity="C",
+       trash="0",
+       text=[[Install Self-Destruct only in a subsidiary data fort.
+{T}: Trash all other cards installed in or on this data fort. Do 1 Net damage for each card successfully trashed in this way. Use this ability only when Runner accesses Self-Destruct.]],
+       ruling=[[@ In order to be used Self Destruct has to be rezzed before the Runner decides to access cards. When the Runner accesses Self Destruct it can be trashed to use its effect. The Runner has to survive the effect before he can trash any card in the fort or score any agenda. If a card is trashed by Self Destruct it goes to the archieves before the Runner can trash or score it. (Sensei 03/11/00)]],
+       flavor=[["This'll ream our bottom line unless we reclassify data-entry clerks as 'consumables'."]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="shock_treatment", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Shock Treatment",
+       type="Upgrade - Ambush",
+       cost="2",
+       rarity="U",
+       trash="5",
+       text=[[When Runner accesses Shock Treatment, trash all pieces of hardware and two programs. Ignore this effect unless Runner has four or more tags.]],
+       flavor=[["Yo, Bob, red light. Bob? Red light! Bob, c'mon - I'm serious! GAH! Now there's a fire and a red light! Bob?"]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="sterdroid", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Sterdroid",
+       type="Upgrade",
+       cost="0",
+       rarity="C",
+       trash="0",
+       text=[[{3}, {T}: Choose a piece of ice. That ice's strength is doubled until end of turn. If this would raise the ice's strength above 10, its strength becomes 10.]],
+       ruling=[[@ Sterdroid can double the strength of an ice that is not installed on the same fort. (Sensei 03/11/00)]],
+       flavor=[["Runners love this one like bikers adore wires across roads." - Norman Niemann, WuTech security director]],
+       artist="Kino",
+}
+-------------------------------------------------------------------------------
+Item { id="strategic_planning_group", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Strategic Planning Group",
+       type="Node - Unique",
+       cost="2",
+       rarity="U",
+       trash="4",
+       text=[[Whenever you draw one or more cards, draw an extra card. Then place one of the drawn cards on the bottom of R&D.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[["We don't plot; we facilitate."]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="street_enforcer", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Street Enforcer",
+       type="Upgrade - Sysop",
+       cost="1",
+       rarity="U",
+       trash="3",
+       text=[[At the start of each run on this data fort, Runner loses {X}, where X is equal to the number of tags Runner has.]],
+       flavor=[["I think you know why I'm here."]],
+       artist="Hannibal King",
+}
+-------------------------------------------------------------------------------
+Item { id="superserum", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Superserum",
+       type="Agenda - Research",
+       cost="3",
+       rarity="U",
+       points="2",
+       text=[[When you score Superserum, remove all Virus counters, and avoid receiving the next two Virus counters Runner gives to you.]],
+       flavor=[["A holistic approach to system immunology: its AI routines mark both computer viruses and suspected moles for deletion."]],
+       artist="David Ho",
+}
+-------------------------------------------------------------------------------
+Item { id="theorem_proof", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Theorem Proof",
+       type="Agenda - Research",
+       cost="5",
+       rarity="U",
+       points="3",
+       text=[[If Runner accesses Theorem Proof, he or she does not score it, but instead may install it as a 2 MU program that has the ability "{A}: Score Theorem Proof" but is removed from the game if it leaves play in any other way.]],
+       ruling=[[@ If the Runner chooses to install Theorem Proof as a program it is not considered stolen. So you can't play Trojan Horse afterwards. (Sensei 03/11/00)
+
+@ Bizzare Encryption Scheme can not prevent the Runner from installing Theorem Proof as a program. But if the Runner does not install it and it is still in the fort at the start of the next Runner turn the Runner scores Theorem Proof without having to install it. (Sensei 03/11/00)]],
+       flavor=[["You could write the whole thing on the margin of a screamsheet. It's the AI module I'm using to verify it that's hagging all the MU!"]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="trapdoor", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Trapdoor",
+       type="Ice - Code Gate - Deflector",
+       cost="3",
+       rarity="U",
+       power="3",
+       text=[[Install Trapdoor only on R&D or HQ.
+{S} Runner is now encountering the outermost piece of rezzed ice on a subsidiary data fort of your choice, instead of passing Trapdoor. The run is now considered to be a run on that data fort. If there is no rezzed ice on that fort, Runner is considered to have passed the last piece of ice on that fort. Runner automatically breaks this subroutine if there are no subsidiary data forts.]],
+       ruling=[[@See Vortex for Rulings on Deflector Ice.]],
+       flavor=[[]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="unlisted_research_lab", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Unlisted Research Lab",
+       type="Agenda - Asset - Gray Ops",
+       cost="3",
+       rarity="C",
+       points="2",
+       text=[[Draw an additional card at the start of each of your turns.]],
+       flavor=[["You may feel some discomfort."]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="vortex", set="CLA",
+       copyright="v2.2 © 1996-1999 WotC",
+       name="Vortex",
+       type="Ice - Code Gate - Deflector",
+       cost="0",
+       rarity="C",
+       power="2",
+       text=[[{S} If you pay {2}, Runner is now encoutering the outermost piece of rezzed ice on a data fort of your choice, instead of passing Vortex. The run is now considered to be a run on that data fort. If there is no rezzed ice on that fort, Runner is considered to have passed the last piece of ice on that fort.]],
+       ruling=[[@ If you are rerouted by a deflector subroutine you can not jack out until after the encounter with the ice. If there is no ice you may jack out before accessing cards in the fort. (Sensei 03/11/00)]],
+       flavor=[[]],
+       artist="James Allen",
+}
+-------------------------------------------------------------------------------

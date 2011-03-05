@@ -1,0 +1,912 @@
+--NR [NetRunner] The Chrysalid Matrix
+Set { id="CM", name="The Chrysalid Matrix" }
+-------------------------------------------------------------------------------
+Item { id="contingency_plans_storage_vault", set="CM",
+       copyright="© Skipper Pickle",
+       name="Contingency Plans Storage Vault",
+       type="Node",
+       cost="4",
+       rarity="C",
+       points="2",
+       text=[[When you score Contingency Plans Storage Vault, for every advancement counter over its difficulty that are on Contingency Plans Storage Vault when you score it, you may take one operation from the Archives or HQ. Show it to Runner, then store it face down on Contingency Plans Storage Vault. You may play these operation as though they were in your hand.]],
+       flavor=[["Never let your left hand know what your right hand is doing." - Mason Rey, CEO, Roar-Sol Codifiers, Inc.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="critical_path_maintenance", set="CM",
+       copyright="© Skipper Pickle",
+       name="Critical Path Maintenance",
+       type="Agenda - Gray Ops",
+       cost="4",
+       rarity="C",
+       points="1",
+       text=[[1 agenda point, discard a card at random from HQ: You may search R&D for a card and store it in HQ, then shuffle R&D. Your handsize is reduced by one for the remainder of the game. Use this ability only if your handsize is 1 or more.]],
+       flavor=[[Stick to the plan.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="project_metaframe", set="CM",
+       copyright="© Skipper Pickle",
+       name="Project Metaframe",
+       type="Agenda - Gray Ops",
+       cost="3",
+       rarity="C",
+       points="2",
+       text=[[Choose a fort when you score Project Metaframe.
+{X}: All ice on the chosen fort gains +1 strength until the end of your next turn.  Use this ability only at the end of your turn.  X is equal to the number of pieces of ice installed on that fort.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="deus_ex_machina", set="CM",
+       copyright="© Skipper Pickle",
+       name="Deus Ex Machina",
+       type="Ice",
+       cost="0",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run. 
+When you rez Deus Ex Machina, pay {X} above the rez cost to put X Deus counters on it. X must be at least 2. Remove a Deus counter every time Runner encounters Deus Ex Machina. If Deus Ex Machina is rezzed and there are no Deus counters on it at the start of any of your turns, trash Deus Ex Machina. If Deus Ex Machina is derezzed, remove all counters from it and leave it in play.]],
+       flavor=[["And stay out!" - Rico Parantano, RSC Ice Technician]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="chinese_finger_puzzle", set="CM",
+       copyright="© Skipper Pickle",
+       name="Chinese Finger Puzzle",
+       type="Ice - Code Gate",
+       cost="5",
+       rarity="C",
+       power="3",
+       text=[[{S} End the run.
+When you rez Chinese Finger Puzzle, put 2 Puzzle counters on it. Each Puzzle counter gives -1 strength to the ice or icebreaker it is on. Whenever an icebreaker breaks a subroutine on Chinese Finger Puzzle, move a Puzzle counter to an icebreaker used during this encounter. When all Puzzle counters are removed from Chinese Finger Puzzle, trash it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="turnstile", set="CM",
+       copyright="© Skipper Pickle",
+       name="Turnstile",
+       type="Ice - Code Gate - Sentry - Wall",
+       cost="2",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run.
+Gain {1} whenever Runner breaks a subroutine on Turnstile.]],
+       flavor=[["If we track the data carefully enough, we can get them to debug our security system for free." - Madeleine Vallejo, RSC Security Director]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hecate", set="CM",
+       copyright="© Skipper Pickle",
+       name="Hecate",
+       type="Ice - Random",
+       cost="5",
+       rarity="C",
+       power="3",
+       text=[[{S} End the run.
+Whenever Runner encounters Hecate, roll a die. On a 1 or 2, Hecate is a code gate; on a 3 or 4, Hecate is a sentry; on a 5 or 6, Hecate is a wall. This lasts until the end of the encounter.]],
+       flavor=[[You are lucky! Full moon tonight.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="gargoyle", set="CM",
+       copyright="© Skipper Pickle",
+       name="Gargoyle",
+       type="Ice - Sentry",
+       cost="6",
+       rarity="C",
+       power="2",
+       text=[[{S} Do 1 Net damage.
+{S} End the run.
+{X}: Move Gargoyle to the outermost position of any fort with X ice and that contains a rezzed wall. You may do this even if Gargoyle is unrezzed, in which case you reveal it. Use this ability only at the start of a run.]],
+       flavor=[["At first, I thought it was complex and elegant. Now I just think it's complicated and gothic." - Markus, Apprentice Sysop]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="juniper_samurai", set="CM",
+       copyright="© Skipper Pickle",
+       name="Juniper Samurai",
+       type="Ice - Sentry",
+       cost="5",
+       rarity="C",
+       power="0",
+       text=[[When Runner encounters Juniper Samurai, it gains +1 strength and one "{S} End the run" subroutine until the end of the encounter for each installed resource.]],
+       flavor=[[It's patched directly into Edgerunner's personnel database. The better the intruder's resume, the more resistance they encounter.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="leech", set="CM",
+       copyright="© Skipper Pickle",
+       name="Leech",
+       type="Ice - Sentry",
+       cost="6",
+       rarity="C",
+       power="2",
+       text=[[{S} End the run.
+When you rez Leech, put 2 Leech counters on it. Each Leech counter gives -1 strength to the ice or icebreaker it is on. Whenever an icebreaker breaks a subroutine on Leech, move one Leech counter from Leech to an icebreaker used during this encounter. When all Leech counters are removed from Leech, trash it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="perpetual_motion_machine", set="CM",
+       copyright="© Skipper Pickle",
+       name="Perpetual Motion Machine",
+       type="Ice - Sentry",
+       cost="5",
+       rarity="C",
+       power="5",
+       text=[[{S} Add up to one advancement counter to an installed card that can be advanced.]],
+       flavor=[["They put so much wonderful energy into their efforts - seems a shame to waste it." - Mason Rey, CEO, Roar-Sol Codifiers, Inc.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="little_blinking_light", set="CM",
+       copyright="© Skipper Pickle",
+       name="Little Blinking Light",
+       type="Ice - Sentry - Killer",
+       cost="4",
+       rarity="C",
+       power="1",
+       text=[[{S} Put a -1 strength counter on an icebreaker.
+{S} End the run.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="accounting_firewall", set="CM",
+       copyright="© Skipper Pickle",
+       name="Accounting Firewall",
+       type="Ice - Wall",
+       cost="3",
+       rarity="C",
+       power="3",
+       text=[[{S} Gain {2}.
+{S} Gain {2}.]],
+       flavor=[["This is what happens when you decentralize Security - every CPA thinks he can build his own ICE." - Madeleine Vallejo, RSC Security Director]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="acid_wall", set="CM",
+       copyright="© Skipper Pickle",
+       name="Acid Wall",
+       type="Ice - Wall",
+       cost="6",
+       rarity="C",
+       power="3",
+       text=[[{S} End ther run.
+When you rez Acid Wall, put 3 Acid counters on it. Each Acid counter gives -1 strength to the ice or icebreaker it is on. Whenever an icebreaker breaks a subroutine on Acid Wall, move one Acid counter from Acid Wall to an icebreaker used during this encounter. When all Acid counters are removed from Acid Wall, trash it.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="voicemail", set="CM",
+       copyright="© Skipper Pickle",
+       name="Voicemail",
+       type="Ice - Wall - Random - Bad Publicity",
+       cost="5",
+       rarity="C",
+       power="3",
+       text=[[{S} Runner must jack out or resume the run at the outermost piece of ice on a random fort.
+{S} End the run.
+{S} End the run.
+When you rez Voicemail, gain 1 Bad Publicity point.]],
+       flavor=[["...If you wish to speak to a customer service representative, please enter the serial number of the item you are asking about and wait where you are..."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="interleaved_data_integrity", set="CM",
+       copyright="© Skipper Pickle",
+       name="Interleaved Data Integrity",
+       type="Node",
+       cost="1",
+       rarity="C",
+       trash="0",
+       text=[[All nodes, including this one, cost an additional {1} to trash.]],
+       flavor=[[Roar-Sol spends their resources on strengthening their infrastructure. It's their business, after all.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="bride_of_krumz", set="CM",
+       copyright="© Skipper Pickle",
+       name="Bride of Krumz",
+       type="Node - AI",
+       cost="2",
+       rarity="C",
+       trash="3",
+       text=[[Any ice that has only tracing subroutines has +1 strength. Put {1} from the bank on Bride of Krumz when you rez it. Use this bit only to pay for traces. If you use this bit, replace it from the bank at the start of your next turn.]],
+       flavor=[["She's just like a daughter to me." - Mason Rey, CEO, Roar-Sol Codifiers, Inc.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="a_fist_in_the_jar", set="CM",
+       copyright="© Skipper Pickle",
+       name="A Fist in the Jar",
+       type="Node - Ambush - Unique",
+       cost="2",
+       rarity="C",
+       trash="0",
+       text=[[If Runner accesses A Fist in the Jar, Runner may run only on this fort until Runner makes a successful run on this fort. If declaring a run on this fort is illegal, the effect is cancelled.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[[BACK AT THE GRID-WIDGET FACTORY, WE CALLED THAT A LOCKED REGISTER. - Krumz]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="lobe_yank", set="CM",
+       copyright="© Skipper Pickle",
+       name="Lobe Yank",
+       type="Node - Ambush - Virus",
+       cost="0",
+       rarity="C",
+       trash="0",
+       text=[[If Runner accesses Lobe Yank, Runner takes 1 brain damage at the start of each run until the end of the turn, even if Lobe Yank is not installed. Ignore this effect if Runner accesses Lobe Yank from the Archives. If Lobe Yank is accessed from R&D, Runnerr must show it to you.]],
+       flavor=[["Gee. That's gotta hurt." - Bob Dundee, RSC Scan Technician]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tangled_web", set="CM",
+       copyright="© Skipper Pickle",
+       name="Tangled Web",
+       type="Node - Ambush - Virus",
+       cost="0",
+       rarity="C",
+       trash="0",
+       text=[[If Runner accesses Tangled Web, Runner must take 3 Net damage at the start of each run until the end of the turn, even if Tangled Web is not installed. Ignore this effect if Runner accesses Tangled Web from the Archives. If Tangled Web is accessed from R&D, Runner must show it to you.]],
+       flavor=[["Don't think. FEEL! Bwahahahahaha!" - Dr. Dreff]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="targeted_obsolescence", set="CM",
+       copyright="© Skipper Pickle",
+       name="Targeted Obsolescence",
+       type="Node - Ambush - Virus",
+       cost="0",
+       rarity="C",
+       trash="0",
+       text=[[When Runner accesses Targeted Obsolescence, even if it is not installed, you may pay {4} to give Runner an Obsolescence counter. Ignore this effect if Runner accesses it from the Archives. Each Obsolescence counter reduces Runner's MU by 1. Runner may take an action to pay {4} to remove an Obsolescence counter. If Targeted Obsolescence is accessed from R&D, Runner must show it to you.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="golden_master_security", set="CM",
+       copyright="© Skipper Pickle",
+       name="Golden Master Security",
+       type="Node - Asset",
+       cost="0",
+       rarity="C",
+       trash="2",
+       text=[[{1}: Prevent a piece of installed ice from being trashed. Use this ability only during Runner's turn. You may rez Golden Master Security whenever Runner attempts to trash a piece of ice.
+{1}, {A}: Show a piece of ice in the Archives to Runner and store it in the HQ.]],
+       flavor=[[Uses latent redundancy to fool Runner into thinking that all of the code is wiped. Then it rewrites itself.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="background_profiler", set="CM",
+       copyright="© Skipper Pickle",
+       name="Background Profiler",
+       type="Node - Gray Ops",
+       cost="0",
+       rarity="C",
+       trash="2",
+       text=[[You may only rez Background Profiler if Runner is tagged.
+{5}: Give Runner a tag. Use this ability only if Runner is tagged.
+{A}: Expose an hidden resource.]],
+       flavor=[["It's a sort of bureaucratic black box. Do NOT try to figure out how they do it. There's a good reason why those guys are nuts." - Director Vallejo, RSC Security]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="department_of_plausible_deniability", set="CM",
+       copyright="© Skipper Pickle",
+       name="Department of Plausible Deniability",
+       type="Node - Gray Ops",
+       cost="3",
+       rarity="C",
+       trash="4",
+       text=[[You may rez Department of Plausible Deniability when Runner attempts to give you one or more Bad Publicity points.
+{1}, trash a rezzed sysop: Prevent 1 Bad Publicity point that Runner is attempting to give you.
+{1}, {A}: Show an upgrade in the Archive to Runner and store it into the HQ.]],
+       flavor=[[Formerly Media Relations, but nobody else bought that either.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="word_on_the_street", set="CM",
+       copyright="© Skipper Pickle",
+       name="Word on the Street",
+       type="Node - Gray Ops - Unique",
+       cost="3",
+       rarity="C",
+       trash="2",
+       text=[[Runner must pay {2} in addition to any other costs to install resources.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play trash all but one.)#]],
+       flavor=[["Let me tell you what you've heard lately, Turk. Then I'll have Vilmar put you down." - Kleiner Knott, Personal Assistant, Uncle Vito's Deli and Laundering Service]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="figure_in_the_shadows", set="CM",
+       copyright="© Skipper Pickle",
+       name="Figure in the Shadows",
+       type="Node - Sysop",
+       cost="1",
+       rarity="C",
+       trash="2",
+       text=[[{T}: Install a sysop in any fort in which it can be installed. You must rez the sysop when you install it. You may use this ability at the start of a run.
+{2}, A: Uninstall a rezzed sysop and install it in another existing data fort. You may rez the sysop when you install it.]],
+       flavor=[["It's okay if they suspect something's coming - it's what they DON'T know that gives them the willies." - Unknown]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="isolated_partition_scheme", set="CM",
+       copyright="© Skipper Pickle",
+       name="Isolated Partition Scheme",
+       type="Operation",
+       cost="2",
+       rarity="C",
+       text=[[Pay {X} to put X Partition counters on a rezzed node or upgrade. Each Partition counter increases that card's trash cost by {1}.]],
+       flavor=[["My legacy to capitalism will be an end to vandalism as we know it." - Mason Rey, CEO, Roar-Sol Codifiers, Inc.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="outsourced_multicompile", set="CM",
+       copyright="© Skipper Pickle",
+       name="Outsourced Multicompile",
+       type="Operation",
+       cost="2",
+       rarity="C",
+       text=[[Install up to 5 cards with the same name. You must rez the cards when you install them, paying all installation and rez costs.]],
+       flavor=[["Those guys are a buncha yahoos. i used to work with 'em and they hardcode everything. Ya cain't teach 'em more'n one good trick at a time." - Pug Underwood]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="quick_and_dirty_media_wipe", set="CM",
+       copyright="© Skipper Pickle",
+       name="Quick and Dirty Media Wipe",
+       type="Operation",
+       cost="0",
+       rarity="C",
+       text=[[Remove two virus counters. You may pay {6} to play this operation at the start of your turn, without taking an action to do so.]],
+       flavor=[["Break the connection and hand me that de-polarizer."
+"But - but - that databank holds the pensions for all our retirees!"
+ZAT! - "What retirees would those be?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="top_down_micromanagement", set="CM",
+       copyright="© Skipper Pickle",
+       name="Top-Down Micromanagement",
+       type="Operation",
+       cost="0",
+       rarity="C",
+       text=[[Exchange the positions of any two pieces of ice. You may rez either or both pieces of ice after moving them.]],
+       flavor=[["Regardless of your past association with our so-called nemesis, Director Vallejo, I want you to find Habeas Punter and put him out of our misery. If you don't, I will." - Mason Rey]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="voluntary_recall", set="CM",
+       copyright="© Skipper Pickle",
+       name="Voluntary Recall",
+       type="Operation",
+       cost="2",
+       rarity="C",
+       text=[[Pay X Agenda points and forgo your next X actions to lose X Bad Publicity points.]],
+       flavor=[["We apologize for any inconvenience this situation may have caused. No hard feelings, eh?"  - standard Roar-Sol press release.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="forced_recall", set="CM",
+       copyright="© Skipper Pickle",
+       name="Forced Recall",
+       type="Operation - Gray Ops",
+       cost="5",
+       rarity="C",
+       text=[[Play only if Runner has made more than one run during this game. Choose an installed program or piece of hardware. If Runner has more than one copy of that card in play, pay {X} to return X copies of that card to Runner's hand, where X is equal to the number of copies in play.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="mother_hen", set="CM",
+       copyright="© Skipper Pickle",
+       name="Mother Hen",
+       type="Upgrade",
+       cost="1",
+       rarity="C",
+       trash="2",
+       text=[[Install Mother Hen only in R&D or HQ. Runner must pay {2}, in addition to the normal cost, to trash cards installed in this fort.]],
+       flavor=[["Although human life is priceless, we always act as if something had an even greater price than life.... But what is that something?" - Antoine de Saint-Exupéry]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="remote_retinal_scan", set="CM",
+       copyright="© Skipper Pickle",
+       name="Remote Retinal Scan",
+       type="Upgrade",
+       cost="3",
+       rarity="C",
+       trash="1",
+       text=[[If Runner accesses Remote Retinal Scan, Runner may not run on this fort for the remainder of the turn.]],
+       flavor=[["Ah, the elusive Mr. Punter. Uncle Vito would like to have a word with you about the means by which you may offset the debt you have so clearly incurred." - Kleiner Knott, Personal Assistant, Uncle Vito's Deli and Laundering Service]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="berlin_city_grid", set="CM",
+       copyright="© Skipper Pickle",
+       name="Berlin City Grid",
+       type="Upgrade - Region",
+       cost="3",
+       rarity="C",
+       trash="1",
+       text=[[{4}, trash a card installed in or on this fort: Put an advancement counter on a card in this fort.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="lady_butterflybm", set="CM",
+       copyright="© Skipper Pickle",
+       name="lady@butterfly.bm",
+       type="Upgrade - Sysop",
+       cost="2",
+       rarity="C",
+       trash="3",
+       text=[[Install lady@butterfield.bm only in HQ.  Take up to {2} from lady@butterfield.bm at the start of your turn. If Runner causes you to lose bits from your bit pool, put them on lady@butterfield.bm instead.
+{A}: For every {5} in your bit pool, put {1} on lady@butterfield.bm.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tenebrum_roundhouse", set="CM",
+       copyright="© Skipper Pickle",
+       name="Tenebrum™ Roundhouse",
+       type="Hardware",
+       cost="2",
+       rarity="C",
+       attach=true,
+       text=[[{A}: Install a deck face-up in Roundhouse; the installation cost is reduced by {2}. Flip face-down any older deck in Roundhouse to remove it from play. Use this ability only if there are fewer than two decks installed in Roundhouse.
+{A}: If there are two decks on Roundhouse, flip both. Only the one face-up one is considered in play.]],
+       flavor=[[For runners. By runners. - Tenebrum advert]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tenebrum_jukebox", set="CM",
+       copyright="© Skipper Pickle",
+       name="Tenebrum™ Jukebox",
+       type="Hardware - Chip",
+       cost="6",
+       rarity="C",
+       attach=true,
+       text=[[At the start of each turn, pay {1} or take the top program on Jukebox and make it the bottom program.
+{A}: Install a non-icebreaker program on top of Jukebox. Only the top program on Jukebox is considered to be in play.
+{1}, {A}: Take the top program on Jukebox and make it the bottom program.]],
+       flavor=[["Put another nickel in." "What's a nickel?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tenebrum_sidecar", set="CM",
+       copyright="© Skipper Pickle",
+       name="Tenebrum™ Sidecar",
+       type="Hardware - Deck",
+       cost="7",
+       rarity="C",
+       text=[[Provides +1 MU. Whenever the Corp gives you one or more tags, each tag is prevented unless the Corp pays an additional {1} per tag.
+{T}, trash a connection: Prevent any amount of Net damage.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[["Just sit here and put these on. You can see everything I do. It's really reat."
+"Yeah, but is it safe?"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="tenebrum_runabout", set="CM",
+       copyright="© Skipper Pickle",
+       name="Tenebrum™ Runabout",
+       type="Hardware - Deck - Stealth",
+       cost="6",
+       rarity="C",
+       text=[[Provides +1 MU. At the beginning of each run, put {1} from the bank on Runabout. Use this bit only to pay for using icebreakers during runs, but not for using noisy icebrekers. At the end of the run, if you did not spend the bit, return it to the bank.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[Tenebrum is one of several legit businesses started by (surviving) runners of Forward's generation. They ended up  with so much in the way of profit that there was nothing for it but to invest.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="hardwired_customization", set="CM",
+       copyright="© Skipper Pickle",
+       name="Hardwired Customization",
+       type="Hardware - Unique",
+       cost="2",
+       rarity="C",
+       text=[[You may not trash Corp cards that you access. Each turn you may gain an action, which you can use only to make a run.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[["Always void your warranty as soon as possible. It gives you a wonderful sense of focus." - Habeas Punter]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="friend_of_a_friend_of_a_friend", set="CM",
+       copyright="© Skipper Pickle",
+       name="Friend of a Friend of a Friend",
+       type="Prep",
+       cost="3",
+       rarity="C",
+       text=[[Search your stack for a connection. Show that connection to the Corp, then install it as though it had a {0} installation cost. Shuffle your stack afterwards. At the end of the turn, if the connection is still in play, put it into your hand.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="insider_trading", set="CM",
+       copyright="© Skipper Pickle",
+       name="Insider Trading",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Play only if the Corp scored any asset agendas during its last turn. Gain {3} per agenda point scored by the Corp during its last turn.]],
+       flavor=[["It's always worthwhile to know what Mason Rey knows." - Habeas Punter]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="recombinant_source_code", set="CM",
+       copyright="© Skipper Pickle",
+       name="Recombinant Source Code",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[You can shuffle 2 installed programs into your stack to search it for a program and gain {2}, which you may use only to install this program. Install the program, if you can; otherwise, return it to your stack. Shuffle your stack afterwards. If you did not spend the {2}, return the unused bits to the bank.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="vid_rights", set="CM",
+       copyright="© Skipper Pickle",
+       name="Vid Rights",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Remove any number of Bad Publicity points from the Corp. Gain {3} for each Bad Publicity point removed in this manner.]],
+       flavor=[["Never sell to the evening news what you can sell to a stim producer. The profit margin is too large to ignore." - Habeas Punter, Headmaster, Wilson Memorial Academy]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="requisition_form_rebuild", set="CM",
+       copyright="© Skipper Pickle",
+       name="Requisition Form Rebuild",
+       type="Prep - Detection",
+       cost="2",
+       rarity="C",
+       text=[[Play only if you made a successful run on the Archives this turn. Expose up to 5 installed cards, none of which can be in the same data fort.]],
+       flavor=[[If you learn the shredding protocols, figuring out who ordered what is a cinch. But lately, getting into Roar-Sol's Archives has been anything but a cinch.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="what_you_dont_know", set="CM",
+       copyright="© Skipper Pickle",
+       name="What You Don't Know...",
+       type="Prep - Detection",
+       cost="1",
+       rarity="C",
+       text=[[Expose all of the ice installed on a single data fort.]],
+       flavor=[[...can hurt you.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="sympathetic_vibrations", set="CM",
+       copyright="© Skipper Pickle",
+       name="Sympathetic Vibrations",
+       type="Prep - Sabotage",
+       cost="1",
+       rarity="C",
+       text=[[Play only if you made a successful run on HQ this turn. Pay the rez cost of a piece of rezzed ice to derez it and all rezzed duplicates of that piece of ice. At the end of the turn, the Corp may rez all of them at no cost.]],
+       flavor=[["Excuse me, ma'am, but every single Mazer just went offline."
+"What?!"
+"Don't hit me! Don't hit me! Don't hit me!"]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="ai_template", set="CM",
+       copyright="© Skipper Pickle",
+       name="AI Template",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="C",
+       text=[[Remove AI Template from the game, trash a resource: Pass a piece of ice. Use this ability only during an encounter with a piece of ice.]],
+       flavor=[[Any meat puppet in a storm.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="infinity_jest", set="CM",
+       copyright="© Skipper Pickle",
+       name="Infinity Jest",
+       type="Program - 2 MU",
+       cost="6",
+       rarity="C",
+       text=[[All ice is encountered with its strength reduced by 2. You cannot trash Corp's cards, even if an effect would allow you to trash cards that may not normally be trashed.]],
+       flavor=[["Anyone can get into Roar-Sol. The real trick is getting out." - Habeas Punter]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="diagnostic_agent", set="CM",
+       copyright="© Skipper Pickle",
+       name="Diagnostic Agent",
+       type="Program - AI - Random - 1 MU",
+       cost="0",
+       rarity="C",
+       text=[[At the start of each of your turns, roll a die. On a 1, 2, or 3, put {1} from the bank on Diagnostic Agent. On a 4 or 5, put {2}. On a 6, put {3}. Use these bits only to pay for installing hardware. At the end of your turn, return unused bits to the bank.]],
+       flavor=[[It's not really an AI. It just thinks it is.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="muzzle_to_puzzle", set="CM",
+       copyright="© Skipper Pickle",
+       name="Muzzle-to-Puzzle",
+       type="Program - Icebreaker - 1 MU",
+       cost="3",
+       rarity="C",
+       power="0",
+       text=[[{2}: Break ice subroutine.
+{3}: +2 strength
+{3}, {T}: Convert a piece of ice that is a sentry or wall into a code gate. Use this ability only after you have just broken all the subroutines on that piece of ice with Muzzle-to-Puzzle.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rainmaker", set="CM",
+       copyright="© Skipper Pickle",
+       name="Rainmaker",
+       type="Program - Icebreaker - 1 MU",
+       cost="4",
+       rarity="C",
+       power="0",
+       text=[[{0}: Break subroutine of the type chosen for Rainmaker.
+{2}: +3 strength
+{0}: Choose the type of ice for Rainmaker to break; you may choose a single keyword from any rezzed piece of ice, except for ice, code gate, sentry, or wall. Use this ability only once and only during an encounter with a piece of ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="dumpster_cam", set="CM",
+       copyright="© Skipper Pickle",
+       name="Dumpster Cam",
+       type="Program - Virus - 1 MU",
+       cost="3",
+       rarity="C",
+       text=[[Whenever you make a successful run on the Archives, give the Corp a Cam counter. Three or more Cam counters cause all discards from HQ to be made face up.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="martyr", set="CM",
+       copyright="© Skipper Pickle",
+       name="Martyr",
+       type="Program - Icebreaker - Killer - 1 MU",
+       cost="5",
+       rarity="C",
+       power="1",
+       text=[[{2}: Break sentry subroutine.
+{1}: +1 strength
+{1}: Prevent 1 brain damage and put a -1 strength counter on Martyr.
+{T}: Prevent an installed icebreaker from being trashed. Use this ability only during an encounter with a piece of ice.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="looking_glass", set="CM",
+       copyright="© Skipper Pickle",
+       name="Looking Glass",
+       type="Program - Icebreaker - Stealth - 1 MU",
+       cost="7",
+       rarity="C",
+       power="4",
+       text=[[{1}: Break a subroutine on a piece of ice that has strength equal to Looking Glass.
+{1}: Increase or decrease Looking Glass's strength by 1.
+You may only use bits from stealth sources to pay for using Looking Glass. Put {2} from the bank on Looking Glass when it is installed. Use these bits only to pay for using Looking Glass. If you use any of these bits, replace them from the bank at the start of your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="one_hand_clapping", set="CM",
+       copyright="© Skipper Pickle",
+       name="One Hand Clapping",
+       type="Program - Icebreaker - Stealth - 1 MU",
+       cost="9",
+       rarity="C",
+       power="5",
+       text=[[{2}: Break ice subroutine.
+You may only use bits from stealth sources to pay for using One Hand Clapping. Put {3} from the bank on One Hand Clapping when it is installed. Use these bits only to pay for using One Hand Clapping. If you use any of these bits, replace them from the bank at the start of your turn.]],
+       flavor=[[It makes the CL. The other hand makes the AP.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="patience", set="CM",
+       copyright="© Skipper Pickle",
+       name="Patience",
+       type="Program - Icebreaker - Stealth - 1 MU",
+       cost="0",
+       rarity="C",
+       power="0",
+       text=[[{2}: Break ice subroutine.
+{2}: +3 strength
+You may only use bits from stealth sources to pay for using Patience. Put {1} from the bank on Patience at the start of your turn. At the end of a run, put {1} from the bank on Patience for every subroutine you broke with Patience during that run. Use these bits only to pay for using Patience.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="snowball_in_beta", set="CM",
+       copyright="© Skipper Pickle",
+       name="Snowball in Beta",
+       type="Program - Icebreaker - Stealth - 1 MU",
+       cost="10",
+       rarity="C",
+       power="0",
+       text=[[Snowball in Beta has +1 strength for each subroutine it has broken during a run, until the end of that run.
+{1}: Break ice subroutine.
+{1}: +1 strength
+You may only use bits from stealth sources to pay for using Snowball in Beta. Put {1} on Snowball in Beta at the end of any run during which you broke a subroutine with it. Use this bit only to pay for using Snowball in Beta.]],
+       flavor=[["So that's where I put my backup. Now I wish I hadn't rewritten the whole beast." - Habeas Punter]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="private_kelp_tank", set="CM",
+       copyright="© Skipper Pickle",
+       name="Private Kelp Tank",
+       type="Resource",
+       cost="0",
+       rarity="C",
+       text=[[At the start of each turn, if Private Kelp Tank has a bit on it, put that bit into your bit pool; otherwise, put a bit from the bank on Private Kelp Tank. If any other installed resource leaves play, trash Private Kelp Tank]],
+       flavor=[["All the nutrition of a three-course meal! All the flavor of..well...kelp."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="madame_rousseaus_house_of_constructs", set="CM",
+       copyright="© Skipper Pickle",
+       name="Madame Rousseau's House of Constructs",
+       type="Resource - Base Link - Random",
+       cost="4",
+       rarity="C",
+       text=[[{0}: Roll a die. Set your link to that value. Use this ability only once for each trace attempt.
+Gain {1} whenever you successfully use Madame Rousseau's House of Constructs to avoid a trace.
+#(Use only one base link card for each trace attempt made against you.)#]],
+       flavor=[[Every time you go in, your icon is morphed into a random historical figure. People go there just to look at each other.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="aubrey_apprentice_cowboy", set="CM",
+       copyright="© Skipper Pickle",
+       name="Aubrey, Apprentice Cowboy",
+       type="Resource - Connection",
+       cost="3",
+       rarity="C",
+       text=[[At the start of each of your turns, put a bit on Aubrey.
+{A}: Take all the bits from Aubrey.
+Forego your next action: Make a run; whether or not that run is successful, you may then make another run. If either of these runs is not successful, forego an additional action. Use this ability only once per turn and only at the end of your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="jayne_apprentice_cynic", set="CM",
+       copyright="© Skipper Pickle",
+       name="Jayne, Apprentice Cynic",
+       type="Resource - Connection",
+       cost="4",
+       rarity="C",
+       text=[[Trash a resource: Make a run on a subsidiary data fort, during which you may not trash any cards you access. Use this ability only once per turn and only during your turn.
+{T}: Prevent any amount of meat damage.
+{2}, {A}: Look at all cards stored in HQ. Use this ability only if you made a successful run on HQ this turn.]],
+       flavor=[["She's just like a daughter to me." - Mason Rey, CEO, Roar-Sol Codifiers, Inc.]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="markus_apprentice_sysop", set="CM",
+       copyright="© Skipper Pickle",
+       name="Markus, Apprentice Sysop",
+       type="Resource - Connection",
+       cost="3",
+       rarity="C",
+       text=[[While Markus is in play, trash any icebreaker with a negative strength.
+Put a -1 strength counter on an installed icebreaker: Make a run on either HQ or R&D. If the run is successful, you may force the Corp to install and rez, at no cost, in a data fort of your choice, a single ice you've accessed during the run. Return any other cards you accessed to the fort. Use this ability only once per turn and only during your turn.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="mateo_apprentice_incompetent", set="CM",
+       copyright="© Skipper Pickle",
+       name="Mateo, Apprentice Incompetent",
+       type="Resource - Connection",
+       cost="4",
+       rarity="C",
+       text=[[Gain {1} at the start of each turn. If Mateo leaves play, suffer 1 brain and 1 meat damage.
+Trash a piece of hardware: Make a run, during which you cannot break subroutines that do damage, except for tracing ones. Use this ability only once per turn and only during your turn.]],
+       flavor=[["Clumsy, yes, but he's well-connected."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="pug_underwood_rogue_mechanic", set="CM",
+       copyright="© Skipper Pickle",
+       name="Pug Underwood, Rogue Mechanic",
+       type="Resource - Connection",
+       cost="3",
+       rarity="C",
+       text=[[Once per turn, during your turn, you may gain an action, which you can use only for installing hardware.]],
+       flavor=[["Being a history buff has hurt our friend Pug. He kept trying to unionize every shop that hired him." - Habeas Punter]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="rusty_apprentice_vandal", set="CM",
+       copyright="© Skipper Pickle",
+       name="Rusty, Apprentice Vandal",
+       type="Resource - Connection",
+       cost="3",
+       rarity="C",
+       text=[[Reduce your handsize by 1 permanently: Make a run on either R&D or HQ. If run is successful, you may trash one stored card that you access, at no cost, whether or not that card can normally be trashed. Use this ability only once per turn and only during your turn.
+{2}, {A}: Shuffle your hand into your stack, then draw two cards.]],
+       flavor=[["You, boy, will have to learn better manners." - Vallejo, Acting Headmaster, Wilson Memorial Academy]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="lars_dali_consumer_advocate", set="CM",
+       copyright="© Skipper Pickle",
+       name="Lars Dali, Consumer Advocate",
+       type="Resource - Connection - Unique",
+       cost="6",
+       rarity="C",
+       text=[[The difficulty of an agenda is increased by 2 if the Corp has already scored an agenda with the same name.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[["I'm easy, but I'm not cheap." - Lars Dali]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="beta_of_the_month_club", set="CM",
+       copyright="© Skipper Pickle",
+       name="Beta-of-the-Month Club",
+       type="Resource - Position - Random",
+       cost="2",
+       rarity="C",
+       text=[[{A}, {A}: Gain up to 3 consecutive actions which you con use for installing programs only. At the end of your turn, roll a die. On a 1, return an installed program to your hand.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="archive_storage_service", set="CM",
+       copyright="© Skipper Pickle",
+       name="Archive Storage Service",
+       type="Resource - Position - Unique",
+       cost="1",
+       rarity="C",
+       text=[[{A}: Make a run on the Archives. If run is successful, and there are no cards in the Archives, put an Induction counter in the Archives and gain a tag. If there is any number of Induction counters when a card goes to the Archives, you gain {1}, and that card is put in the Archives face up. The Corp may remove an Induction counter by taking an action to pay {1}.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       ruling=[[@When a card goes to the Archives you don't gain one bit for each Induction counter: you just gain one bit if there are one or more.]],
+       flavor=[["Retrieval? Heh. For that, you gotta pay extra."]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="headmaster_wilson_memorial_academy", set="CM",
+       copyright="© Skipper Pickle",
+       name="Headmaster, Wilson Memorial Academy",
+       type="Resource - Position - Unique",
+       cost="4",
+       rarity="C",
+       text=[[At the start of each turn, you get a tag and gain {1} for each installed connection.
+{A}, {A}: Make 3 runs on 3 different forts. Use this ability once per turn and only if you can legally make runs during these actions.
+{T}: Prevent any amount of meat damage.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       flavor=[["Punter's such a survivalist. I can't think what possessed him to take on students." - Madeleine Vallejo, RSC Security Director]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="selective_power_spike", set="CM",
+       copyright="© Skipper Pickle",
+       name="Selective Power Spike",
+       type="Operation - Gray Ops",
+       cost="0",
+       rarity="C",
+       text=[[Do not play this card as a normal operation. Instead, play it during a run, when Runner uses an icebreaker to break a subroutine on a piece of ice. The subroutine is not broken. Runner may then attempt to break the subroutine again, but not with the same icebreaker. At the end of the run, trash that piece of ice, and forego your next action.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------
+Item { id="spite_or_malice", set="CM",
+       copyright="© Skipper Pickle",
+       name="Spite or Malice?",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Make a run. If the run is successful, do not access cards. Instead, you may move any number of advancement counters from a single card installed inside this fort to any exposed or rezzed card that can be advanced. The Corp may choose to reveal any number of installed cards that can be advanced. If there are no other cards that can be advanced, you may remove as many counters as you wish by paying {2} for each.]],
+       flavor=[[]],
+       artist=[[]],
+}
+-------------------------------------------------------------------------------

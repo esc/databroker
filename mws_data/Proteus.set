@@ -1,0 +1,2114 @@
+--NR [NetRunner] Proteus (2.1)
+Set { id="PRT", name="Proteus" }
+-------------------------------------------------------------------------------
+Item { id="airport_locker", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Airport Locker",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="R",
+       text=[[{5}, {T}: Search your stack for a program, and install that program, if you can. Shuffle your stack afterwards. You may use this ability during an encounter with a piece of ice.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[[]],
+       artist="Zak Plucinski",
+}
+-------------------------------------------------------------------------------
+Item { id="all_hands", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="All-Hands",
+       type="Prep",
+       cost="3",
+       rarity="C",
+       text=[[Make a run on HQ. If run is successful, access three additional cards from HQ. You cannot use noisy icebreakers during the run.]],
+       ruling=[[@ The additional cards accessed do not include cards installed in HQ.  (JD Wiker, Netrunner-L, 1/3/97)]],
+       flavor=[["Now WHO called this meeting?"]],
+       artist="Micheal Kellner",
+}
+-------------------------------------------------------------------------------
+Item { id="armageddon", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Armageddon",
+       type="Program - Virus - Random - 1 MU",
+       cost="1",
+       rarity="R",
+       text=[[After each successful run on R&D, you may choose to give the Corp a Doom counter instead of accessing cards from R&D. Each Doom counter forces the Corp to roll a die whenever it installs a card. On a 6, the card is trashed after it is installed, and the Corp removes a Doom counter.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#]],
+       ruling=[[@ For notes on Virus programs, see Boardwalk.
+
+@ If you make a successful run on R&D using  Demolition Run, you may not give a Doom counter AND trash the rezzed ice on the fort; you must do one or the other.   (JD Wiker, Netrunner-L, 2/4/97)  If you have more than one "you may do A instead of B," then you can do as many or as few A's as you like whenever B would have happened. However, if B never would have happened, then you can't do any of the A's.  Demolition Run means that you never would have accessed cards, so you can't use Armageddon, or related effects.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/97)
+
+@ Each time you would access cards, you can use as many Armageddons as you like.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/97)
+
+@ You can give the Corp a Doom counter even if the number of cards you would have accessed has been reduced to zero or less.  (Tom Wylie via JD Wiker, Netrunner-L, 3/25/97) 
+
+@ Each time the Corp installs a card, each counter produces a separate effect, but the Corp must roll dice equal to the number of Doom counters in play.  If any 6s are rolled, the card is trashed.  For each 6 rolled, the Corp removes a Doom counter.  This means that more than one Doom counter could be removed with a single installation.  (Tom Wylie via JD Wiker, Netrunner-L, 3/25/97)]],
+       flavor=[["Who's up for another Deathmatch 2020?"]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="back_door_to_netwatch", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Back Door to Netwatch",
+       type="Resource - Hidden - Bad Publicity",
+       cost="0",
+       rarity="R",
+       text=[[{3}, {T}: Cancel the effect of a successful trace. Give the Corp 1 Bad Publicity point if the trace would have had an effect other than or in addition to giving you any tags.
+#(Hidden resources are installed face down, but are put into the trash face up.)#
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#]],
+       flavor=[[]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="back_door_to_rivals", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Back Door to Rivals",
+       type="Resource - Hidden - Bad Publicity",
+       cost="2",
+       rarity="C",
+       text=[[{0}: Base link 2
+{3}: +1 link
+Gain {1} whenever you successfully use Back Door to Rivals to avoid a trace.
+#(Use only one base link card for each trace attempt made against you.)#]],
+       ruling=[[@ See Access through Alpha for notes on base links.
+
+@ You gain a bit after any successful trace avoidance during which Back Door to Rivals was used, even if you would have avoided the trace without the link the Back Door provided.  (Official Netrunner Rulings, 4/21/97)]],
+       flavor=[["Some corp just smashed into Iron Willie's place and busted him up real bad." "No kidding. Hunh."]],
+       artist="Romas Kukalis",
+}
+-------------------------------------------------------------------------------
+Item { id="bargain_with_viacox", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Bargain with Viacox",
+       type="Resource - Random",
+       cost="3",
+       rarity="R",
+       text=[[After the turn in which you install Viacox, you gain an action during each of your turns, which you must take if possible. Roll a die at the start of each of your turns to find out what the action is. On a 1, draw a card. On a 2, gain {1}. On a 3, make a run on R&D. On a 4, make a run on HQ. On a 5, make a run on a subsidiary data fort. On a 6, reveal a card to the Corp at random from your hand, and play or install that card.]],
+       ruling=[[@ On a 6, if the card revealed is a Hidden Resource, reveal the card to the Corp, then install it face down. (Sparky, Netrunner-L, 9/5/96)
+
+@ On a 6, if the card can't be played (e.g., it is a prevention effect with nothing to prevent) or if you cannot pay the costs associated with playing the card, it stays in your hand; you must pay the costs if you can.  You still have to reveal it to the Corp.  (Sparky, Netrunner-L, 9/5/96)
+
+@ The action gained from Bargain with Viacox may be forgone to fulfill a penalty.  (Sparky, Netrunner-L, 10/2/96)]],
+       flavor=[[]],
+       artist="Michael Kellner",
+}
+-------------------------------------------------------------------------------
+Item { id="blackmail", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Blackmail",
+       type="Prep",
+       cost="12",
+       rarity="R",
+       text=[[Make a run on HQ. If run is successful, do not access cards from HQ; instead, score 1 agenda point.]],
+       flavor=[["...only if you fork over the negatives too, chombatta."]],
+       artist="James Allen Higgins",
+}
+-------------------------------------------------------------------------------
+Item { id="bolt_hole", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Bolt-Hole",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{T}: Prevent 2 meat damage.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[["Over there!" BRRRRRRT! "Take out that wall!" Tink, tink, WHUMPF! "Okay, looks clear."
+("Whew!")
+"Did you hear something?"]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="chiba_bank_account", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Chiba Bank Account",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{1}, {T}: Gain {4}. You may use this ability whenever you pay any cost or penalty.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       ruling=[[@ Using each Chiba Bank Account is a separate effect, and that effect must be completely resolved before any other effect can take place.  (Sparky, Netrunner-L, 9/27/96)
+
+@ You can use Chiba Bank Account to pay for installation costs.  (Sparky, Netrunner-L, 11/11/96)
+
+@ When using Chiba Bank Account to install a card or pay for an effect, follow this sequence  1) announce the card/effect; 2) pay the price (this is when you trash Chiba Bank Account); 3) place the card in the trash/archives; 4) perform the effect.  (Sparky, Netrunner-L, 11/11/96)
+
+@ "You may use this ability whenever..." means you can use Chiba Bank Account at the specified times in addition to the normal times that special effects can be used.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/96)]],
+       flavor=[["We keep your money safe by, ehm... FROM prying eyes." - Chiba Mutual prospectus, edited draft for English-speaking investors.]],
+       artist="Matt Wilson",
+}
+-------------------------------------------------------------------------------
+Item { id="corporate_guard_temps", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Corporate Guard® Temps",
+       type="Operation",
+       cost="0",
+       rarity="U",
+       text=[[Pay two times {X} when you play Corporate Guard© Temps, to gain an action during each of your next X turns. Forfeit the next {X} you gain.]],
+       flavor=[["Now do you see why they never bill in advance?"]],
+       artist="Craig Hooper",
+}
+-------------------------------------------------------------------------------
+Item { id="cortical_cybermodem", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Cortical Cybermodem",
+       type="Hardware - Deck - Cybernetics",
+       cost="11",
+       rarity="C",
+       text=[[Provides +2 MU and +2 hand size. Put {2} from the bank on Cortical Cybermodem when it is installed. Use these bits only to pay for using icebreakers during runs. If you use any of these bits, replace them from the bank at the start of your next turn.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       flavor=[[]],
+       artist="Christopher Rush",
+}
+-------------------------------------------------------------------------------
+Item { id="cortical_stimulators", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Cortical Stimulators",
+       type="Hardware - Cybernetics",
+       cost="1",
+       rarity="C",
+       text=[[Prevents 1 Net or brain damage each turn.]],
+       flavor=[["Dams but those Zombies make your head itch!"]],
+       artist="Randy Gallegos",
+}
+-------------------------------------------------------------------------------
+Item { id="credit_consolidation", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Credit Consolidation",
+       type="Operation - Transactions",
+       cost="10",
+       rarity="C",
+       text=[[Gain {15}.]],
+       flavor=[["Here's the balance sheet on our hidden accounts. I suggest we have Finance consolidate the newly decriminalized activities with the legitimate loan."]],
+       artist="Doug Alexander",
+}
+-------------------------------------------------------------------------------
+Item { id="credit_subversion", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Credit Subversion",
+       type="Resource - Hidden - Sabotage",
+       cost="0",
+       rarity="U",
+       text=[[{T}: The Corp loses {3}. Use this ability immediately after a successful run on HQ.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       ruling=[[@ You can only activate one Credit Subversion each run before it is no longer "immediately after a successful run on HQ."  (JD Wiker, Netrunner-L, 1/13/97)]],
+       flavor=[["What happened to that guy who used to clean the fish tanks?"
+"He had a family emergency in Crystal Palace right after that screw-up in Finance."]],
+       artist="David Logan",
+}
+-------------------------------------------------------------------------------
+Item { id="cruising_for_netwatch", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Cruising for Netwatch",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Gain {1} and draw two cards.]],
+       flavor=[["Back home on the bayou, before it dried up, the good ole boys would ambush federal patrolmen just to try out their new cyberware. Now we bushwhack stray Netwatch goons just to try out our new programs. Some things just don't go out of style." - Digital Dana]],
+       artist="David Logan",
+}
+-------------------------------------------------------------------------------
+Item { id="crumble", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Crumble",
+       type="Program - Virus - 1 MU",
+       cost="3",
+       rarity="U",
+       text=[[After each successful run on HQ, give the Corp a Crumble counter. Two or more Crumble counters allow you trash, at no cost, any cards accessed from HQ, even if the cards cannot normally be trashed.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#]],
+       ruling=[[@ For notes on Virus programs, see Boardwalk.
+
+@ Crumble counters allow you to trash upgrades on HQ, as well as cards stored in HQ.  (Skipper Pickle, Netrunner-L, 11/11/97)]],
+       flavor=[[]],
+       artist="Mark Rattin",
+}
+-------------------------------------------------------------------------------
+Item { id="data_sifters", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Data Sifters",
+       type="Operation",
+       cost="4",
+       rarity="C",
+       text=[[Play only if Runner trashed any nodes during his or her last turn.
+Give Runner a tag.]],
+       ruling=[[@ Note that this operation can be played regardless of how or why the Runner trashed the node(s).  (Official Netrunner Rulings, 4/21/97)]],
+       flavor=[["Ther runner tried to crash the entire file structure, but the black-box routines on the login records held."]],
+       artist="James Allen Higgins",
+}
+-------------------------------------------------------------------------------
+Item { id="death_from_above", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Death from Above",
+       type="Resource - Hidden - Sabotage",
+       cost="0",
+       rarity="R",
+       text=[[{T}: Trash, at no cost, all cards installed in a subsidiary data fort, even if they cannot normally be trashed. Use this ability only when you have just successfully made a run on that fort, and before accessing cards from that fort.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       ruling=[[@ The Corp can rez nodes and upgrades before the run is considered successful; for instance, Dr. Dreff can throw ice in front of the Runner before the Runner can activate Death from Above.  (JD Wiker, Netrunner-L, 2/19/97)
+
+@ If you trash cards that you don't see, and you play a card that provides a bonus or effect that depends on what card was trashed, (cf. On the Fast Track), you can ask the Corp if you trashed the appropriate type of card, but you may not look at the trashed cards or the Archives to verify this.  If necessary, you can ask a third party to verify the Corp's answer.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/96)
+
+@ When Death From Above meets New Galveston City Grid, the "normal cost to trash" the cards in the fort becomes the cost of DFA's effect, so the Runner must still pay the additional 2 bits per node and other upgrades installed inside the fort.  If the Runner can't pay the cost for ALL of the nodes and other upgrades, the Runner cannot use DFA's effect.  The Runner only has to pay for upgrades or nodes that have been rezzed or exposed.  (Skipper Pickle, Netrunner-L, 11/4/97)]],
+       flavor=[["They drop rocks; I commandeer battlesats."]],
+       artist="Zak Plucinski",
+}
+-------------------------------------------------------------------------------
+Item { id="decoy_signal", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Decoy Signal",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Make a run. Whenever you approach an unrezzed piece of ice during that run, expose it. You may jack out before the Corp decides whether to rez the ice.]],
+       flavor=[["Neat piece of code. Reminds me of a weef I used to know." - Max Forward]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="demolition_run", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Demolition Run",
+       type="Prep - Sabotage",
+       cost="4",
+       rarity="U",
+       text=[[Make a run. If run is successful, do not access cards; instead, trash all rezzed ice on the fort on which you just made a run, and the Corp gives you three tags.]],
+       ruling=[[@ If you also have Armageddon installed, you may not give a Doom counter AND trash the rezzed ice on the fort; you must do one or the other (see notes on Armageddon).  (JD Wiker, Netrunner-L, 2/4/97)]],
+       flavor=[["Sure it was worth it. Now hurry up and get packed; they'll be here any minute."]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="disgruntled_ice_technician", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Disgruntled Ice Technician",
+       type="Prep - Sabotage",
+       cost="2",
+       rarity="U",
+       text=[[Make a run. After passing a piece of ice during this run, you may derez that ice and end your run if you broke all the subroutines of that ice.]],
+       ruling=[[@ Ice with no subroutines on it (e.g., Hunting Pack as the only ice on a fort) can be considered to have had all of its subroutines broken.  (Sparky, Netrunner-L, 9/5/96)
+
+@ You cannot use Disgruntled Ice Technician to derez the ice after using Dropp to break the subroutines on that ice. (JD Wiker, Netrunner-L, 1/6/97)]],
+       flavor=[["Even if they catch me doing this, they'll have me improving their ice to the bitter end. Of course, I'd rather that end not be strapped to a couch in Skälderviken."]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="disintegrator", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Disintegrator",
+       type="Program - 2 MU",
+       cost="6",
+       rarity="U",
+       text=[[{2}: Derez a piece of ice and end your run. Use this ability only when you have just broken all the subroutines of that piece of ice and have successfully passed it.]],
+       ruling=[[@ Ice with no subroutines on it (e.g., Hunting Pack as the only ice on a fort) can be considered to have had all of its subroutines broken.  (Sparky, Netrunner-L, 9/5/96)
+
+@ You cannot use Disintegrator to derez the ice after using Dropp to break the subroutines on that ice.  (JD Wiker, Netrunner-L, 1/6/97)]],
+       flavor=[["Every time Dahlia laid out a sentry, I'd hand her Disintegrator and say 'You do the honors'. But that got old in a hurry."]],
+       artist="Christopher Rush",
+}
+-------------------------------------------------------------------------------
+Item { id="drone_for_a_day", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Drone for a Day",
+       type="Prep",
+       cost="4",
+       rarity="C",
+       text=[[Gain {9} and the Corp gives you a tag.]],
+       flavor=[["Sure you won't stay? No one else here understands our business half as well as you do."]],
+       artist="Romas Kukalis",
+}
+-------------------------------------------------------------------------------
+Item { id="emergency_rig", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Emergency Rig",
+       type="Operation - Transactions",
+       cost="X",
+       rarity="U",
+       text=[[Rez a piece of ice, at no cost. Put X Kludge counters on that piece of ice; X cannot be 0. At the start of each of your turns, remove a Kludge counter. Trash that piece of ice when the last Kludge counter is removed from it.]],
+       ruling=[[@ You can play a second Emergency Rig on a piece of ice that already has Kludge counters on it to extend the number of turns it can remain in play.  When the last Kludge counter is removed, each Rig's effect trashes the ice, so saving the ice would require using more than one prevention effect.  (Tom Wylie via JD Wiker, Netrunner-L, 3/18/97)
+
+@ The Kludge counters stay on the ice even if it is derezzed. (Tom Wylie via JD Wiker, Netrunner-L, 3/25/97)
+
+@ You can play Emergency Rig on a piece of non-Kludged ice that is already rezzed; the ice will be trashed when the last Kludge Counter is removed.  (Tom Wylie via JD Wiker, Netrunner-L, 3/28/97)]],
+       flavor=[[]],
+       artist="Romas Kukalis",
+}
+-------------------------------------------------------------------------------
+Item { id="enterprise_inc_shields", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Enterprise, Inc., Shields",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="C",
+       text=[[{1}: Prevent up to 2 Net damage.
+{1}: Prevent 1 brain damage.]],
+       ruling=[[@ Thiis card is banned in most of the tournaments.
+
+@ You can use it multiple times for large lumps of damage, but you cannot hold over the damage prevention; each source of damage must be paid for separately.  (Sparky, Netrunner-L, 9/13/96)]],
+       flavor=[["I know I always feel more enterprising when my shields are up." - Advert]],
+       artist="Mark Rattin",
+}
+-------------------------------------------------------------------------------
+Item { id="eurocorpse_spin_chip", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Eurocorpse™ Spin Chip",
+       type="Hardware - Chip",
+       cost="6",
+       rarity="U",
+       text=[[Put {2} from the bank on Spin Chip when it is installed. Spin Chip can have an icebreaker installed in it whose MU cost is no greater than 1. Use the bits on Spin Chip only to pay for using this icebreaker during runs. If you use any of these bits, replace them from the bank at the start of your next turn.]],
+       ruling=[[@ The icebreaker inside Eurocorpse Spin Chip has all the benefits and drawbacks of any other installed icebreaker (e.g., it can be trashed by killer ice subroutines). (Sparky, Netrunner-L, 10/18/96)]],
+       flavor=[[]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="expendable_family_member", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Expendable Family Member",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{1}, {T}: Avoid receiving a tag.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[["I'm an only child... now."]],
+       artist="Zak Plucinski",
+}
+-------------------------------------------------------------------------------
+Item { id="faked_hit", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Faked Hit",
+       type="Prep - Bad Publicity",
+       cost="5",
+       rarity="U",
+       text=[[Give the Corp 1 Bad Publicity point. Take 2 brain damage. This damage cannot be prevented.
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#]],
+       flavor=[["I won't need much air with the coma drug, but I could still get hypoxia if you don't get me out of the bag in time."]],
+       artist="Randy Gallegos",
+}
+-------------------------------------------------------------------------------
+Item { id="frame_up", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Frame-Up",
+       type="Prep - Bad Publicity",
+       cost="2",
+       rarity="R",
+       text=[[Play only if you made a successful run on both HQ and R&D this turn. Give the Corp 1 Bad Publicity point. Give the Corp 1 additional Bad Publicity point if you liberated or trashed any Black Ops cards during those runs.
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#]],
+       flavor=[["But we weren't going to do that till NEXT week!"]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="garbage_in", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Garbage In",
+       type="Program - Virus - 1 MU",
+       cost="3",
+       rarity="U",
+       text=[[After each successful run on R&D, give the Corp a Garbage counter. Two or more Garbage counters allow you to trash, at no cost, any cards accessed from R&D, even if the cards cannot normally be trashed. The Corp loses two Garbage counters after any run during which this ability is used.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#]],
+       ruling=[[@ For notes on Virus programs, see Boardwalk.
+
+@ Garbage In counters allow you to trash upgrades on R&D, as well as cards stored in R&D.  (Skipper Pickle, Netrunner-L, 11/11/97)]],
+       flavor=[[]],
+       artist="Kevin Taylor",
+}
+-------------------------------------------------------------------------------
+Item { id="get_ready_to_rumble", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Get Ready to Rumble",
+       type="Resource - Connection - Hidden",
+       cost="0",
+       rarity="U",
+       text=[[{T}: The Corp discards two cards at random from HQ. Use this ability only when the Corp successfully does meat damage.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[[]],
+       artist="Kevin Taylor",
+}
+-------------------------------------------------------------------------------
+Item { id="highlighter", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Highlighter",
+       type="Program - Virus - 1 MU",
+       cost="3",
+       rarity="U",
+       text=[[After each successful run on R&D, give the Corp a Highlighter counter. Each Highlighter counter after the first allows you to access an additional card from R&D whenever you access cards from R&D.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#]],
+       ruling=[[@ For notes on Virus programs, see Boardwalk.
+
+@ The additional cards accessed do not include cards installed in R&D.  (JD Wiker, Netrunner-L, 1/3/97)]],
+       flavor=[[]],
+       artist="Craig Hooper",
+}
+-------------------------------------------------------------------------------
+Item { id="hijack", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Hijack",
+       type="Prep",
+       cost="1",
+       rarity="R",
+       text=[[Install a program or a piece of hardware. Gain {3}, which you may use only to pay for its installation cost. Return to the bank any of the {3} you did not spend.]],
+       flavor=[["Real cute. The perps added 'One driver, bound and gagged' to the end of the shipping manifest."]],
+       artist="Thomas Gianni",
+}
+-------------------------------------------------------------------------------
+Item { id="hq_mole", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="HQ Mole",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{4}, {T}: Access two additional cards from HQ. Use this ability only when accessing cards from HQ.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       ruling=[[@ Multiple HQ Moles provide cumulative effects.  (Sparky on R&D Interface, Netrunner-L, 6/4/96)
+
+@ The additional cards accessed do not include cards installed in HQ.  (JD Wiker, Netrunner-L, 1/3/97)]],
+       flavor=[["I've got low friends in high places."]],
+       artist="Phil Hale",
+}
+-------------------------------------------------------------------------------
+Item { id="ice_and_data_special_report", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Ice and Data Special Report",
+       type="Prep",
+       cost="3",
+       rarity="C",
+       text=[[Expose up to five cards installed in or on a single data fort.]],
+       flavor=[["Max Forward is a freelance writer and netrunner, and has recently made available to the  runner community the icebreaker technology he describes."  - contributor's bio]],
+       artist="David Logan",
+}
+-------------------------------------------------------------------------------
+Item { id="identity_donor", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Identity Donor",
+       type="Prep - Bad Publicity",
+       cost="0",
+       rarity="R",
+       text=[[Do not play Identity Donor as an action; instead, play it during the Corp 's turn when you would suffer meat damage. Prevent that meat damage and give the Corp 2 Bad Publicity points.
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#]],
+       flavor=[[]],
+       artist="Debbie Highes",
+}
+-------------------------------------------------------------------------------
+Item { id="liberated_savings_account", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Liberated Savings Account",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{7}, {T}: Gain {11}. You may use this ability whenever you pay any cost or penalty.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       ruling=[[@ Using each Liberated Savings Account is a separate effect, and that effect must be completely resolved before any other effect can take place.  (Sparky, Netrunner-L, 9/27/96)
+
+@ You can use Liberated Savings Account to pay for installation costs.  (Sparky, Netrunner-L, 11/11/96)
+
+@ When using Liberated Savings Account to install a card or pay for an effect, follow this sequence  1) announce the card/effect; 2) pay the price (this is when you trash Liberated Savings Account); 3) place the card in the trash/archives; 4) perform the effect.  (Sparky, Netrunner-L, 11/11/96)
+
+@ "You may use this ability whenever..." means you can use Liberated Savings Account at the specified times in addition to the normal times that special effects can be used.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/96)]],
+       flavor=[["Honey, are you forgetting to record your credit transfers again?"]],
+       artist="Phil Hale",
+}
+-------------------------------------------------------------------------------
+Item { id="live_news_feed", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Live News Feed",
+       type="Prep - Bad Publicity",
+       cost="0",
+       rarity="R",
+       text=[[Make a run. If run is successful, the Corp gives you two tags, and you give the Corp 1 Bad Publicity point for each black ice you encountered during the run, 1 for each Black Ops card the Corp rezzed during the run, and 1 for each Black Ops agenda you liberated during the run.
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#]],
+       flavor=[[]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="lockjaw", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Lockjaw",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="C",
+       text=[[{T}: Give one of your icebreakers +2 strength for the remainder of this run. Use this ability only during an encounter with a piece of ice.]],
+       ruling=[[@ Contrary to Netrunner FAQ v.1.0, if you use Joan of Arc to prevent the trashing of Lockjaw, you will not gain the benefit of +2 icebreaker strength (REVERSEs a previous ruling).  (Skipper Pickle, Netrunner-L, 9/29/98)]],
+       flavor=[["Yeah, but it's a little too loyal; it just doesn't know when to get out of the way."]],
+       artist="David Logan",
+}
+-------------------------------------------------------------------------------
+Item { id="lucidrine_drip_feed", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Lucidrine™ Drip Feed",
+       type="Hardware",
+       cost="8",
+       rarity="R",
+       text=[[At the start of each of your turns, if there are two Drip counters on Drip Feed, remove all Drip counters from it and take 1 brain damage, which cannot be prevented; otherwise, put a Drip counter on Drip Feed and gain an action.]],
+       ruling=[[@ You only gain one action each turn from Lucidrine Drip Feed; the actions do not accumulate.  (Sparky, Netrunner-L, 9/27/96)
+
+@ The action gained from Lucidrine Drip Feed may be forgone to fulfill a penalty.  (Sparky, Netrunner-L, 10/2/96)]],
+       flavor=[["By the time he jacked out, his girlfriend had left him, and the dog was dead."]],
+       artist="Paul Chadwick",
+}
+-------------------------------------------------------------------------------
+Item { id="manhunt", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Manhunt",
+       type="Operation - Gray Ops",
+       cost="4",
+       rarity="C",
+       text=[[Play only if Runner attempted a run during his or her last turn.
+Trace6 - If trace is successful, give Runner one tag for each point by which your trace exceeded his or her link.]],
+       flavor=[["I want his friends dead! I want his family dead! I want his deck dead!"]],
+       artist="Thomas Gianni",
+}
+-------------------------------------------------------------------------------
+Item { id="mercenary_subcontract", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Mercenary Subcontract",
+       type="Resource - Hidden - Sabotage",
+       cost="0",
+       rarity="U",
+       text=[[{4}, {T}: Trash, at no cost, one or more cards that you are currently accessing, even if those cards cannot normally be trashed.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[["Now, remember to place the charges exactly where I tell you this time."]],
+       artist="Rick Berry",
+}
+-------------------------------------------------------------------------------
+Item { id="on_the_fast_track", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="On the Fast Track",
+       type="Prep",
+       cost="0",
+       rarity="U",
+       text=[[Gain {8} if you trashed an advertisement card this turn, or gain {6} if you trashed a transactions card this turn.]],
+       ruling=[[@ If you trash cards that you don't see (cf. Death from Above), and you play On the Fast Track, you can ask the Corp if you trashed an Advertisement or Transactions card this turn, but you may not look at the cards or the Archives to verify this.  If necessary, you can ask a third party to verify the Corp's answer.  (Tom Wylie via JD Wiker, 3/11/97)
+
+@If you trash cards that you don't see (cf. Death from Above), and you play On the Fast Track, you can ask the Corp if you trashed an Advertisement or Transactions card this turn, but you may not look at the cards or the Archives to verify this.  If necessary, you can ask a third party to verify the Corp's answer.  (Tom Wylie via JD Wiker, 3/11/97)]],
+       flavor=[["He was a nobody until I doctored their auditions database. I rigged that campaign to fail, of course, but it lasted long enough for him to get paid."]],
+       artist="Paul Chadwick",
+}
+-------------------------------------------------------------------------------
+Item { id="pirate_broadcast", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Pirate Broadcast",
+       type="Prep",
+       cost="1",
+       rarity="R",
+       text=[[Make a run on each data fort. Score 1 agenda point if all the runs are successful. Forgo your next action if any of the runs are not successful.]],
+       ruling=[[@ You only get one chance to run each fort; if something (e.g., Siren) misdirects you away from a fort, you can't run it again.   (JD Wiker, Netrunner-L, 2/5/97)]],
+       flavor=[["It's scary how ineffective the law is these days. It used to be that we could turn corporate dirt over to the Feds, and let them do the rest of the network. Nowadays we have to do everything ourselves" - Digital Dana]],
+       artist="Ciro Tota",
+}
+-------------------------------------------------------------------------------
+Item { id="poisoned_water_supply", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Poisoned Water Supply",
+       type="Prep - Bad Publicity",
+       cost="4",
+       rarity="R",
+       text=[[Play only if you have at least two connections in play. Trash two connections. Give the Corp 1 Bad Publicity point.
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#]],
+       flavor=[["'Canadian Mountain Spring Water'? That song's for the tourists. You just bought tap water, man!"
+"PFFFFFT!"]],
+       artist="Brice Parker",
+}
+-------------------------------------------------------------------------------
+Item { id="prearranged_drop", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Prearranged Drop",
+       type="Prep",
+       cost="0",
+       rarity="R",
+       text=[[The next time you access an agenda this turn, gain {6}.]],
+       ruling=[[@ The bits are gained as soon as the agenda is accessed, so the Runner can use these bits to pay trash costs or pay costs for stealing agenda (e.g. Red Herrings). (Skipper Pickle, Netrunner-L, 5/18/98)]],
+       flavor=[["Maybe you and I could -"
+"Keep it simple, stupid."]],
+       artist="David Seeley",
+}
+-------------------------------------------------------------------------------
+Item { id="precision_bribery", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Precision Bribery",
+       type="Resource - Unique",
+       cost="0",
+       rarity="U",
+       text=[[The Corp cannot create any new data forts. The Corp may trash Precision Bribery by taking an action to pay {4}. This trashing cannot be prevented.
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       ruling=[[@ This card had the text "This trashing cannot be prevent" added to it.]],
+       flavor=[[]],
+       artist="Debbie Hughes",
+}
+-------------------------------------------------------------------------------
+Item { id="promises_promises", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Promises, Promises",
+       type="Prep",
+       cost="2",
+       rarity="R",
+       text=[[The next time you access an agenda this turn, score 1 additional agenda point.]],
+       ruling=[[@ The Runner scores the additional agenda point as soon as the agenda is accessed, but the Runner cannot win the game until after all cards in the fort are accessed and their effects dealt with (See Sparky's Run Chart). (Skipper Pickle, Netrunner-L, 5/18/98)]],
+       flavor=[["Ishiguro apologizes for doubting your ability to find data incriminating our competitor. He humbly offers this unworthy gift for uncovering highly sensitive plans for world domination."]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="randd_mole", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="R&D Mole",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{4}, {T}: Access two additional cards from R&D. Use this ability only when accessing cards from R&D.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       ruling=[[@ Multiple R&D Moles provide cumulative effects.  (Sparky on R&D Interface, Netrunner-L, 6/4/96)
+
+@ The additional cards accessed do not include cards installed in R&D.  (JD Wiker, Netrunner-L, 1/3/97)]],
+       flavor=[["Don't worry - you'll have the time. The new game on the system will keep them distracted for hours."]],
+       artist="Rick Berry",
+}
+-------------------------------------------------------------------------------
+Item { id="reconnaissance", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Reconnaissance",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Make a run. Whenever the Corp rezzes a card during that run, gain {1}.]],
+       flavor=[["We'll put a tap on your line and transfer credit after each piece of ice you hit. Oh, and don't worry, even if surge ice fries you, our buffers will ensure the data reaches us safely."]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="remote_detonator", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Remote Detonator",
+       type="Prep - Sabotage",
+       cost="7",
+       rarity="U",
+       text=[[Play only if you made a successful run on a data fort this turn. Trash all rezzed ice on that fort, and the Corp gives you three tags.]],
+       ruling=[[@ In the case of a misdirected run, the ice trashed is the ice on the fort that was accessed (e.g., the Runner runs on Archives but accesses cards in HQ; the ice on HQ is trashed).  (JD Wiker, Netrunner-L, 3/5/97)]],
+       flavor=[[It takes a long time - hundreds of milliseconds - to feed all the ice specs to the planted viruses, so you'd better be riding a Nasuko cycle through the fourth dimension, because the Corp has your number!]],
+       artist="Norm Dwyer",
+}
+-------------------------------------------------------------------------------
+Item { id="rent_to_own_contract", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Rent-to-Own Contract",
+       type="Operation - Transactions",
+       cost="0",
+       rarity="U",
+       text=[[Rez a piece of ice, at no cost. Put on that ice a number of Term counters equal to its rez cost. At the start of each of your turns, if you have at least {2}, lose {2} and remove one of these Term counters; otherwise, put a Term counter on that piece of ice.]],
+       ruling=[[@ The effect ends when the last counter is removed; this should be considered errata for Rent-to-Own Contract. (Tom Wylie via JD Wiker, Netrunner-L, 1/13/97)]],
+       flavor=[[]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="runner_sensei", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Runner Sensei",
+       type="Resource - Base Link - Position",
+       cost="4",
+       rarity="C",
+       text=[[{2}: Base link 4
+{2}: +1 link
+Gain {1} whenever you successfully use Runner Sensei to avoid a trace.
+#(Use only one base link card for each trace attempt made against you.)#]],
+       ruling=[[@ See Access through Alpha for notes on base links.]],
+       flavor=[[]],
+       artist="Randy Gallegos",
+}
+-------------------------------------------------------------------------------
+Item { id="rush_hour", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Rush Hour",
+       type="Prep",
+       cost="3",
+       rarity="C",
+       text=[[Make a run on R&D. If run is successful, access three additional cards from R&D. You cannot use noisy icebreakers during the run.]],
+       ruling=[[@ The additional cards accessed do not include cards installed in R&D.  (JD Wiker, Netrunner-L, 1/3/97)]],
+       flavor=[["Sure there are more signals to hide in, but there's also a greater chance of someone being around who'll jump you if you get noticed."]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="scaldan", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Scaldan",
+       type="Program - Virus - Bad Publicity - Random - Unique - 1 MU",
+       cost="3",
+       rarity="R",
+       text=[[After each successful run on HQ, give the Corp a Scaldan counter. Each Scaldan counter forces the Corp to roll a die at the start of each of its turns. On a 5 or a 6, the Corp gains 1 Bad Publicity point.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       ruling=[[@ This card has been errated as unique.
+
+@ For notes on Virus programs, see Boardwalk.
+
+@ Each Scaldan counter generates a separate start-of-turn effect, so the Corp may forgo actions between die rolls.  (JD Wiker, Netrunner-L, 1/28/97)]],
+       flavor=[[]],
+       artist="Norm Dwyer",
+}
+-------------------------------------------------------------------------------
+Item { id="schlaghund_pointers", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Schlaghund Pointers",
+       type="Operation",
+       cost="6",
+       rarity="U",
+       text=[[Play only if Runner has attempted a run this game.
+Trace3 - If trace is successful, give Runner a tag. Pay {1}, in addition to the normal cost, for each point of trace above 0.]],
+       flavor=[["The mark lives in a city that lets wild dogs run around as a way of curbing the homeless presence, and these puppies will blend right in."]],
+       artist="Ciro Tota",
+}
+-------------------------------------------------------------------------------
+Item { id="senatorial_field_trip", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Senatorial Field Trip",
+       type="Prep - Bad Publicity",
+       cost="1",
+       rarity="R",
+       text=[[Play only if the Corp rezzed a piece of Black Ice this turn. The Corp either derezzes that piece of ice or receives 2 Bad Publicity points.
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#]],
+       ruling=[[@ If the ice is not rezzed, Senatorial Field Trip has no effect.  (Sparky, Netrunner-L, 9/5/96)]],
+       flavor=[[]],
+       artist="Pete Venters",
+}
+-------------------------------------------------------------------------------
+Item { id="simulacrum", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Simulacrum",
+       type="Resource - Connection - Hidden",
+       cost="0",
+       rarity="R",
+       text=[[{T}: Pass a piece of AP ice. You may use this ability during an encounter with a piece of ice.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       flavor=[[]],
+       artist="Kino",
+}
+-------------------------------------------------------------------------------
+Item { id="skullcap", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Skullcap",
+       type="Program - 1 MU",
+       cost="0",
+       rarity="C",
+       text=[[{T}: Prevent any amount of Net or brain damage.]],
+       ruling=[[@ Each card accessed that deals damage is a separate effect. If you access 10 cards from R&D and they're all Setup!s, you'll have to deal with each Setup! as a separate effect.  (Sparky, Netrunner-L, 11/18/96)]],
+       flavor=[["Just the superficial sort of icon that someone grounded too far in 'reality' would think up. TURN UP THE FEED, YOU WIGGLY MEAT THINGS! THIS IS THE NET! NOTHING'S REAL! YOU HAVE NO HEAD!" - Rache Bartmoss]],
+       artist="Craig Hooper",
+}
+-------------------------------------------------------------------------------
+Item { id="stakeout", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Stakeout",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Gain {2} and draw one card.]],
+       flavor=[["This is reconnaissance, not voyeurism, Wilson."]],
+       artist="Paul Chadwick",
+}
+-------------------------------------------------------------------------------
+Item { id="streetware_distributor", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Streetware Distributor",
+       type="Resource - BBS - Position",
+       cost="1",
+       rarity="C",
+       text=[[Take {1} from Streetware Distributor, if it has any bits, at the start of each of your turns.
+{A}: Put {3} from the bank on Streetware Distributor.]],
+       flavor=[["Way it works is, you choose an object off the shelf, and I give you the download key when you pay. Or you shoplift it, and it downloads automatically ...with the complimentary virus option."]],
+       artist="Matt Wilson",
+}
+-------------------------------------------------------------------------------
+Item { id="subliminal_corruption", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Subliminal Corruption",
+       type="Prep - Bad Publicity",
+       cost="2",
+       rarity="U",
+       text=[[Make a run. Give the Corp 1 Bad Publicity point for each advertisement you trash during the run.
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#]],
+       ruling=[[@ It's not legal to trash something that's already in the Archives, so you can't give the Corp bad publicity for advertisements that are already in the Archives. (Official Netrunner Rulings, 4/21/97)]],
+       flavor=[["'SFX'! It says, 'SFX'!"]],
+       artist="James Allen Higgins",
+}
+-------------------------------------------------------------------------------
+Item { id="sunburst_cranial_interface", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Sunburst Cranial Interface",
+       type="Hardware - Deck - Cybernetics - Stealth",
+       cost="5",
+       rarity="C",
+       text=[[Provides +1 MU and +1 hand size. Put {1} from the bank on Cranial Interface when it is installed. Use this bit only to pay for using icebreakers during runs, but not for using noisy icebreakers. If you use the bit, replace it from the bank at the start of your next turn.
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       ruling=[[@ See Cloak for notes on Stealth cards.]],
+       flavor=[[]],
+       artist="Craig Hooper",
+}
+-------------------------------------------------------------------------------
+Item { id="swiss_bank_account", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Swiss Bank Account",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[You may use the following abilities whenever you pay any cost or penalty.
+{T}: Gain {2}.
+{3}, {T}: Gain {6}.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       ruling=[[@ Using each Swiss Bank Account is a separate effect, and that effect must be completely resolved before any other effect can take place.  (Sparky, Netrunner-L, 9/27/96)
+
+@ You can use Swiss Bank Account to pay for installation costs.  (Sparky, Netrunner-L, 11/11/96)
+
+@ When using Swiss Bank Account to install a card or pay for an effect, follow this sequence  1) announce the
+card/effect; 2) pay the price (this is when you trash Swiss Bank Account); 3) place the card in the trash/archives; 4) perform the effect.  (Sparky, Netrunner-L, 11/11/96)
+
+@ "You may use this ability whenever..." means you can use Swiss Bank Account at the specified times in addition to the normal times that special effects can be used.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/96)]],
+       flavor=[[]],
+       artist="Debbie Hughes",
+}
+-------------------------------------------------------------------------------
+Item { id="taxman", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Taxman",
+       type="Program - Virus - 1 MU",
+       cost="3",
+       rarity="U",
+       text=[[After each successful run on HQ, give the Corp a Tax counter. Every two Tax counters cause the Corp to lose {1} at the start of each of its turns.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#]],
+       ruling=[[@ For notes on Virus programs, see Boardwalk.]],
+       flavor=[["The virus just alters their data. The actual damage is done by government auditors." - Spider Murphy]],
+       artist="James Allen Higgins",
+}
+-------------------------------------------------------------------------------
+Item { id="test_spin", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Test Spin",
+       type="Prep",
+       cost="1",
+       rarity="R",
+       text=[[Search your stack for a program, and install it, at no cost. Shuffle your stack. If you install a program in this way, make a run. After the run, shuffle the program into your stack, unless it is no longer in play, in which case, lose {4} plus its installation cost. If this is more than the number of bits in your pool, suffer the difference in meat damage.]],
+       flavor=[["And when you bring it back, we'll deactivate the code bomb for free."]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="the_deck", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="The Deck",
+       type="Hardware - Deck - Base Link",
+       cost="11",
+       rarity="R",
+       text=[[{0}: Base link 5
+{1}: +1 link
+Provides +1 MU.
+#(Use only one base link card for each trace attempt made against you.)#
+#(Only one deck can be in play at a time. Trash any older decks.)#]],
+       ruling=[[@ See Access through Alpha for notes on base links.]],
+       flavor=[["...ah, and I'll also need a '20 Moebius Link." "A what?" "You know, Forward's deck. THE Deck." "Gotcha."]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="the_personal_touch", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="The Personal Touch",
+       type="Prep",
+       cost="4",
+       rarity="C",
+       text=[[Put a +1 strength counter on an icebreaker.]],
+       flavor=[["I think that if I'd been spending my time and money on any other 'breaker than Dahlia, my girlfriend would have understood."]],
+       artist="Debbie Hughes",
+}
+-------------------------------------------------------------------------------
+Item { id="time_to_collect", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Time to Collect",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="R",
+       text=[[{T}: Prevent one or more of your other installed resources from being trashed. Use this ability only during the Corp's turn.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       ruling=[[@ Time to Collect can be used to prevent the trashing of a resource being trashed by Corporate Detective Agency, even if Time to Collect is also being trashed.  (Sparky, Netrunner-L, 11/11/96)
+
+@ If you use a Time to Collect to prevent a cost from being paid, you prevent that cost's effect from being played (REVERSEs a previous ruling).  (Skipper Pickle, Netrunner-L, 9/29/98)]],
+       flavor=[[]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="underworld_mole", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Underworld Mole",
+       type="Operation - Gray Ops",
+       cost="6",
+       rarity="C",
+       text=[[Play only if Runner installed any resources during his or her last turn.
+Trace4 - If trace is successful, trash a resource Runner installed during his or her last turn and give Runner a tag.]],
+       ruling=[[@ The resource is trashed before the tag is given; if the Corp trashes a tag prevention resource (e.g., Fall Guy) with Underworld Mole, that resource cannot be used to prevent the tag.  (JD Wiker, Netrunner-L, 2/11/97)]],
+       flavor=[["Everybody knows somebody who knows a little too much about anybody."]],
+       artist="David Seeley",
+}
+-------------------------------------------------------------------------------
+Item { id="vienna_22", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Vienna 22",
+       type="Program - Virus - 1 MU",
+       cost="3",
+       rarity="U",
+       text=[[After each successful run on HQ, give the Corp a Vienna counter. Each Vienna counter allows you to access an additional card from HQ whenever you access cards from HQ.
+#(The Corp may remove all Virus counters at any time, by forgoing its next three actions.)#]],
+       ruling=[[@ For notes on Virus programs, see Boardwalk.
+
+@ The additional cards accessed do not include cards installed in HQ.  (JD Wiker, Netrunner-L, 1/3/97)]],
+       flavor=[[]],
+       artist="Kino",
+}
+-------------------------------------------------------------------------------
+Item { id="viral_pipeline", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Viral Pipeline",
+       type="Program - Virus - Unique - 1 MU",
+       cost="3",
+       rarity="R",
+       text=[[After each successful run on Archives, HQ, or R&D, put a Socket counter in that data fort.
+Socket counter from Archives, Socket counter from HQ, and Socket counter from R&D: Give the Corp a Pipe counter. Each Pipe counter causes the Corp to forgo an action at the start of each of its turns.
+#(The Corp may remove all Virus counters by forgoing its next three actions.)#
+#(Only one unique card of a particular name can be in play at a time. If for some reason more than one is in play, trash all but one.)#]],
+       ruling=[[@ This card has been errated as unique.
+
+@ For notes on Virus programs, see Boardwalk.
+
+@ Forgoing an action due to a Pipe counter is a start-of-turn effect.  A player may choose the order in which his or her start-of-turn effects occur.  The Corp may forgo actions to remove Virus counters before forgoing actions to Pipe counters, and thus avoid the effects of Pipe counters.  (Sparky, Netrunner-L, 9/5/96)
+
+@ Remember that the Runner uses special effects first; then the Corp gets to use special effects.  This means that if at any point the Corp has 3 appropriate Socket counters, the Runner will be able to give the Pipe counter before the Corp can forgo actions to remove Virus counters (this is important if the Runner has Code Viral Cache installed).  (JD Wiker, Netrunner-L, 2/4/97)]],
+       flavor=[[]],
+       artist="David Ho",
+}
+-------------------------------------------------------------------------------
+Item { id="weefle_initiation", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Weefle Initiation",
+       type="Prep",
+       cost="0",
+       rarity="C",
+       text=[[Make a run. Prevent up to 7 damage during that run.]],
+       flavor=[["Lost another one."
+"So?"]],
+       artist="Rick Berry",
+}
+-------------------------------------------------------------------------------
+Item { id="wired_switchboard", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Wired Switchboard",
+       type="Resource - Hidden",
+       cost="0",
+       rarity="C",
+       text=[[{T}: +3 link. Use this ability only after you and the Corp have revealed how much each of you spent on the trace attempt.
+#(Hidden resources are installed face down, but are put into the trash face up.)#]],
+       ruling=[[@ You can use Wired Switchboard even if you do not have a Base Link card in play (the Runner always starts with a base link of zero).  (Netrunner FAQ v.1.0, 5/22/96)]],
+       flavor=[["I use a lot more explosive than I need, so they think it's a random structure hit." There's no way to track all those down, so they usually don't bother."]],
+       artist="Debbie Hughes",
+}
+-------------------------------------------------------------------------------
+Item { id="ai_board_member", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="AI Board Member",
+       type="Agenda - Research - AI - Random",
+       cost="5",
+       rarity="R",
+       points="3",
+       text=[[You may gain an action during each of your turns. At the start of each of your turns, roll a die to see what the action will be for that turn, and then decide whether to take it. On a 1, you may use the action only to install a card; on a 2 or 3, only to gain {1}; on a 4, 5, or 6, only to draw a card.]],
+       flavor=[["At least it won't be trying to get its family hired."]],
+       artist="Moebius",
+}
+-------------------------------------------------------------------------------
+Item { id="bel_digmo_antibody", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Bel-Digmo Antibody",
+       type="Node - Ambush - Virus",
+       cost="0",
+       rarity="U",
+       trash="0",
+       text=[[Shuffle Bel-Digmo Antibody into R&D when it is rezzed. When Runner accesses Bel-Digmo Antibody from R&D, do 1 Net damage, and Runner must show it to you.]],
+       flavor=[[]],
+       artist="Corey Macourek",
+}
+-------------------------------------------------------------------------------
+Item { id="big_frackin_gun", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Big Frackin' Gun",
+       type="Program - Icebreaker - Killer - 1 MU",
+       cost="2",
+       rarity="C",
+       power="7",
+       text=[[{6}: Break up to five sentry subroutines on a single piece of ice.
+{1}: +1 strength]],
+       flavor=[["Does that have to be your solution to everything?"
+"Well... yes, now stand back."]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="black_widow", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Black Widow",
+       type="Program - Icebreaker - Killer - 1 MU",
+       cost="9",
+       rarity="U",
+       power="2",
+       text=[[{1}: Break sentry subroutine.
+{2}: +1 strength
+Choose an installed piece of ice when you install Black Widow. Black Widow gets +5 strength during each encounter with that piece of ice.]],
+       flavor=[["When she pours on the charm, a piece of ice falls hard."]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="boring_bit", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Boring Bit",
+       type="Program - Icebreaker - Worm - 1 MU",
+       cost="6",
+       rarity="C",
+       power="5",
+       text=[[{2}: Break wall subroutine.
+{1}: +1 strength]],
+       flavor=[["An effective drill, but pretty dull."]],
+       artist="Michael Kellner",
+}
+-------------------------------------------------------------------------------
+Item { id="brain_wash", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Brain Wash",
+       type="Ice - Sentry - Black Ice - AP - Brainwipe",
+       cost="3",
+       rarity="C",
+       power="2",
+       text=[[{S} Do 1 brain damage.]],
+       flavor=[["I can see clearly now my brain is gone."]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="bug_zapper", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Bug Zapper",
+       type="Ice - Sentry - AP - Hellbot",
+       cost="6",
+       rarity="U",
+       power="2",
+       text=[[{S} Do 2 Net damage for each rezzed piece of ice installed outside Bug Zapper.
+{S} End the run.]],
+       ruling=[[@ If Dr. Dreff forces the Runner to encounter Bug Zapper, the ice is not installed anywhere and therefore there is no ice "installed outside" it; Bug Zapper will do zero net damage.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/96)]],
+       flavor=[["Try it for a month, and if it doesn't flatline anyone, send it back at our expense!"]],
+       artist="Corey Macourek",
+}
+-------------------------------------------------------------------------------
+Item { id="bulldozer", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Bulldozer",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="7",
+       rarity="U",
+       power="4",
+       text=[[{1}: Break wall subroutine.
+{2}: +1 strength
+If Bulldozer breaks all the subroutines of a wall, and the next piece of ice encountered during this run is a sentry, break one of the subroutines of that sentry, at no cost. Whenever you break a wall subroutine with Bulldozer, lose a total of {2} from stealth cards.]],
+       ruling=[[@ See Hammer for notes on Noisy cards.
+
+@ Ice with no subroutines on it (e.g., Hunting Pack as the only ice on a fort) can be considered to have had all of its subroutines broken.  (Sparky, Netrunner-L, 9/5/96)]],
+       flavor=[[]],
+       artist="Michael Kellner",
+}
+-------------------------------------------------------------------------------
+Item { id="caryatid", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Caryatid",
+       type="Ice - Wall",
+       cost="7",
+       rarity="U",
+       power="5",
+       text=[[{S} End the run.
+When you rez Caryatid, you may pay {1}, above the rez cost, to make it a code gate instead of a wall.]],
+       ruling=[[@ All rezzing bonuses and penalties are based on the card's keywords at the time the Corp rezzes it; rez it and then immediately change its keyword string.  (Sparky, Netrunner-L, 9/11/96)]],
+       flavor=[["All the form and twice the function of our previous model - the Galatea."]],
+       artist="Mike Kimble",
+}
+-------------------------------------------------------------------------------
+Item { id="charity_takeover", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Charity Takeover",
+       type="Agenda - Black Ops - Bad Publicity",
+       cost="4",
+       rarity="C",
+       points="1",
+       text=[[Gain {9} and 1 Bad Publicity point.
+#(If the Corp has 7 or more Bad Publicity points, it loses the game, even if it fulfills victory conditions at the same time.)#]],
+       flavor=[["We don't call them 'Black Ops' because they're immoral; we call them that because they put us in the black. "]],
+       artist="Matt Wilson",
+}
+-------------------------------------------------------------------------------
+Item { id="chihuahua", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Chihuahua",
+       type="Ice - Sentry - AP - Hellhound",
+       cost="0",
+       rarity="C",
+       power="0",
+       text=[[{S} Trace1 - If trace is successful, do 1 Net damage.
+Gain {2} when you rez Chihuahua.]],
+       flavor=[["Almost too cute to kick. Almost."]],
+       artist="Kevin Taylor",
+}
+-------------------------------------------------------------------------------
+Item { id="colonel_failure", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Colonel Failure",
+       type="Ice - Sentry - Killer",
+       cost="17",
+       rarity="R",
+       power="6",
+       text=[[{S} Trash a program.
+{S} Trash a program.
+{S} Trash a program.
+{S} End the run.
+{S} End the run.]],
+       flavor=[["War is the continuation of business by other means."]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="corporate_headhunters", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Corporate Headhunters",
+       type="Agenda - Asset",
+       cost="5",
+       rarity="C",
+       points="3",
+       text=[[Whenever Corporate Headhunters successfully does damage, Runner 's hand size is reduced by 1.
+{A}: Do 1 meat damage. Use this ability only if Runner is tagged.]],
+       ruling=[[@ Note that while the first ability mimics brain damage, it is not actually brain damage, so ignores effects that would prevent, remove, or otherwise interact with brain damage.  (Official Netrunner Rulings, 4/21/97)]],
+       flavor=[["He wasn't much of a security risk, but we flatlined him anyway."]],
+       artist="Rick Berry",
+}
+-------------------------------------------------------------------------------
+Item { id="corrosion", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Corrosion",
+       type="Program - Icebreaker - Worm - 1 MU",
+       cost="3",
+       rarity="C",
+       power="0",
+       text=[[{0}: Break wall subroutine.
+{1}: +1 strength]],
+       flavor=[["Sometimes all it takes is a little drip to make a big hole."]],
+       artist="James Allen Higgins",
+}
+-------------------------------------------------------------------------------
+Item { id="coyote", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Coyote",
+       type="Ice - Sentry - Watchdog",
+       cost="0",
+       rarity="C",
+       power="3",
+       text=[[{S} For the remainder of the run, all further ice is encountered at +1 strength, unless Runner pays {2} while passing Coyote.
+Gain {3} when you rez Coyote.]],
+       flavor=[[]],
+       artist="Jonnie Wilder",
+}
+-------------------------------------------------------------------------------
+Item { id="credit_blocks", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Credit Blocks",
+       type="Ice - Sentry",
+       cost="6",
+       rarity="C",
+       power="3",
+       text=[[{S} End the run.
+When you rez Credit Blocks, you may pay {1}, above the rez cost, to make it a wall instead of a sentry.]],
+       ruling=[[@ For notes on morphing ice, see Caryatid.]],
+       flavor=[["At the right frequency, the bull-and-bear pulse of a seasoned corp's financial curve will paralyze a sane mind."]],
+       artist="James Allen Higgins",
+}
+-------------------------------------------------------------------------------
+Item { id="cybertech_think_tank", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Cybertech Think Tank",
+       type="Node - Asset",
+       cost="1",
+       rarity="R",
+       trash="3",
+       text=[[You may advance Cybertech Think Tank before and after you rez it.
+Cybertech Think Tank advancement counter: Increase by 1 the meat damage dealt by another source.]],
+       ruling=[[@ Though it is not explicit on the card, this ability is used after a source of meat damage is used, to increase the damage dealt by that source.  (Official Netrunner Rulings, 4/21/97)]],
+       flavor=[[]],
+       artist="Rick Berry",
+}
+-------------------------------------------------------------------------------
+Item { id="datacomb", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Datacomb",
+       type="Ice - Wall",
+       cost="4",
+       rarity="C",
+       power="4",
+       text=[[{S} End the run.
+If Runner passes Datacomb, pay {1}, or uninstall it and store it in HQ.]],
+       ruling=[[@ If an effect (e.g., Rio de Janeiro City Grid) ends the run after the Runner has passed Datacomb but before the Corp deals with the "pay or uninstall" effect, the Corp does not have to deal with the effect.  (Tom Wylie via Sparky, Netrunner-L, 9/27/96)]],
+       flavor=[["Getting at the honey sometimes means taking a sting or two."]],
+       artist="Kim Francisco",
+}
+-------------------------------------------------------------------------------
+Item { id="death_yo_yo", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Death Yo-Yo",
+       type="Ice - Sentry - Black Ice - AP - Brainwipe",
+       cost="7",
+       rarity="C",
+       power="2",
+       text=[[{S} Do 1 brain damage.
+{S} End the run.
+If Runner passes Death Yo-Yo, you may choose to uninstall it, store it in HQ, and gain {1}.]],
+       flavor=[["This is a trick I call 'walkin' the dog'."]],
+       artist="Norm Dwyer",
+}
+-------------------------------------------------------------------------------
+Item { id="department_of_misinformation", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Department of Misinformation",
+       type="Node - Asset",
+       cost="0",
+       rarity="R",
+       trash="4",
+       text=[[You may rez Department of Misinformation when Runner attempts to expose a card.
+{1}: Prevent a card from being exposed.]],
+       flavor=[["I'm sorry, sir, the department you requested does not exist. Could I get your name and number and have them call you back?"]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="digiconda", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Digiconda",
+       type="Ice - Sentry - AP - Sword",
+       cost="6",
+       rarity="U",
+       power="X",
+       text=[[{S} Do 2 Net damage.
+{S} End the run.
+Pay {X}, above the rez cost, when you rez Digiconda. X is Digiconda's strength, and X cannot be greater than 6.]],
+       ruling=[[@ Digiconda's strength can be modified by other effects, such as Antiquated Interface Routines.  (Sparky, Netrunner-L, 11/11/95)]],
+       flavor=[["See that lump? It's still digesting the data from the last weeflerunner icon it caught."]],
+       artist="David Ho",
+}
+-------------------------------------------------------------------------------
+Item { id="dog_pile", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Dog Pile",
+       type="Ice - Sentry - AP",
+       cost="5",
+       rarity="U",
+       power="0",
+       text=[[{S} Do 1 Net damage for each rezzed piece of ice installed outside Dog Pile.
+{S} End the run.
+Dog Pile has +1 strength for each rezzed piece of ice installed outside it.]],
+       ruling=[[@ If Dr. Dreff forces the Runner to encounter Dog Pile, the ice is not installed anywhere and therefore there is no ice "installed outside" it; Dog Pile will do zero net damage and will receive no bonuses to its strength from the number of layers of ice installed on the fort in which it is encountered.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/96)]],
+       flavor=[[]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="doppelganger_antibody", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Doppelganger Antibody",
+       type="Node - Ambush - Virus",
+       cost="0",
+       rarity="C",
+       trash="0",
+       text=[[When Runner accesses Doppelganger Antibody, you may pay {2} to give Runner a Doppelganger counter, even if Doppelganger is not installed. Ignore this effect if Runner accesses Doppelganger from the Archives. Each Doppelganger counter causes Runner to lose {1} at the start of each of his or her turns. Runner may take an action to pay {4} to remove a Doppelganger counter. If Doppelganger is accessed from R&D, Runner must show it to you.]],
+       ruling=[[@ If Doppelganger Antibody has been installed and is accessed from a subsidiary data fort, the Corp must rez it for it to take effect (as a result, the Runner may activate Speed Trap in response and escape its effects).  (Tom Wylie, Pacificon, 9/1/96)
+
+@ You can pay the 2 bits only once each time the Runner accesses Doppelganger Antibody.  (Sparky on Pattel Antibody, Netrunner-L, 9/27/96)
+
+@ Doppelganger counters are not removed when the Corp forgoes actions to remove Virus counters.  (Sparky, Netrunner-L, 10/2/96)  According to R&D, the Corp viruses aren't removed when the Corp forgoes actions because that text isn't on the Corp virus cards.  (Sparky, Netrunner-L, 11/11/96)]],
+       flavor=[[]],
+       artist="David Ho",
+}
+-------------------------------------------------------------------------------
+Item { id="executive_boot_camp", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Executive Boot Camp",
+       type="Node",
+       cost="0",
+       rarity="R",
+       trash="2",
+       text=[[Discard a card at random: Gain {2}. Use this ability only during a run. At the end of the run, return to the bank any of the {2} you did not spend.]],
+       ruling=[[@ You may not use the bits gained from Executive Boot Camp to pay for effects which must occur "at the start" of a run (e.g., Siren).  (JD Wiker, Netrunner-L, 2/14/97)]],
+       flavor=[["You're the one who said, 'When times are though, everyone has to chip in'!"]],
+       artist="Zak Plucinski",
+}
+-------------------------------------------------------------------------------
+Item { id="fetal_ai", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Fetal AI",
+       type="Agenda - Asset - AI - Ambush",
+       cost="5",
+       rarity="R",
+       points="3",
+       text=[[When Runner accesses Fetal AI, do 2 Net damage, even if it is not installed. Ignore this effect if Runner accesses Fetal AI from the Archives. If Fetal AI is accessed from R&D, Runner must show it to you. Runner must pay {2} to steal Fetal AI, in addition to any other costs.]],
+       ruling=[[@ The Runner may choose not to pay the 2 bits and not steal Fetal AI; Fetal AI is still considered to be accessed. (Sparky, Netrunner-L, 10/2/96)]],
+       flavor=[[]],
+       artist="Rick Berry",
+}
+-------------------------------------------------------------------------------
+Item { id="food_fight", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Food Fight",
+       type="Ice - Sentry - DecKrash",
+       cost="4",
+       rarity="C",
+       power="3",
+       text=[[Food Fight has one "{S} End the run" subroutine for every {2} you pay, above the rez cost, when you rez it.]],
+       flavor=[["Frack, Hans, end the run! It's the Food Fight!"]],
+       artist="Mark Rattin",
+}
+-------------------------------------------------------------------------------
+Item { id="forwards_legacy", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Forward's Legacy",
+       type="Program - Icebreaker - Killer - 1 MU",
+       cost="9",
+       rarity="U",
+       power="0",
+       text=[[{0}: Break sentry subroutine.
+At the start of each run, roll a die and add the result to Legacy 's strength for that run.]],
+       ruling=[[@ There is no opportunity to jack out between the time you roll the die at the start of the run and the time you approach the first piece of ice installed on the fort. (Sparky, Netrunner-L, 9/27/96)]],
+       flavor=[[Forward was a good runner, but wandered a little too close to the edge. ...]],
+       artist="Mark Rattin",
+}
+-------------------------------------------------------------------------------
+Item { id="fubar", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Fubar",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="10",
+       rarity="U",
+       power="3",
+       text=[[{1}: Break a subroutine of the type chosen for Fubar.
+{2}: +1 strength
+{0}: Choose whether Fubar breaks code gates, sentries, or walls. Use this ability only once.
+Whenever you break an ice subroutine with Fubar, lose {1} from a stealth card.]],
+       ruling=[[@ See Hammer for notes on Noisy cards.
+
+@ The ability to choose the type of ice that Fubar breaks can only be used once during the "lifetime" of the program. (JD Wiker, Netrunner-L, 1/14/97)
+
+@ Fubar's ability to select the type of ice that it breaks can be used any time an icebreaker can normally be used. (JD Wiker, Netrunner-L, 1/15/97)]],
+       flavor=[[]],
+       artist="David Logan",
+}
+-------------------------------------------------------------------------------
+Item { id="galatea", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Galatea",
+       type="Ice - Wall",
+       cost="6",
+       rarity="C",
+       power="4",
+       text=[[{S} End the run.
+When you rez Galatea, you may pay {1}, above the rez cost, to make it a code gate instead of a wall.]],
+       ruling=[[@ For notes on morphing ice, see Caryatid.]],
+       flavor=[["She's stonewalling."]],
+       artist="Jonnie Wilder",
+}
+-------------------------------------------------------------------------------
+Item { id="gatekeeper", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Gatekeeper",
+       type="Ice - Code Gate",
+       cost="3",
+       rarity="C",
+       power="4",
+       text=[[Gatekeeper has one "{S} End the run" subroutine for every {2} you pay, above the rez cost, when you rez it.]],
+       flavor=[["The icon alone does most of the work for us."]],
+       artist="Mark Poole",
+}
+-------------------------------------------------------------------------------
+Item { id="government_contract", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Government Contract",
+       type="Node - Asset",
+       cost="2",
+       rarity="C",
+       trash="2",
+       text=[[You may advance Government Contract before and after you rez it.
+Government Contract advancement counter: Gain {3}. Use these bits only to pay for installing or rezzing cards. When the turn ends, return to the bank any of the {3} you did not spend.]],
+       ruling=[[@ Bits gained from Government Contract cannot be used to pay a cost noted as being "above the rez cost."  (Skipper Pickle, Netrunner-L, 5/14/98)
+
+@ Since Dr. Dreff does not rez ice, you cannot use Government Contract bits to pay for Dreffing ice. (Skipper Pickle, Netrunner-L, 5/14/98)]],
+       flavor=[["Of course they won't notice if we skim a little off the top. We're dealing with the govenment here."]],
+       artist="Doug Chaffee",
+}
+-------------------------------------------------------------------------------
+Item { id="herman_revista", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Herman Revista",
+       type="Upgrade - Sysop",
+       cost="1",
+       rarity="U",
+       trash="4",
+       text=[[{0}: Rearrange the ice installed on this fort. Use this ability only at the start of a run on this data fort.]],
+       flavor=[["So you say that only a fool would install the Watchdog and Jack Attack inside the black ice? Why don't you run it anyway, just for kicks."]],
+       artist="Zak Plucinski",
+}
+-------------------------------------------------------------------------------
+Item { id="homing_missile", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Homing Missile",
+       type="Ice - Sentry",
+       cost="4",
+       rarity="U",
+       power="X",
+       text=[[{S} TraceX - If trace is successful, end the run, and Runner cannot make another run until Runner takes an action to pay {2}.
+Pay {X}, above the rez cost, when you rez Homing Missile. X is Homing Missile 's strength and trace limit, and X cannot be greater than 8.]],
+       ruling=[[@ Homing Missile's strength can be modified by other effects, such as Antiquated Interface Routines.  (Sparky, Netrunner-L, 11/11/95)  Effects that modify Homing Missile's strength do not modify the trace limit. (Sparky, Netrunner-L, 11/11/95)]],
+       flavor=[[]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="hunting_pack", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Hunting Pack",
+       type="Ice - Sentry - Bloodhound",
+       cost="1",
+       rarity="U",
+       power="4",
+       text=[[For each rezzed piece of ice installed outside Hunting Pack, Hunting Pack has one subroutine as follows:"{S} Trace5 - If trace is successful, give Runner a tag".]],
+       ruling=[[@ If Dr. Dreff forces the Runner to encounter Hunting Pack, the ice is not installed anywhere and therefore there is no ice "installed outside" it; Hunting Pack will not have any subroutines.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/96)]],
+       flavor=[[]],
+       artist="Norm Dwyer",
+}
+-------------------------------------------------------------------------------
+Item { id="iceberg", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Iceberg",
+       type="Ice - Wall",
+       cost="4",
+       rarity="R",
+       power="4",
+       text=[[{S} Do 1 Net damage.
+{2}: Iceberg has one "{S} End the run" subroutine for the present encounter. Use this ability only when Runner encounters Iceberg.]],
+       ruling=[[@ The Corp may purchase as many subroutines as it wishes and can afford.(Sparky, Netrunner-L, 9/13/96)]],
+       flavor=[[The hidden mass of the Iceberg is a corp's bottom line.]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="ldl_traffic_analyzers", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="LDL Traffic Analyzers",
+       type="Node - Asset",
+       cost="0",
+       rarity="R",
+       trash="4",
+       text=[[You may advance LDL Traffic Analyzers before and after you rez it. You may rez LDL Traffic Analyzers during a trace attempt.
+LDL Traffic Analyzers advancement counter: Gain {5}. Use this ability only during a trace attempt. When the trace attempt ends, return to the bank any of the {5} you did not spend.]],
+       flavor=[[]],
+       artist="Mark Maxwell",
+}
+-------------------------------------------------------------------------------
+Item { id="lesley_major", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Lesley Major",
+       type="Upgrade - Sysop",
+       cost="0",
+       rarity="R",
+       trash="0",
+       text=[[Install Lesley Major only in a subsidiary data fort.
+{5}: Add two advancement counters, at no cost, to a card installed in this data fort. Use this ability only when Runner passes the last piece of ice on this fort, or declares a run on it when it has no ice, and only once per run.]],
+       ruling=[[@ ERRATA  Lesley Major should say "Use this ability only when Runner passes the last piece of ice on this fort or declares a run on it when it has no ice,...."  (Skipper Pickle, Netrunner-L, 11/11/98)]],
+       flavor=[[]],
+       artist="Randy Gallegos",
+}
+-------------------------------------------------------------------------------
+Item { id="lesser_arcana", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Lesser Arcana",
+       type="Ice - Sentry",
+       cost="7",
+       rarity="C",
+       power="4",
+       text=[[{S} End the run.
+When you rez Lesser Arcana, you may pay {1}, above the rez cost, to make it a wall instead of a sentry.]],
+       ruling=[[@ For notes on morphing ice, see Caryatid.]],
+       flavor=[["You'd think a hammer would blow through a wall of cards without even slowin down."
+"You're taking the Net too literally again, kid."]],
+       artist="Kino",
+}
+-------------------------------------------------------------------------------
+Item { id="lisa_blight", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Lisa Blight",
+       type="Upgrade - Sysop",
+       cost="0",
+       rarity="R",
+       trash="2",
+       text=[[{1}, Discard a card at random: Repeat one subroutine on a piece of ice on this fort, until the end of the run. Treat the copy of the subroutine as if it appeared immediately after the original subroutine. Use this ability only during a run.]],
+       ruling=[[@ Cards are trashed face-down.  (JD Wiker, Netrunner-L, 1/20/96)]],
+       flavor=[["What do you mean she dumped secret plans for world domination? Somebody's got to unplug that witch!"]],
+       artist="Phil Hale",
+}
+-------------------------------------------------------------------------------
+Item { id="marcel_desoleil", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Marcel DeSoleil",
+       type="Upgrade - Sysop",
+       cost="0",
+       rarity="R",
+       trash="2",
+       text=[[{2}, Trash the top two cards stored in R&D: Repeat one subroutine on a piece of ice on this fort, until the end of the run. Treat the copy of the subroutine as if it appeared immediately after the original subroutine. Use this ability only during a run.]],
+       ruling=[[@ Cards are trashed face-down.  (JD Wiker, Netrunner-L, 1/20/96)]],
+       flavor=[[]],
+       artist="Phil Hale",
+}
+-------------------------------------------------------------------------------
+Item { id="marionette", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Marionette",
+       type="Ice - Sentry - Killer",
+       cost="3",
+       rarity="C",
+       power="0",
+       text=[[{S} Trash a program.
+{S} End the run.
+If Runner passes Marionette, pay {1}, or uninstall it and store it in HQ.]],
+       ruling=[[@ If an effect (e.g., Rio de Janeiro City Grid) ends the run after the Runner has passed Marionette but before the Corp deals with the "pay or uninstall" effect, the Corp does not have to deal with the effect.  (Tom Wylie via Sparky, Netrunner-L, 9/27/96)]],
+       flavor=[["The Marionette's not such a big deal; it's who's pulling the strings."]],
+       artist="Mark Rattin",
+}
+-------------------------------------------------------------------------------
+Item { id="marked_accounts", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Marked Accounts",
+       type="Agenda - Gray Ops - Ambush",
+       cost="4",
+       rarity="C",
+       points="2",
+       text=[[When Runner accesses Marked Accounts, give Runner a tag, even if it is not installed. If Marked Accounts is accessed from R&D, Runner must show it to you.]],
+       flavor=[["First Eurobank called, reporting a failed credit transfer from one of our marked funds. They're giving us the perp's address."
+"Good. So which fund was broken into?"
+"Heh. Get this: 'Counterintrusion Disbursements'."]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="mastermind", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Mastermind",
+       type="Ice - Sentry - Black Ice - AP - Zombie",
+       cost="7",
+       rarity="U",
+       power="0",
+       text=[[{S} Do 1 brain damage for each rezzed piece of ice installed outside Mastermind.
+{S} End the run.
+Mastermind has +1 strength for each rezzed piece of ice installed outside it.]],
+       ruling=[[@ If Dr. Dreff forces the Runner to encounter Mastermind, the ice is not installed anywhere and therefore there is no ice "installed outside" it; Mastermind will do zero brain damage and will receive no bonuses to its strength from the number of layers of ice installed on the fort in which it is encountered.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/96)]],
+       flavor=[[]],
+       artist="Kino",
+}
+-------------------------------------------------------------------------------
+Item { id="minotaur", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Minotaur",
+       type="Ice - Sentry",
+       cost="6",
+       rarity="U",
+       power="4",
+       text=[[For each rezzed code gate or wall installed outside Minotaur, Minotaur has one "{S} End the run" subroutine.]],
+       ruling=[[@ If Dr. Dreff forces the Runner to encounter Minotaur, the ice is not installed anywhere and therefore there is no ice "installed outside" it; Minotaur will not have any "*End the run" subroutines.  (Tom Wylie via JD Wiker, Netrunner-L, 3/11/96)]],
+       flavor=[[]],
+       artist="Craig Hooper",
+}
+-------------------------------------------------------------------------------
+Item { id="misleading_access_menus", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Misleading Access Menus",
+       type="Ice - Code Gate",
+       cost="0",
+       rarity="C",
+       power="1",
+       text=[[{S} End the run unless Runner pays {1}.
+Gain {3} when you rez Misleading Access Menus.]],
+       flavor=[["You wouldn't believe how many suckers try to access 'Tools/Certain Death'."]],
+       artist="Mike Kimble",
+}
+-------------------------------------------------------------------------------
+Item { id="mobile_barricade", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Mobile Barricade",
+       type="Ice - Wall",
+       cost="6",
+       rarity="R",
+       power="3",
+       text=[[{S} Do 1 Net damage.
+{S} End the run.
+{1}: Move Mobile Barricade and insert it in a different position on this data fort. Use this ability only at the start of a run on this data fort. You may use this ability even if Mobile Barricade is unrezzed, in which case, you reveal it.]],
+       flavor=[[]],
+       artist="Michael Kellner",
+}
+-------------------------------------------------------------------------------
+Item { id="morphing_tool", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Morphing Tool",
+       type="Program - Icebreaker - 1 MU",
+       cost="10",
+       rarity="U",
+       power="4",
+       text=[[{2}: Break a subroutine of the type last chosen for Morphing Tool.
+{1}: +1 strength
+{1}, {A}: Choose whether Morphing Tool breaks code gates, sentries, or walls.
+When you install Morphing Tool, choose whether it breaks code gates, sentries, or walls.]],
+       flavor=[[]],
+       artist="Rick Berry",
+}
+-------------------------------------------------------------------------------
+Item { id="networked_center", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Networked Center",
+       type="Upgrade - Region - Asset",
+       cost="4",
+       rarity="R",
+       trash="3",
+       text=[[The difficulty of Gray Ops agendas installed in this fort is reduced by 1.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       ruling=[[@ See notes on Artificial Security Directors.]],
+       flavor=[[The LANs and WANs of the late 20th century gave way to SWANs (Super-Wide-Area Networks), which were as graceful at data relay as their acronym suggested.]],
+       artist="Romas Kukalis",
+}
+-------------------------------------------------------------------------------
+Item { id="obfuscated_fortress", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Obfuscated Fortress",
+       type="Upgrade",
+       cost="4",
+       rarity="R",
+       trash="0",
+       text=[[At the start of a run on this fort, Runner must announce the number of bits he or she will spend during the run. Runner cannot spend more than this during that run. If Runner does not spend that many bits during that run, the Runner loses the remainder once the run is complete. You may rez Obfuscated Fortress at the start of a run on this fort.]],
+       ruling=[[@ All bits that you spend during the run count against your limit, regardless of the source of those bits. (Official Netrunner Rulings, 4/21/97)
+
+@ At the start of a run on an Obfuscated Fortress, the Runner may "announce" a number of bits greater than the amount currently in his or her bit pool.  During this run, the Runner may spend bits from sources other than the Runner's bit pool (e.g., he or she may use bits from Stealth sources or from Hidden resources).  When the run is complete, if the Runner did not spend all of the bits that were previously announced, Obfuscated Fortress will cause the Runner to lose only bits that are in his or her bit pool; bits on his or her installed cards cannot be lost in this manner.  (Skipper Pickle, Netrunner-L, 9/12/98)
+
+@ Obfuscated Fortress generates a start-of-run effect that can be processed with other start-of-run effects. In the event that an Obfuscation takes place at the beginning of a run on a fort containing Obfuscated Fortress, and the run on that fort is then redirected (i.e., by Siren), then the Obfuscation remains in effect. However, if the run continues on another fort that contains an Obfuscated Fortress (and it is still the start of the run), the Runner may redeclare the number of bits he or she will spend on the run, and the previous declaration is no longer in effect.  (Skipper Pickle, Netrunner-L, 9/12/98)]],
+       flavor=[[]],
+       artist="Mark Rattin",
+}
+-------------------------------------------------------------------------------
+Item { id="panic_button", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Panic Button",
+       type="Upgrade",
+       cost="1",
+       rarity="U",
+       trash="4",
+       text=[[Install Panic Button only in HQ.
+{1}: Draw a card. Use this ability only during a run on HQ.]],
+       flavor=[["As a last resort, I'm trying something I learned from Marketing: bombard him with sexy options and chances are he'll choose something he doesn't need."]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="pattel_antibody", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Pattel Antibody",
+       type="Node - Ambush - Virus",
+       cost="0",
+       rarity="U",
+       trash="0",
+       text=[[When Runner accesses Pattel Antibody, you may pay {3} to put a Pattel counter on all installed icebreakers, even if Pattel Antibody is not installed. Ignore this effect if Runner accesses Pattel Antibody from the Archives. Each Pattel counter on an icebreaker reduces its strength by 1. If Pattel Antibody is accessed from R&D, Runner must show it to you.]],
+       ruling=[[@ If Pattel Antibody has been installed and is accessed from a subsidiary data fort, the Corp must rez it for it to take effect (as a result, the Runner may activate Speed Trap in response and escape its effects).  (Tom Wylie, Pacificon, 9/1/96)
+
+@ You can pay the 3 bits only once each time the Runner accesses Pattel Antibody.  (Sparky, Netrunner-L, 9/27/96)
+
+@ Pattel counters are not removed when the Corp forgoes actions to remove Virus counters.  (Sparky, Netrunner-L, 10/2/96)  According to R&D, the Corp viruses aren't removed when the Corp forgoes actions because that text isn't on the Corp virus cards.  (Sparky, Netrunner-L, 11/11/96)
+
+@ Remember that the strength of ice and icebreakers does not bottom out at 0; it can go negative. For example, if the strength of an icebreaker is reduced to less than 0, the Runner will indeed have to pay to increase its strength to use it on 0-strength ice.  (Official Netrunner Rulings, 4/21/97)]],
+       flavor=[[]],
+       artist="Norm Dwyer",
+}
+-------------------------------------------------------------------------------
+Item { id="pavit_bharat", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Pavit Bharat",
+       type="Upgrade - Sysop",
+       cost="2",
+       rarity="R",
+       trash="0",
+       text=[[Install Pavit Bharat only in a subsidiary data fort. When you rez Pavit, uninstall all cards installed in this fort and store them in HQ. Install an equal number of cards from HQ in this fort. Rez Pavit only when Runner has passed the last piece of ice on this fort or declared a run on it when it has no ice.]],
+       ruling=[[@ Yes, Pavit Bharat uninstalls himself too.  (Sparky, Netrunner-L, 9/13/96)
+
+@ ERRATA  Pavit Bharat should say "Rez Pavit Bharat only when Runner has passed the last piece of ice on this fort or declared a run on it when it has no ice."  (Skipper Pickle, Netrunner-L, 11/11/98)]],
+       flavor=[["Pavit" means "pious" - but hey, its' not like any parents PREDICT their kid will grow up to be a ruthless security agent.]],
+       artist="Zak Plucinski",
+}
+-------------------------------------------------------------------------------
+Item { id="please_dont_choke_anyone", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Please Don't Choke Anyone",
+       type="Agenda - Gray Ops",
+       cost="4",
+       rarity="R",
+       points="2",
+       text=[[For each 1 damage you successfully do, you may choose instead to prevent that damage and put a PDCA counter on Please Don 't Choke Anyone.
+PDCA counter: Gain an action. Use this ability only once per turn and only during your turn.]],
+       ruling=[[@ When any effect owned by the Corp does preventable damage, Please Don't Choke Anyone can prevent that damage to gain a PDCA counter (e.g., the Corp could prevent the damage done by a Mastiff counter to gain a PDCA counter).  (Tom Wylie, 8/26/97)
+
+@ The Runner has the opportunity to prevent damage before the Corp can use Please Don't Choke Anyone to prevent that damage to gain a PDCA counter.  If the Runner prevents it, then it is not successful and no counter is given.  (Skipper Pickle, Netrunner-L, 8/26/98)]],
+       flavor=[["First, let's consider the problem not as a series of independent actions, Bob, but as a series of... Oh, lord, just kill him."]],
+       artist="Pete Venters",
+}
+-------------------------------------------------------------------------------
+Item { id="project_venice", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Project Venice",
+       type="Agenda - Asset",
+       cost="4",
+       rarity="C",
+       points="2",
+       text=[[For every three advancement counters over Project Venice 's difficulty that are on Project Venice when you score it, gain an action during each of your turns.]],
+       flavor=[["Attention all substations: Project Venice has crashed again due to server difficulties. Please observe safety precautions while unplugging any programmers or corprunners."]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="project_zurich", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Project Zurich",
+       type="Agenda - Asset",
+       cost="3",
+       rarity="C",
+       points="2",
+       text=[[For every two advancement counters over Project Zurich's difficulty that are on Project Zurich when you score it, gain {1} at the start of each of your turns.]],
+       flavor=[["With only minor deviation from standard accounting practices, we can improve our bottom line significantly."]],
+       artist="Moebius",
+}
+-------------------------------------------------------------------------------
+Item { id="rasmin_bridger", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Rasmin Bridger",
+       type="Upgrade - Sysop",
+       cost="4",
+       rarity="U",
+       trash="2",
+       text=[[After Runner passes each piece of ice on this fort, Runner must pay {1} or end the run.]],
+       flavor=[["Fifty for the Shotgun Wire, twenty to get past the Filter - even the Hellhound wanted a cool three hundred! That place is worse than a third-world bureaucracy! We should seriously rethink their merger proposal." - Erin Devlin, WuTech COO]],
+       artist="Brice Parker",
+}
+-------------------------------------------------------------------------------
+Item { id="raymond_ellison", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Raymond Ellison",
+       type="Upgrade - Sysop",
+       cost="0",
+       rarity="U",
+       trash="2",
+       text=[[Install Raymond Ellison only in a subsidiary data fort.
+{T}: Remove any number of advancement counters from cards installed in this data fort. Gain {3} for each advancement counter removed. Use this ability only during a run. At the end of the run, return to the bank any of the bits gained that you did not spend.]],
+       flavor=[[]],
+       artist="Phil Hale",
+}
+-------------------------------------------------------------------------------
+Item { id="redecorator", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Redecorator",
+       type="Program - Icebreaker - Killer - 1 MU",
+       cost="9",
+       rarity="C",
+       power="3",
+       text=[[{1}: Break up to two sentry subroutines on a single piece of ice.
+{3}: +1 strength]],
+       flavor=[["I've wanted to name a Killer this ever since my SATs went out claiming to schools that I planned to become an interior decorator."]],
+       artist="Mark Tedin",
+}
+-------------------------------------------------------------------------------
+Item { id="research_bunker", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Research Bunker",
+       type="Upgrade - Region - Asset",
+       cost="4",
+       rarity="R",
+       trash="3",
+       text=[[The difficulty of research agendas installed in this fort is reduced by 1.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       ruling=[[@ See notes on Artificial Security Directors.]],
+       flavor=[["I want this Proteus ice tested by dawn."
+"But, Dr. Kordite, it's already dawn."
+"Do you think anyone in R&D knows that?"]],
+       artist="Brice Parker",
+}
+-------------------------------------------------------------------------------
+Item { id="riddler", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Riddler",
+       type="Ice - Code Gate",
+       cost="2",
+       rarity="C",
+       power="4",
+       text=[[{2}: Riddler has one "{S} End the run" subroutine for the present encounter. Use this ability only when Runner encounters Riddler.]],
+       ruling=[[@ The Corp may purchase as many subroutines as it wishes and can afford.  (Sparky, Netrunner-L, 9/13/96)]],
+       flavor=[["Why is a raven like a write-protect?"]],
+       artist="Daniel Gelon",
+}
+-------------------------------------------------------------------------------
+Item { id="roadblock", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Roadblock",
+       type="Ice - Code Gate - Random",
+       cost="2",
+       rarity="R",
+       power="0",
+       text=[[{S} End the run.
+When Runner encounters Roadblock, roll a die. On a 6, derez Roadblock, and Runner automatically passes it; otherwise, add the result to Roadblock 's strength for that encounter.]],
+       ruling=[[@ If a 6 is rolled, the Runner ignores Roadblock's subroutines.  (Official Netrunner Rulings, 4/21/97)]],
+       flavor=[["Do you have any stolen data to declare?"]],
+       artist="Daniel Gelon",
+}
+-------------------------------------------------------------------------------
+Item { id="sandstorm", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Sandstorm",
+       type="Ice - Wall",
+       cost="4",
+       rarity="C",
+       power="4",
+       text=[[Sandstorm has one "{S} End the run" subroutine for every {2} you pay, above the rez cost, when you rez it.]],
+       flavor=[["Like a snow crash, only much grittier."]],
+       artist="Kim Francisco",
+}
+-------------------------------------------------------------------------------
+Item { id="scaffolding", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Scaffolding",
+       type="Ice - Wall",
+       cost="2",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run.
+If Runner passes Scaffolding, you may choose to uninstall it, store it in HQ, and gain {1}.]],
+       flavor=[["Usually it's not the scaffolding that's the problem but whatever it is they're repairing on the other side."]],
+       artist="Kim Francisco",
+}
+-------------------------------------------------------------------------------
+Item { id="simon_francisco", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Simon Francisco",
+       type="Upgrade - Sysop",
+       cost="3",
+       rarity="U",
+       trash="3",
+       text=[[Install Simon Francisco only in R&D or HQ. When accessing cards in this data fort, access one less card stored in this data fort.]],
+       ruling=[[@ ERRATA  Should read "When accessing cards in this data fort, access one less card stored in this data fort." The ability is not triggered by accessing Simon. (Sparky, Netrunner-L, 9/11/96)
+
+@ Simon Francisco does not prohibit you from accessing installed cards.  (JD Wiker, Netrunner-L, 1/3/97)]],
+       flavor=[["No, no, we don't have enforcers here at Futokora. You must've met one of our customer service reps."]],
+       artist="Randy Gallegos",
+}
+-------------------------------------------------------------------------------
+Item { id="siren", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Siren",
+       type="Node",
+       cost="3",
+       rarity="U",
+       trash="0",
+       text=[[Rez Siren when you install it. Install Siren only if you can pay to rez it.
+{1}: Runner must make a run on the fort Siren is installed in, if possible, instead of on the fort he or she was originally going to make a run on. Use this ability only at the start of a run.]],
+       ruling=[[@ Siren can reroute a run that was initially specified as being on one fort, but can't route you into making an illegal run, such as running on Roving Sub illegally. This means that you will run on the Siren fort regardless of what your prep, resource, or program says you're going to run on.  (Tom Wylie via Sparky, Netrunner-L, 9/6/96)
+
+@ If the Runner plays an effect, such as Custodial Position, that allows the Runner some bonus based on a successful run on a particular fort, and Siren reroutes that run to a different fort, the Runner does not gain the bonus. (Sparky, Netrunner-L, 10/2/96)]],
+       flavor=[["They'll come. Just leak one word: 'oops'." - Magnificent Curtis]],
+       artist="David Logan",
+}
+-------------------------------------------------------------------------------
+Item { id="skeleton_passkeys", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Skeleton Passkeys",
+       type="Program - Icebreaker - 1 MU",
+       cost="3",
+       rarity="C",
+       power="1",
+       text=[[{0}: Break code gate subroutine.
+{3}: +4 strength]],
+       flavor=[["Sometimes I'd rather have bare bones working for me than an army of muscle." - Max Forward]],
+       artist="Michael Kellner",
+}
+-------------------------------------------------------------------------------
+Item { id="snowbank", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Snowbank",
+       type="Ice - Wall",
+       cost="0",
+       rarity="C",
+       power="0",
+       text=[[{S} End the run unless Runner pays {1}.
+Gain {3} when you rez Snowbank.]],
+       flavor=[["Sure you can jump right through, but let me tell you a story about a kid on my street who jumped off his fire escape into a snowbank. ..."]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
+Item { id="sphinx_2006", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Sphinx 2006",
+       type="Ice - Code Gate",
+       cost="6",
+       rarity="U",
+       power="5",
+       text=[[{S} End the run.
+When you rez Sphinx 2006, you may pay {4}, above the rez cost, to make it a sentry instead of a code gate.]],
+       ruling=[[@ For notes on morphing ice, see Caryatid.]],
+       flavor=[["What runs on four megs in the morning, two megs in the afternoon, and three megs in the evening?"]],
+       artist="Daniel Gelon",
+}
+-------------------------------------------------------------------------------
+Item { id="stereogram_antibody", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Stereogram Antibody",
+       type="Node - Ambush - Virus",
+       cost="0",
+       rarity="R",
+       trash="0",
+       text=[[When Runner accesses Stereogram Antibody from the Archives, do 1 Net damage and shuffle Stereogram Antibody into R&D.]],
+       flavor=[["Don't focus on it! Just let your deck's interface routines save you the headache...and the nosebleed from the feedback."]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="sumo_2008", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Sumo 2008",
+       type="Ice - Sentry",
+       cost="8",
+       rarity="U",
+       power="5",
+       text=[[{S} End the run.
+When you rez Sumo 2008, you may pay {1}, above the rez cost, to make it a wall instead of a sentry.]],
+       ruling=[[@ For notes on morphing ice, see Caryatid.]],
+       flavor=[["I see the kanji characters on his belt translate to 'wide load'."
+"Plus, if you look real close, you can see I coded a smiley face on his navel."]],
+       artist="Mike Kimble",
+}
+-------------------------------------------------------------------------------
+Item { id="syd_meyer_superstores", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Syd Meyer Superstores",
+       type="Node - Asset",
+       cost="0",
+       rarity="C",
+       trash="2",
+       text=[[{A}, trash a rezzed piece of ice: Gain {4}.]],
+       ruling=[[@ ERRATA  "A[ction], trash a piece of rezzed ice: Gain 4" (Sparky, Netrunner-L, 11/6/96)]],
+       flavor=[["Let me get this straight: you ran the databanks of Syd Meyer Superstores with a 'breaker you bought at Syd's? Congrats, you just participated in their standard product-test program."]],
+       artist="Mike Kimble",
+}
+-------------------------------------------------------------------------------
+Item { id="toughonium_wall", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Toughonium™ Wall",
+       type="Ice - Wall",
+       cost="13",
+       rarity="R",
+       power="7",
+       text=[[{S} End the run.
+{S} End the run.
+{S} End the run.
+{S} End the run.]],
+       flavor=[["It's so tough you can't even think about breaking it."]],
+       artist="Craig Hooper",
+}
+-------------------------------------------------------------------------------
+Item { id="tumblers", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Tumblers",
+       type="Ice - Code Gate",
+       cost="5",
+       rarity="C",
+       power="4",
+       text=[[{S} End the run.
+If Runner passes Tumblers, you may choose to uninstall it, store it in HQ, and gain {1}.]],
+       flavor=[["They're not pistons. They just put the flattened icon in as a sick joke."]],
+       artist="Daniel Gelon",
+}
+-------------------------------------------------------------------------------
+Item { id="twisty_passages", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Twisty Passages",
+       type="Ice - Code Gate",
+       cost="3",
+       rarity="C",
+       power="4",
+       text=[[{S} End the run.
+If Runner passes Twisty Passages, pay {1}, or uninstall it and store it in HQ.]],
+       ruling=[[@ If an effect (e.g., Rio de Janeiro City Grid) ends the run after the Runner has passed Twisty Passages but before the Corp deals with the "pay or uninstall" effect, the Corp does not have to deal with the effect.  (Tom Wylie via Sparky, Netrunner-L, 9/27/96)]],
+       flavor=[[It's got routines that specifically target Smarteye; the eyeball becomes a little eight ball that says, "You see a little file here. Do you want to go (n)orth or (s)outh?"]],
+       artist="Daniel Gelon",
+}
+-------------------------------------------------------------------------------
+Item { id="viral_breeding_ground", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Viral Breeding Ground",
+       type="Agenda - Research - Ambush - Virus",
+       cost="4",
+       rarity="C",
+       points="2",
+       text=[[When you score Breeding Ground, trash all cards installed in or on the fort Breeding Ground was installed in. When Runner accesses Breeding Ground, choose up to two programs for each advancement counter on Breeding Ground; Runner brings those programs into his or her hand.]],
+       ruling=[[@ If Viral Breeding Ground returns a daemon to the Runner's hand, the programs installed inside it are trashed; there is currently no effect in the game that will prevent the trashing of these programs.  (Sparky, Netrunner-L, 9/5/96)
+
+@ Any advancement counters on Viral Breeding Ground are not considered Virus counters; they're just advancement counters that happen to be on a Virus card.  (Sparky, Netrunner-L, 10/2/96)]],
+       flavor=[[]],
+       artist="Michael Kellner",
+}
+-------------------------------------------------------------------------------
+Item { id="walking_wall", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Walking Wall",
+       type="Ice - Wall",
+       cost="5",
+       rarity="C",
+       power="3",
+       text=[[{S} End the run.
+{1}: Move Walking Wall and insert it in a different position on this data fort. Use this ability only at the start of a run on this data fort. You may use this ability even if Walking Wall is unrezzed, in which case, you reveal it.]],
+       flavor=[[]],
+       artist="John Sledd",
+}
+-------------------------------------------------------------------------------
+Item { id="washed_up_solo_construct", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Washed-Up Solo Construct",
+       type="Ice - Sentry - Killer",
+       cost="0",
+       rarity="C",
+       power="0",
+       text=[[{S} Trash a program unless Runner pays {1}.
+Gain {3} when you rez Washed-Up Solo Construct.]],
+       flavor=[["Before they made my construct, they told me, 'You're getting too slow for street work, but we can transfer you into software security'. How was I to know?"]],
+       artist="David Logan",
+}
+-------------------------------------------------------------------------------
+Item { id="weapons_depot", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Weapons Depot",
+       type="Upgrade - Region - Asset",
+       cost="4",
+       rarity="R",
+       trash="3",
+       text=[[The difficulty of Black Ops agendas installed in this fort is reduced by 1.
+#(Rez a region when you install it. Install a region only if you can pay to rez it. Only one region may be installed in each fort. Trash older ones.)#]],
+       ruling=[[@ See notes on Artificial Security Directors.]],
+       flavor=[[]],
+       artist="David Seeley",
+}
+-------------------------------------------------------------------------------
+Item { id="world_domination", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="World Domination",
+       type="Agenda - Black Ops",
+       cost="12",
+       rarity="R",
+       points="3",
+       text=[[Score an additional 4 agenda points when you score World Domination.]],
+       ruling=[[@ The Runner only scores 3 agenda points for stealing World Domination, regardless of the number of advancement counters on it.  (Sparky on Project Babylon, Netrunner-L, 5/22/96)]],
+       flavor=[["So, Wilson, how in the frack did you know the fileset was secret plans for world domination?"
+"'Cause it was labeled 'Secret Plans for World Domination'."]],
+       artist="Craig Hooper",
+}
+-------------------------------------------------------------------------------
+Item { id="wrecking_ball", set="PRT",
+       copyright="v2.1 © 1996 WotC",
+       name="Wrecking Ball",
+       type="Program - Icebreaker - Noisy - 1 MU",
+       cost="4",
+       rarity="C",
+       power="2",
+       text=[[{0}: Break wall subroutine.
+{2}: +1 strength
+Whenever you break a wall subroutine with Wrecking Ball lose {1} from a stealth card.]],
+       ruling=[[@ See Hammer for notes on Noisy cards.]],
+       flavor=[["'Form of a Dwarf!' 'Shape of a Pile Driver!' I'm sick of this Proteus crap. Gimme a good, old-fashioned hammer program any day."]],
+       artist="Doug Shuler",
+}
+-------------------------------------------------------------------------------
