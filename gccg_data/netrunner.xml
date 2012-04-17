@@ -162,7 +162,7 @@
       <attr value="Icebreaker" key="card_subtype"/>
       <attr value="Program" key="card_type"/>
     </card>
-    <card name="Dupre'" graphics="Dupre.jpg" text="{1}: Break code gate subroutine. {2}: +1 strength.Put a +1 strength counter on Dupre' after each runduring which it was used to break a subroutine. Allstrength counters on Dupre' are lost if you useDupre' on a fort other than the one you last usedit on.">
+    <card name="Dupre" graphics="Dupre.jpg" text="{1}: Break code gate subroutine. {2}: +1 strength.Put a +1 strength counter on Dupre after each runduring which it was used to break a subroutine. Allstrength counters on Dupre are lost if you useDupre' on a fort other than the one you last usedit on.">
       <attr value="1 MU" key="memory_use"/>
       <attr value="1" key="cost"/>
       <attr value="RR" key="rarity"/>
@@ -721,7 +721,7 @@
       <attr value="Runner" key="faction"/>
       <attr value="Prep" key="card_type"/>
     </card>
-    <card name="If You Want It Done Right . . ." graphics="IfYouWantItDoneRight.jpg" text="Look through the top five cards of your stack. Bring one of those cards into your hand, and arrange the rest in any order you choose.">
+    <card name="If You Want It Done Right..." graphics="IfYouWantItDoneRight.jpg" text="Look through the top five cards of your stack. Bring one of those cards into your hand, and arrange the rest in any order you choose.">
       <attr value="0" key="cost"/>
       <attr value="RC" key="rarity"/>
       <attr value="Runner" key="faction"/>
@@ -779,7 +779,7 @@
       <attr value="Runner" key="faction"/>
       <attr value="Prep" key="card_type"/>
     </card>
-    <card name="Open-Ended{R} Mileage Program" graphics="OpenEndedMileageProgram.jpg" text="Remove a tag, at no cost. You may pay {1} when you play Open-Ended{R} Mileage Program to take it back into your hand instead of trashing it.">
+    <card name="Open-Ended {R} Mileage Program" graphics="OpenEndedMileageProgram.jpg" text="Remove a tag, at no cost. You may pay {1} when you play Open-Ended {R} Mileage Program to take it back into your hand instead of trashing it.">
       <attr value="0" key="cost"/>
       <attr value="RC" key="rarity"/>
       <attr value="Runner" key="faction"/>
@@ -1859,7 +1859,7 @@
       <attr value="Code Gate" key="ice_type"/>
       <attr value="Ice" key="card_type"/>
     </card>
-    <card name="Homewrecker{TM}" graphics="Homewrecker.jpg" back="1" text="{S}: Trace 5-If trace is successful, end the run, trash a piece of hardware, and do 2 meat damage. This damage cannot be prevented.">
+    <card name="Homewrecker {TM}" graphics="Homewrecker.jpg" back="1" text="{S}: Trace 5-If trace is successful, end the run, trash a piece of hardware, and do 2 meat damage. This damage cannot be prevented.">
       <attr value="7" key="cost"/>
       <attr value="CC" key="rarity"/>
       <attr value="5" key="strength"/>
@@ -2196,7 +2196,7 @@
       <attr value="Corp" key="faction"/>
       <attr value="Operation" key="card_type"/>
     </card>
-    <card name="Datapool{R} by Zetatech" graphics="DatapoolbyZetatech.jpg" back="1" text="Play only if Runner is tagged. Give Runner two tags.">
+    <card name="Datapool {R} by Zetatech" graphics="DatapoolbyZetatech.jpg" back="1" text="Play only if Runner is tagged. Give Runner two tags.">
       <attr value="1" key="cost"/>
       <attr value="CU" key="rarity"/>
       <attr value="Corp" key="faction"/>
@@ -2780,7 +2780,7 @@
       <attr value="Transactions" key="card_subtype"/>
       <attr value="Node" key="card_type"/>
     </card>
-    <card name="Spinn{R} Public Relations" graphics="SpinnPublicRelations.jpg" back="1" text="Take {1} from Spinn{R} Public Relations, if it has any bits, at the start of each of your turns. {A}: Put {3} from the bank on Spinn{R} Public Relations.">
+    <card name="Spinn {R} Public Relations" graphics="SpinnPublicRelations.jpg" back="1" text="Take {1} from Spinn {R} Public Relations, if it has any bits, at the start of each of your turns. {A}: Put {3} from the bank on Spinn {R} Public Relations.">
       <attr value="4 T" key="trash"/>
       <attr value="1" key="cost"/>
       <attr value="CC" key="rarity"/>

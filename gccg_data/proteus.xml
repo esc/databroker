@@ -447,7 +447,7 @@
       <attr value="Deck-Base Link" key="card_subtype"/>
       <attr value="Hardware" key="card_type"/>
     </card>
-    <card name="Eurocorpse{TM} Spin Chip" graphics="EurocorpseSpinChip.jpg" text="Put {2} from the bank on Spin Chip when it is installed. Spin Chip can have an icebreaker installed in it whose MU cost is no greater than 1. Use the bits on Spin Chip only to pay for using this icebreaker during runs. If you use any of these bits, replace them from the bank at the start of your next turn.">
+    <card name="Eurocorpse {TM} Spin Chip" graphics="EurocorpseSpinChip.jpg" text="Put {2} from the bank on Spin Chip when it is installed. Spin Chip can have an icebreaker installed in it whose MU cost is no greater than 1. Use the bits on Spin Chip only to pay for using this icebreaker during runs. If you use any of these bits, replace them from the bank at the start of your next turn.">
       <attr value="6" key="cost"/>
       <attr value="RU" key="rarity"/>
       <attr value="Runner" key="faction"/>
@@ -482,7 +482,7 @@
       <attr value="Hidden" key="card_subtype"/>
       <attr value="Resource" key="card_type"/>
     </card>
-    <card name="Lucidrine{TM} Drip Feed" graphics="LucidrineDripFeed.jpg" text="At the start of each of your turns, if there are two Drip counters on Drip Feed, remove all Drip counters from it and take 1 brain damage, which cannot be prevented; otherwise, put a Drip counter on Drip Feed and gain an action.">
+    <card name="Lucidrine {TM} Drip Feed" graphics="LucidrineDripFeed.jpg" text="At the start of each of your turns, if there are two Drip counters on Drip Feed, remove all Drip counters from it and take 1 brain damage, which cannot be prevented; otherwise, put a Drip counter on Drip Feed and gain an action.">
       <attr value="8" key="cost"/>
       <attr value="RR" key="rarity"/>
       <attr value="Runner" key="faction"/>
@@ -908,7 +908,7 @@
       <attr value="Sentry" key="ice_type"/>
       <attr value="Ice" key="card_type"/>
     </card>
-    <card name="Toughonium{TM} Wall" graphics="ToughoniumWall.jpg" back="1" text="{S}: End the run. {S}: End the run. {S}: End the run. {S}: End the run.">
+    <card name="Toughonium {TM} Wall" graphics="ToughoniumWall.jpg" back="1" text="{S}: End the run. {S}: End the run. {S}: End the run. {S}: End the run.">
       <attr value="13" key="cost"/>
       <attr value="CR" key="rarity"/>
       <attr value="7" key="strength"/>
@@ -953,7 +953,7 @@
       <attr value="Sentry" key="ice_type"/>
       <attr value="Ice" key="card_type"/>
     </card>
-    <card name="Corporate Guard® Temps" graphics="CorporateGuardTemps.jpg" back="1" text="Pay two times [X] when you play Corporate Guard® Temps, to gain an action during each of your next X turns. Forfeit the next [X] you gain.">
+    <card name="Corporate Guard {R} Temps" graphics="CorporateGuardTemps.jpg" back="1" text="Pay two times [X] when you play Corporate Guard {R} Temps, to gain an action during each of your next X turns. Forfeit the next [X] you gain.">
       <attr value="0" key="cost"/>
       <attr value="CU" key="rarity"/>
       <attr value="Corp" key="faction"/>
