@@ -1,0 +1,29 @@
+#Title:
+#Turn-One-Corp War with ACME
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#Sun Aug 24, 2008 10:41 pm
+#
+#Deck list:
+5 Glacier 
+5 ESA Contract
+6 Corporate War
+8 Edgerunner, Inc., Temps
+5 ACME Savings and Loan
+8 Pacifica Regional AI
+8 Team Restructuring
+
+#Description:
+#This variant sticks close to the original one. An ideal situation could be the 
+#use of two(!) ACME Savings and Loan for the second Corporate War. Get 24 bits 
+#to overcome the threshold of 12 and get another 12 as a bonus. This costs 2 
+#agenda points out of three from the possible Turn-One-Corporate War but we can 
+#buy them back later! Gaining the bits this way is fast and we can move the 
+#glaciers with them and Edgerunner some more. I chose ESA Contract as a draw 
+#engine since it goes well with Edgerunner, is reusable and saves some deck slots.

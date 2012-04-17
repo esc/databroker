@@ -1,0 +1,36 @@
+#Title: 
+#Hit-and-run raid
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+4 Pattel's Virus
+4 Succubus
+4 Viral Pipeline
+4 Codecracker 
+4 Wrecking Ball
+4 Redecorator
+4 Clown
+20 Bodyweight {TM} Synthetic Blood
+3 MIT West Tier
+10 Networking
+8 Organ Donor
+6 Pirate Broadcast
+2 Priority Wreck
+2 The Deck
+4 Code Viral Cache
+4 Militech MRAM Chip
+3 Death from Above
+
+#Description:
+#Once the programs are installed the deck should live up to its title. 
+#Viral Pipeline and Pirate Broadcast work together well and should be 
+#assisted by Code Viral Cache. Priority Wreck can conclude this situation 
+#with a proper lock. 

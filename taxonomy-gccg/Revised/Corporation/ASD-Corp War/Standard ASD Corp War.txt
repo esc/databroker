@@ -1,0 +1,29 @@
+#Title:
+#Standard ASD Corp War
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2005
+#
+#Deck list:
+2 Asp
+4 Efficiency Experts
+9 Systematic Layoffs
+3 Banpei
+3 Data Wall
+2 Haunting Inquisition
+2 Data Naga
+5 Quandary
+3 Annual Reviews
+7 Accounts Receivable
+5 Artificial Security Directors
+5 Corporate War
+
+#Description:
+#A standard implementation of the combination Artificial Security
+#Directors and Corporate War.

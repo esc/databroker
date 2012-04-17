@@ -1,0 +1,33 @@
+#Title:
+#Fortress
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2007
+#
+#Deck list:
+3 AI Chief Financial Officer
+3 Data Fort Remapping
+2 Superior Net Barriers
+3 Crystal Wall
+3 Galatea
+1 Glacier
+2 Laser Wire
+2 Rock Is Strong
+2 ACME Savings and Loan
+3 BBS Whispering Campaign
+3 Data Masons
+3 Accounts Receivable
+3 Edgerunner, Inc., Temps
+3 Efficiency Experts
+3 Project Consultants
+3 Jerusalem City Grid
+3 Sterdroid
+
+#Description:
+#This 1/15 deck focuses on Walls only.

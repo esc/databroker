@@ -1,0 +1,26 @@
+#Theme:
+#Net damage
+#
+#Tournament:
+#European Championships 2000
+#
+#Player:
+#Rik Geysels
+#
+#Deck list:
+6 Fetal AI
+2 Banpei
+2 Data Wall
+2 Data Wall 2.0
+2 Haunting Inquisition
+2 Ice Pick Willie
+2 Nerve Labyrinth
+3 BBS Whispering Campaign
+3 Setup!
+1 Stereogram Antibody
+2 Accounts Receivable
+2 Credit Consolidation
+3 Bizarre Encryption Scheme
+8 Dieter Esslin
+2 New Galveston City Grid
+3 Red Herrings

@@ -1,0 +1,47 @@
+#Title:
+#Underwater business
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date: 
+#2010
+#
+#Deck list:
+3 Corporate Downsizing
+3 Unlisted Research Lab
+3 Marine Arcology
+3 Quandary
+2 Haunting Inquisition
+1 Filter
+2 Data Naga
+1 Glacier
+2 Data Wall
+1 Cinderella
+1 Ice Pick Willie
+2 Puzzle
+1 Accounts Receivable
+3 Efficiency Experts
+2 Night Shift
+1 Off-Site Backups
+3 Nevinyrral
+2 BBS Whispering Campaign
+2 Remote Facility
+2 TRAP!
+3 Roving Submarine
+
+#Description:
+#The main goal of this deck is to put Nevinyrral or Remote Facility 
+#into a Roving Submarine. When that is achieved the corporation can 
+#score agendas in one turn. It should be enough to build one 
+#subsidiary data fort for Roving Submarine, Puzzle would prove handy
+#for that purpose. Otherwise ICE should protect the central data forts,
+#mainly R&D but if runner is attacking HQ then protecting HQ and 
+#Archives as the surprise back door becomes imperative. TRAP! is 
+#included to make it somewhat less predictable if a Roving Submarine 
+#contains valuables or not.
+#In case runner installs Precision Bribery and/or Corporate Ally a
+#second submarine fort with ICE might be needed to install the agendas.

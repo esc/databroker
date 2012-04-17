@@ -1,0 +1,37 @@
+#Title:
+#The Code
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2011
+#
+#Deck list:
+2 AI Chief Financial Officer
+4 Encryption Breakthrough
+4 Fetal AI
+4 Ball and Chain
+2 Data Wall
+2 Glacier
+4 Haunting Inquisition
+2 Minotaur
+4 Misleading Access Menus
+4 Tutor
+2 BBS Whispering Campaign
+4 Encoder, Inc.
+4 Accounts Receivable
+2 Credit Consolidation
+4 Efficiency Experts
+2 New Blood
+2 Off-Site Backups
+4 Project Consultants
+4 Chester Mix
+
+#Description:
+#A newer deck of the Nasty Code Gate concept. New Blood helps to optimize 
+#the outer layer ICE like Tutor or Ball and Chain and also inner layer 
+#ICE like Minotaur.

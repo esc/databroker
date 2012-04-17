@@ -1,0 +1,41 @@
+#Title:
+#Mystery box deck
+#
+#Format:
+#UK, Revised
+#
+#Author:
+#Googol
+#
+#Date:
+#Wed Jan 17, 2007 11:34 pm 
+#
+#Deck list:
+1 Scaldan
+14 Mystery Box
+8 Morphing Tool
+8 Joan of Arc
+1 Armageddon
+9 Broker
+1 Afreet
+1 Clown
+1 Faked Hit
+1 Poisoned Water Supply
+
+#Description:
+#Here is my runner deck from the tournament. Results with it weren't 
+#great but it probably holds the record for the fastest deployment of a 
+#full 4-strength breaker suite (2 turns). 
+#
+#The breaker installation engine works well, and the design could be 
+#adapted, but the great thing about MT is that if you drop a Mystery 
+#Box/Joan and run twice you can virtually guarantee at least one access 
+#to any iced data fort in the first turn 
+#
+#The Scaldan and Armageddon are there for early game lock-down if the 
+#draw and ice are right, and the Faked Hit/PWS for late game to drop 
+#those last two bad publicity points that never seem to get rolled. 
+#
+#The deck's main weakness is shortage of bits in the late game as 
+#Morphing Tools are expensive to use against ice with lots of effective 
+#subroutines. 

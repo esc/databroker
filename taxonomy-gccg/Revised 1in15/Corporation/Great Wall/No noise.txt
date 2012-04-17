@@ -1,0 +1,43 @@
+#Title:
+#No Noise
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2007
+#
+#Deck list:
+1 AI Board Member
+1 Fetal AI
+1 Ice Transmutation
+1 Security Net Optimization
+1 Superior Net Barriers
+1 World Domination
+2 Baskerville
+2 Bolter Swarm
+1 Caryatid
+2 Data Wall
+2 Deadeye
+2 Imperial Guard
+3 Mobile Barricade
+1 Quandary
+1 Shotgun Wire
+1 Toughonium {TM} Wall
+1 Wall of Ice
+3 BBS Whispering Campaign
+3 Data Masons
+3 Accounts Receivable
+1 Credit Consolidation
+3 Efficiency Experts
+3 Aardvark
+1 Antiquated Interface Routines
+3 London City Grid
+1 Red Herrings
+
+#Description:
+#A 1/15 wall deck using the combination of London City Grid and 
+#Aardvark.

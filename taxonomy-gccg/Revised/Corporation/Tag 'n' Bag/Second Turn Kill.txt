@@ -1,0 +1,29 @@
+#Title:
+#Second Turn Kill
+#
+#Format:
+#Revised
+#
+#Date:
+#2012
+#
+#Author:
+#Frizzler
+#
+#Deck list:
+5 Artificial Security Directors
+5 Chance Observation
+1 Filter
+1 Data Sifters
+2 Manhunt
+2 Schlaghund Pointers
+1 Schlaghund
+5 Scorched Earth
+5 Punitive Counterstrike
+7 Chihuahua
+6 South African Mining Corp
+5 TRAP!
+5 Corporate War
+
+#Description:
+#n/a

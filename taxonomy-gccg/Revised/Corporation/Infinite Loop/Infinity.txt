@@ -1,0 +1,51 @@
+#Title:
+#Cash Overflow
+#
+#Format:
+#Revised
+#
+#Author:
+#Wyatt Cheng
+#
+#Date:
+#n/a
+#
+#Deck list:
+6 AI Chief Financial Officer
+2 Employee Empowerment
+11 Team Restructuring
+6 Credit Consolidation
+4 Project Consultants
+3 Accounts Receivable
+2 Edgerunner, Inc., Temps
+5 Pacifica Regional AI
+1 Filter
+1 Sleeper
+1 Quandary
+1 Data Wall
+1 Data Wall 2.0
+1 Wall of Static
+
+#Description:
+#A variant of The Loop is designed to produce a self-reinforcing cycle of
+#additional actions and bits. The heart of this deck, dreamed up by Wyatt
+#Cheng of Vancouver, Canada, are extra-action cards like Edgerunner, Inc.,
+#Temps (gain three actions to install cards) and Pacifica Regional AI (an
+#advanceable node that gives additional actions), supplemented with
+#fast-advance operations like Team Restructuring and Project Consultants. To
+#maximize our efficiency, this deck uses the agendas AI Chief Financial
+#Officer, which allows us to reshuffle HQ and Archives back into R&D for an
+#action, and Employee Empowerment for additional card draws.
+#
+#The deck's approach is to score an AI CFO as quickly as possible in order
+#to ensure the recycling of cards. After building up bits and drawing as
+#rapidly as possible, we begin to install Pacifica Regional AI's and advance
+#them with fast-processing operations, building up actions to get bits to
+#get actions, to get bits, and so on. Once the deck hits its stride, we can
+#simply lay out agendas and score them. Wyatt Cheng claims, "This deck has a
+#reasonable chance of scoring an agenda out of hand on turn one or two, and
+#a fairly good chance of looping by turn six. By turn eight, the likelihood
+#of looping is very high." It has not yet failed to loop in test games. This
+#engine is guaranteed to have Runners tearing out their 'trodes as they
+#helplessly watch the Corporation play and score in what quickly becomes a
+#solitaire game.

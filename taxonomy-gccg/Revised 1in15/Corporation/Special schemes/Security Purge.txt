@@ -1,0 +1,35 @@
+#Title:
+#Security Purge
+#
+#Format:
+#Revised, 15
+#
+#Author: 
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+3 Data Fort Remapping
+3 Marine Arcology
+3 Security Purge
+3 Colonel Failure
+3 Coyote
+2 Data Naga
+2 Glacier
+3 Haunting Inquisition
+2 Liche
+3 Mazer
+3 Misleading Access Menus
+3 Snowbank
+2 Wall of Ice
+2 Washed-Up Solo Construct
+2 Zombie
+3 Siren
+2 New Blood
+1 Off-Site Backups
+
+#Description:
+#Siren and Security Purge in another implementation that heavily relies 
+#on ICE and no upgrades at all. 

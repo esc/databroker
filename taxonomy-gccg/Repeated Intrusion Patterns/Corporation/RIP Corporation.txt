@@ -1,0 +1,46 @@
+#Title:
+#RIP Corporation
+#
+#Format:
+#RIP
+#
+#Author:
+#Frizzler
+#
+#Date:
+#8th April 2003
+#
+#Deck list:
+
+Agenda(9):
+2 Beneficial Merger
+1 Malicious AI
+2 Research Technology
+2 Synthetic Intelligence
+2 Think Outside the Box
+ICE:(16)
+2 Barbed Wire Fence
+2 Combination Lock
+1 Concentric Walls
+2 Electric Tripwire
+2 House of Wax
+2 Legionnaire
+2 Padlock
+2 Palisade
+1 Possibility Vortex
+Operation:(4)
+2 Statistical Analysis
+2 Underworld Resources
+Node:(10)
+2 ESA Quality Organization
+2 LDL Router
+2 Lingering Brain-Death
+2 Murphy
+2 Resource Control
+Upgrade:(6)
+2 Bender Harlow
+2 Long Island City Grid
+2 Shanghai City Grid
+
+#Description:
+#n/a

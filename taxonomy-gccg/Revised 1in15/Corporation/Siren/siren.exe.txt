@@ -1,0 +1,43 @@
+#Title:
+#siren.exe
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#Jack 'n' Joe
+#
+#Date:
+#2012
+#
+#Deck list:
+3 AI Chief Financial Officer
+3 Data Fort Remapping
+2 World Domination
+3 Chihuahua
+1 Food Fight
+1 Glacier
+2 Haunting Inquisition
+1 Imperial Guard
+1 Mastermind
+3 Misleading Access Menus
+3 Quandary
+1 Zombie
+2 City Surveillance
+2 Department of Truth Enhancement
+2 Nevinyrral
+3 Siren
+2 Accounts Receivable
+2 Closed Accounts
+1 New Blood
+3 Night Shift
+2 Chester Mix
+2 Rio de Janeiro City Grid
+
+#Description:
+#>checksys
+#Mastermind...OK
+#Siren...OK
+#Nevinyrral...OK
+#World Domination...OK
+#>run siren.exe

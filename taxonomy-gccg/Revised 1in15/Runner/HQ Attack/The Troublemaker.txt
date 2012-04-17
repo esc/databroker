@@ -1,0 +1,48 @@
+#Title:
+#The Troublemaker
+#
+#Format:
+#Revised, 15
+#
+#Author: 
+#Frizzler
+#
+#Date:
+#2010
+#
+#Deck list:
+3 Temple Microcode Outlet
+3 Junkyard BBS
+1 Wrecking Ball
+2 Zetatech Portastation
+3 Score!
+2 Back Door to Netwatch
+1 Back Door to Hilliard
+1 Nasuko Cycle
+2 Vintage Camaro
+1 Wizard's Book
+1 Shaka
+1 Superglue
+2 Mantis, Fixer-at-Large
+3 Synchronized Attack on HQ
+2 Edited Shipping Manifests
+1 Elena Laskova
+3 Cruising for Netwatch
+1 Priority Wreck
+3 Stakeout
+3 Bodyweight {TM} Synthetic Blood
+3 Panzer Run
+3 Networking
+
+#Description:
+#This deck aims at slowing the corp down by sucking bits and derezzing 
+#ice. In the ideal case, the corp is busy all the time with scratching 
+#bits and rerezzing derezzed ice, while the agendas gather on HQ. In the 
+#end game, you play sync attack to get the agendas from HQ. 
+#
+#Note that the breaker suite was chosen such that weak ice is broken for 
+#free; strong ice is very costly to break, but gets derezzed with 
+#superglue. 
+#
+#In order to be able to run early, you might want to replace the Temples 
+#with Self-Modifying Code. 

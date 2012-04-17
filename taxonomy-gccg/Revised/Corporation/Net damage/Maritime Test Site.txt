@@ -1,0 +1,31 @@
+#Title:
+#Maritime Test Site
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+3 Roving Submarine
+3 Chicago Branch
+2 Department of Truth Enhancement
+3 Cinderella
+2 Washed-Up Solo Construct
+7 Accounts Receivable
+2 Marionette
+9 Data Fort Remapping
+3 Haunting Inquisition
+3 Data Naga
+3 Virus Test Site
+3 Namatoki Plaza
+2 Glacier
+
+#Description:
+#This is a hybrid deck between a Poison Pill deck that combines 
+#Namatoki Plaza and Virus Test Site and Roving Submarine. Key
+#cards are Chicago Branch and Data Fort Remapping.

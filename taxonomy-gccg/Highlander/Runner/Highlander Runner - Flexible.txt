@@ -1,0 +1,74 @@
+#Title:
+#	
+#
+#Format:
+#Highlander
+#
+#Author:
+#photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+1 Cortical Cybermodem
+1 MRAM Chip
+1 Militech MRAM Chip
+1 Vintage Camaro
+1 All-Hands
+1 Blackmail
+1 Bodyweight {TM} Synthetic Blood
+1 Core Command: Jettison Ice
+1 Cruising for Netwatch
+1 Custodial Position
+1 Desperate Competitor
+1 Finders Keepers
+1 Gideon's Pawnshop
+1 Gypsy {TM} Schedule Analyzer
+1 Hot Tip for WNS
+1 Hunt Club BBS
+1 If You Want It Done Right...
+1 Inside Job
+1 Jack 'n' Joe
+1 Library Search
+1 Livewire's Contacts
+1 Lucidrine {TM} Booster Drug
+1 MIT West Tier
+1 Networking
+1 Organ Donor
+1 Panzer Run
+1 Pirate Broadcast
+1 Priority Wreck
+1 Promises, Promises
+1 Rush Hour
+1 Score!
+1 Sneak Preview
+1 Synchronized Attack on HQ
+1 Temple Microcode Outlet
+1 Terrorist Reprisal
+1 Cyfermaster {TM}
+1 Dwarf
+1 Early Worm
+1 Matador
+1 Newsgroup Filter
+1 Shaka
+1 Skeleton Passkeys
+1 Skullcap
+1 Succubus
+1 Back Door to Hilliard
+1 Back Door to Netwatch
+1 Chiba Bank Account
+1 Corporate Ally
+1 Crash Everett, Inventive Fixer
+1 Death from Above
+1 HQ Mole
+1 Junkyard BBS
+1 Liberated Savings Account
+1 Loan from Chiba
+1 Precision Bribery
+1 R&D Mole
+1 Sandbox Dig
+1 Swiss Bank Account
+
+#Description:
+#n/a

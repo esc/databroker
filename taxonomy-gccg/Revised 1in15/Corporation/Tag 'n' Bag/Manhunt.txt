@@ -1,0 +1,32 @@
+#Title:
+#Manhunt
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+3 Rockerboy Promotion
+2 Marionette
+3 Manhunt
+2 Bolter Cluster
+3 Data Wall
+2 Zombie
+3 Quandary
+3 Schlaghund
+3 Political Overthrow
+3 Off-Site Backups
+3 Night Shift
+3 Day Shift
+3 Closed Accounts
+3 City Surveillance
+3 BBS Whispering Campaign
+3 Annual Reviews
+
+#Description:
+#A 1/15 implementation of a Manhunt and Schlaghund deck.

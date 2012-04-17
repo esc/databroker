@@ -1,0 +1,22 @@
+#Title:
+#Big Hurt, make II
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2008
+#
+#Deck list:
+3 Junkyard BBS
+10 Faked Hit
+10 Militech MRAM Chip
+15 Top Runners' Conference
+12 Bodyweight {TM} Synthetic Blood
+
+#Description:
+#A reincarnation of the Big Hurt deck with Top Runners' Conference as bit 
+#engine instead of Score. Should win by turn 8 or 9. 

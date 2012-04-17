@@ -1,0 +1,61 @@
+#Title:
+#
+#
+#Format:
+#Highlander
+#
+#Author:
+#photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+1 Corporate Downsizing
+1 Corporate War
+1 Data Fort Remapping
+1 Employee Empowerment
+1 Executive Extraction
+1 Main-Office Relocation
+1 Marked Accounts
+1 Unlisted Research Lab
+1 Banpei
+1 Bolter Cluster
+1 Data Darts
+1 Data Naga
+1 Data Wall
+1 Filter
+1 Glacier
+1 Haunting Inquisition
+1 Liche
+1 Marionette
+1 Misleading Access Menus
+1 Puzzle
+1 Quandary
+1 Sleeper
+1 Zombie
+1 BBS Whispering Campaign
+1 Chicago Branch
+1 City Surveillance
+1 Department of Truth Enhancement
+1 Pattel Antibody
+1 Rockerboy Promotion
+1 Setup!
+1 TRAP!
+1 Vapor Ops
+1 Accounts Receivable
+1 Closed Accounts
+1 Credit Consolidation
+1 Day Shift
+1 Efficiency Experts
+1 Management Shake-Up
+1 Night Shift
+1 Off-Site Backups
+1 Project Consultants
+1 Bizarre Encryption Scheme
+1 Networked Center
+1 Red Herrings
+1 Rio de Janeiro City Grid
+
+#Description:
+#n/a

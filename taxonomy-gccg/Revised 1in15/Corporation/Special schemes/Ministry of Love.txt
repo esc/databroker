@@ -1,0 +1,49 @@
+#Title:
+#Ministry of Love
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#Krieg, photon79
+#
+#Date:
+#2011
+#
+#Deck list:
+3 AI Chief Financial Officer
+3 Employee Empowerment
+3 Data Fort Remapping
+1 Annual Reviews
+2 Night Shift
+3 Efficiency Experts
+3 Accounts Receivable
+1 Credit Consolidation
+2 Project Consultants
+2 Manhunt
+2 Scorched Earth
+1 Closed Accounts
+2 Quandary
+1 Banpei
+2 Ice Pick Willie
+1 Haunting Inquisition
+1 Virizz
+1 Tutor
+1 Glacier
+2 Cortical Scanner
+1 Sandstorm
+1 Food Fight
+1 Toughonium {TM} Wall
+1 Colonel Failure
+2 Hacker Tracker Central
+2 Blood Cat
+2 TRAP!
+3 Crystal Palace Station Grid
+
+#Description:
+#The deck's strings are a) "as expensive-to-pass subroutines as possible" 
+#for defense and b) "dangerously consistent tracking" for offense. 
+#a) think of card combos Sandstorm / Food Fight, ICE with multiple 
+#subroutines in general, with Virizz and Crystal Palace Station Grid. 
+#b) Hacker Tracker Central with Blood Cat and Manhunt can overcome even 
+#the most solid tag defense eventually.

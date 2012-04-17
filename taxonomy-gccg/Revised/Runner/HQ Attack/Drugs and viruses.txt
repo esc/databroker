@@ -1,0 +1,33 @@
+#Title:
+#Drugs and viruses
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2008
+#
+#Deck list:
+4 Lifesaver {TM} Nanosurgeons
+4 Militech MRAM Chip
+1 The Deck
+1 Vintage Camaro
+12 Jack 'n' Joe
+7 Lucidrine {TM} Booster Drug
+2 MIT West Tier
+2 AI Boon
+2 Armageddon
+1 Crumble
+2 Raffles
+2 Ramming Piston
+2 Self-Modifying Code
+4 Crash Everett, Inventive Fixer
+10 Liberated Savings Account
+4 The Shell Traders
+
+#Description:
+#A viral implementation of the combo Lucidrine {TM} Booster Drug and 
+#Liberated Savings Account.

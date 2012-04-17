@@ -1,0 +1,47 @@
+#Title:
+#The southern hemisphere on 1eb a day
+#
+#Format:
+#Revised
+#
+#Author:
+#Stephane Bura
+#
+#Date:
+#Fri, 7 Jun 1996 22:23:56 +0100
+#
+#Deck list: 
+A lot of Filters
+A lot of Data Walls.
+A lot of Rio de Janeiro City Grid
+Some cheap sentries (including some Shock.r's)
+One or two Aardvarks (optional. You can replace them by...)
+Some Bizarre Encryption Schemes
+One or two Chester Mix
+Some Corporate Downsizings
+Some Main-Office Relocations
+Some Employee Empowerments
+One Executive Extraction
+Some Annual Reviews
+Some Day Shifts
+A few Edgerunner, Inc., Temps
+One or two Vapor Ops
+Some 0-cost ambush nodes (including a Virus Test Site)
+A few bit gaining nodes (including one Information Laundering and...)
+A South African Mining Corp (for flavor)
+
+#Description:
+#The idea of this deck, as you may have noticed, is that no cards cost 
+#more than one bit to rez. You always have enough money (especially if 
+#you have Chester Mix). As you can easily install cards, your main 
+#strategy is to keep your HQ full (Annual Reviews, Day Shifts and 
+#Employee Empowerments) and score a Corporate Downsizings with your Vapor 
+#Ops when you have too many agendas in it. If you manage to install 4 or 
+#5 layers of ice in front of Rio de Janeiro City Grids, you'll almost 
+#never see a runner rummaging through your data. Very satisfying. 
+#
+#I've built a runner deck with the same concept (bit less in Seattle - 
+#Netrunner, Shadowrunner, same difference :) but it doesn't work as well 
+#against ice with high strength (the cheap icebreakers cost a lot to pump 
+#up). And it has two Dupre as Mantis can't go in the deck. Maybe I'll add 
+#some 2-bit cards to help. 

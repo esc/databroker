@@ -1,0 +1,41 @@
+#Title:
+#Catch-23
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2012
+#
+#Deck list:
+3 Data Fort Remapping
+3 Employee Empowerment
+3 Main-Office Relocation
+1 Bolter Cluster
+1 Colonel Failure
+2 Data Naga
+2 Data Wall
+2 Filter
+2 Glacier
+4 Haunting Inquisition
+1 Iceberg
+2 Quandary
+1 Toughonium {TM} Wall
+4 Zombie
+4 Accounts Receivable
+4 Credit Consolidation
+4 Efficiency Experts
+2 Night Shift
+2 Off-Site Backups
+4 Project Consultants
+4 Dr. Dreff
+4 Obfuscated Fortress
+1 Sterdroid
+
+#Description:
+#An updated version of Catch-22 that uses Iceberg for more uncertainty 
+#and Project Consultants for more speed and stability against Corporate 
+#Ally. 

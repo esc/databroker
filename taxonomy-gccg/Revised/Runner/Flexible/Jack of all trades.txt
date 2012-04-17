@@ -1,0 +1,33 @@
+#Title:
+#Jack of all trades
+#
+#Format:
+#Revised
+#
+#Author:
+#David Faguy
+#
+#Date:
+#n/a
+#
+#Deck list:
+1 Redecorator
+1 Skeleton Passkeys
+1 Wrecking Ball
+1 Clown
+1 Mouse
+1 Newsgroup Filter
+4 The Short Circuit
+4 Cortical Stimulators
+4 Full Body Conversion
+3 Tycho Mem Chip
+1 HQ Interface
+1 R&D Interface
+10 Jack 'n' Joe
+10 Score!
+2 MIT West Tier
+
+#Description:
+#This deck is built around Neal's 'Zamboni' breaker suite. Once the 
+#breaker suite is installed, you can run with very few bits. The deck is 
+#pretty flexible and can deal with a variety of situations. 

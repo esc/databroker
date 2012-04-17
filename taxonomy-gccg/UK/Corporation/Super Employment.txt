@@ -1,0 +1,39 @@
+#Title:
+#Super Employment
+#
+#Format:
+#UK, Revised
+#
+#Author:
+#Googol
+#
+#Date:
+#Wed Jan 17, 2007 11:50 pm
+#
+#Deck list:
+4 Night Shift
+7 Team Restructuring
+6 Falsified-Transactions Expert
+2 Vacant Soulkiller
+2 Experimental AI
+3 Virus Test Site
+2 Wall of Static
+2 Glacier
+2 Brain Wash
+2 Data Wall
+2 Mazer
+2 Quandary
+2 Banpei
+1 Tutor
+6 Employee Empowerment
+
+#Description:
+#Here is my Corp deck. As I mentioned in my earlier post its a variant of a deck 
+#called Super Employment that I found on the net some time ago.
+#
+#It is pretty straightforward to play - get an ambush down and advanced at least 
+#three times and you can score an agenda from hand if you have an FTE and two 
+#bits. The Team Restructuring is just there to make more efficient efficient use 
+#of the bit used to advance the agenda. Using EE as an agenda means that once 
+#you have scored one or more you can use the EE draw to get to the next agenda 
+#quickly when you have the means to score it that turn.

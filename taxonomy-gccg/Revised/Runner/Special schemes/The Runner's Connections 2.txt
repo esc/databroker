@@ -1,0 +1,35 @@
+#Title:
+#The Runner's Connections, make II
+#
+#Format:
+#Revised
+#
+#Author: 
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+2 Vintage Camaro
+3 Preying Mantis
+2 Inside Job
+3 N.E.T.O.
+3 Promises, Promises
+2 Temple Microcode Outlet
+2 Rent-I-Con
+2 Social Engineering
+3 Hot Tip for WNS
+2 Junkyard BBS
+3 Technician Lover
+2 Militech MRAM Chip
+1 Newsgroup Filter
+5 Score!
+7 Jack 'n' Joe
+3 Desperate Competitor
+
+#Description:
+#A variant of the deck by Robert Blaszczyk that tries to set up earlier 
+#by using Temple Microcode Outlet and Rent-I-Con. This breaker saves both 
+#MU and card slots and is more apt for the task to access one or two 
+#agendas. 

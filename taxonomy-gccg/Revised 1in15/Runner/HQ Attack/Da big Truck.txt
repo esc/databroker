@@ -1,0 +1,37 @@
+#Title:
+#Da Big Truck
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#Emmanuel Estournet
+#
+#Date:
+#Sun, 25 Oct 1998 22:35:49 +0100
+#
+#Deck list:
+3 Bartmoss Memorial Icebreaker
+1 Joan of Arc
+1 Militech MRAM Chip
+3 Priority Wreck
+3 Synchronized Attack on HQ
+2 Lucidrine {TM} Booster Drug
+3 Jack 'n' Joe
+3 Bodyweight {TM} Synthetic Blood
+2 Core Command: Jettison Ice
+1 Forged Activation Orders
+1 Sneak Preview
+1 misc.for-sale
+1 MIT West Tier
+3 Time to Collect
+3 Precision Bribery
+3 Loan from Chiba
+2 Junkyard BBS
+3 Top Runners' Conference
+2 Liberated Savings Account
+3 Broker
+1 Access to Kiribati
+
+#Description:      
+#1st French Nationals Runner deck of the winner.

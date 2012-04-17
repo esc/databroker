@@ -1,0 +1,15 @@
+#Theme:
+#Net damage
+#
+#Tournament:
+#Corp Shuffle 2000
+#
+#Player:
+#Lukas Kautzsch
+#
+#Deck list:
+12 Dieter Esslin
+5 Pavit Bharat
+6 Corporate War
+17 Setup!
+5 BBS Whispering Campaign

@@ -1,0 +1,39 @@
+#Title:
+#Political Overkill
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#Bierfuizl, 1/15 variant: photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+6 Corporate Downsizing
+6 Political Overthrow
+4 Systematic Layoffs
+6 Night Shift
+6 Efficiency Experts
+6 Accounts Receivable
+2 Credit Consolidation
+4 Ice Pick Willie
+6 Quandary
+2 Glacier
+2 Shotgun Wire
+4 Data Naga
+4 Haunting Inquisition
+4 Filter
+4 Cinderella
+4 Pacifica Regional AI
+4 Setup!
+4 Chicago Branch
+6 Corporate Negotiating Center
+2 Sterdroid
+4 Panic Button
+
+#Description:
+#Corporate Downsizing a couple of Political Overthrows is at least as good as
+#Corporate War can be. With that much bit gaining Chicago Branch and Pacifica
+#can help to gain more actions to speed up the process.

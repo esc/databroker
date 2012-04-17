@@ -1,0 +1,36 @@
+#Title:
+#More than 15
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+5 AI Chief Financial Officer
+5 Main-Office Relocation
+1 Political Overthrow
+5 Corporate Shuffle
+5 Edgerunner, Inc., Temps
+5 Project Consultants
+1 Annual Reviews
+5 Snowbank
+5 Misleading Access Menus
+5 Washed-Up Solo Construct
+3 Homing Missile
+2 Glacier
+2 Food Fight
+3 Digiconda
+3 Haunting Inquisition
+3 ACME Savings and Loan
+5 Executive Boot Camp
+5 Syd Meyer Superstores
+5 Corporate Negotiating Center
+2 Panic Button
+
+#Description:
+#see More than X

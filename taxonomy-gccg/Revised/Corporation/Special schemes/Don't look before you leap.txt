@@ -1,0 +1,26 @@
+#Title:
+#Don't look before you leap
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2007
+#
+#Deck list:
+7 Dr. Dreff
+6 Haunting Inquisition
+2 Wall of Ice
+5 Colonel Failure
+9 Security Purge
+3 Siren
+4 Zombie
+9 Washed-Up Solo Construct
+
+#Description:
+#An Unlimited version of the combo Siren and Security Purge. The title is 
+#advice to those corporations that plan carefully and thereby creating 
+#unwanted overhead with their Planning Consultants. 

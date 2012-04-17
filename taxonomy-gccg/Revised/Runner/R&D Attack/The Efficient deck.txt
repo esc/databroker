@@ -1,0 +1,55 @@
+#Title:
+#The Efficient Deck
+#
+#Format:
+#Revised
+#
+#Author:
+#skp
+#
+#Date:
+#June 4th 2010
+#
+#Deck list:
+2 Self-Modifying Code
+1 R&D-Protocol Files 
+1 Microtech AI Interface
+1 Codecracker
+1 Loony Goon 
+1 Jackhammer 
+1 Valu-Pak Software Bundle 	
+1 Promises, Promises
+5 Organ Donor
+15 Bodyweight {TM} Synthetic Blood 
+3 MIT West Tier
+4 Identity Donor
+1 Hunt Club BBS 
+1 Forged Activation Orders
+1 Demolition Run
+4 Militech MRAM Chip
+2 Bodyweight {TM} Data Creche
+
+#Description:
+#This is obviously an Organ Donor bit engine, but it plays a little 
+#differently based on what type of corp deck you are playing against. In 
+#general, there are 3 types: 
+#
+#1. Speed Decks, like Psycho Tycho, which try to win in 3-5 turns given 
+#an optimal draw 
+#2. Tag-N-Bag decks 
+#3. Everything else 
+#
+#Against a slow deck, this deck typically sets up in 15 or 17 actions. 
+#
+#Those 15 actions are: BSBx8, Organ Donor x3, Militech MRAM Chip x2, 
+#Bodyweight {TM} Data Creche, Valu-Pak out R&D-Protocol Files, Microtech AI 
+#Interface, and the 3 icebreakers 
+#
+#Against Tag-N-Bag, install your Militech MRAM Chips and dig for Identity 
+#Donors. After you use 3, he can't try to Bag you any more. Use MIT West 
+#Tier to recycle them. 
+#
+#Against Speed Decks, disrupt them by either grabbing the appropriate 
+#icebreaker using Self-Modifying Code and/or BSBing for them. Use 
+#Valu-Pak to drop multiple programs at a time. Use R&D-Protocol Files and 
+#Microtech AI Interface to minimize useful cards corp will draw. 

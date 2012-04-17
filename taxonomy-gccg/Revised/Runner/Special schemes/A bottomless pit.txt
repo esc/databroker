@@ -1,0 +1,34 @@
+#Title:
+#A bottomless pit
+#
+#Format:
+#Revised
+#
+#Author: 
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+2 Succubus
+4 Afreet
+1 Newsgroup Filter
+1 Skeleton Passkeys
+2 Forward's Legacy
+1 Wrecking Ball
+2 Zetatech Software Installer
+4 Clown
+2 Gremlins
+1 Record Reconstructor
+9 Top Runners' Conference
+10 Bodyweight {TM} Synthetic Blood
+1 misc.for-sale
+5 Valu-Pak Software Bundle
+
+#Description:
+#Top Runner's Conference finances the installation of Clowns and breaker 
+#suite into the daemon tree. Record Reconstructor and Gremlins make it 
+#virtually impossible for the corp to draw new cards and at the same time 
+#keep them for their next turn. This should severely disrupt any 
+#elaborate plans. 

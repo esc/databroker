@@ -1,0 +1,32 @@
+#Title:
+#Psycho Frenchie
+#
+#Format:
+#Unrevised
+#
+#Author:
+#Yves
+#
+#Date:
+#n/a
+#
+#Deck list:
+2 Employee Empowerment
+3 Tycho Extension
+3 Accounts Receivable
+3 Credit Consolidation
+3 Day Shift
+3 Efficiency Experts
+2 Management Shake-Up
+3 Night Shift
+3 Planning Consultants
+3 Project Consultants
+3 Data Wall
+3 Data Wall 2.0
+3 Filter
+2 Haunting Inquisition
+3 Quandary
+3 Roadblock
+
+#Description:
+#n/a

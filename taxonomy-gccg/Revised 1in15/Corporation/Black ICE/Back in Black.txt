@@ -1,0 +1,42 @@
+#Title:
+#Back in Black
+# 
+#Format:
+#Revised, 15 
+#
+#Author: 
+#photon79
+#
+#Date:
+#2008
+#
+#Deck list:
+2 Liche
+2 Credit Consolidation
+3 Black Ice Quality Assurance
+3 Priority Requisition
+3 Efficiency Experts
+3 Accounts Receivable
+2 Data Wall
+3 Quandary
+2 Zombie
+3 Skälderviken SA Beta Test Site
+1 Cortical Scrub
+2 Brain Wash
+3 Off-Site Backups
+3 Project Consultants
+3 BBS Whispering Campaign
+1 Glacier
+1 Cinderella
+2 Fatal Attractor
+1 TRAP!
+1 ACME Savings and Loan
+1 Theorem Proof
+
+#Description:
+#As the title suggests this deck evolves around Black ICE. Skälderviken 
+#SA Beta Test Site and Black Ice Quality Assurance modify Black ICE and 
+#Priority Requisition should be used to rez Cinderella, Zombie and Liche. 
+#The selection of agendas allows for spending one or two agenda points 
+#for example on Glacier and/or ACME Savings and Loan, the latter can be 
+#retrieved anyway. 

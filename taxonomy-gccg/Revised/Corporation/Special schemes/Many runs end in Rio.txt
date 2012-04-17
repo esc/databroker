@@ -1,0 +1,29 @@
+#Title
+#Rio Remapped
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+5 Data Fort Remapping
+2 Shock.r
+2 Chihuahua
+5 Unlisted Research Lab
+2 Ice Pick Willie
+6 Edgerunner, Inc., Temps
+3 Snowbank
+3 Filter
+3 Misleading Access Menus
+8 Rio de Janeiro City Grid
+8 Chester Mix
+3 Quandary
+
+#Description:
+#The plan is to install cheap ICE with Chester Mix and make runs
+#unpredictable with Rio de Janeiro City Grid.

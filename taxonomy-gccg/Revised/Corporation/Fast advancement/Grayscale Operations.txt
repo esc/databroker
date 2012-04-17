@@ -1,0 +1,29 @@
+#Title:
+#Grayscale Operations
+#
+#Format:
+#Revised
+#
+#Author:
+#David Faguy
+#
+#Date:
+#n/a
+#
+#Deck list:
+6 Hostile Takeover
+4 Corporate Downsizing
+4 Executive Extraction
+6 Crystal Wall
+6 Quandary
+4 Chihuahua
+4 Data Naga
+2 Bolter Cluster
+1 Filter
+4 BBS Whispering Campaign
+4 Systematic Layoffs
+
+#Description:
+#This is a fast advance scheme built around Gray Ops agendas. It sets up 
+#quickly and relies on little cash to run. Does not last long once the 
+#runner is completely set up.

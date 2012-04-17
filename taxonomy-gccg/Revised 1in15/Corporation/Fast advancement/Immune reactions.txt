@@ -1,0 +1,45 @@
+#Title:
+#Immune reactions
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+3 Artificial Security Directors
+3 Corporate War
+1 Political Overthrow
+1 Cinderella
+1 Ice Pick Willie
+1 Glacier
+2 Data Naga
+1 Shotgun Wire
+3 Data Wall 2.0
+2 Haunting Inquisition
+3 Quandary
+1 Filter
+2 Night Shift
+3 Accounts Receivable
+3 Efficiency Experts
+2 Credit Consolidation
+3 Systematic Layoffs
+2 Closed Accounts
+2 BBS Whispering Campaign
+3 Pattel Antibody
+1 TRAP!
+1 Chimera
+1 Blood Cat
+
+#Description:
+#The main goal of this deck is to play the combination Artificial
+#Security Directors and Corporate War. Pattel Antibody, TRAP! and Chimera
+#serve to weaken runner's capabilities. Quite effective in doing 
+#that is also the combination of Blood Cat and Closed Accounts.
+#Political Overthrow is in there to fulfill the agenda points limit.
+#In a real deck it might be advisable to play a 90 card version to avoid
+#a defeat when runner liberates two Corporate Wars.

@@ -1,0 +1,20 @@
+#Theme:
+#
+#
+#Tournament:
+#European Championships 2000
+#
+#Player:
+#Roland Schediwy
+#
+#Deck list:
+6 Corporate War
+4 Data Wall
+3 Haunting Inquisition
+5 Quandary
+3 Shock.r
+3 BBS Whispering Campaign
+6 City Surveillance
+5 Accounts Receivable
+5 Closed Accounts
+5 Management Shake-Up

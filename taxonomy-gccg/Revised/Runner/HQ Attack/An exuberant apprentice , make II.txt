@@ -1,0 +1,35 @@
+#Title:
+#An exuberant apprentice
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+2 Black Widow
+1 Crumble
+1 Dupre
+1 Japanese Water Torture
+2 Lockjaw
+1 Shredder Uplink Protocol
+2 Succubus
+1 Anonymous Tip
+3 Bodyweight {TM} Synthetic Blood
+1 Core Command: Jettison Ice
+2 Security Code WORM Chip
+3 Sneak Preview
+1 Bodyweight {TM} Data Creche
+1 Back Door to Hilliard
+1 Karl de Veres, Corporate Stooge
+9 Loan from Chiba
+5 N.E.T.O.
+4 Restrictive Net Zoning
+4 Wilson, Weeflerunner Apprentice
+
+#Description
+#A deck around Wilson, Weeflerunner Apprentice that focuses solely on HQ.

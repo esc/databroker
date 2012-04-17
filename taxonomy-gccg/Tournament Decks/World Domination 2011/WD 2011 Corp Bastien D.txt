@@ -1,0 +1,29 @@
+#Theme:
+#
+#
+#Tournament:
+#World Domination 2011
+#
+#Player:
+#Bastien D.
+#
+#Deck list:
+1 Main-Office Relocation
+3 Executive Extraction
+3 Corporate Downsizing
+3 Unlisted Research Lab
+3 Day Shift
+3 Systematic Layoffs
+3 Night Shift
+3 Efficiency Experts
+3 Accounts Receivable
+3 Glacier
+3 Asp
+3 True Wall
+3 Haunting Inquisition
+3 Homewrecker {TM}
+3 Puzzle
+2 Vapor Ops
+
+#Description:
+#Winner deck

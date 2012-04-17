@@ -1,0 +1,70 @@
+#Title:
+#Evil, Inc.
+#
+#Format:
+#Revised
+#
+#Author:
+#yogi
+#
+#Date:
+#n/a
+#
+#Deck list:
+1 Corporate Downsizing
+2 Ice Transmutation
+4 Priority Requisition
+3 Filter
+1 Haunting Inquisition
+1 Misleading Access Menus
+1 Banpei
+2 Bolter Cluster
+1 Chihuahua
+1 Code Corpse
+2 Liche
+2 Mastiff
+3 Data Wall
+1 Galatea
+2 Snowbank
+1 Corprunner's Shattered Remains
+1 Experimental AI
+3 Rockerboy Promotion
+2 Siren
+1 Vapor Ops
+2 Virus Test Site
+2 Namatoki Plaza
+1 Olivia Salazar
+1 Sterdroid
+5 Accounts Receivable
+1 New Blood
+2 Night Shift
+1 Team Restructuring
+
+#Description:
+#Total Agenda Points 20
+#Total Cards 50
+#
+#Title Explanation
+#This deck is notorious for two things big ice that really puts the hurt on 
+#the runner, and advanceable traps. It is just there to hurt the runner, 
+#scare the runner, and at times, kill the runner.  Thus, it is evil.
+#
+#Notes on Deck building
+#I needed traps to advance, and not tell for the agendas, and I had to add 
+#ones that were other than damage, especially because of Enterprise Shields 
+#(which is barred now in the standard format).  Other than that, I just added 
+#cards that looked fun. Can you argue
+#
+#Note on Standard Play
+#Obviously, you want the cheap ice early, at the inner parts of your key forts, 
+#along with a single subsidary fort. That fort should get a Namatoki as soon 
+#as possible. Then, advance a trap (damage is good early, the hardwareprogram 
+#destroying ones better later) in that fort. Then go for the Priority Req's, 
+#as they get you strong quickly. If you can suprise with big ice, do it. 
+#Otherwise, play safe. Unfortunately, it has no speed cards, so you'll need 
+#those bits just to protect you advances, but not trapped spots.  The alternate 
+#version of this deck allows you to also built a big subsidary data fort, then 
+#when prepared, install Siren and play New Blood, swapping the ice in front of 
+#the big s.d.f. for the already rezzed ice from the central data forts, allowing 
+#maximum protection for minimal cost.  Once they get through, the only thing 
+#they get to do is trash the Siren and gain nothing.

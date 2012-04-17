@@ -1,0 +1,56 @@
+#Title:
+#Nasty Corp
+#
+#Format:
+#15, CM
+#
+#Author:
+#Frizzler
+#
+#Date:
+#Sun Mar 09, 2008 6:03 pm
+#
+#Deck list:
+2 Chinese Finger Puzzle
+3 Accounting Firewall
+2 Homing Missile
+3 Turnstile
+3 Hecate
+3 Deus Ex Machina
+3 Closed Accounts
+2 Underworld Mole
+2 City Surveillance
+1 Corporate War
+1 Corporate Downsizing
+1 Marked Accounts
+1 Project Metaframe
+1 Main-Office Relocation
+1 Corporate Retreat
+1 Employee Empowerment
+3 Rockerboy Promotion
+3 BBS Whispering Campaign
+3 Bizarre Encryption Scheme
+3 Chicago Branch
+3 Twenty-Four-Hour Surveillance
+
+#Description:
+#Last year, we played a 1/15 tournament with Chrysalid Matrix.
+#The requirement was to have at least one third of Chrysalid Matrix cards in 
+#your deck.
+#
+#I didn't have an idea how to build a real theme deck in 1/15 with Chrysalid 
+#Matrix, so I built a "Nasty Corp", adding cards that can spoil Runner's plans.
+#
+#As you might notice, there are seven different agendas in my deck - this is 
+#because of the Runner card Lars Dali.
+#
+#Deus has proven to be broken in one game where Runner had a full breaker suite 
+#and over 30 bits - I only had 5 bits, but I safely scored the final agenda 
+#behind a Deus. The other Chrysalid Matrix cards have shown to be nice and balanced.
+#
+#Twenty-Four-Hour Surveillance turned out to be a dead slot, because none of my 
+#opponents played with Patience / One Hand Clapping / Looking Glass.
+#
+#A nice situation was the trashing of an Aubrey, Apprentice Cowboy, with 
+#Underworld Mole against Bierfuizl: All installed Private Kelp Tanks got 
+#trashed as well (but I finally lost that game anyway).

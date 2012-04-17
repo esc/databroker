@@ -1,0 +1,40 @@
+#Title:
+#Yet another Siren
+# 
+#Format: 
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+3 Data Fort Remapping
+1 Political Overthrow
+3 Security Purge
+1 Data Naga
+2 Haunting Inquisition
+1 Glacier
+2 Ball and Chain
+3 Misleading Access Menus
+3 Washed-Up Solo Construct
+3 Snowbank
+2 Chihuahua
+3 Edgerunner, Inc., Temps
+3 Efficiency Experts
+3 Siren
+3 Rio de Janeiro City Grid
+3 Chester Mix
+3 Self-Destruct
+3 Olivia Salazar
+
+#Description:
+#Olivia Salazar and payback ICE work especially well together on a Siren 
+#fort with Rio de Janeiro City Grid. Since bits are an issue with many 
+#Siren decks some bit gainers and savers like Chester Mix, Efficiency 
+#Experts and Security Purge are included. Remap counters are also very 
+#welcome as a failsafe option for Rio. Yet, if runner has no proper 
+#protection accessing a Self-Destruct fueled by all those ICE and many 
+#upgrades might bring about an abrupt win. 

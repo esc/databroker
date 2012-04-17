@@ -1,0 +1,49 @@
+#Title:
+#Those Darn Newsies!
+#
+#Format:
+#Revised
+#
+#Author:
+#Steve Guillerm
+#
+#Date:
+#n/a
+#
+#Deck list:
+2 Project Babylon
+2 Marine Arcology
+4 Corporate War
+4 Haunting Inquisition
+6 TKO 2.0
+7 Accounts Receivable
+15 Newsgroup Taunting
+3 Siren
+2 Obfuscated Fortress
+
+#Description:
+#45 Cards
+#
+#Ever think about what you would do if you had to pay 15 bits to make a run? 
+#What if you couldn't even run where you wanted when you paid that 15 bits? 
+#What if then you had to guess how many bits it would cost you to run? 
+#Wonder no more, runner, for this dream is about to be come a reality...
+#
+#I think that Newsgroup Taunting is such a silly card, yet so cool, because 
+#alone it forces the runner to pay one bit per run he makes, and only costs a 
+#bit to rez. Coupled with Siren, the runner cannot even run where he wants. 
+#I now present my new deck:
+#
+#The Plan
+#The best thing we can do is install multiple Newsgroup Tauntings in the 
+#beginning and play multiple Accounts Receivable. This gives us the money to put 
+#our plan into action. Install minimal ICE on the Main forts, rather, wait to 
+#install them on the subsidiary fort that will include Siren. With our large ICE, 
+#Siren should be safe from the runner, and with all the Newsgroup Tauntings, it 
+#should be worth the sacrifice should the runner access Siren. Build Marine 
+#Archologies first to help our accounts, and then wage Corporate War with our 
+#competitors if it looks profitable. Project Babylon is worth activating if we 
+#are unable to win the wars or build the Archologies. Note that all of our ICE 
+#have multiple subroutines that will keep the runner out of our hair if he 
+#cannot break them. Employ the newsgroups well, they are our greatest weapon,
+#but they are fragile, and cannot stand an assault by the runner.

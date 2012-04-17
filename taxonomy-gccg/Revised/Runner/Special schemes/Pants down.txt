@@ -1,0 +1,42 @@
+#Title:
+#Pants down
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date
+#2010
+#
+#Deck list:
+2 Microtech Backup Drive
+2 Militech MRAM Chip
+1 Nasuko Cycle
+1 The Deck
+2 All-Hands
+10 Bodyweight {TM} Synthetic Blood
+1 Core Command: Jettison Ice
+1 Lucidrine {TM} Booster Drug
+2 MIT West Tier
+1 Security Code WORM Chip
+2 Valu-Pak Software Bundle
+1 misc.for-sale
+1 Expert Schedule Analyzer
+2 Rent-I-Con
+1 Schematics Search Engine
+1 Shredder Uplink Protocol
+1 Back Door to Netwatch
+1 Death from Above
+1 Liberated Savings Account
+2 Mercenary Subcontract
+1 Technician Lover
+8 Top Runners' Conference
+
+#Description:
+#The plan is to use Schematics Search Engine and Expert Schedule 
+#Analyzer in about turn 7 to expose the corp cards completely. With 
+#that information ICE destruction and attacks on HQ with All-Hands
+#together with Mercenary Subcontract and runs on subsidiary data
+#forts using Death from Above become more effective. 

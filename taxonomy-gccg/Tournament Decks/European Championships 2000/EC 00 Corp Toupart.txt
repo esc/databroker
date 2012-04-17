@@ -1,0 +1,25 @@
+#Theme:
+#Tag'n'Bag
+#
+#Tournament:
+#European Championships 2000
+#
+#Player:
+#Stephane Toupart
+#
+#Deck list:
+3 Corporate Downsizing
+4 Corporate War
+3 Data Wall
+3 Filter
+1 Glacier
+1 Marionette
+3 BBS Whispering Campaign
+6 City Surveillance
+3 Indiscriminate Response Team
+4 Schlaghund
+3 Annual Reviews
+2 Corporate Shuffle
+5 Edgerunner, Inc., Temps
+3 Shock Treatment
+1 Street Enforcer

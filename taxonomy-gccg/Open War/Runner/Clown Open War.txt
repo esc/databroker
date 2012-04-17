@@ -1,0 +1,49 @@
+#Title:
+#Clown Open War
+#
+#Format:
+#Revised, OW, 15
+#
+#Date:
+#2011
+#
+#Author:
+#Frizzler
+#
+#Deck list:
+4 Bodyweight Synthetic Blood
+4 Neural Cyber Skull
+4 Cruising on Holidays
+4 Jack 'n' Joe
+4 Organ Donor
+3 MIT West Tier
+1 Microtech Backup Drive
+3 Succubus
+4 Incubus
+4 Valu-Pak Software Bundle
+4 The Short Circuit
+4 Zetatech Software Installer
+2 Lockjaw
+1 Skullcap
+1 Tinweasel
+1 Forward's Legacy
+1 Wrecking Ball
+3 Clown
+1 Dropp
+1 Emergency Self-Construct
+1 R&D-Protocol Files
+1 Microtech AI Interface
+1 Cascade
+1 Mouse
+1 Scaldan
+1 Superglue
+1 Imp
+1 Joan of Arc
+1 Startup Immolator
+2 Backdoor to Netwatch
+2 On the Fast Track
+1 Terrorist Reprisal
+1 Anonymous Tip
+
+#Description:
+#Played at WD 2011.

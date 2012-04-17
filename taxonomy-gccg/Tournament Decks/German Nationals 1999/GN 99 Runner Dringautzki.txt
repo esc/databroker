@@ -1,0 +1,35 @@
+#Theme:
+#
+#
+#Tournament:
+#German Nationals 1999
+#
+#Player:
+#Peter Dringautzki
+#
+#Deck list:
+1 Forged Activation Orders
+1 Bodyweight {TM} Synthetic Blood
+1 Zetatech Mem Chip
+1 Blink
+1 Krash
+1 Enterprise, Inc., Shields
+1 Identity Donor
+1 Scaldan
+1 Mercenary Subcontract
+1 Synchronized Attack on HQ
+1 Priority Wreck
+1 Bodyweight {TM} Data Creche
+1 Karl de Veres, Corporate Stooge
+1 Shredder Uplink Protocol
+1 Newsgroup Filter
+1 Crash Everett, Inventive Fixer
+1 Executive Wiretaps
+2 Core Command: Jettison Ice
+5 Security Code WORM Chip
+3 Weather-to-Finance Pipe
+2 Taxman
+2 Edited Shipping Manifests
+2 Restrictive Net Zoning
+3 MIT West Tier
+8 Jack 'n' Joe

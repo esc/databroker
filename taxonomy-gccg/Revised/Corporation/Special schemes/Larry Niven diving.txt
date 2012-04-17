@@ -1,0 +1,35 @@
+#Title:
+#Larry Niven diving
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+5 Nevinyrral
+5 Efficiency Experts
+4 Quandary
+1 Haunting Inquisition
+2 Filter
+2 Data Naga
+1 Glacier
+2 Data Wall
+1 Cinderella
+3 Marine Arcology
+5 Roving Submarine
+3 South African Mining Corp
+3 BBS Whispering Campaign
+1 Mazer
+1 Ice Pick Willie
+2 Superserum
+2 Corporate Downsizing
+2 Unlisted Research Lab
+
+#Description:
+#The plan is to plant a Nevinyrral in a Roving submarine and then
+#to score the agendas out of hand.

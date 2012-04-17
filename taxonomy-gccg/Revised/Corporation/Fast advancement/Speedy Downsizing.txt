@@ -1,0 +1,27 @@
+#Title:
+#Speedy Downsizing
+#
+#Format:
+#Revised
+#
+#Author:
+#Solkan
+#
+#Date:
+#n/a
+#
+#Deck list:
+6 Corporate Downsizing
+2 Corporate War
+10 Accounts Receivable
+6 Systematic Layoffs
+2 Cinderella
+1 Colonel Failure
+2 Data Naga
+4 Data Wall 2.0
+4 Haunting Inquisition
+4 Roadblock
+4 Red Herrings
+
+#Description:	
+#n/a

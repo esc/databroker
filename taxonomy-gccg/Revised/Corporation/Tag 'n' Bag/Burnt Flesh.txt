@@ -1,0 +1,26 @@
+#Title:
+#Burnt flesh
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+8 Scorched Earth
+5 Marked Accounts
+3 Fetal AI
+6 Chihuahua
+4 Filter
+6 Dieter Esslin
+4 BBS Whispering Campaign
+6 Chance Observation
+2 Off-Site Backups
+1 Power Grid Overload
+
+#Description:
+#A meat damage surprise deck.

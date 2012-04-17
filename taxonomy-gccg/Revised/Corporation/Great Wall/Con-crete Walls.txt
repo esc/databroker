@@ -1,0 +1,47 @@
+#Title:
+#Con-crete Walls
+#
+#Format:
+#Revised
+#
+#Author:
+#Tinweasel
+#
+#Date:
+#2008
+#
+#Deck list
+#6 Minotaur
+#1 Mazer
+#1 Nerve Labyrinth
+#1 Caryatid
+#1 Galatea
+#4 Crystal Wall
+#4 Data Wall
+#1 Cerberus
+#1 New Blood
+#4 BBS Whispering Campaign
+#1 Chimera
+#1 Siren
+#3 Scorched Earth
+#3 Trojan Horse
+#4 Data Masons
+#5 Political Coup
+#4 Marine Arcology
+#
+#Description:
+#I chose a mixture of walls that do not look too futuristic to go with 
+#the theme. The agendas reflect the Mediterranean Sea and the political 
+#decision of Athens to send tribute to the island of Crete (including 
+#human food for the Minotaur, i. e. new blood!). For reasons of flavor, 
+#Trojan Horse is a must-include, so this deck needs a way to make use of 
+#tags, which I chose to be Scorched Earth (as Troy was burnt and razed to 
+#the ground). As for the rest: well, Siren, Chimera and Cerberus aren?t a 
+#perfect fit strategically, but they just had to show up as prominent 
+#members of the ancient Greek bestiary. They might be good for a nice 
+#surpise, though. Data Masons and BBS Whispering Campaign, on the other 
+#hand, do not fit the flavor theme that well, but they are necessary for 
+#the “walls” part and plain old bits to pay for it all, respectively. 
+#Perhaps you can think of the Masons as Daedalus and Icarus (who built 
+#the labyrinth), and the Campaign might be Ariadne whispering into 
+#Theseus's ears how to survive the labyrinth. 

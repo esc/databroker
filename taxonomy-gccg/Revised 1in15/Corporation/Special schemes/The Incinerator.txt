@@ -1,0 +1,34 @@
+#Title:
+#The Incinerator, make II
+#
+#Format:
+#Revised, 15
+#
+#Author: 
+#photon79
+#
+#Date:
+#2008
+#
+#Deck list:
+14 Dr. Dreff
+14 Haunting Inquisition
+14 Strategic Planning Group
+14 Annual Reviews
+14 Corporate War
+14 Unlisted Research Lab
+14 Fatal Attractor
+14 Management Shake-Up
+14 Colonel Failure
+14 Off-Site Backups
+14 Edgerunner, Inc., Temps
+14 Corporate Shuffle
+14 Efficiency Experts
+14 Accounts Receivable
+14 Stereogram Antibody
+
+#Description:
+#Dumping all essential winning cards into Archives is no big deal but it 
+#becomes one when you add Stereogram Antibody as a poison pill. This 
+#renders an Off-Site Backups into the corporate equivalent of Mantis, 
+#Fixer-at-Large. Just the thing that you always wanted :) 

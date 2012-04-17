@@ -1,0 +1,20 @@
+#Theme:
+#Dr. Dreff
+#
+#Tournament:
+#European Championships 2000
+#
+#Player:
+#Sven Jeurink
+#
+#Deck list:
+4 Corporate Retreat
+2 Employee Empowerment
+1 Glacier
+1 Liche
+3 Wall of Ice
+11 Zombie
+10 Accounts Receivable
+1 Management Shake-Up
+4 Project Consultants
+8 Dr. Dreff

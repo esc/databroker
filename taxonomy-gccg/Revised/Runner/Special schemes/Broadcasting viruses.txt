@@ -1,0 +1,32 @@
+#Title:
+#Broadcasting viruses
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+1 Vintage Camaro
+14 Jack 'n' Joe
+4 Livewire's Contacts
+2 MIT West Tier
+5 Pirate Broadcast
+4 Score!
+1 Pattel's Virus
+2 Psychic Friend
+2 Redecorator
+2 Wrecking Ball
+1 Back Door to Hilliard
+2 Broker
+2 Crash Everett, Inventive Fixer
+1 Death from Above
+2 Karl de Veres, Corporate Stooge
+
+#Description:
+#An implementation of the combination Pirate Broadcast and Pattel's 
+#Virus.

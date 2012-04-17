@@ -1,0 +1,24 @@
+#Title:
+#Rent a submarine
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+9 Rent-to-Own Contract
+8 Nevinyrral
+8 Roving Submarine
+5 Corporate War
+7 Edgerunner, Inc., Temps
+8 Colonel Failure
+5 Artificial Security Directors
+
+#Description:
+#A Rent-to-Own deck with the combination of Roving Submarine and
+#Nevinyrral.

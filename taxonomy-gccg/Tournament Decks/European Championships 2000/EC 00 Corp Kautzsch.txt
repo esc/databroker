@@ -1,0 +1,17 @@
+#Theme:
+#Tag'n'Bag
+#
+#Tournament:
+#European Championships 2000
+#
+#Player:
+#Lukas Kautzsch
+#
+#Deck list:
+3 Political Overthrow
+4 Blood Cat
+8 City Surveillance
+8 Schlaghund
+9 Accounts Receivable
+8 Manhunt
+5 Shock Treatment

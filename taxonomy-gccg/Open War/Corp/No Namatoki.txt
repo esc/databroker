@@ -1,0 +1,36 @@
+#Title:
+#No Namatoki
+#
+#Format:
+#Revised, OW, 15
+#
+#Date:
+#2012
+#
+#Author:
+#Frizzler
+#
+#Deck list:
+1 Brain Drain
+1 Brain Wash
+3 Chihuahua
+3 Electrified Wall
+2 Bumper
+2 Explosive Lock
+3 Explosive Lock XL
+3 Corporate Downsizing
+2 Political Overthrow
+2 Project Consultants
+2 Overtime Incentives
+2 Off-Site Backups
+1 Strategic Planning Group
+2 Falsified-Transactions Expert
+1 Fake Company
+3 Vacant Soulkiller
+3 Virus Test Site
+3 Dieter Esslin
+3 Bel-Digmo Antibody
+3 BBS Whispering Campaign
+
+#Description:
+#Played at WD 2011.

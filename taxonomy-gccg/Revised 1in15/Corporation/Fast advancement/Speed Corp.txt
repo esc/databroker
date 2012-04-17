@@ -1,0 +1,32 @@
+#Title:
+#Speed Corp
+#
+#Format:
+#Revised
+#
+#Author:
+#Chacal
+#
+#Date:
+#n/a
+#
+#Deck list:
+3 Corporate Downsizing
+3 Security Purge
+3 Unlisted Research Lab
+3 Accounts Receivable
+3 Annual Reviews
+3 Edgerunner, Inc., Temps
+3 Efficiency Experts
+3 Overtime Incentives
+3 Systematic Layoffs
+2 Cinderella
+3 Coyote
+1 Glacier
+3 Misleading Access Menus
+3 Scramble
+3 Twisty Passages
+3 Networked Center
+
+#Description:
+#n/a

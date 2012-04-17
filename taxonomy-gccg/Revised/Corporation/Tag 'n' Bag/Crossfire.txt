@@ -1,0 +1,30 @@
+#Title:
+#Crossfire
+#
+#Format:
+#Revised
+#
+#Author:
+#n/a
+#
+#Date:
+#n/a 
+#
+#Deck list:
+2 Code Corpse
+1 Data Naga
+2 Haunting Inquisition
+2 Laser Wire
+1 Caryatid
+6 Corporate War
+8 BBS Whispering Campaign
+5 Systematic Layoffs
+2 City Surveillance
+4 Manhunt
+4 Data Sifters
+5 Scorched Earth
+1 Power Grid Overload
+2 Closed Accounts
+
+#Description:
+#n/a

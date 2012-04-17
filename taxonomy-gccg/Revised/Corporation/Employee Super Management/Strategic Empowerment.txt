@@ -1,0 +1,52 @@
+#Title:
+#Strategic Empowerment 
+#
+#Format:
+#Revised
+#
+#Author:
+#Paul Grogan
+#
+#Date:
+#n/a
+#
+#Deck list:
+6 Employee Empowerment
+10 Accounts Receivable
+6 Project Consultants
+5 ACME Savings and Loan
+5 Strategic Planning Group
+1 TRAP!
+1 Setup!
+1 Cinderella
+1 Data Naga
+1 Crystal Wall
+2 Quandary
+1 Data Wall
+1 Marionette
+2 Haunting Inquisition
+1 Scramble
+	
+#Description:
+#Well, it's not really my deck. The basic deck came from The AI and had 
+#less ACME savings and loans, no Strategic Planning Groups, but it did have 10 
+#Setups.
+#
+#As soon as v2.2 came out, our play group spotted the potential of Strategic 
+#Planning Group and Employee Empowerment. So I took The AI's deck and made a 
+#few changes.
+#
+#With the loss of Psycho Tycho, this is the new fast advancement deck in my 
+#opinion. However, since I'm not very good at tuning decks, it isn't perfect.
+#
+#The basic principle is that you gain lots of money and score the Employee 
+#Empowerment from hand with the Project Consultants. The Strategic Planning 
+#Group is a good card anyway but combined with Emp. Emp. it's awesome. The 
+#ability of Emp.Emp is optional and classed as a start of turn effect. Start 
+#of turn goes something like this.
+#
+#Draw a card (draw an extra with SPG), put one on bottom of library
+#Choose to draw another card (draw an extra with SPG), put one on bottom of 
+#library.
+#
+#This way, you get exactly what you want and throw away what you don't want.

@@ -1,0 +1,17 @@
+#Theme:
+#Greyhound Demolition Derby
+#
+#Tournament:
+#World Championships 2001, round 3
+#
+#Player:
+#Holger Janssen
+#
+#Deck list:
+ 8 Manhunt
+ 8 Schlaghund
+ 3 Off-Site Backups
+10 City Surveillance
+13 Accounts Receivable
+ 3 Project Consultants
+ 5 Tycho Extension

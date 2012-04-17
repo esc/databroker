@@ -1,0 +1,38 @@
+#Title:
+#Information is Power
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+2 Matador
+2 Skeleton Passkeys
+2 Pile Driver
+2 Schematics Search Engine
+2 Boardwalk
+1 Skullcap
+9 Bodyweight {TM} Synthetic Blood
+2 MIT West Tier
+4 Organ Donor
+3 Lucidrine {TM} Booster Drug
+1 Anonymous Tip
+1 All-Hands
+1 Promises, Promises
+1 Total Genetic Retrofit
+1 Identity Donor
+2 Zetatech Mem Chip
+2 Militech MRAM Chip
+3 Liberated Savings Account
+1 Back Door to Netwatch
+1 Corporate Ally
+1 Death from Above
+1 Junkyard BBS
+
+#Description:
+#As the title suggests, this deck collects information to better aim.

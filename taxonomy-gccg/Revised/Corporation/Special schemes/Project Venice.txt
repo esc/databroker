@@ -1,0 +1,110 @@
+#Title:
+#Project Venice
+#
+#Format:
+#Revised
+#
+#Author:
+#Benjamin Ford
+#
+#Date:
+#09.01.98
+#
+#Deck list: 
+2 Data Wall 2.0
+3 Crystal Wall
+2 Quandary
+3 Scramble
+2 Shock.r
+1 Too Many Doors
+1 Marionette
+9 Project Venice
+2 Red Herrings
+1 Chester Mix
+1 BBS Whispering Campaign
+2 Euromarket Consortium
+7 Accounts Receivable
+2 Efficiency Experts
+2 Silver Lining Recovery Protocol
+3 Project Consultants
+1 Overtime Incentives
+1 Edgerunner, Inc., Temps
+
+#Description:
+#Project Venice is an agenda that is looked at by many potential
+#Corporations but then disregarded as not being that good.  Needing 4
+#advancement counters to just score 2 agenda points is not worth it
+#when compared to other agendas that give the Corporation some bonus
+#for that amount of work.  The 7 advancement counters needed to get
+#the action bonus often appears too difficult to perform reliably.
+#
+#Extra actions are almost always worth it, especially if they are
+#not limited in what they can do.  Edgerunner, Inc., Temps and Valu-Pak
+#Software bundle are popular cards and the actions they provide are
+#very narrow.  Any time one player gets an extra action every turn, it
+#starts to put a strain on the opponent.  Actions are the very basis of
+#play, and the more you have, the faster you can implement your plans.
+#
+#The flexibility of Project Venice is where it shines.  In an
+#agenda plan comprised solely of Project Venice, if the Corporation can
+#gain two extra actions from the first few Projects scored, the 
+#remaining ones can be scored out of hand in one turn without the aid
+#of other cards.
+#
+#There are two main strategies to go about getting those two extra
+#actions for the plan.  The first is to advance one Project Venice 10
+#times and get the two needed actions.  The other method is two
+#advance two separate Projects 7 times each.  Both strategies require
+#either a lot of bits poured into fast advancement to score them in
+#one turn or a plan to hold the agendas long enough to advance them.
+#
+#The idea now is to build a deck that can execute of those plans.
+#Here, not too much effort is required as another crafty R&D can provide
+#the skeleton we need.  This deck is Frisco's World Domination deck.  Some
+#changes obviously are needed as the agenda setup requires 9 cards instead
+#of 6, but here I present the current version of my R&D.
+#
+#Agendas (9)
+#These are the basis for this whole plan.  Scoring one Venice with 10
+#advancement counters gives the Corp a very strong position from
+#which to score the remaining agenda.  So while its not the game winner
+#than World Domination is, the flexibility in going to 7 or 10 for the
+#extra actions helps to make up for it.  It is also a lot easier to
+#acquire the 9 cards.
+#
+#Ice (14)
+#The ice selection is pretty much the same here.  The idea is the same,
+#cheap ice that will pretty much always require the Runner to pay at
+#least 1* or 2* to pass each piece of ice.  The Marionette is an
+#experiment but so far hasn't shown its worth.
+#
+#Upgrades (3)
+#Here some cuts were made to make room for the agendas.  The agendas
+#don't need to be protected for quite as long so can survive with the
+#lesser amount of Upgrade based protection.
+#
+#Nodes (3)
+#Not including the Virus Test Site was a style decision.  It should have
+#the same mass damage potential that it does in the Domination deck.  The
+#extra Euromarket Consortium is included to make sure one is drawn.  The
+#deck sometimes needs a while to dig up the 3rd and 4th agendas, especially
+#if the Runner steals a few, and these greatly speed up the process.
+#
+#Operations (16)
+#Here, one Protocol is replaced with one Accounts as a steadier bit supply
+#is needed to score the extra Projects, not the big surge of bits the
+#Domination deck needs to score just the one agenda in one turn.
+#
+#These may not be optimal for this deck but they have performed ok so far.
+#Like the Domination deck, there are many bit/card combinations for
+#scoring the agendas.
+#
+#Well, thats my deck plan as it stands now.  Based on the Domination
+#plan, it is fairly solid itself.  It has something of an advantage by
+#looking so much like a Domination deck early on.  The Runner might
+#wait till the Corp is in striking range of 12 advancement counters when
+#the Corp suddenly springs out the 2 extra actions from only going
+#to 10.  If the Corp does not have access to the plans to rule the
+#World, it can always start with Venice.
+#
+#Any comments or suggestions are appreciated.

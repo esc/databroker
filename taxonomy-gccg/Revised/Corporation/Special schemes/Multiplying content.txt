@@ -1,0 +1,30 @@
+#Title:
+#Multiplying content
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+6 Ice Transmutation
+2 Food Fight
+3 Chester Mix
+6 Virizz
+6 Gatekeeper
+5 Crystal Palace Station Grid
+3 BBS Whispering Campaign
+3 Canis Major
+3 Fortress Architects
+3 Accounts Receivable
+2 Credit Consolidation
+3 Efficiency Experts
+
+#Description:
+#Creating many subroutines is the goal of this deck. Virizz and Crystal 
+#Palace Station Grid make them more expensive to break and that is very
+#good against Clown decks for example.

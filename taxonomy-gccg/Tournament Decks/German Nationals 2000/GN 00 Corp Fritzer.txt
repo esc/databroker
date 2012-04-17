@@ -1,0 +1,24 @@
+#Theme:
+#Tag'n'Bag
+#
+#Tournament:
+#German Nationals 2000
+#
+#Player:
+#Fabian Fritzer
+#
+#Deck list:
+2 Corporate War
+4 Employee Empowerment
+2 Cinderella
+3 Fragmentation Storm
+2 Glacier
+3 Haunting Inquisition
+2 ACME Savings and Loan
+5 BBS Whispering Campaign
+1 Blood Cat
+3 City Surveillance
+9 Accounts Receivable
+3 Closed Accounts
+5 Management Shake-Up
+1 Street Enforcer

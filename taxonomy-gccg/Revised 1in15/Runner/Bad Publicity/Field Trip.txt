@@ -1,0 +1,47 @@
+#Title:
+#Field Trip
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date: 
+#2010
+#
+#Deck list:
+1 The Deck
+1 Vintage Camaro
+2 Zetatech Portastation
+3 Bodyweight {TM} Synthetic Blood
+1 Core Command: Jettison Ice
+2 Finders Keepers
+1 Hunt Club BBS
+1 Inside Job
+3 Jack 'n' Joe
+1 Lucidrine {TM} Booster Drug
+2 MIT West Tier
+3 Networking
+3 Panzer Run
+1 Remote Detonator
+1 Running Interference
+3 Score!
+1 Senatorial Field Trip
+1 Total Genetic Retrofit
+2 Bartmoss Memorial Icebreaker
+2 Joan of Arc
+1 Pile Driver
+1 Scaldan
+1 Back Door to Netwatch
+2 Broker
+2 Crash Everett, Inventive Fixer
+1 Death from Above
+1 Junkyard BBS
+1 Technician Lover
+
+#Description:
+#This runner is always out in the field, making discoveries, creating 
+#distractions and sometimes taking a senator along his field trips. 
+#The main scheme is Bad Publicity but there is a lot of surprises for the 
+#corporation in this deck to make it dangerous in any situation.

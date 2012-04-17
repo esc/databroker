@@ -1,0 +1,50 @@
+#Title:
+#Deferral of action
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2011
+#
+#Deck list:
+1 Mouse
+2 Rent-I-Con
+1 All-Hands
+2 Blackmail
+4 Bodyweight {TM} Synthetic Blood
+1 Core Command: Jettison Ice
+4 Cruising for Netwatch
+4 Jack 'n' Joe
+1 MIT West Tier
+1 Mantis, Fixer-at-Large
+4 Panzer Run
+2 Sneak Preview
+1 misc.for-sale
+1 HQ Interface
+2 Militech MRAM Chip
+1 Access through Alpha
+1 Back Door to Netwatch
+2 Corporate Ally
+1 Death from Above
+4 Floating Runner BBS
+2 Junkyard BBS
+1 Mercenary Subcontract
+4 N.E.T.O.
+4 Precision Bribery
+4 Rigged Investments
+1 Technician Lover
+4 Top Runners' Conference
+
+#Description:
+#The title indicates that this deck tries to slow down the corporation.
+#By using Start of Turn bit gainers, runner gets more powerful in the
+#later game. Precision Bribery and the combination of Blackmail and
+#Corporate Ally can withhold the corp by a few precious actions to enter
+#the late game phase. In that phase runner should try to control with
+#Technician Lover and Mouse. Disruptive runs on HQ can be assisted by HQ
+#Interface and Mercenary Subcontract to trash fast advancement
+#operations.

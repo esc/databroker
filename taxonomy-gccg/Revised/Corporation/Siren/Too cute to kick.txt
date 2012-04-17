@@ -1,0 +1,25 @@
+#Title:
+#Too cute to kick
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+2 Olivia Salazar
+9 Corporate Downsizing
+1 Self-Destruct
+1 Chester Mix
+9 Filter
+3 Rio de Janeiro City Grid
+2 Glacier
+9 Chihuahua
+9 Siren
+
+#Description:
+#A Siren deck with Chihuahua and Filter.

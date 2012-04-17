@@ -1,0 +1,44 @@
+#Title:
+#Arasaka Owns You
+#
+#Format:
+#Revised
+#
+#Author: 
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+10 Crash Everett, Inventive Fixer
+4 Poisoned Water Supply
+4 Faked Hit
+4 Omnitech "Spinal Tap" Cybermodem
+6 Do the 'Drine {TM}
+4 Smith's Pawnshop
+4 Rent-I-Con
+10 MRAM Chip
+7 Militech MRAM Chip
+4 Arasaka Owns You
+4 Scaldan
+25 Bodyweight {TM} Synthetic Blood
+6 Organ Donor
+4 Frame-Up
+4 Junkyard BBS
+
+#Description:
+#100 cards Bad Publicity deck. The deck can start to build up more hand 
+#size fueled by bits from Organ Donor. The actual bit gaining plan with 
+#Smith's Pawnshop, Omnitech "Spinal Tap" Cybermodem, Crash Everett, Do 
+#the 'Drine and Arasaka Owns You works as follows: When drawing cards 
+#from stack leave an Arasaka Owns You on top, play Do the 'Drine to 
+#discard all hand cards, leaving at least one hand size to draw and hold 
+#that one Araska Owns You. At the start of the following turn sell the 
+#Cybermodem to Smith's Pawnshop thereby inducing lethal damage which in 
+#turn is prevented by Araska Owns You and which provides removal of brain 
+#damage and plenty more cards. 
+#The next stage of the deck includes dealing Bad Publicity points by 
+#Frame-Up, Scaldan, Poisoned Water Supply for which Crash Everett and 
+#Smith's Pawnshop come in handy and Faked Hit which doesn't hurt too much 
+#with that kind of hand size available. 

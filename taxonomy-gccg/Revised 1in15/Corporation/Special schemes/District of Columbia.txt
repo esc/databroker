@@ -1,0 +1,63 @@
+#Title:
+#District of Columbia, 1/15
+#
+#Format:
+#15, Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+4 Corporate War
+3 Unlisted Research Lab
+3 Corporate Downsizing
+3 Night Shift
+4 Efficiency Experts
+4 Accounts Receivable
+2 Credit Consolidation
+2 Edgerunner, Inc., Temps
+1 Shotgun Wire
+2 Laser Wire
+4 Data Wall
+1 Glacier
+3 Quandary
+4 Haunting Inquisition
+1 Brain Drain
+2 Brain Wash
+2 Ice Pick Willie
+1 Liche
+1 Bel-Digmo Antibody
+1 Pattel Antibody
+2 TRAP!
+2 Setup!
+1 Chicago Branch
+1 Chimera
+2 Dieter Esslin
+4 Washington, D.C., City Grid
+
+#Description:
+#(60 cards deck) the conversion of the 50 cards Unlimited version to a 60 
+#card 1/15 version implies minor changes only. Night Shift and Pattel 
+#Antibody have entered the deck because they pull on the same string as 
+#the rest which is quick reliable bit gaining and unpleasant traps. 
+#
+#Washington, District of Columbia City Grid reduces the agenda difficulty 
+#by 1 which makes it particularly interesting for agendas with difficulty 
+#3. After installation it is very likely to be run and trashed therefore 
+#I chose to protect it with traps and other updates. These will be 
+#overwritten when an agenda comes in handy. The bit gainers and the ICE 
+#are chosen such that cards with high cost appear less often; the trilogy 
+#of Efficiency Experts, Accounts Receivable and Credit Consolidation is 
+#always a safe bet. Besides meta game considerations I have included ICE 
+#with damage subroutines to make the traps potentially more dangerous. 
+#Imagine a runner with a Force Shield who has happily saved some bucks 
+#against a Liche just to encounter a TRAP! in Washington DC CG. Bolter 
+#Cluster comes to mind but I want to keep the amount of ICE that relies 
+#on specific circumstances, like second layer ICE or Glacier to an 
+#absolute minimum. Bel-Digmo Antibody and Chimera are effective 
+#countermeasures against specialized decks like R&D attack with Protocol 
+#Files and Daemon tree decks like Bozomatic. An unrezzed Chicago Branch 
+#looks as dangerous as an unrezzed trap but can decide a game quickly. 

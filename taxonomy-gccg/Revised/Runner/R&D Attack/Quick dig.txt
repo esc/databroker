@@ -1,0 +1,25 @@
+#Title:
+#Quick Dig
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+10 Top Runners' Conference
+2 Loan from Chiba
+1 misc.for-sale
+10 Bodyweight {TM} Synthetic Blood
+5 Militech MRAM Chip
+2 Rent-I-Con
+1 Weefle Initiation
+1 Mercenary Subcontract
+13 R&D Mole
+
+#Description:
+#Big Dig with Top Runners' Conference as bit engine.

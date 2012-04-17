@@ -1,0 +1,19 @@
+#Theme:
+#
+#
+#Tournament:
+#German Nationals 1999
+#
+#Player:
+#Thorsten Kootz
+#
+#Deck list:
+12 Accounts Receivable
+5 Filter
+11 Neural Blade
+5 Project Consultants
+5 Tycho Extension
+3 ACME Savings and Loan
+4 Antiquated Interface Routines
+4 Management Shake-Up
+1 Data Wall

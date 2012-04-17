@@ -1,0 +1,31 @@
+#Theme:
+#R&DPF/MAII + HQ Attack
+#
+#Tournament:
+#World Championships 2001, round 2
+#
+#Player:
+#Richard Cripe
+#
+#Deck list:
+10 Bodyweight {TM} Synthetic Blood
+ 8 Organ Donor
+ 4 MIT West Tier
+ 3 Temple Microcode Outlet
+ 3 Zetatech Mem Chip
+ 2 Priority Wreck
+ 1 Remote Detonator
+ 1 Bodyweight {TM} Data Creche
+ 1 Highlighter
+ 1 Crumble
+ 1 Vienna 22
+ 1 The Personal Touch
+ 1 R&D-Protocol Files
+ 1 Microtech AI Interface
+ 1 Emergency Self-Construct
+ 1 Skeleton Passkeys
+ 1 Pile Driver
+ 1 Jackhammer
+ 1 Big Frackin' Gun
+ 1 Enterprise, Inc., Shields
+ 1 Bartmoss Memorial Icebreaker

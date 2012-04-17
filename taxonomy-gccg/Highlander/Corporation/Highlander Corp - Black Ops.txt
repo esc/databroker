@@ -1,0 +1,61 @@
+#Title:
+#
+#
+#Format:
+#Highlander
+#
+#Author:
+#photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+1 Artificial Security Directors
+1 Corporate Coup
+1 Corporate War
+1 Detroit Police Contract
+1 Marked Accounts
+1 Political Coup
+1 Political Overthrow
+1 Project Babylon
+1 Banpei
+1 Bolter Cluster
+1 Cinderella
+1 Data Darts
+1 Data Naga
+1 Data Wall
+1 Fetch 4.0.1
+1 Glacier
+1 Hunter
+1 Liche
+1 Marionette
+1 Misleading Access Menus
+1 Quandary
+1 Sleeper
+1 Zombie
+1 BBS Whispering Campaign
+1 City Surveillance
+1 Department of Truth Enhancement
+1 Rockerboy Promotion
+1 Schlaghund
+1 TRAP!
+1 Vapor Ops
+1 Accounts Receivable
+1 Closed Accounts
+1 Credit Consolidation
+1 Data Sifters
+1 Efficiency Experts
+1 Management Shake-Up
+1 Manhunt
+1 Night Shift
+1 Off-Site Backups
+1 Project Consultants
+1 Schlaghund Pointers
+1 Scorched Earth
+1 Urban Renewal
+1 Bizarre Encryption Scheme
+1 Weapons Depot
+
+#Description:
+#n/a

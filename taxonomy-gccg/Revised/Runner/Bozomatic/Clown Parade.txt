@@ -1,0 +1,26 @@
+#Title
+#Clown Parade
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+8 Bodyweight {TM} Synthetic Blood
+3 Afreet
+7 Valu-Pak Software Bundle
+2 Succubus
+5 Clown
+2 Forward's Legacy
+8 Top Runners' Conference
+2 Wrecking Ball
+2 Skeleton Passkeys
+6 Zetatech Software Installer
+
+#Description:
+#The Bozomatic deck with Top Runners' Conference as bit engine.

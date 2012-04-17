@@ -1,0 +1,51 @@
+#Title:
+#Turn-One War
+#
+#Format:
+#Revised
+#
+#Author:
+#Frizzler
+#
+#Date:
+#Wed Jul 30, 2008 3:44 pm
+#
+#Deck list:
+6 Corporate War 
+6 Pacifica Regional AI 
+8 Annual Reviews 
+6 Edgerunner, Inc., Temps 
+12 Team Restructuring 
+2 Glacier 
+3 Filter 
+2 Chihuahua 
+
+#Description:
+#This is the deck I played in the first three rounds in Runner's Net 
+#tournament number five last year. It is in Unlimited Revised format. 
+#
+#Right after my first few Netrunner games eight years ago, I asked myself 
+#whether it could be possible to score an agenda in turn one. The answer 
+#is YES. 
+#
+#You need the following cards in your starting hand:
+#1 difficulty three agenda
+#1 Pacifica Regional AI
+#1 Team Restructuring
+#and another Team Restructuring or an Edgerunner.
+#
+#Your first turn looks like this:
+#Action 1: Edgerunner the Agenda and Pacifica (in the ideal case, you 
+#			additionally install an ICE).
+#Action 2: Advance your Agenda.
+#Action 3: Play Team Restructuring, advancing the Agenda and Pacifica.
+#Action 4 (Pacifica): Advance Agenda and score.
+#
+#Although it was an experimental deck, it played 3:0 in the tournament. 
+#The trick with turn one only worked in one of the three games, but even 
+#if you need two turns for scoring your first agenda, it is still 
+#extremely quick. With Annual Reviews, Filter and Glacier, you can often 
+#out-speed the Runner. Annual Reviews is also important because it makes 
+#the deck much more stable. If you don't have the mentioned starting 
+#hand, you can play Annual Reviews and still score an Agenda in turn one 
+#with your remaining two actions (+2 actions from Pacifica). 

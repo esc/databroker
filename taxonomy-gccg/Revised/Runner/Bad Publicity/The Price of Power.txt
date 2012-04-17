@@ -1,0 +1,60 @@
+#Title:
+#The Price of Power
+#
+#Format:
+#Revised
+#
+#Author:
+#Frank Gerolstein
+#
+#Date:
+#n/a
+#
+#Deck list:
+9 Arasaka Owns You
+4 MIT West Tier
+1 Remote Detonator
+9 Test Spin 
+2 AI Boon
+1 Bulldozer
+5 Mystery Box
+1 Newsgroup Filter
+1 Raffles
+2 Scaldan
+3 Succubus 
+1 The Deck 
+6 Quest for Cattekin 
+
+#Description:
+#You are one of Arasaka's hottest runners, they give you access to all their hot 
+#equipment, but they want something in return. Every bit of information you 
+#collect! But life is great as one of Arasaka's goons, they protect you when 
+#you're in trouble, they give you high-tech others could only dream of, right 
+#now you're cruising cyberspace with you're Deck testing that little new Bo they 
+#developed and finding out what secrets it holds. Soon you're Quest will be at 
+#an end, you're close to Cattekin. Then you'll retire.
+#
+#Well this is the weirdest deck I've ever seen let alone develop, it's strictly 
+#a fun deck, cause I don't think I'll ever make it work for tournaments. It's 
+#still in its play testing stage, so if anybody got new idea's to improve it, 
+#besides ripping it apart, I'd be glad to receive them. Don't be afraid of the 
+#high numbers of rares in it, I'm too still using proxies.
+#
+#How can this deck work
+#Simple I always wanted to make a runner deck with lots of actions therefor 
+#include several Quests, to get rid of the brain damage effect I decided to 
+#include AOY which works good with the extra actions. Now to get rid of the AP-
+#forfeiting I first tries milling the corp, but found out that Scaldan seems 
+#more appropriate. Now to use Arasaka I'd have to flatline myself, so I started 
+#with Blinks, but then saw the light to use Test Spins. Now I to decide what to 
+#use with Test Spin and another card came naturally Mystery Box, with that I 
+#could decide to go for good expensive Icebreakers, ending up with AI Boon, 
+#Bulldozer, Raffles. Now to compensate for losses due to Quest, I had to include 
+#MIT's and a deck was born.
+#
+#The basic idea is to install Quests, get you low on bits, Test Spin for Mystery 
+#Box, run an appropriate fort, use Mystery Bo to hopefully install a useful 
+#program, get flatlined, play Arasaka to remove brain damage you suffered from 
+#Quest, fill up your hand, get new bits do this until you've got a couple of 
+#extra actions and the important programs out, then run HQ multiple times and 
+#kill the Corp with Bad Publicity. 

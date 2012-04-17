@@ -1,0 +1,25 @@
+#Theme:
+#Tag'n'Bag
+#
+#Tournament:
+#German Nationals 2000
+#
+#Player:
+#Holger Janssen
+#
+#Deck list:
+3 Corporate Retreat
+3 Employee Empowerment
+2 Data Wall
+2 Filter
+3 Glacier
+1 Marionette
+3 BBS Whispering Campaign
+6 City Surveillance
+3 Indiscriminate Response Team
+4 Schlaghund
+4 Day Shift
+1 Manhunt
+3 Night Shift
+4 Project Consultants
+3 Shock Treatment

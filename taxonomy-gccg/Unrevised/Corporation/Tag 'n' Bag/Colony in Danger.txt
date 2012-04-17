@@ -1,0 +1,34 @@
+#Title:
+#Colony in Danger
+#
+#Format:
+#Unrevised
+#
+#Author:
+#Solkan
+#
+#Date:
+#n/a
+#
+#Deck list:
+2 On-Call Solo Team
+3 Tycho Extension
+3 Accounts Receivable
+3 Credit Consolidation
+2 Efficiency Experts
+2 Management Shake-Up
+2 Manhunt
+1 Off-Site Backups
+3 Project Consultants
+3 Asp
+3 Brain Wash
+3 Data Wall
+3 Data Wall 2.0
+3 Filter
+2 Haunting Inquisition
+2 Rio de Janeiro City Grid
+3 City Surveillance
+2 Schlaghund
+
+#Description:
+#n/a

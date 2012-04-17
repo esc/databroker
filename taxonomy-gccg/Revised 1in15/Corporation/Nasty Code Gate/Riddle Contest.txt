@@ -1,0 +1,42 @@
+#Title:
+#Riddle Contest
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#Jack 'n' Joe
+#
+#Date:
+#2012
+#
+#Deck list:
+2 AI Chief Financial Officer
+2 Data Fort Remapping
+2 Ice Transmutation
+2 Marine Arcology
+1 Ball and Chain
+2 Cortical Scanner
+2 Filter
+1 Gatekeeper
+1 Glacier
+2 Haunting Inquisition
+2 Nerve Labyrinth
+2 Quandary
+2 Scramble
+1 Tutor
+3 BBS Whispering Campaign
+3 Encoder, Inc.
+3 Siren
+1 Edgerunner, Inc., Temps
+2 New Blood
+3 Night Shift
+1 Off-Site Backups
+2 Chester Mix
+3 Crystal Palace Station Grid
+
+#Description:
+#"It like riddles, praps it does, does it? It must have a competition 
+#with us, my precuouss! If precious asks, and it doesn't answer, we eats 
+#it, my precioussss. If it asks us, and we doesn't answer, then we does 
+#what it wants, eh? We shows it the way out, yes!" -The Hobbit, Ch. 5 

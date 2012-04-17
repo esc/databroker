@@ -1,0 +1,50 @@
+#Title:
+#CNC Shuffle
+#
+#Format:
+#Revised
+#
+#Author:
+#dbeats
+#
+#Date:
+#Sat Jan 20, 2007 9:52 am
+#
+#Deck list:
+4 Employee Empowerment
+4 AI Chief Financial Officer
+2 Scramble
+2 Quandary
+2 Crystal Wall
+2 Data Wall
+2 Banpei
+1 Wall of Ice
+1 Colonel Failure
+1 Haunting Inquisition
+1 Glacier
+9 Corporate Negotiating Center
+6 Accounts Receivable
+4 Project Consultants
+4 Edgerunner, Inc., Temps
+4 Panic Button
+1 Aardvark
+
+#Description:
+#50 cards
+#
+#I already played this deck at several constructed tournaments in 1998 and 1999 
+#and it hasn't been changed much since then. I still love to play it because it 
+#is really different and strong and fun to play. For this UK format tournament 
+#with BMI and Rent-I-Con more or less banned, I included one Aardvark instead 
+#of the 5th Edgerunner inc just for fun and surprise, because I expected 
+#everyone to play with a real breaker suit and Aardvark is such a rare card in 
+#practical gameplay.
+#
+#Back in the old days most runners ignored the installed CNCs because of the 
+#large numbers and high trash cost and concentrated on R&D and HQ attack (which 
+#is not a bad idea in my opinion). In this tournament, however, all of my 
+#opponents concentrated on trashing all open CNCs, even if it cost lots of bits 
+#and actions. This surprised me a bit, and I had to adapt my gameplay: I had to 
+#protect the first and second CNC with small ice, or Glacier if it shows up early 
+#enough. In the future I might prefer to play with 2 instead of just 1 Glacier for 
+#this reason.

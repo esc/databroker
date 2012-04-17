@@ -1,0 +1,31 @@
+#Title:
+#Arasaka Owns You
+#
+#Format:
+#Revised
+#
+#Author: 
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+12 Crash Everett, Inventive Fixer
+4 Poisoned Water Supply
+8 Faked Hit
+12 Omnitech "Spinal Tap" Cybermodem
+8 Do the 'Drine {TM}
+12 Smith's Pawnshop
+8 Rent-I-Con
+16 MRAM Chip
+16 Militech MRAM Chip
+4 Valu-Pak Software Bundle
+12 Arasaka Owns You
+8 Scaldan
+8 Incubator
+40 Bodyweight {TM} Synthetic Blood
+12 Organ Donor
+
+#Description:
+#180 cards version.

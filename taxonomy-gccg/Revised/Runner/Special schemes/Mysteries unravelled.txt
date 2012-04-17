@@ -1,0 +1,28 @@
+#Title
+#Mysteries unravelled
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+2 Forward's Legacy
+1 Viral Pipeline
+10 Mystery Box
+8 Valu-Pak Software Bundle
+1 Wrecking Ball
+1 Wizard's Book
+5 Succubus
+12 Joan of Arc
+1 Lockjaw
+4 Clown
+
+#Description:
+#Play Joan of Arc with Valu-Pak and prevent Mystery Box from trashing,
+#thereby installing more of them. Eventually you should have a Bozomatic
+#engine installed.

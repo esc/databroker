@@ -1,0 +1,40 @@
+#Title:
+#Tag'n'Die
+#
+#Format:
+#Revised
+#
+#Author:
+#Micheal Keane
+#
+#Date:
+#08.03.97
+#
+#Deck list: 
+9 Marked Accounts
+9 Accounts Receivable
+5 Scorched Earth
+3 Manhunt
+9 assorted ICE
+2 Off-Site Backups
+1 Trojan Horse
+1 Underworld Mole
+1 Closed Accounts
+1 Corporate Detective Agency
+1 Power Grid Overload
+1 Schlaghund
+1 City Surveillance
+1 Blood Cat
+
+#Description:
+#Oh, and why not? I might as well post my Tag'n'Die deck for your critique.
+#I'm still tweaking it at the moment. It's only loss came to a runner who
+#got an early highlighter and skeleton passkeys to access R&D(protected by
+#a filter) at will. I've tweaked it since then here and there. But usually,
+#what happens is I put out a marked accounts, advance it once, and wait for
+#the runner to take the bait. With luck, I'll have a manhunt in hand with
+#some meat damage. If no scorched earths... the runner is going to take a
+#while to get rid of all those tags... =-) I'm going to add more scorched
+#earths once I have them. I don't like Urban Renewal because it's so
+#expensive compared to scorched earth, but money is rarely a problem for
+#this deck so I might put 4 of those in along with more manhunts.

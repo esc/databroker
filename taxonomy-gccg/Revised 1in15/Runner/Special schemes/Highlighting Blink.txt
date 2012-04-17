@@ -1,0 +1,35 @@
+#Title:
+#Highlighting Blink
+#
+#Format:
+#Revised
+#
+#Date:
+#2012
+#
+#Author:
+#Frizzler
+#
+#Deck list:
+4 Microtech Backup Drive
+14 Shield
+15 Afreet
+1 Highlighter
+2 Superglue
+2 Startup Immolator
+5 Blink
+4 Clown
+3 Succubus
+3 Force Shield
+15 Zetatech Software Installer
+1 Emergency Self-Construct
+1 Dropp {TM}
+1 Crumble
+1 Scaldan
+1 Pile Driver
+1 Big Frackin' Gun
+1 Joan of Arc
+15 The Short Circuit
+
+#Description:
+#n/a

@@ -1,0 +1,36 @@
+#Title:
+#End of days
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2001
+#
+#Deck list:
+2 Bartmoss Memorial Icebreaker
+2 Joan of Arc
+2 Pile Driver
+1 Shredder Uplink Protocol
+4 Armageddon
+1 MIT West Tier
+9 Bodyweight {TM} Synthetic Blood
+1 Organ Donor
+3 Networking
+3 Score!
+2 Security Code WORM Chip
+2 Remote Detonator
+2 Total Genetic Retrofit
+2 Zetatech Mem Chip
+1 Death from Above
+4 Restrictive Net Zoning
+2 Precision Bribery
+2 Junkyard BBS
+
+#Description:
+#Shredder Uplink Protocol is a nasty surprise at the end of the day after 
+#the corp's attention has been drawn to the defense against Armageddon, 
+#thereby most probably neglecting the Archives. 

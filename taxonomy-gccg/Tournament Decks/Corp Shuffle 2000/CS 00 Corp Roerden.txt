@@ -1,0 +1,29 @@
+#Theme:
+#Tag'n'bag
+#
+#Tournament:
+#Corp Shuffle 2000
+#
+#Player:
+#Ocke Rörden
+#
+#Deck list:
+2 Corporate Shuffle
+1 Shock Treatment
+1 Underworld Mole
+2 Imperial Guard
+1 Bolter Swarm
+4 Rock Is Strong
+5 Haunting Inquisition
+3 Corporate Downsizing
+1 Political Overthrow
+2 Corporate War
+2 Accounts Receivable
+5 BBS Whispering Campaign
+6 City Surveillance
+1 Manhunt
+1 Off-Site Backups
+2 Systematic Layoffs
+3 Closed Accounts
+1 Sterdroid
+2 Schlaghund

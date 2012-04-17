@@ -1,0 +1,26 @@
+#Title:
+#Viral Scheme
+#
+#Format:
+#Revised
+#
+#Author:  
+#Solkan
+#
+#Date:
+#n/a
+#
+#Deck list:	
+4 Fetal AI
+4 Viral Breeding Ground
+10 Accounts Receivable
+2 Off-Site Backups
+2 Reclamation Project
+2 Asp
+6 Data Wall
+6 Filter
+6 Puzzle
+8 Bizarre Encryption Scheme
+
+#Description:
+#n/a

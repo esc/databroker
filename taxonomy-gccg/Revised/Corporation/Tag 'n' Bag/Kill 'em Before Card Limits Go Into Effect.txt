@@ -1,0 +1,24 @@
+#Title:
+#Kill 'em Before Card Limits Go Into Effect
+#
+#Format:
+#Revised
+#
+#Author:
+#Dylan Northrup  	
+#
+#Date:
+#02.05.96
+#
+#Deck list: 
+10 Trojan Horse
+5 Chance Observation
+20 Detroit Police Contract
+10 Urban Renewal
+5 I Got a Rock
+
+#Description:
+#The DPDs are worth 1 agenda.  Sac the DPD, slap a Trojan or two, and pummel
+#them with Urbans and Rocks.
+#
+#This is my Kill 'em Before Card Limits Go Into Effect Deck :-)

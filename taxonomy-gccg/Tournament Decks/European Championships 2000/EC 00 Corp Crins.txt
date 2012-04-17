@@ -1,0 +1,20 @@
+#Theme:
+#Siren
+#
+#Tournament:
+#European Championships 2000
+#
+#Player:
+#Frank Crins
+#
+#Deck list:
+6 Corporate War
+7 Misleading Access Menus
+7 Snowbank
+7 Washed-Up Solo Construct
+5 Siren
+2 Chester Mix
+2 Obfuscated Fortress
+2 Olivia Salazar
+5 Rio de Janeiro City Grid
+2 Self-Destruct

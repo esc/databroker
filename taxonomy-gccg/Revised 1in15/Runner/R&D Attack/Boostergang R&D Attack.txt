@@ -1,0 +1,41 @@
+#Title:
+#Boostergang R&D Attack
+#
+#Format:
+#Revised, 15
+#
+#Author: 
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+14 Top Runners' Conference
+14 Bodyweight {TM} Synthetic Blood
+6 Rent-I-Con
+6 misc.for-sale
+14 Militech MRAM Chip
+6 Pile Driver
+7 The Deck
+14 Boostergang Connections
+14 Networking
+7 Vintage Camaro
+6 Force Shield
+6 Microtech Backup Drive
+14 Cruising for Netwatch
+6 R&D-Protocol Files
+6 Microtech AI Interface
+14 Livewire's Contacts
+14 Score!
+14 Jack 'n' Joe
+14 If You Want It Done Right...
+14 MRAM Chip
+
+#Description:
+#A 1/15 Boostergang deck that sets up in two stages, first installing 
+#multiple copies of Top Runner's Conference and drawing many cards. Using 
+#those Boostergang Connections then extracts a couple of Rent-I-Con, 
+#R&D-Protocol Files, Microtech AI Interface and optionally some 
+#protection like Force Shield and The Deck. Pile Driver might possibly 
+#save some bits against big walls.

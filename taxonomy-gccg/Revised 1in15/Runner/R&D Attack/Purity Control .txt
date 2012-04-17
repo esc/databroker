@@ -1,0 +1,61 @@
+#Title:
+#Purity Control
+#
+#Format:
+#Revised 15
+#
+#Author:
+#whodack
+#
+#Date:
+#Wed Jul 08, 2009 7:21 pm 
+#
+#Deck list:
+1 WuTech Mem Chip 
+1 MRAM Chip 
+1 Bodyweight {TM} Data Creche 
+2 Efficiency Experts 
+3 Bodyweight {TM} Synthetic Blood 
+1 Mantis, Fixer-at-Large 
+3 Cruising for Netwatch
+3 Jack 'n' Joe 
+3 Organ Donor 
+1 MIT West Tier 
+3 Stakeout
+3 Score! 
+2 misc.for-sale 
+3 Panzer Run
+1 Remote Detonator
+1 Emergency Self-Construct 
+1 Microtech AI Interface 
+1 Skeleton Passkeys
+1 Matador 
+1 Jackhammer 
+1 Highlighter
+1 Danshi's Second ID 
+3 Top Runners' Conference 
+1 Elena Laskova 
+1 Crash Everett, Inventive Fixer 
+2 Liberated Savings Account
+
+#Description:
+#It's a Big Dig deck. This deck does amazingly well and still feels like 
+#it has room to be optimized further. 
+#Elena or Crash turns the simple cantrips (Cruising and Stakeout) into 
+#powerful effects and both in play at once makes you mow through the deck 
+#while simultaneously amassing bits. 
+#The Remote/Danshi combo is still being tested but seems necessary 
+#against any deck that stacks ice on R&D and/or plays with Superserum. 
+#You typically have enough bits when you "go off" to end the game in one 
+#or two turns. But sometimes the situation calls for you to run sooner 
+#than you'd like, and your bit pool will run dry before you've dug enough 
+#cards. That's when you should pull out the Remote/Danshi combo. 
+#The ESC is strictly against corp decks that use lots of Traps and Setup 
+#type cards. If the corp isn't playing them, you can ignore the ESC as 
+#well as the WuTech Mem chip. 
+#The hardest thing for this deck to deal with is when the corp plays 
+#directly against the weakness of Top Runners' Conference - and advances 
+#agendas with little or no protection. You need to make the call of 
+#whether or not to run during these situations. It's fun and the deck's 
+#power helps, because if you choose right you definitely win. If you 
+#choose wrong, you'll still probably win but it will be closer. 

@@ -1,0 +1,58 @@
+#Title:
+#Trust No One
+#
+#Format:
+#Revised
+#
+#Author:
+#Neal
+#
+#Date:
+#26.05.97
+#
+#Deck list: 
+2 Colonel Failure
+5 Liche
+1 Wall of Ice
+6 Mastiff
+5 Cerberus
+3 Data Naga
+5 Zombie
+2 Haunting Inquisition
+3 Siren
+1 Dr. Dreff
+1 Lisa Blight
+1 Executive Extraction
+9 Security Purge
+
+#Description:
+#As you can see, there are no bit-gainers at all. On reflection, I should 
+#have included some lower-cost ice, so I could have a chance to rez it in 
+#front of the first Security Purge. The beginning of each game usually 
+#involved taking bits until I could rez up a Data Naga or Zombie in front 
+#of the first installed Security Purge. 
+#
+#Dr. Dreff, Lisa Blight, and the Executive Extraction never got used. If 
+#I owned two Executive Extractions I might replace a Security Purge with 
+#them. As it is, I would have been better off to leave it out. Dr. Dreff 
+#and Lisa Blight were never used, even though I installed them. It might 
+#be better to just replace them with a couple of low-cost ice. 
+#
+#This R&D was very fun to play. Taking that crap shoot each time I scored 
+#a Security Purge was really exciting. After the Siren is installed, it's 
+#no real problem to lose a Security Purge into the Archives, since the 
+#Runner can't run without dying. I probably should have included another 
+#Siren just to make sure it was there when I needed it. There was a game 
+#where I scored a Security Purge and had to trash two Sirens. That was 
+#painful :) 
+#
+#This idea is not for the weak of heart. It hurts to have a hand of 
+#Mastiff, Mastiff, Cerberus, Colonel Failure and know that you are never 
+#going to install any of them. The good news is that there are plenty 
+#more where that came from. 
+#
+#An early Inside Job is also be crippling, and a dedicated Clown setup, 
+#like Dennis Duncan's, would also be deadly. 
+#
+#It took me almost a year to get 9 Security Purges. This is one case 
+#where I think it was well worth it. This deck is a blast to play. 

@@ -1,0 +1,31 @@
+#Title:
+#Your choice
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+2 Pile Driver
+5 Forged Activation Orders
+2 MRAM Chip
+1 Priority Wreck
+2 Organ Donor
+15 Jack 'n' Joe
+2 MIT West Tier
+2 Matador
+2 Skeleton Passkeys
+3 Networking
+2 Vintage Camaro
+3 Score!
+2 R&D-Protocol Files
+2 Synchronized Attack on HQ
+
+#Description:
+#A deck around Forged Activation Orders that targets both
+#HQ and R&D. Inspired by a deck of Ripplez

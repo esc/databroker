@@ -1,0 +1,20 @@
+#Theme:
+#Fast advancement
+#
+#Tournament:
+#South German Regionals 1999
+#
+#Player:
+#Holger Janssen
+#
+#Deck list:
+6 Employee Empowerment
+6 Quandary
+1 Marionette
+1 Data Naga
+2 Haunting Inquisition
+10 Setup!
+3 ACME Savings and Loan
+2 BBS Whispering Campaign
+8 Accounts Receivable
+6 Project Consultants

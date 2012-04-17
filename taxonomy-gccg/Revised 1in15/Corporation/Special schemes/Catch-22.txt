@@ -1,0 +1,39 @@
+#Title:
+#Catch-22
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+4 Accounts Receivable
+2 Data Naga
+2 Data Wall
+2 Filter
+4 Credit Consolidation
+4 Obfuscated Fortress
+4 Efficiency Experts
+4 Haunting Inquisition
+2 Glacier
+4 Management Shake-Up
+3 Data Fort Remapping
+4 Dr. Dreff
+1 Sterdroid
+4 Zombie
+2 Quandary
+3 Main-Office Relocation
+4 Night Shift
+1 Colonel Failure
+1 Bolter Cluster
+2 Off-Site Backups
+3 Employee Empowerment
+
+#Description:
+#Catch-22 is a situation in which a problem cannot be avoided. Such it is 
+#with Obfuscated Fortress and corporate effects that create possibility 
+#enablers like Dr. Dreff and Sterdroid. 

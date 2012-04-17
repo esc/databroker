@@ -1,0 +1,31 @@
+#Title:
+#Watching you
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2000
+#
+#Deck list:
+3 Employee Empowerment
+3 Main-Office Relocation
+4 Accounts Receivable
+4 Corporate Shuffle 
+5 Edgerunner, Inc., Temps
+3 Washed-Up Solo Construct
+2 Snowbank
+3 Misleading Access Menus
+1 Glacier
+5 Newsgroup Taunting
+4 City Surveillance
+5 Indiscriminate Response Team
+3 Street Enforcer
+
+#Description:
+#If you want to experience how a measly piece of payback ICE can hold off 
+#a runner, watch him closely with City Surveillance and Indiscriminate 
+#Response Team and arrange a meeting with a Street Enforcer. 

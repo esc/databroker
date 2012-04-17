@@ -1,0 +1,42 @@
+#Title:
+#Mastermind
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+1 Shock.r
+4 Efficiency Experts
+4 Accounts Receivable
+2 Credit Consolidation
+3 Night Shift
+3 Coyote
+4 Quandary
+1 Filter
+1 Glacier
+2 Haunting Inquisition
+1 Data Naga
+1 Ice Pick Willie
+4 Mastermind
+2 Self-Destruct
+2 Unlisted Research Lab
+1 Political Overthrow
+3 Vapor Ops
+2 Jenny Jett
+1 Corporate Downsizing
+1 Chimera
+4 Data Wall
+4 Genetics-Visionary Acquisition
+4 Executive Extraction
+4 Artificial Security Directors
+1 Siren
+
+#Description:
+#Originally planned as a deck centered around Mastermind it turned out
+#to be an 1/15 incarnation of the Golden (Agenda) Loop deck.

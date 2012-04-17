@@ -1,0 +1,52 @@
+#Title:
+#Ministry of Love 2_0
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#Jack 'n' Joe
+#
+#Date:
+#2012
+#
+#Deck list:
+2 AI Chief Financial Officer
+3 Corporate War
+2 Marine Arcology
+2 Marked Accounts
+2 Coyote
+1 Data Darts
+1 Data Naga
+2 Data Wall
+1 Digiconda
+2 Food Fight
+2 Glacier
+2 Haunting Inquisition
+2 Ice Pick Willie
+2 Quandary
+1 Razor Wire
+1 Zombie
+1 Blood Cat
+2 City Surveillance
+2 Department of Truth Enhancement
+2 TRAP!
+2 Accounts Receivable
+1 Closed Accounts
+2 Efficiency Experts
+1 Manhunt
+1 New Blood
+3 Night Shift
+1 Off-Site Backups
+1 Project Consultants
+1 Urban Renewal
+2 Roving Submarine
+
+#Description:
+#With version 2 you can fully experience power tracing with Blood Cat, 
+#Hacker Tracker Central and subsequent Closed Accounts and Urban Renewal. 
+#Roving Submarine adds persistence to that lethal mix and can make a 
+#skyrocketing bit engine with Department of Truth Enhancement. The solid 
+#ICE mix in version 2 can still profit from New Blood played as a 
+#surprise and will be sufficient to defend the difficulty three agendas 
+#for easy bits.

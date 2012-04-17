@@ -1,0 +1,30 @@
+#Theme:
+#
+#
+#Tournament:
+#German Nationals 1999
+#
+#Player:
+#Andreas Quitar
+#
+#Deck list:
+3 Artificial Security Directors
+5 Corporate War
+6 Accounts Receivable
+4 Credit Consolidation
+3 City Surveillance
+3 Weapons Depot
+5 Dieter Esslin
+2 Data Wall 2.0
+2 Nerve Labyrinth
+2 Shotgun Wire
+1 Mazer
+1 Bolter Cluster
+1 Banpei
+1 Sleeper
+1 Wall of Static
+1 Liche
+1 Scramble
+1 Data Darts
+1 Colonel Failure
+1 Wall of Ice

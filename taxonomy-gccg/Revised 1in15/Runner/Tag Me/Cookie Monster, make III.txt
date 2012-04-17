@@ -1,0 +1,46 @@
+#Title:
+#Cookie Monster - 
+#German: "Krümelmonster", make III
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#Frizzler, variant photon79
+#
+#Date:
+#2011
+#
+#Deck list:
+1 Crumble
+1 Vienna 22
+1 Shredder Uplink Protocol
+1 Imp
+2 Bartmoss Memorial Icebreaker
+2 Joan of Arc
+1 Little Black Box
+2 Edited Shipping Manifests
+2 Core Command: Jettison Ice
+1 Gypsy {TM} Schedule Analyzer
+3 Liberated Savings Account
+2 On the Fast Track
+3 Identity Donor
+1 Total Genetic Retrofit
+1 Full Body Conversion
+1 Arasaka Owns You
+1 Mantis, Fixer-at-Large
+1 Sneak Preview
+4 Jack 'n' Joe
+2 MIT West Tier
+4 Networking
+4 Score!
+4 Panzer Run
+1 Temple Microcode Outlet
+4 Stakeout
+4 Cruising for Netwatch
+4 Bodyweight {TM} Synthetic Blood
+2 MRAM Chip
+
+#Description:
+#see description of Cookie monster; this variant replaces Remote Detonator with 
+#Core Command and uses Networking instead of Drone for a Day.

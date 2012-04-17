@@ -1,0 +1,35 @@
+#Title:
+#Manhunt, make II
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+3 Rockerboy Promotion
+2 Marionette
+3 Manhunt
+2 Bolter Cluster
+3 Data Wall
+2 Zombie
+3 Quandary
+3 Schlaghund
+3 Political Overthrow
+2 Off-Site Backups
+3 Night Shift
+3 Day Shift
+2 Closed Accounts
+3 City Surveillance
+3 BBS Whispering Campaign
+2 Annual Reviews
+2 Indiscriminate Response Team
+1 Edgerunner, Inc., Temps
+
+#Description:
+#Another variant for a Manhunt deck with Indiscriminate Response Team and
+#City Surveillance.

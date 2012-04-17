@@ -1,0 +1,39 @@
+#Title:
+#Punishment
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#2006
+#
+#Deck list:
+2 Punitive Counterstrike
+3 Marked Accounts
+2 Rockerboy Promotion
+3 Superserum
+1 South African Mining Corp
+1 Glacier
+2 BBS Whispering Campaign
+2 Data Wall
+2 Quandary
+1 Closed Accounts
+2 Marionette
+1 Audit of Call Records
+1 Urban Renewal
+1 Underworld Mole
+3 Efficiency Experts
+3 Accounts Receivable
+3 Scorched Earth
+2 Corporate War
+3 Schlaghund Pointers
+3 Systematic Layoffs
+2 Management Shake-Up
+1 Data Naga
+1 Haunting Inquisition
+
+#Description:
+#A 1/15 tag'n'bag deck that uses a wider spread set of trace cards.

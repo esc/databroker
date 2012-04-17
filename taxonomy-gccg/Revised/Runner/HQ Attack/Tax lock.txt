@@ -1,0 +1,32 @@
+#Title
+#Tax lock 
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+2 Total Genetic Retrofit
+2 Death from Above
+2 Precision Bribery
+2 Remote Detonator
+4 Taxman
+4 Loan from Chiba
+12 Bodyweight {TM} Synthetic Blood
+4 Edited Shipping Manifests
+2 Security Code WORM Chip
+3 Crash Everett, Inventive Fixer
+2 Joan of Arc
+2 Bartmoss Memorial Icebreaker
+2 Junkyard BBS
+4 Restrictive Net Zoning
+3 MIT West Tier
+
+#Description:
+#Focused on HQ Attack with Taxman and measures to install a virtual 
+#lock.

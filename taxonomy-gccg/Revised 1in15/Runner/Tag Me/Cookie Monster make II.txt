@@ -1,0 +1,44 @@
+#Title:
+#Cookie Monster, make II	
+#
+#Format:
+#Revised 15
+#
+#Author:
+#whodack
+#
+#Date:
+#Wed Jul 08, 2009 7:21 pm
+#	
+#Deck list:	
+2 Militech MRAM Chip
+1 Full Body Conversion
+3 Drone for a Day
+1 Mantis, Fixer-at-Large
+3 Jack 'n' Joe
+3 Cruising for Netwatch
+2 MIT West Tier
+3 Score!
+3 Bodyweight {TM} Synthetic Blood
+3 Organ Donor
+3 Stakeout
+3 Identity Donor
+3 Panzer Run
+3 Edited Shipping Manifests
+1 Remote Detonator
+1 Shredder Uplink Protocol
+2 Self-Modifying Code
+1 Succubus
+1 Skeleton Passkeys
+1 MS-todon 
+1 Hammer
+1 Scaldan
+
+#Description:
+#It's basically a Scaldan deck. Some of the other versions I've seen of 
+#this deck use the Bartmoss/Joan combo but I've found the breakers above 
+#to be about the same in overall cost and often cheaper for big ice, and 
+#they're obviously more stable than Bartmoss. 
+#I didn't invent this deck (or the one below) but I have optimized it as 
+#best as I can given the results of my playtesting and the restrictions 
+#of the 1/15 format. Scaldan is a total bitch to deal with as the corp. 

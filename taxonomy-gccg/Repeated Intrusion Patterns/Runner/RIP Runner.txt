@@ -1,0 +1,41 @@
+#Title:
+#RIP Corporation
+#
+#Format:
+#RIP
+#
+#Author:
+#Frizzler
+#
+#Date:
+#8th April 2003
+#
+#Deck list:
+
+Program:(14)
+2 Autocyph Prototype
+2 AutoGrynd Prototype
+2 AutoPing Prototype
+2 Encryption Algorithm
+2 Icepick Prototype
+2 Rifle
+2 Surveillance
+Prep:(10)
+2 Celeritine Booster
+2 Charity Work
+2 Raldo's Request
+2 Team Work
+2 True-Value Hardware Bundle
+Hardware:(6)
+2 Celeritine Auto-Inject
+2 Skin Inductance Trodes
+2 WuTech Memory Prototype
+Resource:(15)
+2 Hollow Victory
+2 Inside Information
+4 Tokyo-Chiba
+3 WorldSat License
+4 Wu, Staff Reporter
+
+#Description:
+#n/a

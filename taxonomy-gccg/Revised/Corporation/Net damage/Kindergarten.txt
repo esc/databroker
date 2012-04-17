@@ -1,0 +1,41 @@
+#Title:
+#Kindergarten
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2010
+#
+#Deck list:
+6 Fetal AI
+1 Ice Pick Willie
+2 Bolter Cluster
+2 Zombie
+1 Filter
+2 Quandary
+1 Haunting Inquisition
+2 Data Wall
+1 Glacier
+5 Accounts Receivable
+2 Underworld Mole
+1 Closed Accounts
+5 BBS Whispering Campaign
+5 New Galveston City Grid 
+9 Red Herrings
+
+#Description:
+#Trivia: It appears that the New Galveston City Grid has its name from 
+#the city of Galveston in Texas. The effect of making trashing more 
+#expensive could be linked to the real-world city's preservation movement 
+#that followed a stagnant period in economy in the 1960s.
+#The name of the deck is chosen because it nurtures Fetal AIs in the cosy
+#and messy environment of playful Red Herrings.
+#The recipe of this deck is to make it insanely expensive and painful for
+#the runner to steal agendas. Put a few Red Herrings in a New Galveston 
+#City Grid and/or in the central forts. 
+#Since Death from Above is its nemesis, Underworld Mole and Closed Accounts
+#are included as first-strike prevention or retaliation.

@@ -1,0 +1,24 @@
+#Title:
+#Water Salesman
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+9 Loan from Chiba
+15 Preying Mantis
+7 Poisoned Water Supply
+2 MIT West Tier
+3 Sneak Preview
+8 N.E.T.O.
+1 Emergency Self-Construct
+
+#Description:
+#A variant of the infamous solitaire deck based on Poisoned Water
+#Supply and Preying Mantis.

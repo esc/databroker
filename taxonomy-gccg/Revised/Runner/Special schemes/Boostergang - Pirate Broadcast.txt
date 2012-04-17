@@ -1,0 +1,29 @@
+#Title:
+#Boostergang - Pirate Boradcast
+#
+#Format:
+#Revised
+#
+#Author: 
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+10 Pirate Broadcast
+14 Boostergang Connections
+22 Loan from Chiba
+22 Bodyweight {TM} Synthetic Blood
+8 Priority Wreck
+2 Viral Pipeline
+2 Psychic Friend
+2 Jackhammer
+2 Matador
+2 Valu-Pak Software Bundle
+4 Code Viral Cache
+
+#Description:
+#A Boostergang deck that uses the combination of Viral Pipeline and 
+#Pirate Broadcast. The breaker suite is adapted to the way this deck 
+#runs. 

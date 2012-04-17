@@ -1,0 +1,53 @@
+#Title:
+#A Rabbit's Retaliation
+#"Of course you realize, this means war!"
+#
+#Format:
+#Revised
+#
+#Author:
+#photon79
+#
+#Date:
+#Feb 2010
+#
+#Deck list:
+1 Redecorator
+1 Bulldozer
+1 Skeleton Passkeys
+2 Afreet
+1 Succubus
+3 Rabbit
+1 Clown
+1 Lockjaw
+1 Superglue
+1 Scaldan
+10 Jack 'n' Joe
+3 Bodyweight {TM} Synthetic Blood
+10 Networking
+2 Valu-Pak Software Bundle
+1 misc.for-sale
+1 Core Command: Jettison Ice
+1 Faked Hit
+1 Little Black Box
+1 "Green Knight" Surge Buffers
+1 Microtech 'Trode Set
+1 Back Door to Rivals
+1 Back Door to Netwatch
+1 Wired Switchboard
+1 The Springboard
+1 Junkyard BBS
+1 Death from Above
+
+#Description:
+#Bugs Bunny's catchphrase is "Of course you realize, this means war!". 
+#Strictly he appears as a hare but in cyberspace an escaping rabbit might 
+#as well look like a hare. The rabbit deck retaliates traces and there is 
+#a whole set of supporting cards for that. A card that can go well 
+#together with Rabbit in some battles is Microtech 'Trode Set. It does 
+#not filter the killer sentries though and so Redecorator becomes the 
+#sentry breaker of choice supported by Clown and Lockjaw. Scaldan and 
+#especially Back Door to Netwatch fit the retaliation scheme very well, 
+#complemented by Faked Hit.
+#Personally, I have never felt more comfortable to encounter a Hunter 
+#than with this nasty deck and there is much fun to have with it.

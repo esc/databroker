@@ -1,0 +1,62 @@
+#Title:
+#Risin' high
+#
+#Author:
+#Frizzler
+#
+#Format:
+#Revised, 15
+#
+#Date:
+#2007
+#
+#Deck list:
+3 Corporate War
+3 Employee Empowerment
+3 Haunting Inquisition
+2 Filter
+3 Data Naga
+2 Cinderella
+2 Shotgun Wire
+2 Glacier
+3 Sterdroid
+1 Off-Site Backups
+3 ACME Savings and Loan
+3 Accounts Receivable
+3 Efficiency Experts
+3 Night Shift
+3 Credit Consolidation
+3 Project Consultants
+3 Management Shake-Up
+
+#Description:
+#Hello everyone,
+#so I finally found the time to post my Corp deck from the 1/15 tournament last 
+#year. I played 6:0 with this deck (I used a different one for the finals).
+#
+#The aim is to be either faster than Runner and speed him out with Emp Emp, 
+#fast advancement and ACME. Or, to surprise him with ACME, fat ICE and a 
+#Sterdroid. Or, to become rich with the help of Corporate War and / or ACME, 
+#and iceing HQ and R&D heavily (additionally with Glacier).
+#
+#In fact, the surprise with Sterdroid worked even better than I had expected: 
+#I haunted two Runners, trashed a Cortical Cybermodem with Cinderella and dealt 
+#damage with Shotgun Wire.
+#
+#Only one slot turned out to be weak/useless: Antiquated Interface Routines. 
+#In the original Unlimited Revised version of this deck, I play with 4 
+#Sterdroids, so for 1/15 I replaced one with Antiquated Routines which again 
+#I switched for Offsite Backups which is better: Offsite Backups is a fine 
+#combo with ACME, fast advancement and Sterdroid.
+#
+#I learned a lot about ACME when playing this deck:
+#You can rez a Glacier *and* trigger *two* ACMEs with this deck! E.g. when you 
+#have 1 agenda point left (after scoring one agenda and rezzing 1 Glacier and 
+#1 ACME), you can rez another ACME for quickly getting over the 22 bits hurdle, 
+#then score a Corp War with Management Shake-Up, and in your next turn: 
+#Pay ACME back! You then have 4 agenda points again plus the bits for scoring 
+#another agenda out of hand. Paying ACME back is an option that you often forget ...
+#
+#Good countermeasures against this deck are Inside Job, ICE destruction and 
+#Priority Wreck or other bitsuckers (after I rezzed an ACME, those hurt badly).
+#Greetings, Frizzler

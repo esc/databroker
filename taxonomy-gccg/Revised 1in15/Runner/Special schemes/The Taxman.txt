@@ -1,0 +1,39 @@
+#Title:
+#The Taxman
+#
+#Format:
+#Revised, 15
+#
+#Author:
+#photon79
+#
+#Date:
+#December 2008
+#
+#Deck list:
+3 Joan of Arc
+3 Bartmoss Memorial Icebreaker
+3 Armageddon
+2 Pile Driver
+3 Bodyweight {TM} Synthetic Blood
+3 Jack 'n' Joe
+2 MIT West Tier
+2 Organ Donor
+3 Edited Shipping Manifests
+1 Core Command: Jettison Ice
+2 Security Code WORM Chip
+2 Remote Detonator
+2 Total Genetic Retrofit
+3 Loan from Chiba
+3 Broker
+3 Crash Everett, Inventive Fixer
+2 Junkyard BBS
+2 Death from Above
+2 Precision Bribery
+2 Restrictive Net Zoning
+
+#Description:
+#Attacking both HQ and R&D this deck destroys already installed ICE and 
+#prevents new ICE to be installed via Aramgeddon. The installation of new 
+#cards is made more expensive via Precision Bribery and Restrictive Net 
+#Zoning.

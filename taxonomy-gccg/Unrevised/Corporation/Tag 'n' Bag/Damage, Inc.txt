@@ -1,0 +1,28 @@
+#Title:
+#Damage, Inc.
+#
+#Format:
+#Unrevised
+#
+#Author:
+#David Faguy
+#
+#Date:
+#n/a
+#
+#Deck list: 
+5 Tycho Extension
+12 TRAP!
+5 BBS Whispering Campaign
+6 Chance Observation
+6 Scorched Earth
+6 Punitive Counterstrike
+4 Project Consultants
+3 Manhunt
+2 Underworld Mole
+
+#Description:
+#This deck is designed for one purpose: flatline. Use the first couple of 
+#turns to gain bits. Install TRAP!s only if necessary, gaining bits is 
+#crucial. Smack the runner as soon as he runs. If worse comes to worse 
+#and the runner doesn't run, fast advance the Tychos. 

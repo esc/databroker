@@ -1,0 +1,18 @@
+#Theme:
+#
+#
+#Tournament:
+#German Nationals 1999
+#
+#Player:
+#Roland Schediwy
+#
+#Deck list:
+7 Employee Empowerment
+4 ACME Savings and Loan
+5 BBS Whispering Campaign
+9 Accounts Receivable
+4 Manhunt
+4 Schlaghund
+7 Project Consultants
+10 Haunting Inquisition

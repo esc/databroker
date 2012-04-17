@@ -1,0 +1,30 @@
+#Title:
+#Boostergang No Access
+#
+#Format:
+#Revised
+#
+#Author: 
+#photon79
+#
+#Date:
+#2009
+#
+#Deck list:
+4 Bartmoss Memorial Icebreaker
+4 Joan of Arc
+5 Synchronized Attack on HQ
+3 MIT West Tier
+22 Loan from Chiba
+3 Valu-Pak Software Bundle
+5 Priority Wreck
+15 Boostergang Connections
+24 Bodyweight {TM} Synthetic Blood
+5 Gypsy {TM} Schedule Analyzer
+
+#Description:
+#A Boostergang version of the No Access deck by Rol.
+#The typical sequence in this strategy is stripping 
+#all bits with Priority Wreck first, then one or two 
+#Gypsy Schedule Analyzer to get agendas into HQ and
+#from there into Archives with Synchronized Attack.
